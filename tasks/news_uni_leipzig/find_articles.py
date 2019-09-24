@@ -10,7 +10,6 @@ articles = []
 article = []
 for file_line in file_lines:
     if not file_line.strip():
-        print("empty string")
         article_line_count = len(article)
         if article_line_count >= ARTICLE_MINIMUM_LINE_COUNT:
             article_word_count = 0
@@ -19,10 +18,11 @@ for file_line in file_lines:
                 article_word_count += article_line_word_count
             article_average_line_word_count = article_word_count / article_line_count
             if article_average_line_word_count > ARTICLE_MINIMUM_AVERAGE_LINE_WORD_COUNT:
+                print("\n")
                 print(article)
                 articles.append(article)
-            print(article_average_line_word_count)
+                print(article_average_line_word_count)
         article = []
     else:
         article.append(file_line)
-        print(len(file_line.split()))
+print("Total articles found", len(articles))
