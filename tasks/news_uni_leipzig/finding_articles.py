@@ -4,8 +4,7 @@
 def find_articles(file_name, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line):
     file_lines = _get_file_lines(file_name)
     articles = _parse_articles(file_lines, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line)
-    _write_article_count_to_console(articles)
-    _write_articles_to_file(articles)
+    # _write_article_count_to_console(articles)
     return articles
 
 
@@ -28,10 +27,10 @@ def _parse_articles(file_lines, minimum_number_of_consecutive_lines, minimum_ave
                     article_word_count += article_line_word_count
                 article_average_line_word_count = article_word_count / article_line_count
                 if article_average_line_word_count > minimum_average_word_count_of_a_line:
-                    print("\n")
-                    print(article)
+                    # print("\n")
+                    # print(article)
                     articles.append(article)
-                    print(article_average_line_word_count)
+                    # print(article_average_line_word_count)
             article = []
         else:
             article.append(file_line)
@@ -40,9 +39,3 @@ def _parse_articles(file_lines, minimum_number_of_consecutive_lines, minimum_ave
 
 def _write_article_count_to_console(articles):
     print("Total articles found", len(articles))
-
-
-def _write_articles_to_file(articles):
-    with open('your_file.txt', 'w') as output_file:
-        for line in articles[len(articles) - 1]:
-            output_file.write(line)
