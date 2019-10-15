@@ -4,6 +4,7 @@ import argparse
 import re
 import syntok.segmenter as segmenter
 from finding_articles import find_articles
+from fixing_text_encoding import fix_text_encoding
 
 
 def _get_argumet_parser():
@@ -70,7 +71,8 @@ if __name__ == "__main__":
 
     for article_index, article in enumerate(articles, start=1):
         article_text = _get_article_elements_as_text(article)
-        clean_article_text = _remove_invalid_characters(article_text)
-        article_sentences = _segment_text_into_sentences(clean_article_text)
+        right_encoded_article_text = fix_text_encoding(article_text)
+        sanitized_article_text = _remove_invalid_characters(right_encoded_article_text)
+        article_sentences = _segment_text_into_sentences(sanitized_article_text)
         base_sentence_id = arguments.input_file_name
         _write_article_sentences_into_file(output_file_name, base_sentence_id, article_index, article_sentences)
