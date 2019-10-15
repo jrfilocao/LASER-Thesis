@@ -30,7 +30,12 @@ def _remove_all_quote_signs(text):
 
 
 def _set_new_line_in_the_middle_to_dot(text):
-    return re.sub(r'(\w+)\n(\w+)', r'\1. \2', text)
+    return re.sub(r'(\w+\s*)\n(\s*\w+)', r'\1. \2', text)
+
+
+def _remove_invalid_characters(text):
+    text_without_quote_signs = _remove_all_quote_signs(text)
+    return _set_new_line_in_the_middle_to_dot(text_without_quote_signs)
 
 
 def _segment_text_into_sentences(article: str):
@@ -55,11 +60,6 @@ def _write_article_sentences_into_file(output_file_name, base_sentence_id, artic
             sentence_id = _get_sentence_id(base_sentence_id, article_index, sentence_index)
             id_sentence_pair = _get_id_sentence_pair(sentence, sentence_id)
             output_file.write(id_sentence_pair)
-
-
-def _remove_invalid_characters(text):
-    text_without_quote_signs = _remove_all_quote_signs(text)
-    return _set_new_line_in_the_middle_to_dot(text_without_quote_signs)
 
 
 if __name__ == "__main__":
