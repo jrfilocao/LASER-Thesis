@@ -1,0 +1,3 @@
+por --input-file-name=wdt_2019-07-08_por.source --line-count=5 --average-line-word-count=20
+deu --input-file-name=wdt_2019-07-08_deu.source --line-count=5 --average-line-word-count=15
+eng --input-file-name=wdt_2019-07-08_eng.source --line-count=5 --average-line-word-count=15
