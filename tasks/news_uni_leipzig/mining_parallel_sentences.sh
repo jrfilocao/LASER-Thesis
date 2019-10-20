@@ -26,7 +26,7 @@ bpe_codes="${models_directory}/93langs.fcodes"
 #
 ###################################################################
 
-GetData () {
+split_entries_into_ids_and_sentences () {
   dataset_path=$1; dataset_type=$2; source_language=$3
   file_output="${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-${target_language}.${dataset_type}"
   for language in ${target_language} ${source_language} ; do
@@ -94,7 +94,7 @@ echo -e "\nProcessing id/sentence-pair from news articles"
 
 for source_language in ${languages[@]} ; do
 
-  GetData "${source_language}-${target_language}/${source_language}-${target_language}.sample" "dev" ${source_language}
+  split_entries_into_ids_and_sentences "${source_language}-${target_language}/${source_language}-${target_language}.sample" "dev" ${source_language}
 
   # Tokenize and embed train
   base_file_name="${bucc_edition}.${source_language}-${target_language}"
