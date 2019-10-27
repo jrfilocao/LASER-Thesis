@@ -27,7 +27,7 @@ Embed () {
   language=$2
 
   sentence_file_name="${sentence_base_file_name}_${language}_sentences"
-  sentence_embedding_output_file_name="${sentence_base_file_name}_embedding_${language}"
+  sentence_embedding_output_file_name="${sentence_base_file_name}_${language}_embedding"
 
   if [ ! -s ${sentence_embedding_output_file_name} ] ; then
     cat ${sentence_file_name} | python3 ${LASER}/source/embed.py \
@@ -92,7 +92,7 @@ for source_language in ${languages[@]} ; do
 #        echo "Extracting bitexts for ${source_language}-${target_language}"
 #        python3 ${LASER}/source/mine_bitexts.py \
 #          ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.txt.${source_language} \
-#          ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_language}-en.train.txt.${target_language} \
+#          ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_langu  age}-en.train.txt.${target_language} \
 #          --src-lang ${source_language} --trg-lang ${target_language} \
 #          --src-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.enc.${source_language} \
 #          --trg-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_language}-en.train.enc.${target_language} \
@@ -102,4 +102,4 @@ for source_language in ${languages[@]} ; do
 #      fi
 #    fi
 #  done
-#done
+done

@@ -33,9 +33,9 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt --verbose
 
 
 # Download LASER from FB
-RUN git clone https://github.com/facebookresearch/LASER.git
+RUN git clone https://github.com/jrfilocao/LASER-Thesis.git
 
-ENV LASER /app/LASER
+ENV LASER /app/LASER-Thesis
 WORKDIR $LASER
 
 RUN bash ./install_models.sh
