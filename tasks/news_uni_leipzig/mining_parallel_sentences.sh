@@ -7,7 +7,7 @@ fi
 
 # general config
 root_directory="."
-languages=("de" "pt")
+languages=("de")
 target_language="en" # English is always the 2nd language
 
 # encoder
