@@ -6,11 +6,7 @@ if [ -z ${LASER+x} ] ; then
 fi
 
 # general config
-bucc_edition="bucc2018"
 root_directory="."
-bucc_tar_files_directory=${root_directory}/downloaded # tar files as distrubuted by the BUCC evaluation
-bucc_raw_texts_directory=${root_directory}/${bucc_edition} # raw texts of BUCC
-normalized_texts_embeddings_directory=${root_directory}/embed # normalized texts and embeddings
 languages=("de" "pt")
 target_language="en" # English is always the 2nd language
 
@@ -22,40 +18,23 @@ bpe_codes="${models_directory}/93langs.fcodes"
 
 ###################################################################
 #
-# Extract files with labels and texts from the BUCC corpus
-#
-###################################################################
-
-split_entries_into_ids_and_sentences () {
-  dataset_path=$1; dataset_type=$2; source_language=$3
-  file_output="${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-${target_language}.${dataset_type}"
-  for language in ${target_language} ${source_language} ; do
-    dataset_path_for_language="${bucc_raw_texts_directory}/${dataset_path}.${language}"
-    if [ ! -f ${file_output}.txt.${language} ] ; then
-      echo " - extract files ${file_output} in ${language}"
-      cat ${dataset_path_for_language} | cut -f1 > ${file_output}.id.${language}
-      cat ${dataset_path_for_language} | cut -f2 > ${file_output}.txt.${language}
-    fi
-  done
-}
-
-
-###################################################################
-#
 # Tokenize and Embed
 #
 ###################################################################
 
 Embed () {
+  sentence_base_file_name=$1
   language=$2
-  text_for_language="$1.txt.${language}"
-  sentence_embedding_output_path_for_language="$1.enc.${language}"
-  if [ ! -s ${sentence_embedding_output_path_for_language} ] ; then
-    cat ${text_for_language} | python3 ${LASER}/source/embed.py \
+
+  sentence_file_name="${sentence_base_file_name}_${language}_sentences"
+  sentence_embedding_output_file_name="${sentence_base_file_name}_embedding_${language}"
+
+  if [ ! -s ${sentence_embedding_output_file_name} ] ; then
+    cat ${sentence_file_name} | python3 ${LASER}/source/embed.py \
       --encoder ${encoder} \
       --token-lang ${language} \
       --bpe-codes ${bpe_codes} \
-      --output ${sentence_embedding_output_path_for_language} \
+      --output ${sentence_embedding_output_file_name} \
       --verbose
   fi
 }
@@ -94,36 +73,33 @@ echo -e "\nProcessing id/sentence-pair from news articles"
 
 for source_language in ${languages[@]} ; do
 
-  split_entries_into_ids_and_sentences "${source_language}-${target_language}/${source_language}-${target_language}.sample" "dev" ${source_language}
-
   # Tokenize and embed train
-  base_file_name="${bucc_edition}.${source_language}-${target_language}"
-  dataset_path="${base_file_name}.train"
-  Embed ${normalized_texts_embeddings_directory}/${dataset_path} ${source_language} ${encoder} ${bpe_codes}
-  Embed ${normalized_texts_embeddings_directory}/${dataset_path} ${target_language} ${encoder} ${bpe_codes}
+  base_file_name="wdt_2019-07-08"
+  Embed ${root_directory}/${base_file_name} ${source_language}
+  Embed ${root_directory}/${base_file_name} ${target_language}
 
-  # mine for texts in train
-  Mine ${normalized_texts_embeddings_directory}/${dataset_path} ${source_language} ${target_language}
-
-done
-
-threshold=1.1
-for source_language in ${languages[@]} ; do
-  for target_language in ${languages[@]} ; do
-    if [ ${source_language} != 'en' -a ${target_language} != "en" -a ${source_language} != ${target_language} ] ; then
-      bitext="${bucc_edition}.${source_language}-${target_language}.train.extracted.th${threshold}.csv"
-      if [ ! -s ${bitext} ] ; then
-        echo "Extracting bitexts for ${source_language}-${target_language}"
-        python3 ${LASER}/source/mine_bitexts.py \
-          ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.txt.${source_language} \
-          ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_language}-en.train.txt.${target_language} \
-          --src-lang ${source_language} --trg-lang ${target_language} \
-          --src-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.enc.${source_language} \
-          --trg-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_language}-en.train.enc.${target_language} \
-          --unify --mode mine --retrieval max --margin ratio -k 4  \
-          --output ${bitext} --threshold ${threshold} \
-          --verbose --gpu
-      fi
-    fi
-  done
-done
+#  # mine for texts in train
+#  Mine ${normalized_texts_embeddings_directory}/${dataset_path} ${source_language} ${target_language}
+#
+#done
+#
+#threshold=1.1
+#for source_language in ${languages[@]} ; do
+#  for target_language in ${languages[@]} ; do
+#    if [ ${source_language} != 'en' -a ${target_language} != "en" -a ${source_language} != ${target_language} ] ; then
+#      bitext="${bucc_edition}.${source_language}-${target_language}.train.extracted.th${threshold}.csv"
+#      if [ ! -s ${bitext} ] ; then
+#        echo "Extracting bitexts for ${source_language}-${target_language}"
+#        python3 ${LASER}/source/mine_bitexts.py \
+#          ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.txt.${source_language} \
+#          ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_language}-en.train.txt.${target_language} \
+#          --src-lang ${source_language} --trg-lang ${target_language} \
+#          --src-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.enc.${source_language} \
+#          --trg-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_language}-en.train.enc.${target_language} \
+#          --unify --mode mine --retrieval max --margin ratio -k 4  \
+#          --output ${bitext} --threshold ${threshold} \
+#          --verbose --gpu
+#      fi
+#    fi
+#  done
+#done
