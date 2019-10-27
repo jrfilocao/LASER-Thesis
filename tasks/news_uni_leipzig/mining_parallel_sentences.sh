@@ -47,17 +47,17 @@ Embed () {
 ###################################################################
 
 Mine () {
-  dataset_path=$1
-  first_language=$2
-  second_language=$3
-  candidates="${dataset_path}.candidates.tsv"
-  if [ ! -s ${candidates} ] ; then
+  base_file_name=$1
+  source_language=$2
+  target_language=$3
+  sentence_candidates="${base_file_name}_${source_language}_${target_language}_sentence_candidates.tsv"
+  if [ ! -s ${sentence_candidates} ] ; then
     python3 ${LASER}/source/mine_bitexts.py \
-       ${dataset_path}.txt.${first_language} ${dataset_path}.txt.${second_language} \
-       --src-lang ${first_language} --trg-lang ${second_language} \
-       --src-embeddings ${dataset_path}.enc.${first_language} --trg-embeddings ${dataset_path}.enc.${second_language} \
+       ${sentence_base_file_name}_${source_language}_sentences ${sentence_base_file_name}_${target_language}_sentences \
+       --src-lang ${source_language} --trg-lang ${target_language} \
+       --src-embeddings ${sentence_base_file_name}_${source_language}_embedding --trg-embeddings ${sentence_base_file_name}_${target_language}_embedding \
        --unify --mode mine --retrieval max --margin ratio -k 4  \
-       --output ${candidates} \
+       --output ${sentence_candidates} \
        --verbose --gpu
   fi
 }
@@ -73,15 +73,13 @@ echo -e "\nProcessing id/sentence-pair from news articles"
 
 for source_language in ${languages[@]} ; do
 
-  # Tokenize and embed train
-  base_file_name="wdt_2019-07-08"
+  base_file_name="wdt_2019-07-08" # TODO remove later
   Embed ${root_directory}/${base_file_name} ${source_language}
   Embed ${root_directory}/${base_file_name} ${target_language}
 
-#  # mine for texts in train
-#  Mine ${normalized_texts_embeddings_directory}/${dataset_path} ${source_language} ${target_language}
-#
-#done
+  Mine ${root_directory}/${base_file_name} ${source_language} ${target_language}
+
+done
 #
 #threshold=1.1
 #for source_language in ${languages[@]} ; do
@@ -102,4 +100,4 @@ for source_language in ${languages[@]} ; do
 #      fi
 #    fi
 #  done
-done
+#done
