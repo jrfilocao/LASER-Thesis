@@ -6,7 +6,9 @@ import syntok.segmenter as segmenter
 from finding_articles import find_articles
 from fixing_text_encoding import fix_text_encoding
 from writing_to_file import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
+from language_identification import is_sentence_language_correct
 
+SENTENCE_ELEMENTS_THRESHOLD = 10
 
 def _get_argumet_parser():
     parser = argparse.ArgumentParser(description='Finding articles for all languages in crawled news texts')
@@ -16,6 +18,8 @@ def _get_argumet_parser():
                         help='minimum count of consecutive lines to form an article')
     parser.add_argument('--average-line-word-count', type=int, required=True,
                         help='minimum average word count in a line to form an article')
+    parser.add_argument('--language', type=int, required=True,
+                        help='language of the news articles')
     return parser
 
 
@@ -44,6 +48,17 @@ def _segment_text_into_sentences(article: str):
     return sentences
 
 
+def _write_sentence_information_to_files(language_correct, minimum_word_count):
+    if language_correct and minimum_word_count:
+        write_id_sentence_pair_to_file(arguments.input_file_name, article_index, sentence, sentence_index)
+        write_sentence_id_to_file(arguments.input_file_name, article_index, sentence_index)
+        write_sentence_to_file(arguments.input_file_name, sentence)
+
+
+def _has_minimum_word_count(sentence):
+    return sentence.count() > SENTENCE_ELEMENTS_THRESHOLD
+
+
 if __name__ == "__main__":
     parser = _get_argumet_parser()
     arguments = parser.parse_args()
@@ -56,6 +71,6 @@ if __name__ == "__main__":
         article_sentences = _segment_text_into_sentences(sanitized_article_text)
 
         for sentence_index, sentence in enumerate(article_sentences, start=1):
-            write_id_sentence_pair_to_file(arguments.input_file_name, article_index, sentence, sentence_index)
-            write_sentence_id_to_file(arguments.input_file_name, article_index, sentence_index)
-            write_sentence_to_file(arguments.input_file_name, sentence)
+            language_correct = is_sentence_language_correct(sentence, arguments.language)
+            minimum_word_count = _has_minimum_word_count(sentence)
+            _write_sentence_information_to_files(language_correct, minimum_word_count)
