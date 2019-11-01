@@ -37,6 +37,7 @@ mine_for_bitexts () {
   sentence_base_file_name=$1
   source_language=$2
   target_language=$3
+  threshold=1.1
   sentence_candidates="${base_file_name}_${source_language}_${target_language}_sentence_candidates.tsv"
   if [ ! -s ${sentence_candidates} ] ; then
     python3 ${LASER}/source/mine_bitexts.py \
@@ -44,8 +45,8 @@ mine_for_bitexts () {
        --src-lang ${source_language} --trg-lang ${target_language} \
        --src-embeddings ${sentence_base_file_name}_${source_language}_embedding --trg-embeddings ${sentence_base_file_name}_${target_language}_embedding \
        --unify --mode mine --retrieval max --margin ratio -k 4  \
-       --output ${sentence_candidates} \
-       --verbose --gpu
+       --output ${sentence_candidates} --threshold ${threshold} \
+       --verbose
   fi
 }
 
