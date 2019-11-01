@@ -3,9 +3,9 @@
 import argparse
 import re
 import syntok.segmenter as segmenter
-from finding_articles import find_articles
-from fixing_text_encoding import fix_text_encoding
-from writing_to_file import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
+from article_parse import find_articles
+from encoding_resolver import fix_text_encoding
+from file_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
 from language_identification import is_sentence_language_correct
 
 SENTENCE_ELEMENTS_THRESHOLD = 10
