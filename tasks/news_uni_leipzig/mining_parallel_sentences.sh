@@ -16,13 +16,7 @@ encoder="${models_directory}/bilstm.93langs.2018-12-26.pt"
 bpe_codes="${models_directory}/93langs.fcodes"
 
 
-###################################################################
-#
-# Tokenize and Embed
-#
-###################################################################
-
-Embed () {
+embed_sentences () {
   sentence_base_file_name=$1
   language=$2
 
@@ -39,15 +33,8 @@ Embed () {
   fi
 }
 
-
-###################################################################
-#
-# Mine for bitexts
-#
-###################################################################
-
-Mine () {
-  base_file_name=$1
+mine_for_bitexts () {
+  sentence_base_file_name=$1
   source_language=$2
   target_language=$3
   sentence_candidates="${base_file_name}_${source_language}_${target_language}_sentence_candidates.tsv"
@@ -74,10 +61,10 @@ echo -e "\nProcessing id/sentence-pair from news articles"
 for source_language in ${languages[@]} ; do
 
   base_file_name="wdt_2019-07-08" # TODO remove later
-  Embed ${root_directory}/${base_file_name} ${source_language}
-  Embed ${root_directory}/${base_file_name} ${target_language}
+  embed_sentences ${root_directory}/${base_file_name} ${source_language}
+  embed_sentences ${root_directory}/${base_file_name} ${target_language}
 
-  Mine ${root_directory}/${base_file_name} ${source_language} ${target_language}
+  mine_for_bitexts ${root_directory}/${base_file_name} ${source_language} ${target_language}
 
 done
 #
