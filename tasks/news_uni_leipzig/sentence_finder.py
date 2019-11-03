@@ -64,7 +64,8 @@ def _segment_text_into_sentences(article: str):
 def _write_valid_sentence_information_to_files(language_correct,
                                                minimum_word_count,
                                                id_sentence_pair_file,
-                                               ids_file, sentences_file,
+                                               ids_file,
+                                               sentences_file,
                                                article_index,
                                                sentence_index,
                                                sentence):
