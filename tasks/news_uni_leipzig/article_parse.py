@@ -4,7 +4,7 @@
 def find_articles(file_name, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line):
     file_lines = _get_file_lines(file_name)
     articles = _parse_articles(file_lines, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line)
-    # _write_article_count_to_console(articles)
+    _write_article_count_to_console(articles)
     return articles
 
 
