@@ -19,7 +19,7 @@ def _get_argument_parser():
                         help='minimum count of consecutive lines to form an article')
     parser.add_argument('--average-line-word-count', type=int, required=True,
                         help='minimum average word count in a line to form an article')
-    parser.add_argument('--language', type=int, required=True,
+    parser.add_argument('--language', required=True,
                         help='language of the news articles')
     return parser
 
