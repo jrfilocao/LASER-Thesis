@@ -6,7 +6,7 @@ import syntok.segmenter as segmenter
 from article_parse import find_articles
 from encoding_resolver import fix_text_encoding
 from file_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
-from language_identification import is_sentence_language_correct
+from language_identification import is_sentence_language_not_correct
 
 SENTENCE_WORD_COUNT_MINIMUM = 10
 
@@ -45,7 +45,7 @@ def _remove_all_quote_signs(text):
 
 
 def _set_new_line_in_the_middle_to_dot(text):
-    return re.sub(r'(\w+\s*)\n(\s*\w+)', r'\1. \2', text)
+    return re.sub(r'(\S\s*)\n(\s*\S*)', r'\1. \2', text)
 
 
 def _remove_invalid_characters(text):
@@ -61,22 +61,19 @@ def _segment_text_into_sentences(article: str):
     return sentences
 
 
-def _write_valid_sentence_information_to_files(language_correct,
-                                               minimum_word_count,
-                                               id_sentence_pair_file,
+def _write_valid_sentence_information_to_files(id_sentence_pair_file,
                                                ids_file,
                                                sentences_file,
                                                article_index,
                                                sentence_index,
                                                sentence):
-    if language_correct and minimum_word_count:
-        write_id_sentence_pair_to_file(id_sentence_pair_file, article_index, sentence, sentence_index)
-        write_sentence_id_to_file(ids_file, article_index, sentence_index)
-        write_sentence_to_file(sentences_file, sentence)
+    write_id_sentence_pair_to_file(id_sentence_pair_file, article_index, sentence, sentence_index)
+    write_sentence_id_to_file(ids_file, article_index, sentence_index)
+    write_sentence_to_file(sentences_file, sentence)
 
 
-def _has_minimum_word_count(sentence):
-    return sentence.count() > SENTENCE_WORD_COUNT_MINIMUM
+def _has_not_minimum_word_count(sentence):
+    return len(sentence) < SENTENCE_WORD_COUNT_MINIMUM
 
 
 if __name__ == "__main__":
@@ -95,11 +92,13 @@ if __name__ == "__main__":
             article_sentences = _segment_text_into_sentences(sanitized_article_text)
 
             for sentence_index, sentence in enumerate(article_sentences, start=1):
-                language_correct = is_sentence_language_correct(sentence, arguments.language)
-                minimum_word_count = _has_minimum_word_count(sentence)
-                _write_valid_sentence_information_to_files(language_correct,
-                                                           minimum_word_count,
-                                                           id_sentence_pairs_file,
+                if _has_not_minimum_word_count(sentence):
+                    break
+
+                if is_sentence_language_not_correct(sentence, arguments.language):
+                    break
+
+                _write_valid_sentence_information_to_files(id_sentence_pairs_file,
                                                            ids_file,
                                                            sentences_file,
                                                            article_index,
