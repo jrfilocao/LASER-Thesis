@@ -7,8 +7,6 @@ fi
 
 # general config
 root_directory="."
-languages=("de")
-target_language="en" # English is always the 2nd language
 
 # encoder
 models_directory="${LASER}/models"
@@ -21,7 +19,7 @@ embed_sentences () {
   language=$2
 
   sentence_file_name="${sentence_base_file_name}_${language}_sentences"
-  sentence_embedding_output_file_name="${sentence_base_file_name}_${language}_embedding"
+  sentence_embedding_output_file_name="${language}_embedding"
 
   if [ ! -s ${sentence_embedding_output_file_name} ] ; then
     cat ${sentence_file_name} | python3 ${LASER}/source/embed.py \
@@ -59,33 +57,19 @@ mine_for_bitexts () {
 
 echo -e "\nProcessing id/sentence-pair from news articles"
 
-for source_language in ${languages[@]} ; do
+languages=(en pt de)
 
-  base_file_name="wdt_2019-07-08" # TODO remove later
-  embed_sentences ${root_directory}/${base_file_name} ${source_language}
-  embed_sentences ${root_directory}/${base_file_name} ${target_language}
+for language in "${languages[@]}"; do
+  embed_sentences ${root_directory}/ ${language}
+done
 
-  mine_for_bitexts ${root_directory}/${base_file_name} ${source_language} ${target_language}
+language_pairs=( 'en de' 'en pt' 'de pt')
+
+for language_pair in "${language_pairs[@]}"; do
+  IFS=' ' read -r -a language_pair_array <<< "$language_pair"
+  source_language="${language_pair_array[0]}"
+  target_language="${language_pair_array[1]}"
+
+  mine_for_bitexts ${root_directory}/ ${source_language} ${target_language}
 
 done
-#
-#threshold=1.1
-#for source_language in ${languages[@]} ; do
-#  for target_language in ${languages[@]} ; do
-#    if [ ${source_language} != 'en' -a ${target_language} != "en" -a ${source_language} != ${target_language} ] ; then
-#      bitext="${bucc_edition}.${source_language}-${target_language}.train.extracted.th${threshold}.csv"
-#      if [ ! -s ${bitext} ] ; then
-#        echo "Extracting bitexts for ${source_language}-${target_language}"
-#        python3 ${LASER}/source/mine_bitexts.py \
-#          ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.txt.${source_language} \
-#          ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_langu  age}-en.train.txt.${target_language} \
-#          --src-lang ${source_language} --trg-lang ${target_language} \
-#          --src-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${source_language}-en.train.enc.${source_language} \
-#          --trg-embeddings ${normalized_texts_embeddings_directory}/${bucc_edition}.${target_language}-en.train.enc.${target_language} \
-#          --unify --mode mine --retrieval max --margin ratio -k 4  \
-#          --output ${bitext} --threshold ${threshold} \
-#          --verbose --gpu
-#      fi
-#    fi
-#  done
-#done
