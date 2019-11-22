@@ -19,6 +19,11 @@
     * **pt-de**
 * Complement `parallel_sentences_miner.sh` to process all seven days:
     * from **2019-07-08** till **2019-07-14**
+* These combinations of date and language should have only one output such as:
+    * **english_sentences**
+    * **german_sentences**
+    * **portuguese_sentences**
+
 * Run the experiment
 * For each pair of the parallel sentences
     * Get named entities from their respective articles with the help of **NLTK** or **SpaCy**
