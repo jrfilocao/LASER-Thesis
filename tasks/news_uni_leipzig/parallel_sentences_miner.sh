@@ -14,6 +14,19 @@ encoder="${models_directory}/bilstm.93langs.2018-12-26.pt"
 bpe_codes="${models_directory}/93langs.fcodes"
 
 
+find_sentences () {
+  input_base_file_name=$1
+  language=$2
+
+  input_file_name="${input_base_file_name}_${language}"
+
+  python3 ./sentence_finder.py \
+    --input-file-name ${input_file_name} \
+    --line-count 5 \
+    --average-line-word-count 20 \
+    --language ${language}
+}
+
 embed_sentences () {
   sentence_base_file_name=$1
   language=$2
@@ -55,15 +68,22 @@ mine_for_bitexts () {
 #
 ###################################################################
 
-echo -e "\nProcessing id/sentence-pair from news articles"
+echo -e "\nProcessing news articles"
 
 languages=(en pt de)
+input_base_file_names=(wdt_2019-07-08 wdt_2019-07-09 wdt_2019-07-10 wdt_2019-07-11 wdt_2019-07-12 wdt_2019-07-13 wdt_2019-07-14)
+
+for input_base_file_name in "${input_base_file_names[@]}"; do
+  for language in "${languages[@]}"; do
+    find_sentences ${input_base_file_name} ${language}
+  done
+done
 
 for language in "${languages[@]}"; do
   embed_sentences ${root_directory}/ ${language}
 done
 
-language_pairs=( 'en de' 'en pt' 'de pt')
+language_pairs=( "en de" "en pt" "de pt")
 
 for language_pair in "${language_pairs[@]}"; do
   IFS=' ' read -r -a language_pair_array <<< "$language_pair"
