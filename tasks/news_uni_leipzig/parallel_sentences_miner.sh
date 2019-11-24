@@ -15,10 +15,9 @@ bpe_codes="${models_directory}/93langs.fcodes"
 
 
 find_sentences () {
-  input_base_file_name=$1
-  language=$2
+  input_file_name="${input_directory}/${input_base_file_name}_${language}"
 
-  input_file_name="${input_base_file_name}_${language}"
+  echo "input_file_name ${input_file_name} language ${language}"
 
   python3 ./sentence_finder.py \
     --input-file-name ${input_file_name} \
@@ -70,12 +69,14 @@ mine_for_bitexts () {
 
 echo -e "\nProcessing news articles"
 
-languages=(en pt de)
+input_directory=input_files
 input_base_file_names=(wdt_2019-07-08 wdt_2019-07-09 wdt_2019-07-10 wdt_2019-07-11 wdt_2019-07-12 wdt_2019-07-13 wdt_2019-07-14)
+languages=(en pt de)
+
 
 for input_base_file_name in "${input_base_file_names[@]}"; do
   for language in "${languages[@]}"; do
-    find_sentences ${input_base_file_name} ${language}
+    find_sentences
   done
 done
 
