@@ -9,6 +9,7 @@ from file_writer import write_id_sentence_pair_to_file, write_sentence_id_to_fil
 from language_identification import is_sentence_language_not_correct
 
 SENTENCE_WORD_COUNT_MINIMUM = 10
+OUTPUT_DIRECTORY = './output_files/'
 
 
 def _get_argument_parser():
@@ -24,16 +25,16 @@ def _get_argument_parser():
     return parser
 
 
-def _get_id_sentence_file_name(language):
-    return language + '_id_sentence_pairs'
+def _get_id_sentence_output_file_name(language):
+    return OUTPUT_DIRECTORY + language + '_id_sentence_pairs'
 
 
-def _get_ids_file_name(language):
-    return language + '_ids'
+def _get_ids_output_file_name(language):
+    return OUTPUT_DIRECTORY + language + '_ids'
 
 
-def _get_sentences_file_name(language):
-    return language + '_sentences'
+def _get_sentences_output_file_name(language):
+    return OUTPUT_DIRECTORY + language + '_sentences'
 
 
 def _get_article_elements_as_text(article):
@@ -81,10 +82,11 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
     articles = find_articles(arguments.input_file_name, arguments.line_count, arguments.average_line_word_count)
 
-    with open(_get_id_sentence_file_name(arguments.language), 'a') as id_sentence_pairs_file, \
-         open(_get_ids_file_name(arguments.language), 'a') as ids_file,\
-         open(_get_sentences_file_name(arguments.language), 'a') as sentences_file:
+    with open(_get_id_sentence_output_file_name(arguments.language), 'a') as id_sentence_pairs_file, \
+         open(_get_ids_output_file_name(arguments.language), 'a') as ids_file,\
+         open(_get_sentences_output_file_name(arguments.language), 'a') as sentences_file:
 
+        valid_sentences = 0
         for article_index, article in enumerate(articles, start=1):
             article_text = _get_article_elements_as_text(article)
             right_encoded_article_text = fix_text_encoding(article_text)
@@ -98,9 +100,12 @@ if __name__ == "__main__":
                 if is_sentence_language_not_correct(sentence, arguments.language):
                     break
 
+                valid_sentences += 1
+
                 _write_valid_sentence_information_to_files(id_sentence_pairs_file,
                                                            ids_file,
                                                            sentences_file,
                                                            article_index,
                                                            sentence_index,
                                                            sentence)
+        print('valid_sentences', valid_sentences, 'input_file_name', arguments.input_file_name)
