@@ -5,3 +5,5 @@ Cython
 torch
 transliterate
 syntok
+ftfy
+pyfasttext
