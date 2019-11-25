@@ -6,4 +6,4 @@ torch
 transliterate
 syntok
 ftfy
-pyfasttext
+fasttext

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from pyfasttext import FastText
+from fasttext import FastText
 
 MODEL = FastText('lid.176.ftz')
 
