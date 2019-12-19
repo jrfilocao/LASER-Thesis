@@ -74,7 +74,7 @@ def _write_valid_sentence_information_to_files(id_sentence_pair_file,
 
 
 def _has_not_minimum_word_count(sentence):
-    return len(sentence) < SENTENCE_WORD_COUNT_MINIMUM
+    return len(sentence.strip().split()) < SENTENCE_WORD_COUNT_MINIMUM
 
 
 if __name__ == "__main__":
