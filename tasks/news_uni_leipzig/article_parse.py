@@ -23,7 +23,7 @@ def _parse_articles(file_lines, minimum_number_of_consecutive_lines, minimum_ave
             if article_line_count >= minimum_number_of_consecutive_lines:
                 article_word_count = 0
                 for article_line in article:
-                    article_line_word_count = len(article_line.split())
+                    article_line_word_count = len(article_line.strip().split())
                     article_word_count += article_line_word_count
                 article_average_line_word_count = article_word_count / article_line_count
                 if article_average_line_word_count > minimum_average_word_count_of_a_line:
