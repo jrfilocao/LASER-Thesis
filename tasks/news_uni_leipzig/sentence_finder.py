@@ -67,9 +67,10 @@ def _write_valid_sentence_information_to_files(id_sentence_pair_file,
                                                sentences_file,
                                                article_index,
                                                sentence_index,
-                                               sentence):
-    write_id_sentence_pair_to_file(id_sentence_pair_file, article_index, sentence, sentence_index)
-    write_sentence_id_to_file(ids_file, article_index, sentence_index)
+                                               sentence,
+                                               input_file_name):
+    write_id_sentence_pair_to_file(id_sentence_pair_file, article_index, sentence, sentence_index, input_file_name)
+    write_sentence_id_to_file(ids_file, article_index, sentence_index, input_file_name)
     write_sentence_to_file(sentences_file, sentence)
 
 
@@ -107,5 +108,6 @@ if __name__ == "__main__":
                                                            sentences_file,
                                                            article_index,
                                                            sentence_index,
-                                                           sentence)
+                                                           sentence,
+                                                           arguments.input_file_name)
         print('valid_sentences', valid_sentences, 'input_file_name', arguments.input_file_name)
