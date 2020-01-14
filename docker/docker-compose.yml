@@ -3,5 +3,10 @@ services:
   laser:
     build: .
     tty: true
-  redis:
-    image: "redis:alpine"
+  database:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
