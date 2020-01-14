@@ -1,0 +1,7 @@
+version: '3'
+services:
+  laser:
+    build: .
+    tty: true
+  redis:
+    image: "redis:alpine"
