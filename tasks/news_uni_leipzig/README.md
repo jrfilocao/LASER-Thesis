@@ -12,6 +12,12 @@
 
 `./sentence_finder.py --input-file-name=input_files/wdt_2019-07-08_en --line-count=5 --average-line-word-count=15 --language=en`
 
+## Docker
+
+* `docker-compose up` 
+* `psql -h localhost -p 5432 -U postgres`
+
+
 ## Input file informations
 
 * input_files/wdt_2019-07-08_en
@@ -118,7 +124,7 @@ Total articles =  **77850**
     * **german_sentences**
     * **portuguese_sentences**
 
-* Run the experiment
+* Run the experiment **OK**
 * For each pair of the parallel sentences
     * Get named entities from their respective articles with the help of **NLTK** or **SpaCy**
     * If one named entity matches, then both articles match
