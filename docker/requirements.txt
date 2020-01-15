@@ -7,3 +7,4 @@ transliterate
 syntok
 ftfy
 pyfasttext
+psycopg2
