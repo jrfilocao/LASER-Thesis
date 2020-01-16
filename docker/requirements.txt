@@ -8,3 +8,4 @@ syntok
 ftfy
 pyfasttext
 psycopg2
+fuzzywuzzy
