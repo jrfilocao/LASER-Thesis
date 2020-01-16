@@ -47,6 +47,8 @@ RUN bash ./install_models.sh
 
 RUN conda install --name env -c pytorch faiss-cpu -y
 
+RUN conda install -c conda-forge spacy
+
 RUN bash ./install_external_tools.sh
 
 COPY ./decode.py $LASER/tasks/embed/decode.py
