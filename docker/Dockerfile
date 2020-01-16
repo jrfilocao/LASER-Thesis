@@ -17,7 +17,8 @@ RUN apt-get -qq -y install \
         make \
         unzip \
         sudo \
-        vim
+        vim \
+        libpq-dev
 
 # Use C.UTF-8 locale to avoid issues with ASCII encoding
 ENV LC_ALL=C.UTF-8
