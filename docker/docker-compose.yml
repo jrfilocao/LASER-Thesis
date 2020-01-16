@@ -1,7 +1,7 @@
 version: '3'
 services:
   laser:
-    build: .
+    image: laser:latest
     tty: true
   database:
     image: postgres
