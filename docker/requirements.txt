@@ -9,3 +9,4 @@ ftfy
 pyfasttext
 psycopg2
 fuzzywuzzy
+python-Levenshtein
