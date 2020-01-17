@@ -26,20 +26,42 @@ def _get_nlp_model(language):
 def _get_named_entities(text, language):
     nlp_model = _get_nlp_model(language)
     named_entities = nlp_model(text).ents
-    return set(named_entities)
+    return named_entities
+
+
+def _get_similar_named_entities(source_named_entities, target_named_entities):
+    similar_named_entities = set()
+    for source_named_entity in source_named_entities:
+        for target_named_entity in target_named_entities:
+            token_sort_ratio = fuzz.token_sort_ratio(source_named_entity.text, target_named_entity.text)
+
+            if token_sort_ratio > TOKEN_SORT_RATIO_THRESHOLD:
+                similar_named_entity_pair = SimilarNamedEntityPair(source_named_entity.text, target_named_entity.text, token_sort_ratio)
+                similar_named_entities.add(similar_named_entity_pair)
+    return similar_named_entities
 
 
 def get_similar_entities_in_crosslingual_texts(source_text, source_language, target_text, target_language):
     source_named_entities = _get_named_entities(source_text, source_language)
     target_named_entities = _get_named_entities(target_text, target_language)
 
-    for source_named_entity in source_named_entities:
-        for target_named_entity in target_named_entities:
-            token_sort_ratio = fuzz.token_sort_ratio(source_named_entity.text, target_named_entity.text)
+    print(source_named_entities)
+    print(target_named_entities)
 
-            if token_sort_ratio > TOKEN_SORT_RATIO_THRESHOLD:
-                print(source_named_entity.text, target_named_entity.text, token_sort_ratio)
+    return _get_similar_named_entities(source_named_entities, target_named_entities)
 
+
+class SimilarNamedEntityPair:
+    def __init__(self, source_text, target_text, ratio):
+        self.source_text = source_text
+        self.target_text = target_text
+        self.ratio = ratio
+
+    def __repr__(self):
+        return self.source_text + ' ' + self.target_text + ' ' + str(self.ratio)
+
+    def __str__(self):
+        return self.source_text + ' ' + self.target_text + ' ' + str(self.ratio)
 
 if __name__ == "__main__":
 
@@ -89,4 +111,5 @@ if __name__ == "__main__":
                     'Er kenne den Botschafter nicht, aber er sei nicht beliebt.. '
                     'Die britische Zeitung Mail on Sunday hatte aus geheimen Memos des Botschafters Kim Darroch zitiert.')
 
-    get_similar_entities_in_crosslingual_texts(text_pt, 'pt', text_de,'de')
+    similar_entities = get_similar_entities_in_crosslingual_texts(text_pt, 'pt', text_de,'de')
+    print(similar_entities)
