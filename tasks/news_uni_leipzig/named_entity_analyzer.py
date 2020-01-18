@@ -45,9 +45,6 @@ def get_similar_entities_in_crosslingual_texts(source_text, source_language, tar
     source_named_entities = _get_named_entities(source_text, source_language)
     target_named_entities = _get_named_entities(target_text, target_language)
 
-    print(source_named_entities)
-    print(target_named_entities)
-
     return _get_similar_named_entities(source_named_entities, target_named_entities)
 
 
@@ -62,6 +59,14 @@ class SimilarNamedEntityPair:
 
     def __str__(self):
         return self.source_text + ' ' + self.target_text + ' ' + str(self.ratio)
+
+    def __hash__(self):
+        return hash((self.source_text, self.target_text, self.ratio))
+
+    def __eq__(self, other):
+        if not isinstance(other, type(self)): return NotImplemented
+        return self.source_text == other.source_text and self.target_text == other.target_text and self.ratio == other.ratio
+
 
 if __name__ == "__main__":
 
