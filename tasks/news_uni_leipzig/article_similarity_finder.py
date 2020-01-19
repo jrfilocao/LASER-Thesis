@@ -43,6 +43,13 @@ if __name__ == "__main__":
                         print(score, source_sentence, target_sentence)
                     except ValueError:
                         pass
+                # Finder Articles through sentences
+                # Get Articles Sentences
+                # Run text named entity analyzer
+                # Persist results in article_similarity table:
+                #    source_article_id, source_text, source_language, target_article_id, target_text, target_language, similar named entities
+                # optional: get articles urls into a table?
+                # optional: check articles similarity in external tool?
 
     finally:
         if database_connection is not None:
