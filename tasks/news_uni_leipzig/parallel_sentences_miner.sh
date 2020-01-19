@@ -19,7 +19,7 @@ find_sentences () {
 
   echo "input_file_name ${input_file_name} language ${language}"
 
-  python3 ./sentence_finder.py \
+  python3 ./sentence_segmenter.py \
     --input-file-name ${input_file_name} \
     --line-count 5 \
     --average-line-word-count 20 \
