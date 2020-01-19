@@ -25,11 +25,11 @@ def get_score_sentences_triple():
 
 
 def _get_article_sentences_as_text(sentences):
-    return ''.join(sentences);
+    return " ".join(sentence_tuple[0] for sentence_tuple in sentences)
 
 
 def _get_source_target_languages(file_language_pair):
-    source_language, target_language = sentence_candidate.split('_')
+    source_language, target_language = file_language_pair.split('_')
     return source_language, target_language
 
 
@@ -48,15 +48,14 @@ if __name__ == "__main__":
                 for sentence_candidate in sentence_candidates:
                     try:
                         score, source_sentence, target_sentence = get_score_sentences_triple()
-                        print(score, source_sentence, target_sentence)
                     except ValueError:
                         continue
 
                     source_article_id = get_articles_from_sentence(source_sentence, database_cursor)
                     target_article_id = get_articles_from_sentence(target_sentence, database_cursor)
 
-                    source_article_sentences = get_sentences_from_article(source_article_id)
-                    target_article_sentences = get_sentences_from_article(target_article_id)
+                    source_article_sentences = get_sentences_from_article(source_article_id, database_cursor)
+                    target_article_sentences = get_sentences_from_article(target_article_id, database_cursor)
 
                     source_article_text = _get_article_sentences_as_text(source_article_sentences)
                     target_article_text = _get_article_sentences_as_text(target_article_sentences)
@@ -67,7 +66,7 @@ if __name__ == "__main__":
                                                                                         target_article_text,
                                                                                         target_language)
 
-                print(similar_named_entities)
+                    print(source_sentence, target_sentence, similar_named_entities, '\n')
 
                 # Finder Articles through sentences OK
                 # Get Articles Sentences OK
