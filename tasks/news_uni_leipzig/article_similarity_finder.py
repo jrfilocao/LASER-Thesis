@@ -2,16 +2,15 @@
 
 
 import argparse
-import psycopg2
-
-
-def _get_database_connection():
-    return psycopg2.connect(host="localhost", database="postgres", user="postgres", password="postgres")
+from database_connector import get_database_connection
+from sentence_repository import get_articles_from_sentence, get_sentences_from_article
+from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
 
 
 def _get_argument_parser():
     parser = argparse.ArgumentParser(description='Analysing article similarity through similar sentences')
     parser.add_argument('--sentence-candidate-file-paths', nargs='+', help='sentence candidate files to be analysed', required=True)
+    parser.add_argument('--file-language-pairs', nargs='+', help='language of sentence candidates', required=True)
     return parser
 
 
@@ -25,16 +24,25 @@ def get_score_sentences_triple():
     raise ValueError
 
 
+def _get_article_sentences_as_text(sentences):
+    return ''.join(sentences);
+
+
+def _get_source_target_languages(file_language_pair):
+    source_language, target_language = sentence_candidate.split('_')
+    return source_language, target_language
+
+
 if __name__ == "__main__":
     parser = _get_argument_parser()
     arguments = parser.parse_args()
 
     # TODO add id_sentence_pair_persister
     try:
-        database_connection = _get_database_connection()
+        database_connection = get_database_connection()
         database_cursor = database_connection.cursor()
 
-        for sentence_candidate_file_path in arguments.sentence_candidate_file_paths:
+        for sentence_candidate_file_path, file_language_pair in zip(arguments.sentence_candidate_file_paths, arguments.file_language_pairs):
             with open(sentence_candidate_file_path, 'r') as  sentence_candidate_file:
                 sentence_candidates = sentence_candidate_file.readlines()
                 for sentence_candidate in sentence_candidates:
@@ -42,10 +50,28 @@ if __name__ == "__main__":
                         score, source_sentence, target_sentence = get_score_sentences_triple()
                         print(score, source_sentence, target_sentence)
                     except ValueError:
-                        pass
-                # Finder Articles through sentences
-                # Get Articles Sentences
-                # Run text named entity analyzer
+                        continue
+
+                    source_article_id = get_articles_from_sentence(source_sentence, database_cursor)
+                    target_article_id = get_articles_from_sentence(target_sentence, database_cursor)
+
+                    source_article_sentences = get_sentences_from_article(source_article_id)
+                    target_article_sentences = get_sentences_from_article(target_article_id)
+
+                    source_article_text = _get_article_sentences_as_text(source_article_sentences)
+                    target_article_text = _get_article_sentences_as_text(target_article_sentences)
+
+                    source_language, target_language = _get_source_target_languages(file_language_pair)
+                    similar_named_entities = get_similar_entities_in_crosslingual_texts(source_article_text,
+                                                                                        source_language,
+                                                                                        target_article_text,
+                                                                                        target_language)
+
+                print(similar_named_entities)
+
+                # Finder Articles through sentences OK
+                # Get Articles Sentences OK
+                # Run text named entity analyzer OK
                 # Persist results in article_similarity table:
                 #    source_article_id, source_text, source_language, target_article_id, target_text, target_language, similar named entities
                 # optional: get articles urls into a table?
