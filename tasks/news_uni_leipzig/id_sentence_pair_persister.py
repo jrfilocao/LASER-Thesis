@@ -41,7 +41,7 @@ if __name__ == "__main__":
                         article_id = _get_article_id(sentence_id)
                         insert_sentence(sentence_id, article_id, sentence, database_cursor)
                     except ValueError:
-                        pass
+                        continue
             database_connection.commit()
 
     finally:
