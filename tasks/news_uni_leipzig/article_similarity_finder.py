@@ -80,6 +80,8 @@ if __name__ == "__main__":
                                            target_sentence,
                                            source_article_text,
                                            target_article_text,
+                                           source_language,
+                                           target_language,
                                            similar_named_entities_text,
                                            database_cursor)
                     print(source_sentence, target_sentence, similar_named_entities, '\n')

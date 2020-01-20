@@ -11,6 +11,8 @@ CREATE TABLE matched_article (
    target_sentence VARCHAR (5000) NOT NULL,
    source_article_text TEXT NOT NULL,
    target_article_text TEXT NOT NULL,
+   source_language VARCHAR (2) NOT NULL,
+   target_language VARCHAR (2) NOT NULL,
    source_article_url VARCHAR (5000),
    target_article_url VARCHAR (5000),
    named_entities_score TEXT
