@@ -5,7 +5,7 @@ import argparse
 from database_connector import get_database_connection
 from sentence_repository import get_articles_from_sentence, get_sentences_from_article
 from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
-
+from matched_article_repository import insert_matched_article
 
 def _get_argument_parser():
     parser = argparse.ArgumentParser(description='Analysing article similarity through similar sentences')
@@ -66,13 +66,21 @@ if __name__ == "__main__":
                                                                                         target_article_text,
                                                                                         target_language)
 
+                    insert_matched_article(source_article_id,
+                                           target_article_id,
+                                           source_sentence,
+                                           target_sentence,
+                                           source_article_text,
+                                           target_article_text,
+                                           similar_named_entities)
+
                     print(source_sentence, target_sentence, similar_named_entities, '\n')
 
                 # Finder Articles through sentences OK
                 # Get Articles Sentences OK
                 # Run text named entity analyzer OK
-                # Persist results in article_similarity table:
-                #    source_article_id, source_text, source_language, target_article_id, target_text, target_language, similar named entities
+                # Persist results in article_similarity table: OK
+                #    source_article_id, source_text, source_language, target_article_id, target_text, target_language, similar named entities OK
                 # optional: get articles urls into a table?
                 # optional: check articles similarity in external tool?
 
