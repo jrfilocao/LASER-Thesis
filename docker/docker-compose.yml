@@ -4,11 +4,11 @@ services:
     image: laser:latest
     tty: true
   database:
-    image: postgres
+    build: database/
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
     volumes:
-      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./postgres-data:/var/lib/postgresql/data
