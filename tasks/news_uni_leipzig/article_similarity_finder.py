@@ -17,7 +17,7 @@ def _get_argument_parser():
     return parser
 
 
-def _get_score_sentences_triple():
+def _get_score_sentences_triple(sentence_candidate):
     score_sentences = sentence_candidate.split('\t')
     if len(score_sentences) == 3:
         for score_sentences_element in score_sentences:
@@ -42,6 +42,7 @@ def _get_named_entity_set_text(named_entity_set):
         return str(named_entity_set)
     return None
 
+
 if __name__ == "__main__":
     parser = _get_argument_parser()
     arguments = parser.parse_args()
@@ -56,7 +57,7 @@ if __name__ == "__main__":
                 sentence_candidates = sentence_candidate_file.readlines()
                 for sentence_candidate in sentence_candidates:
                     try:
-                        score, source_sentence, target_sentence = _get_score_sentences_triple()
+                        score, source_sentence, target_sentence = _get_score_sentences_triple(sentence_candidate)
                     except ValueError:
                         continue
 
@@ -87,7 +88,8 @@ if __name__ == "__main__":
                                            target_language,
                                            similar_named_entities_text,
                                            database_cursor)
-                    print(source_sentence, target_sentence, similar_named_entities, '\n')
+
+                    print(source_sentence, target_sentence, similar_named_entities_text, '\n')
                 database_connection.commit()
 
                 # Finder Articles through sentences OK
