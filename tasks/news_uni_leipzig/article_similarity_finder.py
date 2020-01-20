@@ -34,6 +34,11 @@ def _get_source_target_languages(file_language_pair):
     return source_language, target_language
 
 
+def _get_named_entity_set_text(named_entity_set):
+    if len(named_entity_set) > 0:
+        return str(named_entity_set)
+    return None
+
 if __name__ == "__main__":
     parser = _get_argument_parser()
     arguments = parser.parse_args()
@@ -67,13 +72,15 @@ if __name__ == "__main__":
                                                                                         target_article_text,
                                                                                         target_language)
 
+                    similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
+
                     insert_matched_article(source_article_id,
                                            target_article_id,
                                            source_sentence,
                                            target_sentence,
                                            source_article_text,
                                            target_article_text,
-                                           str(similar_named_entities),
+                                           similar_named_entities_text,
                                            database_cursor)
                     print(source_sentence, target_sentence, similar_named_entities, '\n')
                 database_connection.commit()
