@@ -7,16 +7,17 @@ import de_core_news_sm
 import en_core_web_sm
 from fuzzywuzzy import fuzz, process
 
+NAMED_ENTITY_MINIMUM_LENGTH = 3
 TOKEN_SORT_RATIO_THRESHOLD = 70
 
 NLP_PT = pt_core_news_sm.load()
 NLP_DE = de_core_news_sm.load()
 NLP_EN = en_core_web_sm.load()
 
-MODELS= {'de': NLP_DE,
-         'en': NLP_EN,
-         'pt': NLP_PT,
-}
+MODELS = {'de': NLP_DE,
+          'en': NLP_EN,
+          'pt': NLP_PT,
+          }
 
 
 def _get_nlp_model(language):
@@ -29,15 +30,26 @@ def _get_named_entities(text, language):
     return named_entities
 
 
+def _is_named_entity_longer_than_minimum(named_entity_text):
+    return len(named_entity_text) >= NAMED_ENTITY_MINIMUM_LENGTH
+
+
+def _is_similar_named_entities(source_named_entity_text, target_named_entity_text, token_sort_ratio):
+    if token_sort_ratio > TOKEN_SORT_RATIO_THRESHOLD and \
+            _is_named_entity_longer_than_minimum(source_named_entity_text) and \
+            _is_named_entity_longer_than_minimum(target_named_entity_text):
+        return True
+    return False
+
+
 def _get_similar_named_entities(source_named_entities, target_named_entities):
     similar_named_entities = set()
     for source_named_entity in source_named_entities:
         for target_named_entity in target_named_entities:
             token_sort_ratio = fuzz.token_sort_ratio(source_named_entity.text, target_named_entity.text)
-
-            if token_sort_ratio > TOKEN_SORT_RATIO_THRESHOLD:
-                similar_named_entity_pair = SimilarNamedEntityPair(source_named_entity.text, target_named_entity.text, token_sort_ratio)
-                similar_named_entities.add(similar_named_entity_pair)
+            similar_named_entities_boolean = _is_similar_named_entities(source_named_entity.text, target_named_entity.text, token_sort_ratio)
+            if similar_named_entities_boolean:
+                similar_named_entities.add(SimilarNamedEntityPair(source_named_entity.text, target_named_entity.text, token_sort_ratio))
     return similar_named_entities
 
 
