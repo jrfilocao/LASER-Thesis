@@ -6,8 +6,8 @@ from sentence_repository import insert_sentence
 
 
 def _get_argument_parser():
-    parser = argparse.ArgumentParser(description='Persisting sentences from files in Redis')
-    parser.add_argument('--sentence-files', nargs='+', help='sentence files to be processed', required=True)
+    parser = argparse.ArgumentParser(description='Persisting id sentence pairs from files in the database')
+    parser.add_argument('--id-sentence-pair-files', nargs='+', help='id sentence pair files to be processed', required=True)
     return parser
 
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
         database_connection = get_database_connection()
         database_cursor = database_connection.cursor()
 
-        for sentence_file in arguments.sentence_files:
+        for sentence_file in arguments.id_sentence_pair_files:
             with open(sentence_file, 'r') as id_sentence_pairs_file:
                 id_sentence_pairs = id_sentence_pairs_file.readlines()
                 for id_sentence_pair in id_sentence_pairs:
