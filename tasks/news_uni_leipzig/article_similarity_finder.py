@@ -6,6 +6,9 @@ from database_connector import get_database_connection
 from sentence_repository import get_articles_from_sentence, get_sentences_from_article
 from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
 from matched_article_repository import insert_matched_article
+from googlesearch import search
+
+GOOGLE_DOMAIN = 'com'
 
 MINIMUM_CANDIDATE_SENTENCE_LENGTH = 5
 
@@ -43,6 +46,14 @@ def _get_named_entity_set_text(named_entity_set):
     return None
 
 
+def get_search_sentences(candidate_sentence, article_sentences):
+    return '"' + candidate_sentence + '" + "' + str(article_sentences[int(len(article_sentences)/3)][0]) + '"'
+
+
+def search_for_exact_article(search_text):
+    return search(search_text, tld=GOOGLE_DOMAIN, num=1, stop=1, pause=5)
+
+
 if __name__ == "__main__":
     parser = _get_argument_parser()
     arguments = parser.parse_args()
@@ -71,12 +82,24 @@ if __name__ == "__main__":
                     target_article_text = _get_article_sentences_as_text(target_article_sentences)
 
                     source_language, target_language = _get_source_target_languages(file_language_pair)
+
                     similar_named_entities = get_similar_entities_in_crosslingual_texts(source_article_text,
                                                                                         source_language,
                                                                                         target_article_text,
                                                                                         target_language)
 
                     similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
+
+                    source_search_text = get_search_sentences(source_sentence, source_article_sentences)
+                    for result in search_for_exact_article(source_search_text):
+                        source_article_url = result
+
+                    target_search_text = get_search_sentences(target_sentence, target_article_sentences)
+                    for result in search_for_exact_article(target_search_text):
+                        target_article_url = result
+
+                    print(source_search_text, source_article_url)
+                    print(target_search_text, target_article_url)
 
                     insert_matched_article(source_article_id,
                                            target_article_id,
@@ -87,6 +110,8 @@ if __name__ == "__main__":
                                            source_language,
                                            target_language,
                                            similar_named_entities_text,
+                                           source_article_url,
+                                           target_article_url,
                                            database_cursor)
 
                     print(source_sentence, target_sentence, similar_named_entities_text, '\n')

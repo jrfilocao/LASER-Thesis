@@ -11,7 +11,9 @@ INSERT_MATCHED_ARTICLE_SQL = """INSERT INTO matched_article(source_article_id,
                                                             target_article_text,
                                                             source_language,
                                                             target_language,
-                                                            named_entities_score) VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s);"""
+                                                            source_article_url,
+                                                            target_article_url,
+                                                            named_entities_score) VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"""
 
 
 def insert_matched_article(source_article_id,
@@ -22,6 +24,8 @@ def insert_matched_article(source_article_id,
                            target_article_text,
                            source_language,
                            target_language,
+                           source_article_url,
+                           target_article_url,
                            named_entities_score,
                            database_cursor):
 
@@ -34,6 +38,8 @@ def insert_matched_article(source_article_id,
                                                              target_article_text,
                                                              source_language,
                                                              target_language,
+                                                             source_article_url,
+                                                             target_article_url,
                                                              named_entities_score))
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
