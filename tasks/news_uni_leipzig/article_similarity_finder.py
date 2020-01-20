@@ -7,6 +7,8 @@ from sentence_repository import get_articles_from_sentence, get_sentences_from_a
 from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
 from matched_article_repository import insert_matched_article
 
+MINIMUM_CANDIDATE_SENTENCE_LENGTH = 5
+
 
 def _get_argument_parser():
     parser = argparse.ArgumentParser(description='Analysing article similarity through similar sentences')
@@ -15,11 +17,12 @@ def _get_argument_parser():
     return parser
 
 
-def get_score_sentences_triple():
+def _get_score_sentences_triple():
     score_sentences = sentence_candidate.split('\t')
     if len(score_sentences) == 3:
         for score_sentences_element in score_sentences:
-            if not score_sentences_element.strip():
+            stripped_score_sentences_element = score_sentences_element.strip()
+            if not stripped_score_sentences_element or len(stripped_score_sentences_element) < MINIMUM_CANDIDATE_SENTENCE_LENGTH:
                 raise ValueError
         return score_sentences[0].strip(), score_sentences[1].strip(), score_sentences[2].strip()
     raise ValueError
@@ -49,11 +52,11 @@ if __name__ == "__main__":
         database_cursor = database_connection.cursor()
 
         for sentence_candidate_file_path, file_language_pair in zip(arguments.sentence_candidate_file_paths, arguments.file_language_pairs):
-            with open(sentence_candidate_file_path, 'r') as  sentence_candidate_file:
+            with open(sentence_candidate_file_path, 'r') as sentence_candidate_file:
                 sentence_candidates = sentence_candidate_file.readlines()
                 for sentence_candidate in sentence_candidates:
                     try:
-                        score, source_sentence, target_sentence = get_score_sentences_triple()
+                        score, source_sentence, target_sentence = _get_score_sentences_triple()
                     except ValueError:
                         continue
 
