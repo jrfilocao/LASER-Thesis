@@ -8,7 +8,7 @@ import en_core_web_sm
 from fuzzywuzzy import fuzz, process
 
 NAMED_ENTITY_MINIMUM_LENGTH = 3
-TOKEN_SORT_RATIO_THRESHOLD = 70
+SIMILARITY_RATIO_THRESHOLD = 70
 
 NLP_PT = pt_core_news_sm.load()
 NLP_DE = de_core_news_sm.load()
@@ -34,8 +34,8 @@ def _is_named_entity_longer_than_minimum(named_entity_text):
     return len(named_entity_text) >= NAMED_ENTITY_MINIMUM_LENGTH
 
 
-def _is_similar_named_entities(source_named_entity_text, target_named_entity_text, token_sort_ratio):
-    if token_sort_ratio > TOKEN_SORT_RATIO_THRESHOLD and \
+def _is_similar_named_entities(source_named_entity_text, target_named_entity_text, token_sort_ratio, ratio):
+    if (token_sort_ratio > SIMILARITY_RATIO_THRESHOLD or ratio > SIMILARITY_RATIO_THRESHOLD) and \
             _is_named_entity_longer_than_minimum(source_named_entity_text) and \
             _is_named_entity_longer_than_minimum(target_named_entity_text):
         return True
@@ -47,9 +47,10 @@ def _get_similar_named_entities(source_named_entities, target_named_entities):
     for source_named_entity in source_named_entities:
         for target_named_entity in target_named_entities:
             token_sort_ratio = fuzz.token_sort_ratio(source_named_entity.text, target_named_entity.text)
-            similar_named_entities_boolean = _is_similar_named_entities(source_named_entity.text, target_named_entity.text, token_sort_ratio)
+            ratio = fuzz.ratio(source_named_entity.text.lower(), target_named_entity.text.lower())
+            similar_named_entities_boolean = _is_similar_named_entities(source_named_entity.text, target_named_entity.text, token_sort_ratio, ratio)
             if similar_named_entities_boolean:
-                similar_named_entities.add(SimilarNamedEntityPair(source_named_entity.text, target_named_entity.text, token_sort_ratio))
+                similar_named_entities.add(SimilarNamedEntityPair(source_named_entity.text, target_named_entity.text, ratio, token_sort_ratio))
     return similar_named_entities
 
 
@@ -61,20 +62,21 @@ def get_similar_entities_in_crosslingual_texts(source_text, source_language, tar
 
 
 class SimilarNamedEntityPair:
-    def __init__(self, source_text, target_text, ratio):
+    def __init__(self, source_text, target_text, ratio, token_sort_ratio):
         self.source_text = source_text
         self.target_text = target_text
         self.ratio = ratio
+        self.token_sort_ratio = token_sort_ratio
 
     def __repr__(self):
-        return self.source_text + ' ' + self.target_text + ' ' + str(self.ratio)
+        return self.source_text + ' ' + self.target_text + ' ' + str(self.ratio) + ' ' + str(self.token_sort_ratio)
 
     def __str__(self):
-        return self.source_text + ' ' + self.target_text + ' ' + str(self.ratio)
+        return self.source_text + ' ' + self.target_text + ' ' + str(self.ratio) + ' ' + str(self.token_sort_ratio)
 
     def __hash__(self):
-        return hash((self.source_text, self.target_text, self.ratio))
+        return hash((self.source_text, self.target_text, self.ratio, self.token_sort_ratio))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)): return NotImplemented
-        return self.source_text == other.source_text and self.target_text == other.target_text and self.ratio == other.ratio
+        return self.source_text == other.source_text and self.target_text == other.target_text and self.ratio == other.ratio and self.token_sort_ratio == other.token_sort_ratio
