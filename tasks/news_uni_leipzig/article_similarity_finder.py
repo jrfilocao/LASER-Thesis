@@ -72,7 +72,8 @@ if __name__ == "__main__":
                                            target_sentence,
                                            source_article_text,
                                            target_article_text,
-                                           similar_named_entities)
+                                           similar_named_entities,
+                                           database_cursor)
 
                     print(source_sentence, target_sentence, similar_named_entities, '\n')
 
