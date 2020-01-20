@@ -7,6 +7,7 @@ from sentence_repository import get_articles_from_sentence, get_sentences_from_a
 from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
 from matched_article_repository import insert_matched_article
 
+
 def _get_argument_parser():
     parser = argparse.ArgumentParser(description='Analysing article similarity through similar sentences')
     parser.add_argument('--sentence-candidate-file-paths', nargs='+', help='sentence candidate files to be analysed', required=True)
@@ -72,10 +73,10 @@ if __name__ == "__main__":
                                            target_sentence,
                                            source_article_text,
                                            target_article_text,
-                                           similar_named_entities,
+                                           str(similar_named_entities),
                                            database_cursor)
-
                     print(source_sentence, target_sentence, similar_named_entities, '\n')
+                database_connection.commit()
 
                 # Finder Articles through sentences OK
                 # Get Articles Sentences OK
