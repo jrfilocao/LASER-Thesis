@@ -51,7 +51,7 @@ def get_search_sentences(candidate_sentence, article_sentences):
 
 
 def search_for_exact_article(search_text):
-    return search(search_text, tld=GOOGLE_DOMAIN, num=1, stop=1, pause=5)
+    return search(search_text, tld=GOOGLE_DOMAIN, num=1, stop=1, pause=10)
 
 
 if __name__ == "__main__":
@@ -90,16 +90,16 @@ if __name__ == "__main__":
 
                     similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
 
-                    source_search_text = get_search_sentences(source_sentence, source_article_sentences)
-                    for result in search_for_exact_article(source_search_text):
-                        source_article_url = result
-
-                    target_search_text = get_search_sentences(target_sentence, target_article_sentences)
-                    for result in search_for_exact_article(target_search_text):
-                        target_article_url = result
-
-                    print(source_search_text, source_article_url)
-                    print(target_search_text, target_article_url)
+                    # source_search_text = get_search_sentences(source_sentence, source_article_sentences)
+                    # for result in search_for_exact_article(source_search_text):
+                    #     source_article_url = result
+                    #
+                    # target_search_text = get_search_sentences(target_sentence, target_article_sentences)
+                    # for result in search_for_exact_article(target_search_text):
+                    #     target_article_url = result
+                    #
+                    # print(source_search_text, source_article_url)
+                    # print(target_search_text, target_article_url)
 
                     insert_matched_article(source_article_id,
                                            target_article_id,
@@ -110,8 +110,8 @@ if __name__ == "__main__":
                                            source_language,
                                            target_language,
                                            similar_named_entities_text,
-                                           source_article_url,
-                                           target_article_url,
+                                           None,
+                                           None,
                                            database_cursor)
 
                     print(source_sentence, target_sentence, similar_named_entities_text, '\n')
@@ -122,7 +122,7 @@ if __name__ == "__main__":
                 # Run text named entity analyzer OK
                 # Persist results in article_similarity table: OK
                 #    source_article_id, source_text, source_language, target_article_id, target_text, target_language, similar named entities OK
-                # optional: get articles urls into a table?
+                # optional: get articles urls into a table? OK
                 # optional: check articles similarity in external tool?
 
     finally:
