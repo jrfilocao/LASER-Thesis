@@ -1,0 +1,14 @@
+Flask
+scipy
+numpy
+Cython
+torch
+transliterate
+syntok
+ftfy
+pyfasttext
+psycopg2
+fuzzywuzzy
+python-Levenshtein
+beautifulsoup4
+google
