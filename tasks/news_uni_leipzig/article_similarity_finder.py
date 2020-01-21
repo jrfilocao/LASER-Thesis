@@ -58,7 +58,6 @@ if __name__ == "__main__":
     parser = _get_argument_parser()
     arguments = parser.parse_args()
 
-    # TODO add id_sentence_pair_persister
     try:
         database_connection = get_database_connection()
         database_cursor = database_connection.cursor()
@@ -116,14 +115,6 @@ if __name__ == "__main__":
 
                     print(source_sentence, target_sentence, similar_named_entities_text, '\n')
                 database_connection.commit()
-
-                # Finder Articles through sentences OK
-                # Get Articles Sentences OK
-                # Run text named entity analyzer OK
-                # Persist results in article_similarity table: OK
-                #    source_article_id, source_text, source_language, target_article_id, target_text, target_language, similar named entities OK
-                # optional: get articles urls into a table? OK
-                # optional: check articles similarity in external tool?
 
     finally:
         if database_connection is not None:
