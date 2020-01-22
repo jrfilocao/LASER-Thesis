@@ -34,10 +34,8 @@ This project is divided into two parts:
 * Run `./id_sentence_pair_persister.py --id-sentence-pair-files de_id_sentence_pairs en_id_sentence_pairs pt_id_sentence_pairs`
     * Loads data into `sentence` table
 * Run `./article_similarity_finder.py --sentence-candidate-file-paths output_files/de_pt_sentence_candidates.tsv --file-language-pairs de_pt`
-    * Gets articles from **sentence candidates**
-    * Compares articles named-entities
-    * Saves articles similarity results into table `matched_articles`
-* [Click here for more details](FINDING_SIMILAR_NEWS_ARTICLES.MD)
+    * [Similarity check](FINDING_SIMILAR_NEWS_ARTICLES.MD) will be done
+    * Database tables **sentence** for id-sentence pairs and **matched_article** for articles similarity results will be created
  
 #### Similarity results
  
