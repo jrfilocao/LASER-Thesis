@@ -108,9 +108,9 @@ if __name__ == "__main__":
                                            target_article_text,
                                            source_language,
                                            target_language,
+                                           None,
+                                           None,
                                            similar_named_entities_text,
-                                           None,
-                                           None,
                                            database_cursor)
 
                     print(source_sentence, target_sentence, similar_named_entities_text, '\n')
