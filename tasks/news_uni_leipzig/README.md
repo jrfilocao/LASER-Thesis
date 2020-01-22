@@ -81,10 +81,42 @@ WHERE source_sentence = 'We have always said that, if it is to have a long-term 
 AND target_sentence = 'Wir haben immer gesagt, dass unser Sport, wenn er eine langfristige Zukunft haben soll, seine historischen Austragungsorte bewahren muss, sagte Formel-1-Boss Chase Carey.';
 ```
 
+###### DE <-> PT
+
+* Exact translation of **citation**, same topic
+
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article 
+WHERE source_sentence = 'Aber bis zum heutigen Tag wissen wir weder, wer ihn kaufen möchte noch zu welchem Preis, sagte Leonardo.'
+AND target_sentence = 'Mas, até o momento, não sabemos se alguém quer comprá-lo ou a que preço.';
+```
+
+* Similar sentences but **no common** named-entities
+
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article 
+WHERE source_sentence = 'So ein schwieriges Jahr habe ich in meiner Karriere noch nicht erlebt – das waren so viele Verletzungen.'
+AND target_sentence = '– Foi um momento muito difícil na minha carreira, pois eu nunca tinha me machucado de forma tão grave assim.'
+```
+
+* **No similar** sentences and **no common** named-entities
+
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article 
+WHERE source_sentence = 'Wir werden uns nicht vermehren, weil wir wissen, dass die Welt nicht damit umgehen kann..'
+AND target_sentence = '- Não vão recorrer porque sabem que não conseguiriam nada.'
+```
+
 
 ## TODOs
 * Continue evaluating results
 * Prepare presentation
 * Organize code
     * Python best practises
-    * 2 scripts needed to be run
+    * 2 scripts only
