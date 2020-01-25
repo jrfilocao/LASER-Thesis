@@ -127,6 +127,23 @@ WHERE source_sentence = 'Wir werden uns nicht vermehren, weil wir wissen, dass d
 AND target_sentence = '- Não vão recorrer porque sabem que não conseguiriam nada.'
 ```
 
+###### EN <-> PT
+
+* Article translation from **Reuters**. **Multiple** sentences. **Multiple** named-entities.
+    * Article URL EN: https://www.reuters.com/article/us-china-xinjiang-rights/saudi-arabia-and-russia-among-37-states-backing-chinas-xinjiang-policy-idUSKCN1U721X
+    * Article URL PT: https://oglobo.globo.com/mundo/arabia-saudita-russia-mais-35-paises-apoiam-politicas-da-china-para-muculmanos-uigures-23803783
+    
+
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article
+WHERE
+source_article_id = 'input_files/wdt_2019-07-14_en_article_4297'
+AND
+target_article_id = 'input_files/wdt_2019-07-12_pt_article_89';
+```
+
 
 ## TODOs
 * Continue evaluating results
