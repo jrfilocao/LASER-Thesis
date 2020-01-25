@@ -79,6 +79,22 @@ WHERE source_sentence = 'We have always said that, if it is to have a long-term 
 AND target_sentence = 'Wir haben immer gesagt, dass unser Sport, wenn er eine langfristige Zukunft haben soll, seine historischen Austragungsorte bewahren muss, sagte Formel-1-Boss Chase Carey.';
 ```
 
+* More than one sentence-pair similar, no similar named-entities: * **Einziger Fall** * bei 1.1 Laser threshold
+    * Named-entities: EN: **Ferraris**, DE: **Ex-Ferrari-Teamchef**
+        * Also due to partial texts because of bad text extraction
+    * Translations of **    citations**
+
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article
+WHERE
+source_article_id = 'input_files/wdt_2019-07-12_en_article_1587'
+AND
+target_article_id = 'input_files/wdt_2019-07-12_de_article_210';
+```
+
+
 ###### DE <-> PT
 
 * Exact translation of **citation**, same topic
