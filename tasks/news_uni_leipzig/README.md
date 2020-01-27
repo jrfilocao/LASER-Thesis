@@ -63,6 +63,16 @@ This project is divided into two parts:
     * Unique articles with named-entities = **7**
     * Percentage of similar articles = **63%**
     * Articles with multiple similar sentences = **0**
+    * Precision 100%
+
+###### 1.1 Laser threshold, 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
+* EN <-> DE
+    * Total potential similar sentences = **678**
+* EN <-> PT
+    * Total potential similar sentences = **793**
+* DE <-> PT
+    * Total potential similar sentences = **101**
+
 
 ##### Types of article similarities
 
