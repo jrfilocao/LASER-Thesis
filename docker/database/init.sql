@@ -15,5 +15,6 @@ CREATE TABLE matched_article (
    target_language VARCHAR (2) NOT NULL,
    source_article_url VARCHAR (5000),
    target_article_url VARCHAR (5000),
-   named_entities_score TEXT
+   named_entities_score TEXT,
+   number_of_similar_sentences INT
 );
