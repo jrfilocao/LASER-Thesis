@@ -38,19 +38,31 @@ This project is divided into two parts:
     * Database tables **sentence** for id-sentence pairs and **matched_article** for articles similarity results will be created
  
 #### Similarity results
- 
+
+###### 1.1 Laser threshold, July 2019, 10 minimum words per sentence in extraction phase
+
+* Total sentence pairs: **306**
+* Unique article pairs: **212**
+* Unique articles with more than 2 sentences: **37**
+* Article without common named-entities and with more than 2 sentences: **1** 
 * EN <-> DE
-    * Similar articles = **70**
-    * Total potential related articles = **106**
-    * Percentage of similar articles = **66%**
+    * Total potential similar sentences = **106**
+    * Unique articles = **85**
+    * Unique articles with named-entities = **51** 
+    * Percentage of similar articles = **60%**
+    * Articles with multiple similar sentences = **7**
 * EN <-> PT
-    * Similar articles = **181**
-    * Total potential related articles = **189**
-    * Percentage of similar articles = **95%**
+    * Total potential similar sentences = **181**
+    * Unique articles = **115**
+    * Unique articles with named-entities = **108**
+    * Percentage of similar articles = **94%**
+    * Articles with multiple similar sentences = **30**
 * DE <-> PT
-    * Similar articles = **7**
-    * Total potential related  articles = **11**
+    * Total potential similar sentences = **11**
+    * Unique articles = **11**
+    * Unique articles with named-entities = **7**
     * Percentage of similar articles = **63%**
+    * Articles with multiple similar sentences = **0**
 
 ##### Types of article similarities
 
