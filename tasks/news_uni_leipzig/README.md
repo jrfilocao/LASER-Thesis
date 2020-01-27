@@ -119,6 +119,16 @@ AND
 target_article_id = 'input_files/wdt_2019-07-12_de_article_210';
 ```
 
+* **Correct** sentence translations, **no** similar entities: **Incomplete article texts**, error in text extraction
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article
+WHERE
+source_sentence = 'Call of Duty: Modern Warfare Multiplayer Universe to Be Unveiled August 1.'
+AND
+target_sentence = 'Call of Duty: Modern Warfare - Ausführliche Multiplayer-Vorstellung Anfang August.';
+```
 
 ###### DE <-> PT
 
