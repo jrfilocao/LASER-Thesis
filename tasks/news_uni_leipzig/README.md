@@ -52,13 +52,15 @@ This project is divided into two parts:
     * Percentage of similar articles = **60%**
     * Articles with multiple similar sentences = **7**
     * Percentage of articles with common named-entities and multiple similar sentences = **6/106 = 7%**
+    * Precision =~ **94%**
 * EN <-> PT
     * Total potential similar sentences = **181**
     * Unique articles = **115**
     * Unique articles with common named-entities = **108**
-    * Percentage of similar articles = **94%**
+    * Percentage of similar articles =~ **93%**
     * Articles with multiple similar sentences = **30**
     * Percentage of articles with common named-entities and multiple similar sentences = **26%**
+    * Precision =~ **96%**
 * DE <-> PT
     * Total potential similar sentences = **11**
     * Unique articles = **11**
@@ -66,7 +68,7 @@ This project is divided into two parts:
     * Percentage of similar articles = **63%**
     * Articles with multiple similar sentences = **0**
     * Percentage of articles with common named-entities and multiple similar sentences = **0%**
-    * Precision 100%
+    * Precision **100%**
 
 ###### 1.1 Laser threshold, 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
 * EN <-> DE
@@ -119,7 +121,7 @@ AND
 target_article_id = 'input_files/wdt_2019-07-12_de_article_210';
 ```
 
-* **Correct** sentence translations, **no** similar entities: **Incomplete article texts**, error in text extraction
+* **ERROR**: Correct sentence translations, **no** similar entities: **Incomplete article texts**, error in text extraction
 ```
 SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
 named_entities_score, source_article_url, target_article_url
@@ -128,6 +130,49 @@ WHERE
 source_sentence = 'Call of Duty: Modern Warfare Multiplayer Universe to Be Unveiled August 1.'
 AND
 target_sentence = 'Call of Duty: Modern Warfare - Ausführliche Multiplayer-Vorstellung Anfang August.';
+```
+
+* **ERROR**: Correct sentence translations, **no** similar entities: **Boyce's** / **Cameron Boyce**
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article
+WHERE
+source_sentence = 'It really does help to ease the pain of this nightmare I canot wake up from.'
+AND
+target_sentence = 'Es hilft wirklich, den Schmerz zu lindern dieses Albtraumes, aus dem ich nicht aufwachen kann.';
+```
+
+* **ERROR**: Not related sentences, similar named-entities, but **different** topics
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article
+WHERE
+source_sentence = 'The issue was discussed on Thursday by EU states' representatives at a meeting in Brussels.'
+AND
+target_sentence = 'Am Donnerstag beraten die Justiz- und Innenminister der EU über das Thema bei einem Treffen in Helsinki..';
+``` 
+
+* **Correct** sentence translations, **no** similar entities: **Different** topics
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article
+WHERE
+source_sentence = 'Damages are estimated to be in excess of $1 million..'
+AND
+target_sentence = 'Der entsprechende Schaden beläuft sich in manchen Fällen auf über eine Million Euro.';
+```
+
+```
+SELECT source_sentence, target_sentence, source_article_text, target_article_text, 
+named_entities_score, source_article_url, target_article_url
+FROM matched_article
+WHERE
+source_sentence = 'There is no need to reinvent the wheel, Mr. Secretary.'
+AND
+target_sentence = 'Wir müssen nicht das Rad neu erfinden, so der Zentralbankchef.';
 ```
 
 ###### DE <-> PT
