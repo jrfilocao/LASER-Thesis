@@ -48,21 +48,24 @@ This project is divided into two parts:
 * EN <-> DE
     * Total potential similar sentences = **106**
     * Unique articles = **85**
-    * Unique articles with named-entities = **51** 
+    * Unique articles with common named-entities = **51** 
     * Percentage of similar articles = **60%**
     * Articles with multiple similar sentences = **7**
+    * Percentage of articles with common named-entities and multiple similar sentences = **6/106 = 7%**
 * EN <-> PT
     * Total potential similar sentences = **181**
     * Unique articles = **115**
-    * Unique articles with named-entities = **108**
+    * Unique articles with common named-entities = **108**
     * Percentage of similar articles = **94%**
     * Articles with multiple similar sentences = **30**
+    * Percentage of articles with common named-entities and multiple similar sentences = **26%**
 * DE <-> PT
     * Total potential similar sentences = **11**
     * Unique articles = **11**
-    * Unique articles with named-entities = **7**
+    * Unique articles with common named-entities = **7**
     * Percentage of similar articles = **63%**
     * Articles with multiple similar sentences = **0**
+    * Percentage of articles with common named-entities and multiple similar sentences = **0%**
     * Precision 100%
 
 ###### 1.1 Laser threshold, 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
@@ -101,7 +104,7 @@ WHERE source_sentence = 'We have always said that, if it is to have a long-term 
 AND target_sentence = 'Wir haben immer gesagt, dass unser Sport, wenn er eine langfristige Zukunft haben soll, seine historischen Austragungsorte bewahren muss, sagte Formel-1-Boss Chase Carey.';
 ```
 
-* More than one sentence-pair similar, no similar named-entities: * **Einziger Fall** * bei 1.1 Laser threshold
+* More than one sentence-pair similar, **no** similar named-entities: * **Only Case** * bei 1.1 Laser threshold
     * Named-entities: EN: **Ferraris**, DE: **Ex-Ferrari-Teamchef**
         * Also due to partial texts because of bad text extraction
     * Translations of **    citations**
