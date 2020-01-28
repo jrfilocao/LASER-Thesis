@@ -16,7 +16,7 @@ This project is divided into two parts:
         * `en_de_sentence_candidates.tsv`
         * `en_pt_sentence_candidates.tsv`
 
-#### Parsing results
+#### Parsing results - July 2019, 10 minimum words per sentence in extraction phase
 
 * Total articles  =  **77850**
 * English sentences = **1176047**
@@ -31,7 +31,7 @@ This project is divided into two parts:
 
 ## Finding similar news articles
 
-* Run `./id_sentence_pair_persister.py --id-sentence-pair-files de_id_sentence_pairs en_id_sentence_pairs pt_id_sentence_pairs`
+* Run `./id_sentence_pair_persister.py --id-sentence-pair-files output_files/pt_id_sentence_pairs`
     * Loads data into `sentence` table
 * Run `./article_similarity_finder.py --sentence-candidate-file-paths output_files/de_pt_sentence_candidates.tsv --file-language-pairs de_pt`
     * [Similarity check](FINDING_SIMILAR_NEWS_ARTICLES.MD) will be done
