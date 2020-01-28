@@ -68,26 +68,35 @@ if __name__ == "__main__":
                 for sentence_candidate in sentence_candidates:
                     try:
                         score, source_sentence, target_sentence = _get_score_sentences_triple(sentence_candidate)
-                    except ValueError:
+                    except ValueError as e:
+                        print('ValueError', sentence_candidate, e)
                         continue
 
-                    source_article_id = get_articles_from_sentence(source_sentence, database_cursor)
-                    target_article_id = get_articles_from_sentence(target_sentence, database_cursor)
+                    try:
+                        source_article_id = get_articles_from_sentence(source_sentence, database_cursor)
+                        target_article_id = get_articles_from_sentence(target_sentence, database_cursor)
 
-                    source_article_sentences = get_sentences_from_article(source_article_id, database_cursor)
-                    target_article_sentences = get_sentences_from_article(target_article_id, database_cursor)
+                        source_article_sentences = get_sentences_from_article(source_article_id, database_cursor)
+                        target_article_sentences = get_sentences_from_article(target_article_id, database_cursor)
 
-                    source_article_text = _get_article_sentences_as_text(source_article_sentences)
-                    target_article_text = _get_article_sentences_as_text(target_article_sentences)
+                        source_article_text = _get_article_sentences_as_text(source_article_sentences)
+                        target_article_text = _get_article_sentences_as_text(target_article_sentences)
 
-                    source_language, target_language = _get_source_target_languages(file_language_pair)
+                        source_language, target_language = _get_source_target_languages(file_language_pair)
 
-                    similar_named_entities = get_similar_entities_in_crosslingual_texts(source_article_text,
-                                                                                        source_language,
-                                                                                        target_article_text,
-                                                                                        target_language)
+                        similar_named_entities = get_similar_entities_in_crosslingual_texts(source_article_text,
+                                                                                            source_language,
+                                                                                            target_article_text,
+                                                                                            target_language)
 
-                    similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
+                        similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
+                    except Exception as e:
+                        print('Error before database insert', sentence_candidate, e)
+                        continue
+
+                    if source_article_id is None or target_article_id is None:
+                        print(source_article_id, target_article_id, ' is None')
+                        continue
 
                     insert_matched_article(source_article_id,
                                            target_article_id,
@@ -104,7 +113,7 @@ if __name__ == "__main__":
 
                     count_article_similar_sentences(source_article_id, target_article_id, article_similar_sentences_counter)
 
-                    print(source_sentence, target_sentence, similar_named_entities_text, '\n')
+                    #print(source_sentence, target_sentence, similar_named_entities_text, '\n')
 
                 database_connection.commit()
 
