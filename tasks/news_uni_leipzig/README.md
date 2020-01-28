@@ -23,11 +23,11 @@ This project is divided into two parts:
 * German sentences = **170637**
 * Portuguese sentences = **49451**
 
-#### Mining results
+#### Parsing results - 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
 
-* EN <-> DE = **106**
-* EN <-> PT = **189**
-* DE <-> PT = **11**
+* English sentences = **1209766**
+* German sentences = **148510**
+* Portuguese sentences = **105490**
 
 ## Finding similar news articles
 
@@ -105,13 +105,35 @@ This project is divided into two parts:
     * Percentage of articles with common named-entities and multiple similar sentences = **25/5606**=**0,44**
 
 ###### 1.1 Laser threshold, 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
+* Total sentence pairs: **1572**
+* Unique article pairs: **1023**
+* Unique article with common named-entities: **854/1023**=**83%**
+* Unique articles with more than 2 sentences: **226**
+* Article without common named-entities and with more than 2 sentences: **13**
+* Percentage of unique articles with more than 2 sentences: **226/1023**=**22%**
+* Percentage of article without common named-entities and with more than 2 sentences: **13/1023**=**1,27%%**
+
 * EN <-> DE
     * Total potential similar sentences = **678**
+    * Unique articles = **405**
+    * Unique articles with common named-entities = **328**
+    * Unique articles with more than 2 sentences: **85**
+    * Percentage of similar articles = **81%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **79/405**=**19%**
 * EN <-> PT
     * Total potential similar sentences = **793**
+    * Unique articles = **540**
+    * Unique articles with common named-entities = **470**
+    * Unique articles with more than 2 sentences: **134**
+    * Percentage of similar articles = **87%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **127/540**=**23%**
 * DE <-> PT
     * Total potential similar sentences = **101**
-
+    * Unique articles = **78**
+    * Unique articles with common named-entities = **56**
+    * Unique articles with more than 2 sentences: **7**
+    * Percentage of similar articles = **71%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **7/78**=**8%**
 
 ##### Types of article similarities
 
