@@ -43,8 +43,11 @@ This project is divided into two parts:
 
 * Total sentence pairs: **306**
 * Unique article pairs: **212**
+* Unique article with common named-entities: **166/212**=**78%**
 * Unique articles with more than 2 sentences: **37**
-* Article without common named-entities and with more than 2 sentences: **1** 
+* Article without common named-entities and with more than 2 sentences: **1**
+* Percentage of unique articles with more than 2 sentences: **37/212**=**17%**
+* Percentage of article without common named-entities and with more than 2 sentences: **1/212**=**0,47%%**
 * EN <-> DE
     * Total potential similar sentences = **106**
     * Unique articles = **85**
