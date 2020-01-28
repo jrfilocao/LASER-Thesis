@@ -23,6 +23,11 @@ def _get_article_id(sentence_id):
     return sentence_id[:article_end_index]
 
 
+def validate_sentence_length(sentence):
+    if len(sentence) > 5000:
+        raise ValueError
+
+
 if __name__ == "__main__":
 
     parser = _get_argument_parser()
@@ -39,6 +44,7 @@ if __name__ == "__main__":
                     try:
                         sentence_id, sentence = _get_id_sentence(id_sentence_pair)
                         article_id = _get_article_id(sentence_id)
+                        validate_sentence_length(sentence)
                         insert_sentence(sentence_id, article_id, sentence, database_cursor)
                     except ValueError:
                         continue
