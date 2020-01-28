@@ -73,6 +73,37 @@ This project is divided into two parts:
     * Percentage of articles with common named-entities and multiple similar sentences = **0%**
     * Precision **100%**
 
+###### 1.0 Laser threshold, July 2019, 10 minimum words per sentence in extraction phase
+
+* Total sentence pairs: **32358**
+* Unique article pairs: **31923**
+* Unique article with common named-entities: **4184/31923**=**13%**
+* Unique articles with more than 2 sentences: **268**
+* Article without common named-entities and with more than 2 sentences: **38**
+* Percentage of unique articles with more than 2 sentences: **268/31923**=**0,83%**
+* Percentage of article without common named-entities and with more than 2 sentences: **38/31923**=**0,11%**
+* EN <-> DE
+    * Total potential similar sentences = **13410**
+    * Unique articles = **13267**
+    * Unique articles with common named-entities = **2310**
+    * Articles with multiple similar sentences = **102**
+    * Percentage of similar articles = **17%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **88/13267 = 0,66%**
+* EN <-> PT
+    * Total potential similar sentences = **13295**
+    * Unique articles = **13050**
+    * Unique articles with common named-entities = **1437**
+    * Articles with multiple similar sentences = **132**
+    * Percentage of similar articles =~ **11%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **117/13050**=**0,89%**
+* DE <-> PT
+    * Total potential similar sentences = **5653**
+    * Unique articles = **5606**
+    * Unique articles with common named-entities = **437**
+    * Articles with multiple similar sentences = **34**
+    * Percentage of similar articles = **7,79%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **25/5606**=**0,44**
+
 ###### 1.1 Laser threshold, 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
 * EN <-> DE
     * Total potential similar sentences = **678**
