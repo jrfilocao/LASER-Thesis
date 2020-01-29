@@ -135,6 +135,37 @@ This project is divided into two parts:
     * Percentage of similar articles = **71%**
     * Percentage of articles with common named-entities and multiple similar sentences = **7/78**=**8%**
 
+###### 1.0 Laser threshold, 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
+* Total sentence pairs: **130912**
+* Unique article pairs: **129363**
+* Unique article with common named-entities: **21936/130912**=**16%**
+* Unique articles with more than 2 sentences: **931**
+* Article without common named-entities and with more than 2 sentences: **114**
+* Percentage of unique articles with more than 2 sentences: **931/129363**=**0,71%**
+* Percentage of article without common named-entities and with more than 2 sentences: **114/129363**=**0,08%**
+
+* EN <-> DE
+    * Total potential similar sentences = **52993**
+    * Unique articles = **52327**
+    * Unique articles with common named-entities = **11301**
+    * Unique articles with more than 2 sentences: **360**
+    * Percentage of similar articles = **0,67%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **324/52327**=**0,61%**
+* EN <-> PT
+    * Total potential similar sentences = **53840**
+    * Unique articles = **53087**
+    * Unique articles with common named-entities = **7730**
+    * Unique articles with more than 2 sentences: **479**
+    * Percentage of similar articles = **0,90%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **423/53087**=**0,79%%**
+* DE <-> PT
+    * Total potential similar sentences = **24079**
+    * Unique articles = **23949**
+    * Unique articles with common named-entities = **2905**
+    * Unique articles with more than 2 sentences: **92**
+    * Percentage of similar articles = **12%**
+    * Percentage of articles with common named-entities and multiple similar sentences = **72/23949**=**0,3%**
+
 ##### Types of article similarities
 
 ###### EN <-> DE 
