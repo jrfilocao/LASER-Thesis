@@ -59,6 +59,7 @@ if __name__ == "__main__":
 
     try:
         database_connection = get_database_connection()
+        database_connection.autocommit = True
         database_cursor = database_connection.cursor()
 
         for sentence_candidate_file_path, file_language_pair in zip(arguments.sentence_candidate_file_paths, arguments.file_language_pairs):
@@ -115,11 +116,11 @@ if __name__ == "__main__":
 
                     #print(source_sentence, target_sentence, similar_named_entities_text, '\n')
 
-                database_connection.commit()
+                # database_connection.commit()
 
                 update_all_number_of_similar_sentences(article_similar_sentences_counter, database_cursor)
 
-                database_connection.commit()
+                # database_connection.commit()
 
     finally:
         if database_connection is not None:
