@@ -68,41 +68,42 @@ if __name__ == "__main__":
                 for sentence_candidate_pair in sentence_candidate_pairs:
                     try:
                         score, source_sentence, target_sentence = _get_score_sentences_triple(sentence_candidate_pair)
-                        source_article_id = get_articles_from_sentence(source_sentence, database_cursor)
-                        target_article_id = get_articles_from_sentence(target_sentence, database_cursor)
+                        source_article_ids = get_articles_from_sentence(source_sentence, database_cursor)
+                        target_article_ids = get_articles_from_sentence(target_sentence, database_cursor)
 
-                        if source_article_id is None or target_article_id is None:
-                            print(source_article_id, target_article_id, ' => None')
+                        if source_article_ids is None or target_article_ids is None:
+                            print(source_article_ids, target_article_ids, ' => None')
                             continue
+                        for source_article_id in source_article_ids:
+                            for target_article_id in target_article_ids:
+                                source_article_sentences = get_sentences_from_article(source_article_id, database_cursor)
+                                target_article_sentences = get_sentences_from_article(target_article_id, database_cursor)
 
-                        source_article_sentences = get_sentences_from_article(source_article_id, database_cursor)
-                        target_article_sentences = get_sentences_from_article(target_article_id, database_cursor)
+                                source_article_text = _get_article_sentences_as_text(source_article_sentences)
+                                target_article_text = _get_article_sentences_as_text(target_article_sentences)
 
-                        source_article_text = _get_article_sentences_as_text(source_article_sentences)
-                        target_article_text = _get_article_sentences_as_text(target_article_sentences)
+                                source_language, target_language = _get_source_target_languages(file_language_pair)
 
-                        source_language, target_language = _get_source_target_languages(file_language_pair)
+                                similar_named_entities = get_similar_entities_in_crosslingual_texts(source_article_text,
+                                                                                                    source_language,
+                                                                                                    target_article_text,
+                                                                                                    target_language)
 
-                        similar_named_entities = get_similar_entities_in_crosslingual_texts(source_article_text,
-                                                                                            source_language,
-                                                                                            target_article_text,
-                                                                                            target_language)
+                                similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
 
-                        similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
-
-                        insert_matched_article(source_article_id,
-                                               target_article_id,
-                                               source_sentence,
-                                               target_sentence,
-                                               source_article_text,
-                                               target_article_text,
-                                               source_language,
-                                               target_language,
-                                               None,
-                                               None,
-                                               similar_named_entities_text,
-                                               database_cursor)
-                        _update_article_pair_similar_sentences_count(source_article_id, target_article_id, article_pair_similar_sentences_counter)
+                                insert_matched_article(source_article_id,
+                                                       target_article_id,
+                                                       source_sentence,
+                                                       target_sentence,
+                                                       source_article_text,
+                                                       target_article_text,
+                                                       source_language,
+                                                       target_language,
+                                                       None,
+                                                       None,
+                                                       similar_named_entities_text,
+                                                       database_cursor)
+                                _update_article_pair_similar_sentences_count(source_article_id, target_article_id, article_pair_similar_sentences_counter)
                     except Exception as e:
                         print('Error processing sentence candidate pair', sentence_candidate_pair, e)
                         continue

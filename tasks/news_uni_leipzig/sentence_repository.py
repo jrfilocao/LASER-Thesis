@@ -20,7 +20,9 @@ def insert_sentence(sentence_id, article_id, sentence, database_cursor):
 def get_articles_from_sentence(sentence, database_cursor):
     try:
         database_cursor.execute(SELECT_ARTICLES_BY_SENTENCE_SQL, (sentence,))
-        return database_cursor.fetchall()[0][0] # TODO return all items
+        all_article_tuples = database_cursor.fetchall()
+        all_articles = [all_article_tuple[0] for all_article_tuple in all_article_tuples]
+        return all_articles
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
 
