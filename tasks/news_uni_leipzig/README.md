@@ -25,6 +25,7 @@ This project is divided into two parts:
 
 #### Parsing results - 05.01.2020-22.01.2020, 10 minimum words per sentence in extraction phase
 
+* Total articles = **326395**
 * English sentences = **1209766**
 * German sentences = **148510**
 * Portuguese sentences = **105490**
@@ -52,7 +53,7 @@ This project is divided into two parts:
     * Total potential similar sentences = **106**
     * Unique articles = **85**
     * Unique articles with common named-entities = **51** 
-    * Percentage of similar articles = **60%**
+    * Percentage of similar articles = **61%**
     * Articles with multiple similar sentences = **7**
     * Percentage of articles with common named-entities and multiple similar sentences = **6/106 = 7%**
     * Precision =~ **94%**
@@ -118,14 +119,14 @@ This project is divided into two parts:
     * Unique articles = **405**
     * Unique articles with common named-entities = **328**
     * Unique articles with more than 2 sentences: **85**
-    * Percentage of similar articles = **81%**
+    * Percentage of similar articles = **82%**
     * Percentage of articles with common named-entities and multiple similar sentences = **79/405**=**19%**
 * EN <-> PT
     * Total potential similar sentences = **793**
     * Unique articles = **540**
     * Unique articles with common named-entities = **470**
     * Unique articles with more than 2 sentences: **134**
-    * Percentage of similar articles = **87%**
+    * Percentage of similar articles = **88%**
     * Percentage of articles with common named-entities and multiple similar sentences = **127/540**=**23%**
 * DE <-> PT
     * Total potential similar sentences = **101**
