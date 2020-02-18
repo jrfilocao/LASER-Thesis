@@ -96,7 +96,7 @@ if __name__ == "__main__":
                         continue
 
                     if source_article_id is None or target_article_id is None:
-                        print(source_article_id, target_article_id, ' is None')
+                        print(source_article_id, target_article_id, ' => None')
                         continue
 
                     insert_matched_article(source_article_id,
@@ -111,17 +111,8 @@ if __name__ == "__main__":
                                            None,
                                            similar_named_entities_text,
                                            database_cursor)
-
                     count_article_similar_sentences(source_article_id, target_article_id, article_similar_sentences_counter)
-
-                    #print(source_sentence, target_sentence, similar_named_entities_text, '\n')
-
-                # database_connection.commit()
-
                 update_all_number_of_similar_sentences(article_similar_sentences_counter, database_cursor)
-
-                # database_connection.commit()
-
     finally:
         if database_connection is not None:
             database_connection.close()
