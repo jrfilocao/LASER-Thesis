@@ -5,7 +5,7 @@ import argparse
 from database_connector import get_database_connection
 from sentence_repository import get_articles_from_sentence, get_sentences_from_article
 from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
-from matched_article_repository import insert_matched_article, update_all_number_of_similar_sentences
+from matched_article_repository import insert_matched_article, update_number_of_similar_sentences_in_matched_articles
 
 GOOGLE_DOMAIN = 'com'
 
@@ -45,7 +45,7 @@ def _get_named_entity_set_text(named_entity_set):
     return None
 
 
-def count_article_similar_sentences(source_article_id, target_article_id, article_similar_sentences_counter):
+def _update_article_pair_similar_sentences_count(source_article_id, target_article_id, article_similar_sentences_counter):
     article_id_pair = (source_article_id, target_article_id)
     if article_id_pair in article_similar_sentences_counter:
         article_similar_sentences_counter[(source_article_id, target_article_id)] += 1
@@ -59,23 +59,21 @@ if __name__ == "__main__":
 
     try:
         database_connection = get_database_connection()
-        database_connection.autocommit = True
         database_cursor = database_connection.cursor()
 
         for sentence_candidate_file_path, file_language_pair in zip(arguments.sentence_candidate_file_paths, arguments.file_language_pairs):
             with open(sentence_candidate_file_path, 'r') as sentence_candidate_file:
-                sentence_candidates = sentence_candidate_file.readlines()
-                article_similar_sentences_counter = {}
-                for sentence_candidate in sentence_candidates:
+                sentence_candidate_pairs = sentence_candidate_file.readlines()
+                article_pair_similar_sentences_counter = {}
+                for sentence_candidate_pair in sentence_candidate_pairs:
                     try:
-                        score, source_sentence, target_sentence = _get_score_sentences_triple(sentence_candidate)
-                    except ValueError as e:
-                        print('ValueError', sentence_candidate, e)
-                        continue
-
-                    try:
+                        score, source_sentence, target_sentence = _get_score_sentences_triple(sentence_candidate_pair)
                         source_article_id = get_articles_from_sentence(source_sentence, database_cursor)
                         target_article_id = get_articles_from_sentence(target_sentence, database_cursor)
+
+                        if source_article_id is None or target_article_id is None:
+                            print(source_article_id, target_article_id, ' => None')
+                            continue
 
                         source_article_sentences = get_sentences_from_article(source_article_id, database_cursor)
                         target_article_sentences = get_sentences_from_article(target_article_id, database_cursor)
@@ -91,28 +89,24 @@ if __name__ == "__main__":
                                                                                             target_language)
 
                         similar_named_entities_text = _get_named_entity_set_text(similar_named_entities)
+
+                        insert_matched_article(source_article_id,
+                                               target_article_id,
+                                               source_sentence,
+                                               target_sentence,
+                                               source_article_text,
+                                               target_article_text,
+                                               source_language,
+                                               target_language,
+                                               None,
+                                               None,
+                                               similar_named_entities_text,
+                                               database_cursor)
+                        _update_article_pair_similar_sentences_count(source_article_id, target_article_id, article_pair_similar_sentences_counter)
                     except Exception as e:
-                        print('Error before database insert', sentence_candidate, e)
+                        print('Error processing sentence candidate pair', sentence_candidate_pair, e)
                         continue
-
-                    if source_article_id is None or target_article_id is None:
-                        print(source_article_id, target_article_id, ' => None')
-                        continue
-
-                    insert_matched_article(source_article_id,
-                                           target_article_id,
-                                           source_sentence,
-                                           target_sentence,
-                                           source_article_text,
-                                           target_article_text,
-                                           source_language,
-                                           target_language,
-                                           None,
-                                           None,
-                                           similar_named_entities_text,
-                                           database_cursor)
-                    count_article_similar_sentences(source_article_id, target_article_id, article_similar_sentences_counter)
-                update_all_number_of_similar_sentences(article_similar_sentences_counter, database_cursor)
+                update_number_of_similar_sentences_in_matched_articles(article_pair_similar_sentences_counter, database_cursor)
     finally:
         if database_connection is not None:
             database_connection.close()

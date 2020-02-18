@@ -49,7 +49,7 @@ def insert_matched_article(source_article_id,
         print(error)
 
 
-def update_all_number_of_similar_sentences(numbers_of_similar_sentences, database_cursor):
+def update_number_of_similar_sentences_in_matched_articles(numbers_of_similar_sentences, database_cursor):
     try:
         for number_of_similar_sentences in numbers_of_similar_sentences:
             database_cursor.execute(UPDATE_NUMBER_OF_SIMILAR_SENTENCES_SQL,

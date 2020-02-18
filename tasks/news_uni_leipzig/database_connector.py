@@ -4,4 +4,6 @@ import psycopg2
 
 
 def get_database_connection():
-    return psycopg2.connect(host="localhost", database="postgres", user="postgres", password="postgres")
+    database_connection = psycopg2.connect(host="localhost", database="postgres", user="postgres", password="postgres")
+    database_connection.autocommit = True
+    return database_connection
