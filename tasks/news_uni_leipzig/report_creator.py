@@ -1,6 +1,6 @@
 from database_connector import get_database_connection
 from report_repository import *
-
+from report_writer import write_report_entries_into_csv_file
 
 class ReportEntry:
     def __init__(self, key, value):
@@ -8,10 +8,10 @@ class ReportEntry:
         self.value = value
 
     def __repr__(self):
-        return self.key + ' ' + self.value + '\n'
+        return self.key + ',' + self.value + '\n'
 
     def __str__(self):
-        return self.key + ' ' + self.value + '\n'
+        return self.key + ',' + self.value + '\n'
 
 
 def create_report(database_cursor):
@@ -25,7 +25,7 @@ def create_report(database_cursor):
 
 def _get_de_pt_report_entries(database_cursor):
     entries = []
-    entries.append(ReportEntry('*********************', 'DE-PT'))
+    entries.append(ReportEntry('language', 'DE-PT'))
     entries.append(ReportEntry('potential_similar_sentences_de_pt', str(get_potential_similar_sentences_de_pt(database_cursor))))
     unique_article_pairs_de_pt = get_unique_article_pairs_de_pt(database_cursor)
     unique_article_pairs_with_common_named_entities_de_pt = get_unique_article_pairs_with_common_named_entities_de_pt(database_cursor)
@@ -47,7 +47,7 @@ def _get_de_pt_report_entries(database_cursor):
 
 def _get_en_pt_report_entries(database_cursor):
     entries = []
-    entries.append(ReportEntry('*********************', 'EN-PT'))
+    entries.append(ReportEntry('language', 'EN-PT'))
     entries.append(ReportEntry('potential_similar_sentences_en_pt', str(get_potential_similar_sentences_en_pt(database_cursor))))
 
     unique_article_pairs_en_pt = get_unique_article_pairs_en_pt(database_cursor)
@@ -70,7 +70,7 @@ def _get_en_pt_report_entries(database_cursor):
 
 def _get_en_de_report_entries(database_cursor):
     entries = []
-    entries.append(ReportEntry('*********************', 'EN-DE'))
+    entries.append(ReportEntry('language', 'EN-DE'))
     entries.append(ReportEntry('potential_similar_sentences_en_de', str(get_potential_similar_sentences_en_de(database_cursor))))
     unique_article_pairs_en_de = get_unique_article_pairs_en_de(database_cursor)
     unique_article_pairs_with_common_named_entities_en_de = get_unique_article_pairs_with_common_named_entities_en_de(database_cursor)
@@ -111,7 +111,7 @@ if __name__ == "__main__":
         database_connection = get_database_connection()
         database_cursor = database_connection.cursor()
 
-        print(create_report(database_cursor))
+        write_report_entries_into_csv_file(create_report(database_cursor))
     finally:
         if database_connection is not None:
             database_connection.close()
