@@ -99,9 +99,8 @@ if __name__ == "__main__":
                                                        target_article_text,
                                                        source_language,
                                                        target_language,
-                                                       None,
-                                                       None,
                                                        similar_named_entities_text,
+                                                       float(score),
                                                        database_cursor)
                                 _update_article_pair_similar_sentences_count(source_article_id, target_article_id, article_pair_similar_sentences_counter)
                     except Exception as e:

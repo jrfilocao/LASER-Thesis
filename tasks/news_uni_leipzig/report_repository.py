@@ -40,6 +40,7 @@ and number_of_similar_sentences > 1
 group by matched_article.source_article_id, matched_article.target_article_id;
 """
 
+#TODO wiederholte sentences
 SELECT_TOTAL_POTENTIAL_SIMILAR_SENTENCES_EN_DE = """
 select count(*)
 from matched_article

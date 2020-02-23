@@ -11,10 +11,9 @@ INSERT_MATCHED_ARTICLE_SQL = """INSERT INTO matched_article(source_article_id,
                                                             target_article_text,
                                                             source_language,
                                                             target_language,
-                                                            source_article_url,
-                                                            target_article_url,
                                                             named_entities_score,
-                                                            number_of_similar_sentences) VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"""
+                                                            sentence_candidates_score,
+                                                            number_of_similar_sentences) VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"""
 
 UPDATE_NUMBER_OF_SIMILAR_SENTENCES_SQL = """UPDATE matched_article SET number_of_similar_sentences = %s WHERE source_article_id = %s AND target_article_id = %s;"""
 
@@ -27,9 +26,8 @@ def insert_matched_article(source_article_id,
                            target_article_text,
                            source_language,
                            target_language,
-                           source_article_url,
-                           target_article_url,
                            named_entities_score,
+                           sentence_candidates_score,
                            database_cursor):
 
     try:
@@ -41,9 +39,8 @@ def insert_matched_article(source_article_id,
                                                              target_article_text,
                                                              source_language,
                                                              target_language,
-                                                             source_article_url,
-                                                             target_article_url,
                                                              named_entities_score,
+                                                             sentence_candidates_score,
                                                              1))
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
