@@ -2,6 +2,7 @@ from database_connector import get_database_connection
 from report_repository import *
 from report_writer import write_report_entries_into_csv_file
 
+
 class ReportEntry:
     def __init__(self, key, value):
         self.key = key
@@ -16,7 +17,7 @@ class ReportEntry:
 
 def create_report(database_cursor):
     report_entries = []
-    report_entries.extend(get_total_report_entries(database_cursor))
+    report_entries.extend(_get_total_report_entries(database_cursor))
     report_entries.extend(_get_en_de_report_entries(database_cursor))
     report_entries.extend(_get_en_pt_report_entries(database_cursor))
     report_entries.extend(_get_de_pt_report_entries(database_cursor))
@@ -90,7 +91,7 @@ def _get_en_de_report_entries(database_cursor):
     return entries
 
 
-def get_total_report_entries(database_cursor):
+def _get_total_report_entries(database_cursor):
     entries = []
     entries.append(ReportEntry('total sentence pairs', str(get_total_sentence_pairs_count(database_cursor))))
     entries.append(ReportEntry('total unique_article_pairs', str(get_total_unique_article_pairs_count(database_cursor))))
