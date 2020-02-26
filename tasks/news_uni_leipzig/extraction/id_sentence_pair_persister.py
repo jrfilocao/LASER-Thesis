@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 import argparse
-from database_connector import get_database_connection
-from sentence_repository import insert_sentence
+from common.database_connector import get_database_connection
+from similarity.sentence_repository import insert_sentence
 
 
 def _get_argument_parser():

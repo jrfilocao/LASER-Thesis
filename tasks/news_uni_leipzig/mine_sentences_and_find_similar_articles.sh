@@ -14,12 +14,12 @@ encoder="${models_directory}/bilstm.93langs.2018-12-26.pt"
 bpe_codes="${models_directory}/93langs.fcodes"
 
 
-find_sentences () {
+extract_sentences () {
   input_file_name="${input_directory}/${input_base_file_name}_${language}"
 
   echo "input_file_name ${input_file_name} language ${language}"
 
-  python3 ./sentence_segmenter.py \
+  python3 ./article_sentence_extractor.py \
     --input-file-name ${input_file_name} \
     --line-count 5 \
     --average-line-word-count 20 \
@@ -71,7 +71,7 @@ languages=(en pt de)
 
 for input_base_file_name in "${input_base_file_names[@]}"; do
   for language in "${languages[@]}"; do
-    find_sentences
+    extract_sentences
   done
 done
 

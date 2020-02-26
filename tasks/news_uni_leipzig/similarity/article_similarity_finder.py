@@ -2,10 +2,10 @@
 
 
 import argparse
-from database_connector import get_database_connection
-from sentence_repository import get_articles_from_sentence, get_sentences_from_article
-from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
-from matched_article_repository import insert_matched_article, update_number_of_similar_sentences_in_matched_articles
+from common.database_connector import get_database_connection
+from similarity.sentence_repository import get_articles_from_sentence, get_sentences_from_article
+from similarity.text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
+from similarity.matched_article_repository import insert_matched_article, update_number_of_similar_sentences_in_matched_articles
 
 GOOGLE_DOMAIN = 'com'
 

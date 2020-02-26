@@ -1,6 +1,6 @@
-from database_connector import get_database_connection
-from report_repository import *
-from report_writer import write_report_entries_into_csv_file
+from common.database_connector import get_database_connection
+from reporting.report_repository import *
+from reporting.report_writer import write_report_entries_into_csv_file
 
 
 class ReportEntry:

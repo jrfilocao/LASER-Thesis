@@ -3,10 +3,10 @@
 import argparse
 import re
 import syntok.segmenter as segmenter
-from article_parse import find_articles
-from encoding_resolver import fix_text_encoding
-from file_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
-from language_identification import is_sentence_language_not_correct
+from extraction.article_line_extractor import get_articles
+from extraction.encoding_resolver import fix_text_encoding
+from extraction.id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
+from extraction.language_identification import is_sentence_language_not_correct
 
 SENTENCE_WORD_COUNT_MINIMUM = 10
 OUTPUT_DIRECTORY = './output_files/'
@@ -81,7 +81,7 @@ def _has_not_minimum_word_count(sentence):
 if __name__ == "__main__":
     parser = _get_argument_parser()
     arguments = parser.parse_args()
-    articles = find_articles(arguments.input_file_name, arguments.line_count, arguments.average_line_word_count)
+    articles = get_articles(arguments.input_file_name, arguments.line_count, arguments.average_line_word_count)
 
     with open(_get_id_sentence_output_file_name(arguments.language), 'a') as id_sentence_pairs_file, \
          open(_get_ids_output_file_name(arguments.language), 'a') as ids_file,\

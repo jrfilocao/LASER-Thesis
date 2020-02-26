@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 
-def find_articles(file_name, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line):
+def get_articles(file_name, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line):
     file_lines = _get_file_lines(file_name)
-    articles = _parse_articles(file_lines, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line)
+    articles = _extract_articles_from_file_lines(file_lines, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line)
     _write_article_count_to_console(articles)
     return articles
 
@@ -14,7 +14,7 @@ def _get_file_lines(file_name):
     return file_lines
 
 
-def _parse_articles(file_lines, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line):
+def _extract_articles_from_file_lines(file_lines, minimum_number_of_consecutive_lines, minimum_average_word_count_of_a_line):
     articles = []
     article = []
     for file_line in file_lines:
