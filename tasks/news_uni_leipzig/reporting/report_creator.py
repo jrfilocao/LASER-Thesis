@@ -1,6 +1,7 @@
 from common.database_connector import get_database_connection
 from reporting.report_repository import *
-from reporting.report_writer import write_report_entries_into_csv_file
+from reporting.report_writer import *
+import argparse
 
 
 class ReportEntry:
@@ -15,7 +16,7 @@ class ReportEntry:
         return self.key + ',' + self.value + '\n'
 
 
-def create_report(sentence_pair_score_threshold, database_cursor):
+def _create_statistics_report(sentence_pair_score_threshold, database_cursor):
     report_entries = []
 
     total_report_entries = _get_total_report_entries(sentence_pair_score_threshold, database_cursor)
@@ -45,9 +46,9 @@ def _get_de_pt_report_entries(sentence_pair_score_threshold, database_cursor):
 
     if unique_article_pairs_de_pt == 0:
         return
-    unique_article_pairs_with_common_named_entities_de_pt = get_unique_article_pairs_with_common_named_entities_de_pt(sentence_pair_score_threshold, database_cursor)
+    unique_article_pairs_with_common_named_entities_de_pt = get_unique_article_pairs_count_with_common_named_entities_de_pt(sentence_pair_score_threshold, database_cursor)
     unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt = \
-        get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt(sentence_pair_score_threshold, database_cursor)
+        get_unique_articles_count_with_common_named_entities_and_multiple_similar_sentences_de_pt(sentence_pair_score_threshold, database_cursor)
     unique_article_pairs_with_common_named_entities_de_pt_percentage = float(unique_article_pairs_with_common_named_entities_de_pt) / float(unique_article_pairs_de_pt) * 100
     unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt_percentage = \
         float(unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt) / float(unique_article_pairs_de_pt) * 100
@@ -70,9 +71,9 @@ def _get_en_pt_report_entries(sentence_pair_score_threshold, database_cursor):
 
     if unique_article_pairs_en_pt == 0:
         return
-    unique_article_pairs_with_common_named_entities_en_pt = get_unique_article_pairs_with_common_named_entities_en_pt(sentence_pair_score_threshold, database_cursor)
+    unique_article_pairs_with_common_named_entities_en_pt = get_unique_article_pairs_count_with_common_named_entities_en_pt(sentence_pair_score_threshold, database_cursor)
     unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt = \
-        get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(sentence_pair_score_threshold, database_cursor)
+        get_unique_articles_count_with_common_named_entities_and_multiple_similar_sentences_en_pt(sentence_pair_score_threshold, database_cursor)
     unique_article_pairs_with_common_named_entities_en_pt_percentage = float(unique_article_pairs_with_common_named_entities_en_pt) / float(unique_article_pairs_en_pt) * 100
     unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt_percentage = \
         float(unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt) / float(unique_article_pairs_en_pt) * 100
@@ -80,7 +81,7 @@ def _get_en_pt_report_entries(sentence_pair_score_threshold, database_cursor):
     entries.append(ReportEntry('unique article pairs with common named entities en_pt', str(unique_article_pairs_with_common_named_entities_en_pt)))
     entries.append(ReportEntry('unique article pairs with common named entities en_pt percentage', str(unique_article_pairs_with_common_named_entities_en_pt_percentage)))
     entries.append(ReportEntry('unique articles with common named entities and multiple similar sentences en_pt',
-                                      str(get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(sentence_pair_score_threshold, database_cursor))))
+                               str(get_unique_articles_count_with_common_named_entities_and_multiple_similar_sentences_en_pt(sentence_pair_score_threshold, database_cursor))))
     entries.append(ReportEntry('unique articles with common named entities and multiple similar sentences en_pt percentage',
                                       str(unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt_percentage)))
     entries.append(ReportEntry('unique articles with more than 2 sentences en_pt', str(get_unique_articles_with_more_than_2_sentences_en_pt(sentence_pair_score_threshold, database_cursor))))
@@ -95,9 +96,9 @@ def _get_en_de_report_entries(sentence_pair_score_threshold, database_cursor):
 
     if unique_article_pairs_en_de == 0:
         return
-    unique_article_pairs_with_common_named_entities_en_de = get_unique_article_pairs_with_common_named_entities_en_de(sentence_pair_score_threshold, database_cursor)
+    unique_article_pairs_with_common_named_entities_en_de = get_unique_article_pairs_count_with_common_named_entities_en_de(sentence_pair_score_threshold, database_cursor)
     unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de = \
-        get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(sentence_pair_score_threshold, database_cursor)
+        get_unique_articles_count_with_common_named_entities_and_multiple_similar_sentences_en_de(sentence_pair_score_threshold, database_cursor)
     unique_article_pairs_with_common_named_entities_en_de_percentage = float(unique_article_pairs_with_common_named_entities_en_de) / float(unique_article_pairs_en_de) * 100
     unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de_percentage = \
         float(unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de) / float(unique_article_pairs_en_de) * 100
@@ -127,19 +128,60 @@ def _get_total_report_entries(sentence_pair_score_threshold, database_cursor):
     return entries
 
 
+def _get_argument_parser():
+    parser = argparse.ArgumentParser(description='Finding articles for all languages in crawled news texts')
+    parser.add_argument('--number-of-threshold-steps', type=int, default=14,
+                        help='number of threshold steps')
+    parser.add_argument('--threshold-step-value', type=float, default=0.025,
+                        help='threshold step value')
+    parser.add_argument('--sentence-pair-score-base-threshold', type=float, default=0.8,
+                        help='sentence pair score base threshold')
+    parser.add_argument('--output-report-base-file-name', required=True, default='../output_files/report',
+                        help='output report base file name')
+    return parser
+
+
 if __name__ == "__main__":
+
+    parser = _get_argument_parser()
+    arguments = parser.parse_args()
+
+    output_report_base_file_name = arguments.output_report_base_file_name
+    threshold_step_value = arguments.threshold_step_value
+    sentence_pair_score_base_threshold = arguments.sentence_pair_score_base_threshold
+    number_of_threshold_steps = arguments.number_of_threshold_steps
 
     try:
         database_connection = get_database_connection()
         database_cursor = database_connection.cursor()
 
-        number_of_steps = 14
-        threshold_step = 0.025
-        sentence_pair_score_base_threshold = 0.8
+        for i in range(number_of_threshold_steps):
+            score_threshold = sentence_pair_score_base_threshold + i*threshold_step_value
+            statistics_report = _create_statistics_report(score_threshold, database_cursor)
+            write_report_entries_into_csv_file(score_threshold,
+                                               statistics_report,
+                                               output_report_base_file_name)
 
-        for i in range(number_of_steps):
-            score_threshold = sentence_pair_score_base_threshold + i*threshold_step
-            write_report_entries_into_csv_file(score_threshold, create_report(score_threshold, database_cursor))
+            only_named_entity_en_de_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
+            write_article_pair_results_into_file(score_threshold, only_named_entity_en_de_result_rows, 'en_de', 'ner')
+
+            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold,
+                                                                                                                                                  database_cursor)
+            write_article_pair_results_into_file(score_threshold, named_entity_and_multiple_sentences_result_rows, 'en_de', 'ner_multiple')
+
+            only_named_entity_en_pt_result_rows = get_unique_article_pairs_with_common_named_entities_en_pt(score_threshold, database_cursor)
+            write_article_pair_results_into_file(score_threshold, only_named_entity_en_pt_result_rows, 'en_pt', 'ner')
+
+            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold,
+                                                                                                                                                  database_cursor)
+            write_article_pair_results_into_file(score_threshold, named_entity_and_multiple_sentences_result_rows, 'en_pt', 'ner_multiple')
+
+            only_named_entity_de_pt_result_rows = get_unique_article_pairs_with_common_named_entities_de_pt(score_threshold, database_cursor)
+            write_article_pair_results_into_file(score_threshold, only_named_entity_de_pt_result_rows, 'de_pt', 'ner')
+
+            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt(score_threshold,
+                                                                                                                                                  database_cursor)
+            write_article_pair_results_into_file(score_threshold, named_entity_and_multiple_sentences_result_rows, 'de_pt', 'ner_multiple')
     finally:
         if database_connection is not None:
             database_connection.close()

@@ -268,9 +268,25 @@ def get_unique_article_pairs_de_pt(sentence_pair_score_threshold, database_curso
         print(error)
 
 
+def get_unique_article_pairs_count_with_common_named_entities_en_de(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_DE, (sentence_pair_score_threshold,))
+        return database_cursor.rowcount
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
 def get_unique_article_pairs_with_common_named_entities_en_de(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_DE, (sentence_pair_score_threshold,))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_unique_article_pairs_count_with_common_named_entities_en_pt(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_PT, (sentence_pair_score_threshold,))
         return database_cursor.rowcount
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -279,6 +295,14 @@ def get_unique_article_pairs_with_common_named_entities_en_de(sentence_pair_scor
 def get_unique_article_pairs_with_common_named_entities_en_pt(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_PT, (sentence_pair_score_threshold,))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_unique_article_pairs_count_with_common_named_entities_de_pt(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_DE_PT, (sentence_pair_score_threshold,))
         return database_cursor.rowcount
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -287,7 +311,7 @@ def get_unique_article_pairs_with_common_named_entities_en_pt(sentence_pair_scor
 def get_unique_article_pairs_with_common_named_entities_de_pt(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_DE_PT, (sentence_pair_score_threshold,))
-        return database_cursor.rowcount
+        return database_cursor.fetchall()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
 
@@ -316,9 +340,25 @@ def get_unique_articles_with_more_than_2_sentences_de_pt(sentence_pair_score_thr
         print(error)
 
 
+def get_unique_articles_count_with_common_named_entities_and_multiple_similar_sentences_en_de(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_DE, (sentence_pair_score_threshold,))
+        return database_cursor.rowcount
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
 def get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_DE, (sentence_pair_score_threshold,))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_unique_articles_count_with_common_named_entities_and_multiple_similar_sentences_en_pt(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_PT, (sentence_pair_score_threshold,))
         return database_cursor.rowcount
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -327,6 +367,14 @@ def get_unique_articles_with_common_named_entities_and_multiple_similar_sentence
 def get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_PT, (sentence_pair_score_threshold,))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_unique_articles_count_with_common_named_entities_and_multiple_similar_sentences_de_pt(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_DE_PT, (sentence_pair_score_threshold,))
         return database_cursor.rowcount
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -335,6 +383,6 @@ def get_unique_articles_with_common_named_entities_and_multiple_similar_sentence
 def get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_DE_PT, (sentence_pair_score_threshold,))
-        return database_cursor.rowcount
+        return database_cursor.fetchall()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
