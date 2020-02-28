@@ -13,13 +13,14 @@ models_directory="${LASER}/models"
 encoder="${models_directory}/bilstm.93langs.2018-12-26.pt"
 bpe_codes="${models_directory}/93langs.fcodes"
 
+NEWS_DIRECTORY="${LASER}/tasks/news_uni_leipzig"
 
 extract_sentences () {
   input_file_name="${input_directory}/${input_base_file_name}_${language}"
 
   echo "input_file_name ${input_file_name} language ${language}"
 
-  python3 ./article_sentence_extractor.py \
+  python3 ./extraction/article_sentence_extractor.py \
     --input-file-name ${input_file_name} \
     --line-count 5 \
     --average-line-word-count 20 \
@@ -54,6 +55,27 @@ mine_for_bitexts () {
   fi
 }
 
+persist_extracted_sentences () {
+  python3 ./extraction/id_sentence_pair_persister.py \
+    --id-sentence-pair-files \
+      ${output_files}/pt_id_sentence_pairs \
+      ${output_files}/de_id_sentence_pairs \
+      ${output_files}/en_id_sentence_pairs
+}
+
+find_and_persist_similar_articles () {
+  python3 ./similarity/article_similarity_finder.py \
+    --sentence-candidate-file-paths \
+      ${output_files}/de_pt_sentence_candidates.tsv \
+      ${output_files}/en_de_sentence_candidates.tsv \
+      ${output_files}/en_pt_sentence_candidates.tsv \
+    --file-language-pairs de_pt en_de en_pt
+}
+
+create_reports () {
+  python3 ./reporting/report_creator.py --output-report-base-file-name ${output_files}/report
+}
+
 
 ###################################################################
 #
@@ -63,8 +85,8 @@ mine_for_bitexts () {
 
 echo -e "\nProcessing news articles"
 
-input_directory=input_files
-output_directory=output_files
+input_directory="${NEWS_DIRECTORY}/input_files"
+output_directory="${NEWS_DIRECTORY}/output_files"
 
 input_base_file_names=(wdt_2019-07-08 wdt_2019-07-09 wdt_2019-07-10 wdt_2019-07-11 wdt_2019-07-12 wdt_2019-07-13 wdt_2019-07-14)
 languages=(en pt de)
@@ -87,3 +109,9 @@ for language_pair in "${language_pairs[@]}"; do
   target_language="${language_pair_array[1]}"
   mine_for_bitexts
 done
+
+persist_extracted_sentences
+
+find_and_persist_similar_articles
+
+create_reports
