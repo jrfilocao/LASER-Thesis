@@ -6,7 +6,7 @@ RUN conda create -n env python=3.6
 RUN echo "source activate env" > ~/.bashrc
 ENV PATH /opt/conda/envs/env/bin:$PATH
 
-RUN apt-get -qq -y update
+RUN apt-get -qq -y update --fix-missing
 RUN apt-get -qq -y upgrade
 RUN apt-get -qq -y install \
         gcc \
