@@ -36,7 +36,7 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt --verbose
 ARG CACHEBUST=1
 
 # Download LASER from FB
-RUN git clone https://2c7e51ab9ab3a8a87aa7a758f3b4f919e7088fa7@github.com/jrfilocao/LASER-Thesis.git
+RUN git clone https://github.com/jrfilocao/LASER-Thesis.git
 
 ENV LASER /app/LASER-Thesis
 ENV NEWS_TASK /app/LASER-Thesis/tasks/news_uni_leipzig
