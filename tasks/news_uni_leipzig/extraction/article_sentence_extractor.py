@@ -17,7 +17,7 @@ from language_identification import is_sentence_language_not_correct
 
 
 SENTENCE_WORD_COUNT_MINIMUM = 10
-OUTPUT_DIRECTORY =  LASER + '/output_files/'
+OUTPUT_DIRECTORY = NEWS_TASK + '/output_files/'
 
 
 def _get_argument_parser():
