@@ -2,18 +2,19 @@
 
 import os
 import sys
+assert os.environ.get('LASER'), 'Please set the environment variable LASER'
 import argparse
 import re
 import syntok.segmenter as segmenter
-from extraction.article_line_extractor import get_articles
-from extraction.encoding_resolver import fix_text_encoding
-from extraction.id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
-from extraction.language_identification import is_sentence_language_not_correct
 
-assert os.environ.get('LASER'), 'Please set the environment variable LASER'
 LASER = os.environ['LASER']
-
 sys.path.append(LASER + '/extraction')
+
+from article_line_extractor import get_articles
+from encoding_resolver import fix_text_encoding
+from id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
+from language_identification import is_sentence_language_not_correct
+
 
 
 SENTENCE_WORD_COUNT_MINIMUM = 10
