@@ -6,9 +6,9 @@ import syntok.segmenter as segmenter
 
 import os
 import sys
-assert os.environ.get('LASER'), 'Please set the environment variable LASER'
-LASER = os.environ['LASER']
-sys.path.append(LASER + '/extraction')
+assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
+NEWS_TASK = os.environ['NEWS_TASK']
+sys.path.append(NEWS_TASK + '/extraction')
 
 from article_line_extractor import get_articles
 from encoding_resolver import fix_text_encoding

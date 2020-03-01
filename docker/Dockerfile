@@ -39,6 +39,7 @@ ARG CACHEBUST=1
 RUN git clone https://github.com/jrfilocao/LASER-Thesis.git
 
 ENV LASER /app/LASER-Thesis
+ENV NEWS_TASK /app/LASER-Thesis/tasks/news_uni_leipzig
 WORKDIR $LASER
 
 RUN bash ./install_models.sh

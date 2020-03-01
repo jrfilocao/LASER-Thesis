@@ -4,9 +4,9 @@ from pyfasttext import FastText
 
 import os
 import sys
-assert os.environ.get('LASER'), 'Please set the environment variable LASER'
-LASER = os.environ['LASER']
-sys.path.append(LASER + '/extraction')
+assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
+NEWS_TASK = os.environ['NEWS_TASK']
+sys.path.append(NEWS_TASK + '/extraction')
 
 MODEL = FastText(os.path.join(os.path.dirname(__file__), 'lid.176.ftz'))
 
