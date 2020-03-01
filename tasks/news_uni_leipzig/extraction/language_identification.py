@@ -2,6 +2,12 @@
 
 from pyfasttext import FastText
 
+import os
+import sys
+assert os.environ.get('LASER'), 'Please set the environment variable LASER'
+LASER = os.environ['LASER']
+sys.path.append(LASER + '/extraction')
+
 MODEL = FastText('lid.176.ftz')
 
 
