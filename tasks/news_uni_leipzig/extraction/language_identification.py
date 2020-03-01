@@ -8,7 +8,7 @@ assert os.environ.get('LASER'), 'Please set the environment variable LASER'
 LASER = os.environ['LASER']
 sys.path.append(LASER + '/extraction')
 
-MODEL = FastText('lid.176.ftz')
+MODEL = FastText(os.path.join(os.path.dirname(__file__), 'lid.176.ftz'))
 
 
 def is_sentence_language_not_correct(sentence: str, language: str):
