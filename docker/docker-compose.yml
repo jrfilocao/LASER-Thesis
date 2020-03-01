@@ -3,7 +3,7 @@ services:
   laser:
     image: laser:latest
     tty: true
-  database:
+  postgres-database:
     build: database/
     environment:
       POSTGRES_USER: postgres
