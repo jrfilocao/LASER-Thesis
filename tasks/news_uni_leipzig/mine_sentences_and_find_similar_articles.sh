@@ -45,7 +45,7 @@ embed_sentences () {
 }
 
 mine_for_bitexts () {
-  threshold=1.1
+  threshold=0.8
   sentence_candidates="${output_directory}/${source_language}_${target_language}_sentence_candidates.tsv"
   if [ ! -s ${sentence_candidates} ] ; then
     python3 ${LASER}/source/mine_bitexts.py \
