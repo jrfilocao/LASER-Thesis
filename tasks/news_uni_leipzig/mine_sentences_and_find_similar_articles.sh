@@ -100,6 +100,8 @@ for input_base_file_name in "${input_base_file_names[@]}"; do
   done
 done
 
+persist_extracted_sentences
+
 for language in "${languages[@]}"; do
   embed_sentences
 done
@@ -112,8 +114,6 @@ for language_pair in "${language_pairs[@]}"; do
   target_language="${language_pair_array[1]}"
   mine_for_bitexts
 done
-
-persist_extracted_sentences
 
 find_and_persist_similar_articles
 
