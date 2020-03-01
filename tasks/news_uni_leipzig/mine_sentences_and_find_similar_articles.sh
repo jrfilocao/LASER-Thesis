@@ -56,7 +56,7 @@ mine_for_bitexts () {
 }
 
 persist_extracted_sentences () {
-  python3 ./extraction/id_sentence_pair_persister.py \
+  python3 -m extraction.id_sentence_pair_persister.py \
     --id-sentence-pair-files \
       ${output_files}/pt_id_sentence_pairs \
       ${output_files}/de_id_sentence_pairs \
@@ -64,7 +64,7 @@ persist_extracted_sentences () {
 }
 
 find_and_persist_similar_articles () {
-  python3 ./similarity/article_similarity_finder.py \
+  python3 -m similarity.article_similarity_finder.py \
     --sentence-candidate-file-paths \
       ${output_files}/de_pt_sentence_candidates.tsv \
       ${output_files}/en_de_sentence_candidates.tsv \
@@ -73,7 +73,7 @@ find_and_persist_similar_articles () {
 }
 
 create_reports () {
-  python3 ./reporting/report_creator.py --output-report-base-file-name ${output_files}/report
+  python3 -m reporting.report_creator.py --output-report-base-file-name ${output_files}/report
 }
 
 
