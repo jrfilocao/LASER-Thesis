@@ -1,8 +1,16 @@
 #!/usr/bin/python3
 
 import argparse
-from common.database_connector import get_database_connection
-from similarity.sentence_repository import insert_sentence
+
+import os
+import sys
+assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
+NEWS_TASK = os.environ['NEWS_TASK']
+sys.path.append(NEWS_TASK + '/common')
+sys.path.append(NEWS_TASK + '/similarity')
+
+from database_connector import get_database_connection
+from sentence_repository import insert_sentence
 
 
 def _get_argument_parser():
