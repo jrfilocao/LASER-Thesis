@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import os
+import sys
 import argparse
 import re
 import syntok.segmenter as segmenter
@@ -8,8 +10,14 @@ from extraction.encoding_resolver import fix_text_encoding
 from extraction.id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
 from extraction.language_identification import is_sentence_language_not_correct
 
+assert os.environ.get('LASER'), 'Please set the environment variable LASER'
+LASER = os.environ['LASER']
+
+sys.path.append(LASER + '/extraction')
+
+
 SENTENCE_WORD_COUNT_MINIMUM = 10
-OUTPUT_DIRECTORY = './output_files/'
+OUTPUT_DIRECTORY =  LASER + '/output_files/'
 
 
 def _get_argument_parser():
