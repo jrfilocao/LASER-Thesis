@@ -33,6 +33,7 @@ COPY ./requirements.txt /app/requirements.txt
 RUN pip install --trusted-host pypi.python.org Cython
 RUN pip install --trusted-host pypi.python.org -r requirements.txt --verbose
 
+ARG CACHEBUST=1
 
 # Download LASER from FB
 RUN git clone https://github.com/jrfilocao/LASER-Thesis.git
