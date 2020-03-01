@@ -61,22 +61,22 @@ mine_for_bitexts () {
 persist_extracted_sentences () {
   python3 ${NEWS_TASK}/extraction/id_sentence_pair_persister.py \
     --id-sentence-pair-files \
-      ${output_files}/pt_id_sentence_pairs \
-      ${output_files}/de_id_sentence_pairs \
-      ${output_files}/en_id_sentence_pairs
+      ${output_directory}/pt_id_sentence_pairs \
+      ${output_directory}/de_id_sentence_pairs \
+      ${output_directory}/en_id_sentence_pairs
 }
 
 find_and_persist_similar_articles () {
   python3 ${NEWS_TASK}/similarity/article_similarity_finder.py \
     --sentence-candidate-file-paths \
-      ${output_files}/de_pt_sentence_candidates.tsv \
-      ${output_files}/en_de_sentence_candidates.tsv \
-      ${output_files}/en_pt_sentence_candidates.tsv \
+      ${output_directory}/de_pt_sentence_candidates.tsv \
+      ${output_directory}/en_de_sentence_candidates.tsv \
+      ${output_directory}/en_pt_sentence_candidates.tsv \
     --file-language-pairs de_pt en_de en_pt
 }
 
 create_reports () {
-  python3 ${NEWS_TASK}/reporting/report_creator.py --output-report-base-file-name ${output_files}/report
+  python3 ${NEWS_TASK}/reporting/report_creator.py --output-report-base-file-name ${output_directory}/report
 }
 
 
