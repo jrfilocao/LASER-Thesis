@@ -35,6 +35,8 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt --verbose
 
 ARG CACHEBUST=1
 
+RUN alias ll='ls -la'
+
 # Download LASER from FB
 RUN git clone https://github.com/jrfilocao/LASER-Thesis.git
 
