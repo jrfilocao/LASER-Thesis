@@ -35,8 +35,6 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt --verbose
 
 ARG CACHEBUST=1
 
-RUN alias ll='ls -la'
-
 # Download LASER from FB
 RUN git clone https://2c7e51ab9ab3a8a87aa7a758f3b4f919e7088fa7@github.com/jrfilocao/LASER-Thesis.git
 
@@ -59,6 +57,7 @@ RUN bash ./install_external_tools.sh
 
 COPY ./decode.py $LASER/tasks/embed/decode.py
 
+RUN alias ll="ls -la"
 
 # Make port 80 available to the world outside this container
 WORKDIR /app
