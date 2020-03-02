@@ -9,4 +9,4 @@ def write_article_pair_results_into_file(sentence_pair_score_threshold, result_r
     file_name = output_report_base_file_name + '_pairs_{}_{}_{}.txt'.format(language, sentence_pair_score_threshold, type)
     with open(file_name, 'w') as report_file:
         for result_row in result_rows:
-            report_file.write(result_row)
+            report_file.write(str(result_row) + '\n')
