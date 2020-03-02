@@ -1,6 +1,13 @@
-from common.database_connector import get_database_connection
-from reporting.report_repository import *
-from reporting.report_writer import *
+import os
+import sys
+assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
+NEWS_TASK = os.environ['NEWS_TASK']
+sys.path.append(NEWS_TASK + '/common')
+sys.path.append(NEWS_TASK + '/reporting')
+
+from database_connector import get_database_connection
+from report_repository import *
+from report_writer import *
 import argparse
 
 GERMAN_PORTUGUESE = 'de_pt'

@@ -2,10 +2,17 @@
 
 
 import argparse
-from common.database_connector import get_database_connection
-from similarity.sentence_repository import get_articles_from_sentence, get_sentences_from_article
-from similarity.text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
-from similarity.matched_article_repository import insert_matched_article, update_number_of_similar_sentences_in_matched_articles
+import os
+import sys
+assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
+NEWS_TASK = os.environ['NEWS_TASK']
+sys.path.append(NEWS_TASK + '/common')
+sys.path.append(NEWS_TASK + '/similarity')
+
+from database_connector import get_database_connection
+from sentence_repository import get_articles_from_sentence, get_sentences_from_article
+from text_named_entity_analyzer import get_similar_entities_in_crosslingual_texts
+from matched_article_repository import insert_matched_article, update_number_of_similar_sentences_in_matched_articles
 
 GOOGLE_DOMAIN = 'com'
 

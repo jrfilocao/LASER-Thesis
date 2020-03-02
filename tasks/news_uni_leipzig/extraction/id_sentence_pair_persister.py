@@ -7,7 +7,6 @@ import sys
 assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
 NEWS_TASK = os.environ['NEWS_TASK']
 sys.path.append(NEWS_TASK + '/common')
-sys.path.append(NEWS_TASK + '/similarity')
 
 from database_connector import get_database_connection
 from sentence_repository import insert_sentence
@@ -54,6 +53,7 @@ if __name__ == "__main__":
                         article_id = _get_article_id(sentence_id)
                         validate_sentence_length(sentence)
                         insert_sentence(sentence_id, article_id, sentence, database_cursor)
+                        print('id-sentence-pairs inserted for', sentence_file)
                     except ValueError:
                         continue
             database_connection.commit()
