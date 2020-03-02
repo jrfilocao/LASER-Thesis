@@ -45,13 +45,15 @@ WORKDIR $LASER
 RUN bash ./install_models.sh
 
 
-#Installing FAISS
+# Installing FAISS
 
 RUN conda install --name env -c pytorch faiss-cpu -y
 
+# Spacy
 RUN conda install -c conda-forge spacy
-
-# TODO Download models for spacy
+RUN python -m spacy download de_core_news_sm
+RUN python -m spacy download pt_core_news_sm
+RUN python -m spacy download en_core_web_sm
 
 RUN bash ./install_external_tools.sh
 
