@@ -96,13 +96,16 @@ languages=(en pt de)
 
 for input_base_file_name in "${input_base_file_names[@]}"; do
   for language in "${languages[@]}"; do
+    echo -e "\nextract_sentences {@language}"
     extract_sentences
   done
 done
 
+echo -e "\npersist extracted sentences"
 persist_extracted_sentences
 
 for language in "${languages[@]}"; do
+  echo -e "\nembed sentences {@language}"
   embed_sentences
 done
 
@@ -112,9 +115,12 @@ for language_pair in "${language_pairs[@]}"; do
   IFS=' ' read -r -a language_pair_array <<< "$language_pair"
   source_language="${language_pair_array[0]}"
   target_language="${language_pair_array[1]}"
+  echo -e "\nembed sentences {@source_language} {@target_language}"
   mine_for_bitexts
 done
 
+echo -e "\nfind and persist similar articles"
 find_and_persist_similar_articles
 
+echo -e "\ncreate reports"
 create_reports
