@@ -53,9 +53,9 @@ if __name__ == "__main__":
                         article_id = _get_article_id(sentence_id)
                         validate_sentence_length(sentence)
                         insert_sentence(sentence_id, article_id, sentence, database_cursor)
-                        print('id-sentence-pairs inserted for', sentence_file)
                     except ValueError:
                         continue
+            print('id-sentence-pairs inserted for', sentence_file)
             database_connection.commit()
 
     finally:
