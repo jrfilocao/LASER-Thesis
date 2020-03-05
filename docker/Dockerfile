@@ -18,7 +18,8 @@ RUN apt-get -qq -y install \
         unzip \
         sudo \
         vim \
-        libpq-dev
+        libpq-dev \
+        python3-tk
 
 # Use C.UTF-8 locale to avoid issues with ASCII encoding
 ENV LC_ALL=C.UTF-8
