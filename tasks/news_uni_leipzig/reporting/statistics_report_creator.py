@@ -1,3 +1,4 @@
+import argparse
 import os
 import sys
 assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
@@ -8,29 +9,7 @@ sys.path.append(NEWS_TASK + '/reporting')
 from database_connector import get_database_connection
 from report_repository import *
 from report_writer import *
-import argparse
-
-GERMAN_PORTUGUESE = 'de_pt'
-
-ENGLISH_PORTUGUESE = 'en_pt'
-
-NAMED_ENTITY_AND_MULTIPLE_SENTENCES = 'ner_multiple'
-
-ONLY_NAMED_ENTITY = 'ner'
-
-ENGLISH_GERMAN = 'en_de'
-
-
-class ReportEntry:
-    def __init__(self, key, value):
-        self.key = key
-        self.value = value
-
-    def __repr__(self):
-        return self.key + ',' + self.value + '\n'
-
-    def __str__(self):
-        return self.key + ',' + self.value + '\n'
+from report_entry import *
 
 
 def _create_statistics_report(sentence_pair_score_threshold, database_cursor):
@@ -185,50 +164,6 @@ if __name__ == "__main__":
                                                statistics_report,
                                                output_report_base_file_name)
 
-            only_named_entity_en_de_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 only_named_entity_en_de_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_GERMAN,
-                                                 ONLY_NAMED_ENTITY)
-
-            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold,
-                                                                                                                                                  database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 named_entity_and_multiple_sentences_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_GERMAN,
-                                                 NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
-
-            only_named_entity_en_pt_result_rows = get_unique_article_pairs_with_common_named_entities_en_pt(score_threshold, database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 only_named_entity_en_pt_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_PORTUGUESE,
-                                                 ONLY_NAMED_ENTITY)
-
-            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold,
-                                                                                                                                                  database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 named_entity_and_multiple_sentences_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_PORTUGUESE,
-                                                 NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
-
-            only_named_entity_de_pt_result_rows = get_unique_article_pairs_with_common_named_entities_de_pt(score_threshold, database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 only_named_entity_de_pt_result_rows,
-                                                 output_report_base_file_name,
-                                                 GERMAN_PORTUGUESE,
-                                                 ONLY_NAMED_ENTITY)
-
-            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt(score_threshold,
-                                                                                                                                                  database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 named_entity_and_multiple_sentences_result_rows,
-                                                 output_report_base_file_name,
-                                                 GERMAN_PORTUGUESE,
-                                                 NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
     finally:
         if database_connection is not None:
             database_connection.close()
