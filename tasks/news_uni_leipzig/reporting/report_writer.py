@@ -19,7 +19,7 @@ def write_article_pair_results_into_file(sentence_pair_score_threshold, result_r
             report_file.write(str(result_row) + '\n')
 
 
-def write_consolidate_statistics_diagram_into_file(output_report_base_file_name, statistics_reports):
+def write_consolidate_statistics_diagram_into_file(statistics_reports, output_report_base_file_name):
     file_name = output_report_base_file_name + '_diagram'
 
     thresholds = list(statistics_reports) # x

@@ -158,13 +158,15 @@ if __name__ == "__main__":
         database_cursor = database_connection.cursor()
 
         statistics_reports = {}
-        for i in range(number_of_threshold_steps):
-            score_threshold = sentence_pair_score_base_threshold + i * threshold_step_value
+        for index in range(number_of_threshold_steps):
+            score_threshold = sentence_pair_score_base_threshold + index * threshold_step_value
             statistics_report = _create_statistics_report(score_threshold, database_cursor)
             write_report_entries_into_csv_file(score_threshold,
                                                statistics_report,
                                                output_report_base_file_name)
-            statistics_report[number_of_threshold_steps] = statistics_report
+            statistics_reports[score_threshold] = statistics_report
+        print(statistics_reports)
+        write_consolidate_statistics_diagram_into_file(statistics_reports, output_report_base_file_name)
 
     finally:
         if database_connection is not None:
