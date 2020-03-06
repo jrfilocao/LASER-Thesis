@@ -9,7 +9,7 @@ sys.path.append(NEWS_TASK + '/reporting')
 from database_connector import get_database_connection
 from report_repository import *
 from report_writer import *
-from report_entry import *
+from report_entry import ReportEntry
 
 
 def _create_statistics_report(sentence_pair_score_threshold, database_cursor):
