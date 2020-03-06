@@ -23,7 +23,7 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
     file_name = output_report_base_file_name + '_diagram'
 
     thresholds = list(statistics_reports) # x
-    report_entry_count = len(statistics_reports[list[0]]) # y
+    report_entry_count = len(statistics_reports[thresholds[0]]) # y
 
     for report_entry_index in range(report_entry_count):
         report_entry_name = statistics_reports[threshold][report_entry_index][0]
