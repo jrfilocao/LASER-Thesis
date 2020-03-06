@@ -27,7 +27,7 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
 
     for report_entry_index in range(report_entry_count):
         report_entry_name = statistics_reports[thresholds[0]][report_entry_index][0]
-        if 'language' in report_entry_count:
+        if 'language' in report_entry_name:
             continue
 
         fig = plt.figure()
