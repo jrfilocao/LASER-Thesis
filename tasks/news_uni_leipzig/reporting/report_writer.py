@@ -20,7 +20,7 @@ def write_article_pair_results_into_file(sentence_pair_score_threshold, result_r
 
 
 def write_consolidate_statistics_diagram_into_file(statistics_reports, output_report_base_file_name):
-    file_name = output_report_base_file_name + '_diagram'
+    base_file_name = output_report_base_file_name + '_diagram_{}'
 
     thresholds = list(statistics_reports) # x
     report_entry_count = len(statistics_reports[thresholds[0]]) # y
@@ -30,6 +30,7 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
         if 'language' in report_entry_name:
             continue
 
+        file_name = base_file_name.format(report_entry_name)
         fig = plt.figure()
         fig.tight_layout()
         plt.xlabel('x - thresholds')
