@@ -30,7 +30,8 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
         if 'language' in report_entry_name:
             continue
 
-        file_name = base_file_name.format(report_entry_name)
+        file_name = base_file_name.format(report_entry_name).replace(' ', '_')
+
         fig = plt.figure()
         fig.tight_layout()
         plt.xlabel('x - thresholds')
