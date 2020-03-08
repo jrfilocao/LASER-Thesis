@@ -29,7 +29,7 @@ def _get_article_sentences_as_text(sentences):
 
 
 def _get_output_file_name(output_base_file_name, language):
-    return output_base_file_name + '_' + language
+    return output_base_file_name + '_' + language + '.txt'
 
 
 def _get_output_article_id(triple_article_index):
