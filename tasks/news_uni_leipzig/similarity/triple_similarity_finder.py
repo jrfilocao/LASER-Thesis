@@ -10,16 +10,13 @@ sys.path.append(NEWS_TASK + '/common')
 sys.path.append(NEWS_TASK + '/similarity')
 
 from database_connector import get_database_connection
-from sentence_repository import get_articles_from_sentence, get_sentences_from_article
+from sentence_repository import get_sentences_from_article
 from triple_similarity_repository import *
-
-
-MINIMUM_CANDIDATE_SENTENCE_LENGTH = 5
 
 
 def _get_argument_parser():
     parser = argparse.ArgumentParser(description='Get similar articles in all three languages')
-    parser.add_argument('--output-base-file-name', default='../output_files/triple_similar_articles',
+    parser.add_argument('--output-base-file-name', default='./output_files/triple_similar_articles',
                         help='output base file name')
     return parser
 
