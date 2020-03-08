@@ -23,7 +23,7 @@ ONLY_NAMED_ENTITY = 'ner'
 
 
 def _get_argument_parser():
-    parser = argparse.ArgumentParser(description='Finding articles for all languages in crawled news texts')
+    parser = argparse.ArgumentParser(description='Create found article pairs report')
     parser.add_argument('--number-of-threshold-steps', type=int, default=14,
                         help='number of threshold steps')
     parser.add_argument('--threshold-step-value', type=float, default=0.025,
