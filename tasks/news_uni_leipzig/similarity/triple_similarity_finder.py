@@ -19,7 +19,7 @@ MINIMUM_CANDIDATE_SENTENCE_LENGTH = 5
 
 def _get_argument_parser():
     parser = argparse.ArgumentParser(description='Get similar articles in all three languages')
-    parser.add_argument('--output-base-file-name', required=True, default='../output_files/triple_similar_articles',
+    parser.add_argument('--output-base-file-name', default='../output_files/triple_similar_articles',
                         help='output base file name')
     return parser
 

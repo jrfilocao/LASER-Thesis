@@ -75,6 +75,10 @@ find_and_persist_similar_articles () {
     --file-language-pairs de_pt en_de en_pt
 }
 
+find_and_write_triple_similar_articles () {
+  python3 ${NEWS_TASK}/similarity/triple_similarity_finder.py
+}
+
 create_reports () {
   python3 ${NEWS_TASK}/reporting/statistics_report_creator.py --output-report-base-file-name ${output_directory}/report
   python3 ${NEWS_TASK}/reporting/article_pairs_report_creator.py --output-report-base-file-name ${output_directory}/report
@@ -122,6 +126,9 @@ done
 
 echo -e "\nfind and persist similar articles"
 find_and_persist_similar_articles
+
+echo -e "\nfind and write triple similar articles"
+find_and_write_triple_similar_articles
 
 echo -e "\ncreate reports"
 create_reports
