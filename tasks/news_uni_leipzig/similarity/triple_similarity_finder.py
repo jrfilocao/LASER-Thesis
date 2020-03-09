@@ -10,7 +10,6 @@ sys.path.append(NEWS_TASK + '/common')
 sys.path.append(NEWS_TASK + '/similarity')
 
 from database_connector import get_database_connection
-from sentence_repository import get_sentences_from_article
 from triple_similarity_repository import *
 
 
@@ -49,12 +48,12 @@ if __name__ == "__main__":
              open(pt_output_file_name, 'w') as pt_output_file, \
              open(en_output_file_name, 'w') as en_output_file:
 
-            triple_articles = get_triple_similar_articles(database_cursor)
+            triple_article_sentences = get_triple_similar_article_sentences(database_cursor)
 
-            for triple_article_index, triple_article in enumerate(triple_articles, start=1):
-                en_article_sentences = get_sentences_from_article(triple_article[0], database_cursor)
-                pt_article_sentences = get_sentences_from_article(triple_article[1], database_cursor)
-                de_article_sentences = get_sentences_from_article(triple_article[2], database_cursor)
+            for triple_article_index, triple_article_sentence in enumerate(triple_article_sentences, start=1):
+                en_article_sentences = get_sentences_from_first_article_found(triple_article_sentence[0], database_cursor)
+                pt_article_sentences = get_sentences_from_first_article_found(triple_article_sentence[1], database_cursor)
+                de_article_sentences = get_sentences_from_first_article_found(triple_article_sentence[2], database_cursor)
 
                 en_article_sentences_text = _get_article_sentences_as_text(en_article_sentences)
                 pt_article_sentences_text = _get_article_sentences_as_text(pt_article_sentences)
