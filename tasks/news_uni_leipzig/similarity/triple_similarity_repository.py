@@ -9,7 +9,7 @@ WITH en_de_sentences AS
 select distinct source_sentence, target_sentence
 from matched_article
 where named_entities_score is not null
-and sentence_candidates_score > 1
+and sentence_candidates_score > 1.025
 and number_of_similar_sentences > 1
 and source_language = 'en'
 and target_language = 'de'
@@ -19,7 +19,7 @@ de_pt_sentences AS
 select distinct source_sentence, target_sentence
 from matched_article
 where named_entities_score is not null
-and sentence_candidates_score > 1
+and sentence_candidates_score > 1.025
 and number_of_similar_sentences > 1
 and source_language = 'de'
 and target_language = 'pt'
@@ -29,7 +29,7 @@ en_pt_sentences AS
 select distinct source_sentence, target_sentence
 from matched_article
 where named_entities_score is not null
-and sentence_candidates_score > 1
+and sentence_candidates_score > 1.025
 and number_of_similar_sentences > 1
 and source_language = 'en'
 and target_language = 'pt'
