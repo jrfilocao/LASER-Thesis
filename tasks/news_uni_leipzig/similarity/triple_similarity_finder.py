@@ -69,9 +69,9 @@ if __name__ == "__main__":
                 pt_output_file.write(pt_article_sentences_text)
                 de_output_file.write(de_article_sentences_text)
 
-                en_output_file.write('\n')
-                pt_output_file.write('\n')
-                de_output_file.write('\n')
+                en_output_file.write('\n\n\n')
+                pt_output_file.write('\n\n\n')
+                de_output_file.write('\n\n\n')
     finally:
         if database_connection is not None:
             database_connection.close()
