@@ -33,27 +33,32 @@ and sentence_candidates_score > 1
 and number_of_similar_sentences > 1
 and source_language = 'en'
 and target_language = 'pt'
-)
+),
+triple_sentences AS
+(
 SELECT
-en_de.source_sentence,
-de_pt.target_sentence,
-en_de.target_sentence
+en_de.source_sentence en,
+de_pt.target_sentence pt,
+en_de.target_sentence de
 FROM en_de_sentences en_de
 INNER JOIN de_pt_sentences de_pt ON (en_de.target_sentence = de_pt.source_sentence)
 UNION ALL
 SELECT
-en_pt.source_sentence,
-en_pt.target_sentence,
-de_pt.source_sentence
+en_pt.source_sentence en,
+en_pt.target_sentence pt,
+de_pt.source_sentence de
 FROM en_pt_sentences en_pt
 INNER JOIN de_pt_sentences de_pt ON (en_pt.target_sentence = de_pt.target_sentence)
 UNION ALL
-SELECT
-en_pt.source_sentence, 
-en_pt.target_sentence,
-en_de.target_sentence
+SELECT distinct
+en_pt.source_sentence en,
+en_pt.target_sentence pt,
+en_de.target_sentence de
 FROM en_pt_sentences en_pt
-INNER JOIN en_de_sentences en_de ON (en_pt.source_sentence = en_de.source_sentence);
+INNER JOIN en_de_sentences en_de ON (en_pt.source_sentence = en_de.source_sentence)
+)
+SELECT DISTINCT en, pt, de
+FROM triple_sentences;
 """
 
 SELECT_ARTICLE_SENTENCES_BY_SENTENCE = """
