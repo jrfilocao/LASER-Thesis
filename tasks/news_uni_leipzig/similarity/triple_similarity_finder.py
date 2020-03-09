@@ -64,6 +64,9 @@ if __name__ == "__main__":
                 en_output_file.write(output_article_id)
                 pt_output_file.write(output_article_id)
                 de_output_file.write(output_article_id)
+                en_output_file.write('-------\n')
+                pt_output_file.write('-------\n')
+                de_output_file.write('-------\n')
 
                 en_output_file.write(en_article_sentences_text)
                 pt_output_file.write(pt_article_sentences_text)
@@ -72,11 +75,17 @@ if __name__ == "__main__":
                 en_output_file.write('\n\n')
                 pt_output_file.write('\n\n')
                 de_output_file.write('\n\n')
+                en_output_file.write('-------\n')
+                pt_output_file.write('-------\n')
+                de_output_file.write('-------\n')
 
                 en_output_file.write(triple_article_sentence[0])
                 pt_output_file.write(triple_article_sentence[1])
                 de_output_file.write(triple_article_sentence[2])
 
+                en_output_file.write('\n-------')
+                pt_output_file.write('\n-------')
+                de_output_file.write('\n-------')
                 en_output_file.write('\n\n\n')
                 pt_output_file.write('\n\n\n')
                 de_output_file.write('\n\n\n')
