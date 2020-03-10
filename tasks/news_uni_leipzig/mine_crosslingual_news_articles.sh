@@ -23,7 +23,7 @@ extract_sentences () {
 
   echo "input_file_name ${input_file_name} language ${language}"
 
-  python3 ${NEWS_TASK}/extraction/article_sentence_extractor.py \
+  python3 ${NEWS_TASK}/extraction/news_article_sentence_extractor.py \
     --input-file-name ${input_file_name} \
     --line-count 5 \
     --average-line-word-count 20 \
