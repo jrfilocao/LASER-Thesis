@@ -11,6 +11,8 @@ import sys
 #
 # NEWS_TASK = os.environ['NEWS_TASK']
 # sys.path.append(NEWS_TASK + '/extraction')
+sys.path.append('/home/fdsp/master/LASER-Thesis/tasks/news_uni_leipzig/extraction')
+sys.path.append('/home/fdsp/master/LASER-Thesis/tasks/news_uni_leipzig/extraction/en_de_corpus')
 #
 # from encoding_resolver import fix_text_encoding
 # from id_sentence_writer import write_id_sentence_pair_to_file
@@ -20,13 +22,70 @@ import sys
 # OUTPUT_DIRECTORY = NEWS_TASK + '/output_files/'
 from IPython.nbconvert.filters import get_lines
 
-from article_parser import extract_articles_from_file
+import re
+import syntok.segmenter as segmenter
+
+from en_de_article_id_sentence_extractor import extract_articles_from_file
+from id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_to_file
 
 INPUT_DIRECTORY = '../../input_files/'
+OUTPUT_DIRECTORY = '../../output_files/'
+FINDING_LANGUAGE_IN_FILE_NAME_REGEX = 'de-news-\d{4}-\d{2}-\d{2}.(\w{2}).al'
 
 
 def _get_file_lines(input_file):
     return input_file.readlines()
+
+
+def _get_language(input_file_name):
+    matches = re.search(FINDING_LANGUAGE_IN_FILE_NAME_REGEX, input_file_name)
+    return matches.group(1)
+
+
+def _get_id_sentence_output_file_name(language):
+    return OUTPUT_DIRECTORY + language + '_id_sentence_pairs'
+
+
+def _get_sentences_output_file_name(language):
+    return OUTPUT_DIRECTORY + language + '_sentences'
+
+
+def _write_id_sentence_pair_to_file(output_file, article_id, sentence, sentence_index):
+    sentence_id = _get_sentence_id(article_id, sentence_index)
+    id_sentence_pair = _get_id_sentence_pair(sentence, sentence_id)
+    output_file.write(id_sentence_pair)
+
+
+def _write_sentence_to_file(output_file, sentence):
+    sentence_line = _get_sentence_line(sentence)
+    output_file.write(sentence_line)
+
+
+def _get_sentence_id(article_id, sentence_index):
+    return article_id + '_sentence_' + str(sentence_index)
+
+
+def _get_id_sentence_pair(sentence, sentence_id):
+    return sentence_id + '    ' + sentence + '\n'
+
+
+def _get_sentence_line(sentence):
+    return sentence + '\n'
+
+
+def _segment_text_into_sentences(raw_sentence: str):
+    sentences = []
+    for segmented_sentences in segmenter.process(raw_sentence):
+        for sentence in segmented_sentences:
+            sentences.append("".join(map(str, sentence)).lstrip())
+    return sentences
+
+
+def _get_segmented_sentences(raw_article_sentences):
+    segmented_sentences = []
+    for raw_sentence in raw_article_sentences:
+        segmented_sentences.extend(_segment_text_into_sentences(raw_sentence))
+    return segmented_sentences
 
 
 if __name__ == "__main__":
@@ -35,33 +94,15 @@ if __name__ == "__main__":
 
     for input_file_name in input_file_names:
 
-        articles = extract_articles_from_file(INPUT_DIRECTORY + input_file_name)
-        print(articles)
+        language = _get_language(input_file_name)
+        articles = extract_articles_from_file(INPUT_DIRECTORY + input_file_name, language)
 
-    # with open(_get_id_sentence_output_file_name(arguments.language), 'a') as id_sentence_pairs_file, \
-    #      open(_get_sentences_output_file_name(arguments.language), 'a') as sentences_file:
-    #
-    #     valid_sentences = 0
-    #     for article_index, article in enumerate(articles, start=1):
-    #         article_text = _get_article_elements_as_text(article)
-    #         right_encoded_article_text = fix_text_encoding(article_text)
-    #         sanitized_article_text = _remove_invalid_characters(right_encoded_article_text)
-    #         article_sentences = _segment_text_into_sentences(sanitized_article_text)
-    #
-    #         for sentence_index, sentence in enumerate(article_sentences, start=1):
-    #             if _has_not_minimum_word_count(sentence):
-    #                 break
-    #
-    #             if is_sentence_language_not_correct(sentence, arguments.language):
-    #                 break
-    #
-    #             valid_sentences += 1
-    #
-    #             _write_valid_sentence_information_to_files(id_sentence_pairs_file,
-    #                                                        ids_file,
-    #                                                        sentences_file,
-    #                                                        article_index,
-    #                                                        sentence_index,
-    #                                                        sentence,
-    #                                                        arguments.input_file_name)
-    #     print('valid_sentences', valid_sentences, 'input_file_name', arguments.input_file_name)
+        with open(_get_id_sentence_output_file_name(language), 'a') as id_sentence_pairs_file, \
+             open(_get_sentences_output_file_name(language), 'a') as sentences_file:
+
+            for article_id in articles.keys():
+                raw_article_sentences = articles[article_id]
+                article_sentences = _get_segmented_sentences(raw_article_sentences)
+                for sentence_index, sentence in enumerate(article_sentences, start=1):
+                    _write_id_sentence_pair_to_file(id_sentence_pairs_file, article_id, sentence, sentence_index)
+                    _write_sentence_to_file(sentences_file, sentence)

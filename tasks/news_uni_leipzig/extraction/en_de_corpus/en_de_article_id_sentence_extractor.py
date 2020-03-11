@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
-import re
-
-FINDING_LANGUAGE_IN_FILE_NAME_REGEX = 'de-news-\d{4}-\d{2}-\d{2}.(\w{2}).al'
-
 ARTICLE = 'article'
 EMPTY_STRING = ''
 NEW_LINE = '\n'
@@ -13,10 +9,8 @@ CLOSE_BRACKET = '>'
 ARTICLE_ID_TAG_BEGIN = '<DOC de-news-'
 
 
-def extract_articles_from_file(input_file_name):
+def extract_articles_from_file(input_file_name, language):
     with open(input_file_name, 'r') as input_file:
-
-        language = _get_language(input_file_name)
 
         articles = {}
         article_id = EMPTY_STRING
@@ -30,13 +24,9 @@ def extract_articles_from_file(input_file_name):
                 article_sentences = []
                 article_id = _get_article_id(file_line, language)
             else:
-                article_sentences.append(file_line)
+                sentence_with_no_new_line = file_line.replace(NEW_LINE, EMPTY_STRING)
+                article_sentences.append(sentence_with_no_new_line)
     return articles
-
-
-def _get_language(input_file_name):
-    matches = re.search(FINDING_LANGUAGE_IN_FILE_NAME_REGEX, input_file_name)
-    return matches.group(1)
 
 
 def _get_article_id(file_line, language):
