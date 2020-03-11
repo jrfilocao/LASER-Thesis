@@ -10,7 +10,7 @@ ARTICLE_ID_TAG_BEGIN = '<DOC de-news-'
 
 
 def extract_articles_from_file(input_file_name, language):
-    with open(input_file_name, 'r') as input_file:
+    with open(input_file_name, 'r', errors='replace') as input_file:
 
         articles = {}
         article_id = EMPTY_STRING
