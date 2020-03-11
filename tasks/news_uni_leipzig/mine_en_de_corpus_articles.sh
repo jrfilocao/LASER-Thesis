@@ -19,15 +19,7 @@ encoder="${models_directory}/bilstm.93langs.2018-12-26.pt"
 bpe_codes="${models_directory}/93langs.fcodes"
 
 extract_sentences () {
-  input_file_name="${input_directory}/${input_base_file_name}_${language}"
-
-  echo "input_file_name ${input_file_name} language ${language}"
-
-  python3 ${NEWS_TASK}/extraction/news_article_extractor.py \
-    --input-file-name ${input_file_name} \
-    --line-count 5 \
-    --average-line-word-count 20 \
-    --language ${language}
+  python3 ${NEWS_TASK}/extraction/en_de_corpus/en_de_article_extractor.py
 }
 
 embed_sentences () {
@@ -61,7 +53,6 @@ mine_for_bitexts () {
 persist_extracted_sentences () {
   python3 ${NEWS_TASK}/extraction/id_sentence_pair_persister.py \
     --id-sentence-pair-files \
-      ${output_directory}/pt_id_sentence_pairs \
       ${output_directory}/de_id_sentence_pairs \
       ${output_directory}/en_id_sentence_pairs
 }
@@ -69,10 +60,8 @@ persist_extracted_sentences () {
 find_and_persist_similar_articles () {
   python3 ${NEWS_TASK}/similarity/article_similarity_finder.py \
     --sentence-candidate-file-paths \
-      ${output_directory}/de_pt_sentence_candidates.tsv \
       ${output_directory}/en_de_sentence_candidates.tsv \
-      ${output_directory}/en_pt_sentence_candidates.tsv \
-    --file-language-pairs de_pt en_de en_pt
+    --file-language-pairs en_de
 }
 
 find_and_write_triple_similar_articles () {
@@ -96,8 +85,7 @@ echo -e "\nProcessing news articles"
 input_directory="${NEWS_TASK}/input_files"
 output_directory="${NEWS_TASK}/output_files"
 
-input_base_file_names=(wdt_2019-07-08 wdt_2019-07-09 wdt_2019-07-10 wdt_2019-07-11 wdt_2019-07-12 wdt_2019-07-13 wdt_2019-07-14)
-languages=(en pt de)
+languages=(en de)
 
 for input_base_file_name in "${input_base_file_names[@]}"; do
   for language in "${languages[@]}"; do
@@ -114,7 +102,7 @@ for language in "${languages[@]}"; do
   embed_sentences
 done
 
-language_pairs=( "en de" "en pt" "de pt")
+language_pairs=( "en de")
 
 for language_pair in "${language_pairs[@]}"; do
   IFS=' ' read -r -a language_pair_array <<< "$language_pair"
@@ -126,9 +114,6 @@ done
 
 echo -e "\nfind and persist similar articles"
 find_and_persist_similar_articles
-
-echo -e "\nfind and write triple similar articles"
-find_and_write_triple_similar_articles
 
 echo -e "\ncreate reports"
 create_reports
