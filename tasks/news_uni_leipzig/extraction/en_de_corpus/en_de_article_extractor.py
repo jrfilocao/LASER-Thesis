@@ -1,26 +1,15 @@
 #!/usr/bin/python3
 
-# import re
-# import syntok.segmenter as segmenter
 
-# import os
+import os
 from os import listdir
 from os.path import isfile, join
 import sys
-# assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
-#
-# NEWS_TASK = os.environ['NEWS_TASK']
-# sys.path.append(NEWS_TASK + '/extraction')
-sys.path.append('/home/fdsp/master/LASER-Thesis/tasks/news_uni_leipzig/extraction')
-sys.path.append('/home/fdsp/master/LASER-Thesis/tasks/news_uni_leipzig/extraction/en_de_corpus')
-#
-# from encoding_resolver import fix_text_encoding
-# from id_sentence_writer import write_id_sentence_pair_to_file
-# from language_identification import is_sentence_language_not_correct
+assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TASK'
 
-# INPUT_DIRECTORY = NEWS_TASK + '/input_files/'
-# OUTPUT_DIRECTORY = NEWS_TASK + '/output_files/'
-from IPython.nbconvert.filters import get_lines
+NEWS_TASK = os.environ['NEWS_TASK']
+sys.path.append(NEWS_TASK + '/extraction')
+sys.path.append(NEWS_TASK + '/extraction/en_de_corpus')
 
 import re
 import syntok.segmenter as segmenter
@@ -28,8 +17,9 @@ import syntok.segmenter as segmenter
 from en_de_article_id_sentence_extractor import extract_articles_from_file
 from id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_to_file
 
-INPUT_DIRECTORY = '../../input_files/'
-OUTPUT_DIRECTORY = '../../output_files/'
+INPUT_DIRECTORY = NEWS_TASK + '/input_files/'
+OUTPUT_DIRECTORY = NEWS_TASK + '/output_files/'
+
 FINDING_LANGUAGE_IN_FILE_NAME_REGEX = 'de-news-\d{4}-\d{2}-\d{2}.(\w{2}).al'
 
 
