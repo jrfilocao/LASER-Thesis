@@ -35,6 +35,54 @@ def _get_argument_parser():
     return parser
 
 
+def create_en_de_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name):
+    only_named_entity_en_de_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         only_named_entity_en_de_result_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_GERMAN,
+                                         ONLY_NAMED_ENTITY)
+    named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold,
+                                                                                                                                          database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         named_entity_and_multiple_sentences_result_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_GERMAN,
+                                         NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+
+
+def create_en_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name):
+    only_named_entity_en_pt_result_rows = get_unique_article_pairs_with_common_named_entities_en_pt(score_threshold, database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         only_named_entity_en_pt_result_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         ONLY_NAMED_ENTITY)
+    named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold,
+                                                                                                                                          database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         named_entity_and_multiple_sentences_result_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+
+
+def create_de_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name):
+    only_named_entity_de_pt_result_rows = get_unique_article_pairs_with_common_named_entities_de_pt(score_threshold, database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         only_named_entity_de_pt_result_rows,
+                                         output_report_base_file_name,
+                                         GERMAN_PORTUGUESE,
+                                         ONLY_NAMED_ENTITY)
+    named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt(score_threshold,
+                                                                                                                                          database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         named_entity_and_multiple_sentences_result_rows,
+                                         output_report_base_file_name,
+                                         GERMAN_PORTUGUESE,
+                                         NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+
+
 if __name__ == "__main__":
 
     parser = _get_argument_parser()
@@ -52,50 +100,9 @@ if __name__ == "__main__":
         for i in range(number_of_threshold_steps):
             score_threshold = sentence_pair_score_base_threshold + i * threshold_step_value
 
-            only_named_entity_en_de_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 only_named_entity_en_de_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_GERMAN,
-                                                 ONLY_NAMED_ENTITY)
-
-            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold,
-                                                                                                                                                  database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 named_entity_and_multiple_sentences_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_GERMAN,
-                                                 NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
-
-            only_named_entity_en_pt_result_rows = get_unique_article_pairs_with_common_named_entities_en_pt(score_threshold, database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 only_named_entity_en_pt_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_PORTUGUESE,
-                                                 ONLY_NAMED_ENTITY)
-
-            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold,
-                                                                                                                                                  database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 named_entity_and_multiple_sentences_result_rows,
-                                                 output_report_base_file_name,
-                                                 ENGLISH_PORTUGUESE,
-                                                 NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
-
-            only_named_entity_de_pt_result_rows = get_unique_article_pairs_with_common_named_entities_de_pt(score_threshold, database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 only_named_entity_de_pt_result_rows,
-                                                 output_report_base_file_name,
-                                                 GERMAN_PORTUGUESE,
-                                                 ONLY_NAMED_ENTITY)
-
-            named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_de_pt(score_threshold,
-                                                                                                                                                  database_cursor)
-            write_article_pair_results_into_file(score_threshold,
-                                                 named_entity_and_multiple_sentences_result_rows,
-                                                 output_report_base_file_name,
-                                                 GERMAN_PORTUGUESE,
-                                                 NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+            create_en_de_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name)
+            create_en_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name)
+            create_de_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name)
     finally:
         if database_connection is not None:
             database_connection.close()
