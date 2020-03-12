@@ -70,7 +70,7 @@ find_and_write_triple_similar_articles () {
 
 create_reports () {
   python3 ${NEWS_TASK}/reporting/statistics_report_creator.py --output-report-base-file-name ${output_directory}/report
-  python3 ${NEWS_TASK}/reporting/article_pairs_report_creator.py --output-report-base-file-name ${output_directory}/report
+  python3 ${NEWS_TASK}/reporting/en_de_article_pairs_report_creator.py --output-report-base-file-name ${output_directory}/report
 }
 
 
