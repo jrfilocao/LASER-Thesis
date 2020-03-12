@@ -92,30 +92,30 @@ group by matched_article.source_article_id, matched_article.target_article_id;
 """
 
 SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_DE = """
-select source_article_id, target_article_id
+select source_article_id, target_article_id, number_of_similar_sentences
 from matched_article
 where source_language = 'en' and target_language = 'de'
 and named_entities_score is not null
 and sentence_candidates_score >= %s
-group by matched_article.source_article_id, matched_article.target_article_id;
+group by matched_article.source_article_id, matched_article.target_article_id, matched_article.number_of_similar_sentences;
 """
 
 SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_PT = """
-select source_article_id, target_article_id
+select source_article_id, target_article_id, number_of_similar_sentences
 from matched_article
 where source_language = 'en' and target_language = 'pt'
 and named_entities_score is not null
 and sentence_candidates_score >= %s
-group by matched_article.source_article_id, matched_article.target_article_id;
+group by matched_article.source_article_id, matched_article.target_article_id, matched_article.number_of_similar_sentences;
 """
 
 SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_DE_PT = """
-select source_article_id, target_article_id
+select source_article_id, target_article_id, number_of_similar_sentences
 from matched_article
 where source_language = 'de' and target_language = 'pt'
 and named_entities_score is not null
 and sentence_candidates_score >= %s
-group by matched_article.source_article_id, matched_article.target_article_id;
+group by matched_article.source_article_id, matched_article.target_article_id, matched_article.number_of_similar_sentences;
 """
 
 SELECT_UNIQUE_ARTICLES_WITH_MORE_THAN_2_SENTENCES_EN_DE = """
