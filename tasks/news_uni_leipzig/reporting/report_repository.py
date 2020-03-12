@@ -175,6 +175,10 @@ and sentence_candidates_score >= %s
 group by matched_article.source_article_id, matched_article.target_article_id, matched_article.number_of_similar_sentences;
 """
 
+SELECT_TOTAL_NUMBER_OF_ARTICLES = """
+select count(distinct article_id) from sentence;
+"""
+
 
 def get_total_sentence_pairs_count(sentence_pair_score_threshold, database_cursor):
     try:
@@ -384,5 +388,14 @@ def get_unique_articles_with_common_named_entities_and_multiple_similar_sentence
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_DE_PT, (sentence_pair_score_threshold,))
         return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_total_number_of_articles(database_cursor):
+    try:
+        database_cursor.execute(SELECT_TOTAL_NUMBER_OF_ARTICLES, ())
+        result = database_cursor.fetchone()
+        return result[0]
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
