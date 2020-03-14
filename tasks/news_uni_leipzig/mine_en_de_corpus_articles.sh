@@ -87,12 +87,8 @@ output_directory="${NEWS_TASK}/output_files"
 
 languages=(en de)
 
-for input_base_file_name in "${input_base_file_names[@]}"; do
-  for language in "${languages[@]}"; do
-    echo -e "\nextract_sentences ${language}"
-    extract_sentences
-  done
-done
+echo -e "\nextract_sentences ${language}"
+extract_sentences
 
 echo -e "\npersist extracted sentences"
 persist_extracted_sentences
