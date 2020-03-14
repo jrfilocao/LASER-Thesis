@@ -122,7 +122,8 @@ def _write_triple_articles(triple_articles, en_output_file, pt_output_file, de_o
 
 def _get_triple_articles(triple_article_sentences):
     triple_articles = []
-    for triple_article_index, triple_article_sentence in enumerate(triple_article_sentences, start=1):
+    triple_article_index = 1
+    for triple_article_sentence in triple_article_sentences:
         sentences_added_in_previous_articles = _add_triple_sentences_into_articles_if_present(triple_article_sentence[0],
                                                                                               triple_article_sentence[1],
                                                                                               triple_article_sentence[2],
@@ -131,6 +132,8 @@ def _get_triple_articles(triple_article_sentences):
         if not sentences_added_in_previous_articles:
             triple_article_tuple = _get_triple_article(triple_article_sentence[0], triple_article_sentence[1], triple_article_sentence[2], triple_article_index)
             triple_articles.append(triple_article_tuple)
+            triple_article_index += 1
+
     return triple_articles
 
 
@@ -153,7 +156,6 @@ if __name__ == "__main__":
             triple_article_sentences = get_triple_similar_article_sentences(database_cursor)
             triple_articles = _get_triple_articles(triple_article_sentences)
             _write_triple_articles(triple_articles, en_output_file, pt_output_file, de_output_file)
-
 
     finally:
         if database_connection is not None:
