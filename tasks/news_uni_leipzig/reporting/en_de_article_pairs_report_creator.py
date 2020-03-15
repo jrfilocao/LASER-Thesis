@@ -44,7 +44,6 @@ def _get_correct_article_pairs_count_and_errors(only_named_entity_result_rows):
     incorrect_article_pairs = []
 
     for only_named_entity_result_row in only_named_entity_result_rows:
-        print('_get_correct_article_pairs_count_and_errors', only_named_entity_result_row[0][3:], only_named_entity_result_row[0][3:], only_named_entity_result_row)
         if only_named_entity_result_row[0][3:] == only_named_entity_result_row[0][3:]: # de_1998_03_21_article_1 == en_1998_03_21_article_1
             correct_article_pairs_count += 1
         else:
@@ -56,6 +55,8 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
     report_entries = []
     only_named_entity_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
     only_named_entity_correct_article_pairs_count, incorrect_article_pairs = _get_correct_article_pairs_count_and_errors(only_named_entity_result_rows)
+
+    print('incorrect_article_pairs ner', incorrect_article_pairs)
 
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
@@ -76,6 +77,8 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
     named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold,
                                                                                                                                           database_cursor)
     named_entity_and_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs = _get_correct_article_pairs_count_and_errors(named_entity_and_multiple_sentences_result_rows)
+
+    print('incorrect_article_pairs multiple ner', incorrect_article_pairs)
 
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
