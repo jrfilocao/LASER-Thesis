@@ -62,10 +62,11 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
                                          ENGLISH_GERMAN,
                                          INVALID_ONLY_NAMED_ENTITY)
 
-    report_entries.append(('number_of_articles_extracted', total_number_of_articles))
-    report_entries.append(('number_of_articles_extracted per language', total_number_of_articles/2))
+    report_entries.append(('number_of_articles_extracted_en_de', total_number_of_articles))
+    report_entries.append(('number_of_articles_extracted_per_language_en_de', total_number_of_articles/2))
     report_entries.append(('only_named_entity_en_de_recall', float(only_named_entity_correct_article_pairs_count)/float(total_number_of_articles/2)*100))
     report_entries.append(('only_named_entity_en_de_precision', float(only_named_entity_correct_article_pairs_count) / float(len(only_named_entity_result_rows)) * 100))
+    report_entries.append(('only_named_entity_en_de_invalid_pair_count', len(incorrect_article_pairs)))
 
     write_article_pair_results_into_file(score_threshold,
                                          only_named_entity_result_rows,
@@ -86,6 +87,7 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
                           float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles) * 100))
     report_entries.append(('named_entity_and_multiple_sentences_en_de_precision',
                           float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(len(named_entity_and_multiple_sentences_result_rows)) * 100))
+    report_entries.append(('named_entity_and_multiple_sentences_en_de_invalid_pair_count', len(incorrect_article_pairs)))
 
     write_article_pair_results_into_file(score_threshold,
                                          named_entity_and_multiple_sentences_result_rows,
