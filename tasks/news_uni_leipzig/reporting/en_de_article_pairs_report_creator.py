@@ -42,7 +42,9 @@ def _get_argument_parser():
 def _get_correct_article_pairs_count_and_errors(only_named_entity_result_rows):
     correct_article_pairs_count = 0
     incorrect_article_pairs = []
+
     for only_named_entity_result_row in only_named_entity_result_rows:
+        print('_get_correct_article_pairs_count_and_errors', only_named_entity_result_row[0][3:], only_named_entity_result_row[0][3:], only_named_entity_result_row)
         if only_named_entity_result_row[0][3:] == only_named_entity_result_row[0][3:]: # de_1998_03_21_article_1 == en_1998_03_21_article_1
             correct_article_pairs_count += 1
         else:

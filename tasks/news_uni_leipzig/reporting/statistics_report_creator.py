@@ -137,7 +137,7 @@ def _get_argument_parser():
                         help='threshold step value')
     parser.add_argument('--sentence-pair-score-base-threshold', type=float, default=0.8,
                         help='sentence pair score base threshold')
-    parser.add_argument('--output-report-base-file-name', required=True, default='../output_files/report',
+    parser.add_argument('--output-report-base-file-name', required=True, default='../output_files/report_stats',
                         help='output report base file name')
     return parser
 
