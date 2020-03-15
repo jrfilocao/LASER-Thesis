@@ -84,7 +84,7 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
                                          INVALID_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
 
     report_entries.append(('named_entity_and_multiple_sentences_en_de_recall',
-                          float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles) * 100))
+                          float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles/2) * 100))
     report_entries.append(('named_entity_and_multiple_sentences_en_de_precision',
                           float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(len(named_entity_and_multiple_sentences_result_rows)) * 100))
     report_entries.append(('named_entity_and_multiple_sentences_en_de_invalid_pair_count', len(incorrect_article_pairs)))
