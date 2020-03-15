@@ -61,6 +61,7 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
                                          ENGLISH_GERMAN,
                                          INVALID_ONLY_NAMED_ENTITY)
 
+    report_entries.append('number_of_articles_extracted', total_number_of_articles)
     report_entries.append('only_named_entity_en_de_recall', float(only_named_entity_correct_article_pairs_count)/float(total_number_of_articles)*100)
     report_entries.append('only_named_entity_en_de_precision', float(only_named_entity_correct_article_pairs_count) / float(len(only_named_entity_result_rows)) * 100)
 
