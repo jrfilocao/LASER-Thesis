@@ -8,7 +8,7 @@ def write_report_entries_into_csv_file(sentence_pair_score_threshold, report_ent
     file_name = output_report_base_file_name + '_statistics_{}.txt'.format(formatted_threshold)
     with open(file_name, 'w') as report_file:
         for report_entry in report_entries:
-            report_file.write(str(report_entry))
+            report_file.write(str(report_entry) + '\n')
 
 
 def write_article_pair_results_into_file(sentence_pair_score_threshold, result_rows, output_report_base_file_name, language, type):
