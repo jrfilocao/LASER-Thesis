@@ -16,6 +16,7 @@ import syntok.segmenter as segmenter
 
 from en_de_article_id_sentence_extractor import extract_articles_from_file
 from id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_to_file
+from language_identification import is_sentence_language_not_correct
 
 INPUT_DIRECTORY = NEWS_TASK + '/input_files/'
 OUTPUT_DIRECTORY = NEWS_TASK + '/output_files/'
@@ -94,5 +95,7 @@ if __name__ == "__main__":
                 raw_article_sentences = articles[article_id]
                 article_sentences = _get_segmented_sentences(raw_article_sentences)
                 for sentence_index, sentence in enumerate(article_sentences, start=1):
+                    if is_sentence_language_not_correct(sentence, language):
+                        break
                     _write_id_sentence_pair_to_file(id_sentence_pairs_file, article_id, sentence, sentence_index)
                     _write_sentence_to_file(sentences_file, sentence)
