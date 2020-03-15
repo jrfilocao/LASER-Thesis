@@ -39,22 +39,27 @@ def _get_argument_parser():
     return parser
 
 
-def _get_correct_article_pairs_count_and_errors(only_named_entity_result_rows):
+def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_named_entity_result_rows):
     correct_article_pairs_count = 0
+    total_matched_sentence_count_in_correct_pairs = 0
     incorrect_article_pairs = []
 
     for only_named_entity_result_row in only_named_entity_result_rows:
         if only_named_entity_result_row[0][3:] == only_named_entity_result_row[1][3:]: # de_1998_03_21_article_1 == en_1998_03_21_article_1
             correct_article_pairs_count += 1
+            total_matched_sentence_count_in_correct_pairs += only_named_entity_result_row[2]
         else:
             incorrect_article_pairs.append(only_named_entity_result_row)
-    return correct_article_pairs_count, incorrect_article_pairs
+
+    average_matched_sentence_count_in_correct_pairs = total_matched_sentence_count_in_correct_pairs / correct_article_pairs_count
+    return correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs
 
 
 def create_en_de_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles):
     report_entries = []
     only_named_entity_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
-    only_named_entity_correct_article_pairs_count, incorrect_article_pairs = _get_correct_article_pairs_count_and_errors(only_named_entity_result_rows)
+    only_named_entity_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
+        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_named_entity_result_rows)
 
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
@@ -67,6 +72,7 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
     report_entries.append(('only_named_entity_en_de_recall', float(only_named_entity_correct_article_pairs_count)/float(total_number_of_articles/2)*100))
     report_entries.append(('only_named_entity_en_de_precision', float(only_named_entity_correct_article_pairs_count) / float(len(only_named_entity_result_rows)) * 100))
     report_entries.append(('only_named_entity_en_de_invalid_pair_count', len(incorrect_article_pairs)))
+    report_entries.append(('only_named_entity_en_de_average_matched_sentence_count', average_matched_sentence_count_in_correct_pairs))
 
     write_article_pair_results_into_file(score_threshold,
                                          only_named_entity_result_rows,
@@ -75,7 +81,8 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
                                          ONLY_NAMED_ENTITY)
     named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold,
                                                                                                                                           database_cursor)
-    named_entity_and_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs = _get_correct_article_pairs_count_and_errors(named_entity_and_multiple_sentences_result_rows)
+    named_entity_and_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
+        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(named_entity_and_multiple_sentences_result_rows)
 
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
@@ -88,6 +95,7 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
     report_entries.append(('named_entity_and_multiple_sentences_en_de_precision',
                           float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(len(named_entity_and_multiple_sentences_result_rows)) * 100))
     report_entries.append(('named_entity_and_multiple_sentences_en_de_invalid_pair_count', len(incorrect_article_pairs)))
+    report_entries.append(('named_entity_and_multiple_sentences_en_de_average_matched_sentence_count', average_matched_sentence_count_in_correct_pairs))
 
     write_article_pair_results_into_file(score_threshold,
                                          named_entity_and_multiple_sentences_result_rows,
