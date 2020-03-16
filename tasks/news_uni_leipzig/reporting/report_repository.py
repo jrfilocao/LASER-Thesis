@@ -179,6 +179,10 @@ SELECT_TOTAL_NUMBER_OF_ARTICLES = """
 select count(distinct article_id) from sentence;
 """
 
+SELECT_TOTAL_NUMBER_OF_SENTENCES = """
+select count(sentence) from sentence;
+"""
+
 
 def get_total_sentence_pairs_count(sentence_pair_score_threshold, database_cursor):
     try:
@@ -395,6 +399,15 @@ def get_unique_articles_with_common_named_entities_and_multiple_similar_sentence
 def get_total_number_of_articles(database_cursor):
     try:
         database_cursor.execute(SELECT_TOTAL_NUMBER_OF_ARTICLES, ())
+        result = database_cursor.fetchone()
+        return result[0]
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_total_number_of_sentences(database_cursor):
+    try:
+        database_cursor.execute(SELECT_TOTAL_NUMBER_OF_SENTENCES, ())
         result = database_cursor.fetchone()
         return result[0]
     except (Exception, psycopg2.DatabaseError) as error:

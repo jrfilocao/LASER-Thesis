@@ -55,7 +55,7 @@ def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_
     return correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs
 
 
-def create_en_de_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles):
+def create_en_de_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles, total_number_of_sentences):
     report_entries = []
     only_named_entity_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
     only_named_entity_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
@@ -69,6 +69,7 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
 
     report_entries.append(('number_of_articles_extracted_en_de', total_number_of_articles))
     report_entries.append(('number_of_articles_extracted_per_language_en_de', total_number_of_articles/2))
+    report_entries.append(('average_number_of_sentences_per_article', total_number_of_sentences / total_number_of_articles))
     report_entries.append(('only_named_entity_en_de_recall', float(only_named_entity_correct_article_pairs_count)/float(total_number_of_articles/2)*100))
     report_entries.append(('only_named_entity_en_de_precision', float(only_named_entity_correct_article_pairs_count) / float(len(only_named_entity_result_rows)) * 100))
     report_entries.append(('only_named_entity_en_de_invalid_pair_count', len(incorrect_article_pairs)))
@@ -121,11 +122,16 @@ if __name__ == "__main__":
         database_cursor = database_connection.cursor()
 
         total_number_of_articles = get_total_number_of_articles(database_cursor)
+        total_number_of_sentences = get_total_number_of_sentences(database_cursor)
 
         statistics_reports = {}
         for i in range(number_of_threshold_steps):
             score_threshold = sentence_pair_score_base_threshold + i * threshold_step_value
-            statistics_report = create_en_de_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles)
+            statistics_report = create_en_de_article_pairs_report(score_threshold,
+                                                                  database_cursor,
+                                                                  output_report_base_file_name,
+                                                                  total_number_of_articles,
+                                                                  total_number_of_sentences)
             statistics_reports[score_threshold] = statistics_report
 
         print(statistics_reports)
