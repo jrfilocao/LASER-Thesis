@@ -91,6 +91,29 @@ and sentence_candidates_score >= %s
 group by matched_article.source_article_id, matched_article.target_article_id;
 """
 
+SELECT_FALSE_NEGATIVE_EN_ARTICLES_WITH_COMMON_NAMED_ENTITIES_EN_DE = """
+WITH ner_correct_article_pairs AS
+(
+select source_article_id, target_article_id, number_of_similar_sentences
+from matched_article
+where source_language = 'en' and target_language = 'de'
+and named_entities_score is not null
+and sentence_candidates_score >= %s
+and substring(source_article_id, 3) = substring(target_article_id, 3)
+group by source_article_id, target_article_id, number_of_similar_sentences
+),
+all_english_article_ids AS
+(
+select article_id from sentence where substring(article_id, 0, 3) = 'en'
+),
+false_negatives_en_articles AS (
+select article_id from all_english_article_ids
+except
+select source_article_id as article_id from ner_correct_article_pairs
+)
+select article_id as source_article_id, 'de' || substring(article_id, 3) as target_article_id from false_negatives_en_articles;
+"""
+
 SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_DE = """
 select source_article_id, target_article_id, number_of_similar_sentences
 from matched_article
@@ -144,6 +167,30 @@ and number_of_similar_sentences > 1
 and sentence_candidates_score >= %s
 group by matched_article.source_article_id, matched_article.target_article_id;
 """
+
+SELECT_FALSE_NEGATIVE_EN_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_DE = """
+WITH ner_multiple_correct_article_pairs AS
+(
+select source_article_id, target_article_id, number_of_similar_sentences
+from matched_article
+where source_language = 'en' and target_language = 'de'
+and named_entities_score is not null
+and sentence_candidates_score >= %s
+and number_of_similar_sentences > 1
+group by source_article_id, target_article_id, number_of_similar_sentences
+),
+all_english_article_ids AS
+(
+select article_id from sentence where substring(article_id, 0, 3) = 'en'
+),
+false_negatives_en_articles AS (
+select article_id from all_english_article_ids
+except
+select source_article_id as article_id from ner_multiple_correct_article_pairs
+)
+select article_id as source_article_id, 'de' || substring(article_id, 3) as target_article_id from false_negatives_en_articles;
+"""
+
 
 SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_DE = """
 select source_article_id, target_article_id, number_of_similar_sentences
@@ -284,6 +331,14 @@ def get_unique_article_pairs_count_with_common_named_entities_en_de(sentence_pai
         print(error)
 
 
+def get_false_negative_en_articles_with_common_named_entities_en_de(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_FALSE_NEGATIVE_EN_ARTICLES_WITH_COMMON_NAMED_ENTITIES_EN_DE, (sentence_pair_score_threshold,))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
 def get_unique_article_pairs_with_common_named_entities_en_de(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLE_PAIRS_WITH_COMMON_NAMED_ENTITIES_EN_DE, (sentence_pair_score_threshold,))
@@ -359,6 +414,14 @@ def get_unique_articles_count_with_common_named_entities_and_multiple_similar_se
 def get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(sentence_pair_score_threshold, database_cursor):
     try:
         database_cursor.execute(SELECT_UNIQUE_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_DE, (sentence_pair_score_threshold,))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(sentence_pair_score_threshold, database_cursor):
+    try:
+        database_cursor.execute(SELECT_FALSE_NEGATIVE_EN_ARTICLES_WITH_COMMON_NAMED_ENTITIES_AND_MULTIPLE_SIMILAR_SENTENCES_EN_DE, (sentence_pair_score_threshold,))
         return database_cursor.fetchall()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)

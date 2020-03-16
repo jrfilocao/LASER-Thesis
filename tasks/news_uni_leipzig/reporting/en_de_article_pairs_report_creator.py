@@ -21,9 +21,13 @@ NAMED_ENTITY_AND_MULTIPLE_SENTENCES = 'ner_multiple'
 
 INVALID_NAMED_ENTITY_AND_MULTIPLE_SENTENCES = 'invalid_ner_multiple'
 
+FALSE_NEGATIVES_NAMED_ENTITY_AND_MULTIPLE_SENTENCES = 'false_negatives_ner_multiple'
+
 ONLY_NAMED_ENTITY = 'ner'
 
 INVALID_ONLY_NAMED_ENTITY = 'invalid_ner'
+
+FALSE_NEGATIVES_ONLY_NAMED_ENTITY = 'false_negatives_ner'
 
 F_MEASURE_ALPHA = 0.5
 
@@ -68,6 +72,14 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
                                          ENGLISH_GERMAN,
                                          INVALID_ONLY_NAMED_ENTITY)
 
+    false_negative_en_articles_with_common_named_entities_rows = get_false_negative_en_articles_with_common_named_entities_en_de(score_threshold, database_cursor)
+
+    write_article_pair_results_into_file(score_threshold,
+                                         false_negative_en_articles_with_common_named_entities_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_GERMAN,
+                                         FALSE_NEGATIVES_ONLY_NAMED_ENTITY)
+
     only_named_entity_en_de_recall = float(only_named_entity_correct_article_pairs_count)/float(total_number_of_articles/2)
     only_named_entity_en_de_precision = float(only_named_entity_correct_article_pairs_count) / float(len(only_named_entity_result_rows))
     only_named_entity_en_de_f_measure = 1/(F_MEASURE_ALPHA/only_named_entity_en_de_precision + (1-F_MEASURE_ALPHA)/only_named_entity_en_de_recall)
@@ -97,6 +109,15 @@ def create_en_de_article_pairs_report(score_threshold, database_cursor, output_r
                                          output_report_base_file_name,
                                          ENGLISH_GERMAN,
                                          INVALID_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+
+    false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows = get_false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold, database_cursor)
+
+    write_article_pair_results_into_file(score_threshold,
+                                         false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_GERMAN,
+                                         FALSE_NEGATIVES_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+
 
     named_entity_and_multiple_sentences_en_de_recall = float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles/2)
     named_entity_and_multiple_sentences_en_de_precision = float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(len(named_entity_and_multiple_sentences_result_rows))
