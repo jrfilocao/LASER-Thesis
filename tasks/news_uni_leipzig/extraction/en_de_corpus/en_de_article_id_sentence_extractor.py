@@ -25,7 +25,8 @@ def extract_articles_from_file(input_file_name, language):
                 article_id = _get_article_id(file_line, language)
             else:
                 sentence_with_no_new_line = file_line.replace(NEW_LINE, EMPTY_STRING)
-                article_sentences.append(sentence_with_no_new_line)
+                sentence_without_quote_signs = _remove_all_quote_signs(sentence_with_no_new_line)
+                article_sentences.append(sentence_without_quote_signs)
     return articles
 
 
@@ -36,3 +37,7 @@ def _get_article_id(file_line, language):
                                    .replace(NEW_LINE, EMPTY_STRING)
     last_underscore_index = date_article_number.rfind(UNDERSCORE)
     return language + UNDERSCORE + date_article_number[:last_underscore_index] + UNDERSCORE + ARTICLE + date_article_number[last_underscore_index:]
+
+
+def _remove_all_quote_signs(text):
+    return text.replace('“', '').replace('„', '').replace('"', '').replace('\'', ' ');
