@@ -83,11 +83,13 @@ if __name__ == "__main__":
 
     input_file_names = [f for f in listdir(INPUT_DIRECTORY) if isfile(join(INPUT_DIRECTORY, f))]
 
+    number_of_article_tags = 0
     for input_file_name in input_file_names:
 
         language = _get_language(input_file_name)
-        articles = extract_articles_from_file(INPUT_DIRECTORY + input_file_name, language)
+        articles, article_id_tag_count = extract_articles_from_file(INPUT_DIRECTORY + input_file_name, language)
 
+        number_of_article_tags += article_id_tag_count
         with open(_get_id_sentence_output_file_name(language), 'a') as id_sentence_pairs_file, \
              open(_get_sentences_output_file_name(language), 'a') as sentences_file:
 
@@ -99,3 +101,4 @@ if __name__ == "__main__":
                         break
                     _write_id_sentence_pair_to_file(id_sentence_pairs_file, article_id, sentence, sentence_index)
                     _write_sentence_to_file(sentences_file, sentence)
+        print('number_of_article_tags', number_of_article_tags)

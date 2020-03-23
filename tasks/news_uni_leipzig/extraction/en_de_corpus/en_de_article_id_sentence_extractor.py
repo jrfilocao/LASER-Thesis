@@ -16,9 +16,12 @@ def extract_articles_from_file(input_file_name, language):
         article_id = EMPTY_STRING
         article_sentences = []
 
+        article_id_tag_count = 0
+
         file_lines = input_file.readlines()
         for file_line in file_lines:
             if ARTICLE_ID_TAG_BEGIN in file_line:
+                article_id_tag_count += 1
                 if article_sentences:
                     articles[article_id] = article_sentences
                 article_sentences = []
@@ -27,7 +30,7 @@ def extract_articles_from_file(input_file_name, language):
                 sentence_with_no_new_line = file_line.replace(NEW_LINE, EMPTY_STRING)
                 sentence_without_quote_signs = _remove_all_quote_signs(sentence_with_no_new_line)
                 article_sentences.append(sentence_without_quote_signs)
-    return articles
+    return articles, article_id_tag_count
 
 
 def _get_article_id(file_line, language):
