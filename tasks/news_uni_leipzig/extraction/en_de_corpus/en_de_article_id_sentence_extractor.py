@@ -2,6 +2,7 @@
 
 ARTICLE = 'article'
 EMPTY_STRING = ''
+UNKNOWN_ARTICLE_ID = 'unknown_id'
 NEW_LINE = '\n'
 UNDERSCORE = '_'
 HYPHEN = '-'
@@ -13,7 +14,7 @@ def extract_articles_from_file(input_file_name, language):
     with open(input_file_name, 'r', errors='replace') as input_file:
 
         articles = {}
-        article_id = EMPTY_STRING
+        article_id = UNKNOWN_ARTICLE_ID
         article_sentences = []
 
         article_id_tag_count = 0
