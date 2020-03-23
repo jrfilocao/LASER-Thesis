@@ -100,7 +100,7 @@ if __name__ == "__main__":
                 article_sentences = _get_segmented_sentences(raw_article_sentences)
                 for sentence_index, sentence in enumerate(article_sentences, start=1):
                     if is_sentence_language_not_correct(sentence, language):
-                        break
+                        continue
                     _write_id_sentence_pair_to_file(id_sentence_pairs_file, article_id, sentence, sentence_index)
                     _write_sentence_to_file(sentences_file, sentence)
         print('number_of_article_tags', number_of_article_tags)
