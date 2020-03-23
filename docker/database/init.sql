@@ -1,10 +1,12 @@
 CREATE TABLE sentence (
-   sentence_id VARCHAR (200) PRIMARY KEY,
+   id SERIAL PRIMARY KEY,
+   sentence_id VARCHAR (200) NOT NULL,
    article_id VARCHAR (200) NOT NULL,
    sentence VARCHAR (5000) NOT NULL
 );
 
 CREATE TABLE matched_article (
+   id SERIAL PRIMARY KEY,
    source_article_id VARCHAR (200) NOT NULL,
    target_article_id VARCHAR (200) NOT NULL,
    source_sentence VARCHAR (5000) NOT NULL,
