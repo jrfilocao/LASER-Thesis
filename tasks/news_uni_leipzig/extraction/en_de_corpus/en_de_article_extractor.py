@@ -87,6 +87,7 @@ if __name__ == "__main__":
     number_of_articles = 0
     number_of_articles_for_iteration = 0
     number_of_empty_articles = 0
+    empty_articles = []
     number_of_sentences_in_wrong_language = 0
     number_of_articles_not_computed_due_wrong_language = 0
     for input_file_name in input_file_names:
@@ -105,6 +106,7 @@ if __name__ == "__main__":
                 number_of_articles_for_iteration += 1
                 if len(article_sentences) == 0:
                     number_of_empty_articles += 1
+                    empty_articles.append(article_id)
                 for sentence_index, sentence in enumerate(article_sentences, start=1):
                     if is_sentence_language_not_correct(sentence, language):
                         print('sentence language not valid')
@@ -121,3 +123,5 @@ if __name__ == "__main__":
         print('number_of_empty_articles', number_of_empty_articles)
         print('number_of_sentence_in_wrong_language', number_of_sentences_in_wrong_language)
         print('number_of_articles_not_computed_due_wrong_language', number_of_articles_not_computed_due_wrong_language)
+
+    print(empty_articles)
