@@ -23,8 +23,9 @@ def extract_articles_from_file(input_file_name, language):
         for file_line in file_lines:
             if ARTICLE_ID_TAG_BEGIN in file_line:
                 article_id_tag_count += 1
-                articles[article_id] = article_sentences
-                article_sentences = []
+                if article_sentences or article_id != UNKNOWN_ARTICLE_ID:
+                    articles[article_id] = article_sentences
+                    article_sentences = []
                 article_id = _get_article_id(file_line, language)
             else:
                 sentence_with_no_new_line = file_line.replace(NEW_LINE, EMPTY_STRING)
