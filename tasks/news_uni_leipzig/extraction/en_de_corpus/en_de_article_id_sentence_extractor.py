@@ -31,6 +31,7 @@ def extract_articles_from_file(input_file_name, language):
                 sentence_with_no_new_line = file_line.replace(NEW_LINE, EMPTY_STRING)
                 sentence_without_quote_signs = _remove_all_quote_signs(sentence_with_no_new_line)
                 article_sentences.append(sentence_without_quote_signs)
+        articles[article_id] = article_sentences
     return articles, article_id_tag_count
 
 
