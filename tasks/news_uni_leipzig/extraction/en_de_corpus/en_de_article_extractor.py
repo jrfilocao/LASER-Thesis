@@ -85,6 +85,10 @@ if __name__ == "__main__":
 
     number_of_article_tags = 0
     number_of_articles = 0
+    number_of_articles_for_iteration = 0
+    number_of_empty_articles = 0
+    number_of_sentences_in_wrong_language = 0
+    number_of_articles_not_computed_due_wrong_language = 0
     for input_file_name in input_file_names:
 
         language = _get_language(input_file_name)
@@ -98,10 +102,22 @@ if __name__ == "__main__":
             for article_id in articles.keys():
                 raw_article_sentences = articles[article_id]
                 article_sentences = _get_segmented_sentences(raw_article_sentences)
+                number_of_articles_for_iteration += 1
+                if len(article_sentences) == 0:
+                    number_of_empty_articles += 1
                 for sentence_index, sentence in enumerate(article_sentences, start=1):
                     if is_sentence_language_not_correct(sentence, language):
+                        print('sentence language not valid')
+                        number_of_sentences_in_wrong_language += 1
+                        if len(article_sentences) == 1:
+                            number_of_articles_not_computed_due_wrong_language += 1
                         continue
                     _write_id_sentence_pair_to_file(id_sentence_pairs_file, article_id, sentence, sentence_index)
                     _write_sentence_to_file(sentences_file, sentence)
+
         print('number_of_article_tags', number_of_article_tags)
         print('number_of_articles', number_of_articles)
+        print('number_of_articles_written', number_of_articles_for_iteration)
+        print('number_of_empty_articles', number_of_empty_articles)
+        print('number_of_sentence_in_wrong_language', number_of_sentences_in_wrong_language)
+        print('number_of_articles_not_computed_due_wrong_language', number_of_articles_not_computed_due_wrong_language)
