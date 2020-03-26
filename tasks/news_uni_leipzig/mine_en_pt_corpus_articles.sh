@@ -51,7 +51,7 @@ mine_for_bitexts () {
 }
 
 persist_extracted_sentences () {
-  python3 ${NEWS_TASK}/extraction/en_pt_corpus/en_pt_id_sentence_pair_persister.py \
+  python3 ${NEWS_TASK}/extraction/evaluation_corpus_id_sentence_pair_persister.py \
     --id-sentence-pair-files \
       ${output_directory}/pt_id_sentence_pairs \
       ${output_directory}/en_id_sentence_pairs
