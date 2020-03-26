@@ -115,7 +115,8 @@ def create_en_pt_article_pairs_report(score_threshold, database_cursor, output_r
                                          ENGLISH_PORTUGUESE,
                                          INVALID_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
 
-    false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows = get_false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold, database_cursor)
+    false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows = \
+        get_false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold, database_cursor)
 
     write_article_pair_results_into_file(score_threshold,
                                          false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows,
