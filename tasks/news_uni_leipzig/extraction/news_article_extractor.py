@@ -104,10 +104,10 @@ if __name__ == "__main__":
 
             for sentence_index, sentence in enumerate(article_sentences, start=1):
                 if _has_not_minimum_word_count(sentence):
-                    break
+                    continue
 
                 if is_sentence_language_not_correct(sentence, arguments.language):
-                    break
+                    continue
 
                 valid_sentences += 1
 
