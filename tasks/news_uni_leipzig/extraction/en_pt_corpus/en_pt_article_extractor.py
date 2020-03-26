@@ -95,7 +95,7 @@ if __name__ == "__main__":
     for input_file_name in input_file_names:
 
         language = _get_language(input_file_name)
-        article_id = _get_article_id(input_file_name)
+        article_id = _get_article_id(input_file_name, language)
 
         article = extract_single_article_from_file(INPUT_DIRECTORY + input_file_name)
 
