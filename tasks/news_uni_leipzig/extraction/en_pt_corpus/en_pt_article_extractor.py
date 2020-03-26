@@ -83,9 +83,9 @@ def _get_segmented_sentences(raw_article_sentences):
     return segmented_sentences
 
 
-def _get_article_id(file_name):
-    file_name_without_dot = file_name.replace(DOT, UNDERLINE)
-    return file_name_without_dot + ARTICLE_ONE
+def _get_article_id(file_name, language):
+    file_name_without_language = file_name[0:-3]
+    return language + UNDERLINE + file_name_without_language + ARTICLE_ONE
 
 
 if __name__ == "__main__":
