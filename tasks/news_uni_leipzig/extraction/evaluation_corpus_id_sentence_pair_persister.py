@@ -48,7 +48,7 @@ if __name__ == "__main__":
                         article_id = _get_article_id(sentence_id)
                         insert_sentence(sentence_id, article_id, sentence, database_cursor)
                     except ValueError:
-                        print('ValueError in persisting sentences')
+                        print('ValueError in persisting sentences', id_sentence_pair)
                         continue
             print('id-sentence-pairs inserted for', sentence_file)
             database_connection.commit()
