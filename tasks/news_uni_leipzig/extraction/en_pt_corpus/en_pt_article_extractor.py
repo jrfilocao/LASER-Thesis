@@ -23,7 +23,7 @@ from language_identification import is_sentence_language_not_correct
 INPUT_DIRECTORY = NEWS_TASK + '/input_files/'
 OUTPUT_DIRECTORY = NEWS_TASK + '/output_files/'
 
-FINDING_LANGUAGE_IN_FILE_NAME_REGEX = '\d{2,3}_\d{4}.(\w{2})'
+FINDING_LANGUAGE_IN_FILE_NAME_REGEX = '\d{1,3}_\d{1,4}.(\w{2})'
 
 DOT = '.'
 UNDERLINE = '_'
