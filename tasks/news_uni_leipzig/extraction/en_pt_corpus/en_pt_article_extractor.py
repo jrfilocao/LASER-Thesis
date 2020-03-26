@@ -114,9 +114,5 @@ if __name__ == "__main__":
             for sentence_index, sentence in enumerate(article_sentences, start=1):
                 if _has_not_minimum_word_count(sentence):
                     continue
-                if is_sentence_language_not_correct(sentence, language):
-                    print('sentence language not valid')
-                    print(sentence, language)
-                    continue
                 _write_id_sentence_pair_to_file(id_sentence_pairs_file, article_id, sentence, sentence_index)
                 _write_sentence_to_file(sentences_file, sentence)
