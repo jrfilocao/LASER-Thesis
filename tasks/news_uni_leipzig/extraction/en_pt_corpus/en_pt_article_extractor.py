@@ -16,7 +16,7 @@ sys.path.append(NEWS_TASK + '/extraction/en_pt_corpus')
 import re
 import syntok.segmenter as segmenter
 
-from en_de_article_id_sentence_extractor import extract_articles_from_file
+from en_pt_article_id_sentence_extractor import extract_single_article_from_file
 from id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_to_file
 from language_identification import is_sentence_language_not_correct
 
