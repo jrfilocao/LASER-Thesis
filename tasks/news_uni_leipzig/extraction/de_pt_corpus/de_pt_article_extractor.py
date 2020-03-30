@@ -87,7 +87,7 @@ def _get_segmented_sentences(raw_article_sentences):
 
 
 def _get_article_id(file_name):
-    file_name_without_extension = file_name[0:-3]
+    file_name_without_extension = file_name[0:-4]
     file_name_with_underline = file_name_without_extension.replace(HYPHEN, UNDERLINE)
     return file_name_with_underline + ARTICLE_ONE
 
