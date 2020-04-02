@@ -6,7 +6,7 @@ def _get_sentence_id(article_index, sentence_index, input_file_name):
 
 
 def _get_id_sentence_pair(sentence, sentence_id):
-    return sentence_id + '    ' + sentence + '\n'
+    return sentence_id + '\t' + sentence + '\n'
 
 
 def write_id_sentence_pair_to_file(output_file, article_index, sentence, sentence_index, input_file_name):

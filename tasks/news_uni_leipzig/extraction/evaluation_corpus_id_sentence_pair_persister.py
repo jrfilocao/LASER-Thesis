@@ -19,7 +19,7 @@ def _get_argument_parser():
 
 
 def _get_id_sentence(id_sentence_pair):
-    id_sentence = id_sentence_pair.split('    ')
+    id_sentence = id_sentence_pair.split('\t')
     if len(id_sentence) == 2:
         return id_sentence[0].strip(), id_sentence[1].strip()
     raise ValueError

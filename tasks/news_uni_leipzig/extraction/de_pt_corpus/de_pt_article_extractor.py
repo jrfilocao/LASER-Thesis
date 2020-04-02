@@ -64,7 +64,7 @@ def _get_sentence_id(article_id, sentence_index):
 
 
 def _get_id_sentence_pair(sentence, sentence_id):
-    return sentence_id + '    ' + sentence + '\n'
+    return sentence_id + '\t' + sentence + '\n'
 
 
 def _get_sentence_line(sentence):
