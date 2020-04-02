@@ -29,7 +29,7 @@ FINDING_LANGUAGE_IN_FILE_NAME_REGEX = '\d{1,3}_\d{1,4}.(\w{2})'
 DOT = '.'
 UNDERLINE = '_'
 
-SENTENCE_WORD_COUNT_MINIMUM = 3
+SENTENCE_WORD_COUNT_MINIMUM = 7
 
 
 def _get_file_lines(input_file):
@@ -92,6 +92,10 @@ def _get_article_id(file_name, language):
     return language + UNDERLINE + file_name_without_language + ARTICLE_ONE
 
 
+def _has_not_minimum_word_count(sentence):
+    return len(sentence.strip().split()) < SENTENCE_WORD_COUNT_MINIMUM
+
+
 if __name__ == "__main__":
 
     input_file_names = [f for f in listdir(INPUT_DIRECTORY) if isfile(join(INPUT_DIRECTORY, f))]
@@ -109,6 +113,8 @@ if __name__ == "__main__":
             article_sentences = _get_segmented_sentences(article)
 
             for sentence_index, sentence in enumerate(article_sentences, start=1):
+                if _has_not_minimum_word_count(sentence):
+                    continue
                 correct_encoded_sentence = fix_text_encoding(sentence)
                 _write_id_sentence_pair_to_file(id_sentence_pairs_file, article_id, correct_encoded_sentence, sentence_index)
                 _write_sentence_to_file(sentences_file, correct_encoded_sentence)
