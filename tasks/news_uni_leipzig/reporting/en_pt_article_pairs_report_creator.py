@@ -63,123 +63,145 @@ def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_
     return correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs
 
 
-def create_en_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles, total_number_of_sentences):
+def _get_en_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles, total_number_of_sentences):
+    only_named_entities_report_entries = _write_article_pairs_and_get_only_named_entity_report(database_cursor,
+                                                                                               output_report_base_file_name,
+                                                                                               score_threshold,
+                                                                                               total_number_of_articles)
+
+    named_entity_and_multiple_sentences_report_entries = _write_article_pairs_and_get_named_entity_and_multiple_sentences_report(database_cursor,
+                                                                                                                                 output_report_base_file_name,
+                                                                                                                                 score_threshold,
+                                                                                                                                 total_number_of_articles)
+
+    named_entity_or_multiple_sentences_report_entries = _write_article_pairs_and_get_named_entity_or_multiple_sentences_report(database_cursor,
+                                                                                                                               output_report_base_file_name,
+                                                                                                                               score_threshold,
+                                                                                                                               total_number_of_articles)
+
+    general_report_entries = _get_general_report_entries(total_number_of_articles, total_number_of_sentences)
     report_entries = []
-    only_named_entity_result_rows = get_unique_article_pairs_with_common_named_entities_en_pt(score_threshold, database_cursor)
-    only_named_entity_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
-        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_named_entity_result_rows)
+    report_entries.extend(general_report_entries)
+    report_entries.extend(only_named_entities_report_entries)
+    report_entries.extend(named_entity_and_multiple_sentences_report_entries)
+    report_entries.extend(named_entity_or_multiple_sentences_report_entries)
 
-    write_article_pair_results_into_file(score_threshold,
-                                         incorrect_article_pairs,
-                                         output_report_base_file_name,
-                                         ENGLISH_PORTUGUESE,
-                                         INVALID_ONLY_NAMED_ENTITY)
+    return report_entries
 
-    false_negative_en_articles_with_common_named_entities_rows = get_false_negative_en_articles_with_common_named_entities_en_pt(score_threshold, database_cursor)
 
-    write_article_pair_results_into_file(score_threshold,
-                                         false_negative_en_articles_with_common_named_entities_rows,
-                                         output_report_base_file_name,
-                                         ENGLISH_PORTUGUESE,
-                                         FALSE_NEGATIVES_ONLY_NAMED_ENTITY)
-
-    write_article_pair_results_into_file(score_threshold,
-                                         only_named_entity_result_rows,
-                                         output_report_base_file_name,
-                                         ENGLISH_PORTUGUESE,
-                                         ONLY_NAMED_ENTITY)
-
-    only_named_entity_en_pt_recall = float(only_named_entity_correct_article_pairs_count)/float(total_number_of_articles/2)
-    only_named_entity_en_pt_precision = float(only_named_entity_correct_article_pairs_count) / float(len(only_named_entity_result_rows))
-    only_named_entity_en_pt_f_measure = 1/(F_MEASURE_ALPHA/only_named_entity_en_pt_precision + (1-F_MEASURE_ALPHA)/only_named_entity_en_pt_recall)
-
+def _get_general_report_entries(total_number_of_articles, total_number_of_sentences):
+    report_entries = []
     report_entries.append(('number_of_articles_extracted_en_pt', total_number_of_articles))
-    report_entries.append(('number_of_articles_extracted_per_language_en_pt', total_number_of_articles/2))
+    report_entries.append(('number_of_articles_extracted_per_language_en_pt', total_number_of_articles / 2))
     report_entries.append(('average_number_of_sentences_per_article', total_number_of_sentences / total_number_of_articles))
-    report_entries.append(('only_named_entity_en_pt_recall', only_named_entity_en_pt_recall*100))
-    report_entries.append(('only_named_entity_en_pt_precision', only_named_entity_en_pt_precision*100))
-    report_entries.append(('only_named_entity_en_pt_f1_measure', only_named_entity_en_pt_f_measure*100))
-
-    report_entries.append(('only_named_entity_en_pt_invalid_pair_count', len(incorrect_article_pairs)))
-    report_entries.append(('only_named_entity_en_pt_average_matched_sentence_count', average_matched_sentence_count_in_correct_pairs))
+    return
 
 
-    named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold,
-                                                                                                                                          database_cursor)
-    named_entity_and_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
-        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(named_entity_and_multiple_sentences_result_rows)
-
-    write_article_pair_results_into_file(score_threshold,
-                                         incorrect_article_pairs,
-                                         output_report_base_file_name,
-                                         ENGLISH_PORTUGUESE,
-                                         INVALID_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
-
-    false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows = \
-        get_false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold, database_cursor)
-
-    write_article_pair_results_into_file(score_threshold,
-                                         false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows,
-                                         output_report_base_file_name,
-                                         ENGLISH_PORTUGUESE,
-                                         FALSE_NEGATIVES_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
-
-    write_article_pair_results_into_file(score_threshold,
-                                         named_entity_and_multiple_sentences_result_rows,
-                                         output_report_base_file_name,
-                                         ENGLISH_PORTUGUESE,
-                                         NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
-
-    named_entity_and_multiple_sentences_en_pt_recall = float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles/2)
-    named_entity_and_multiple_sentences_en_pt_precision = float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(len(named_entity_and_multiple_sentences_result_rows))
-    named_entity_and_multiple_sentences_en_pt_f_measure = 1/(F_MEASURE_ALPHA/named_entity_and_multiple_sentences_en_pt_precision + (1-F_MEASURE_ALPHA)/named_entity_and_multiple_sentences_en_pt_recall)
-
-    report_entries.append(('named_entity_and_multiple_sentences_en_pt_recall', named_entity_and_multiple_sentences_en_pt_recall*100))
-    report_entries.append(('named_entity_and_multiple_sentences_en_pt_precision', named_entity_and_multiple_sentences_en_pt_precision*100))
-    report_entries.append(('named_entity_and_multiple_sentences_en_pt_f1_measure', named_entity_and_multiple_sentences_en_pt_f_measure*100))
-
-    report_entries.append(('named_entity_and_multiple_sentences_en_pt_invalid_pair_count', len(incorrect_article_pairs)))
-    report_entries.append(('named_entity_and_multiple_sentences_en_pt_average_matched_sentence_count', average_matched_sentence_count_in_correct_pairs))
-
+def _write_article_pairs_and_get_named_entity_or_multiple_sentences_report(database_cursor, output_report_base_file_name, score_threshold, total_number_of_articles):
     named_entity_or_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_or_multiple_similar_sentences_en_pt(score_threshold,
                                                                                                                                         database_cursor)
     named_entity_or_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
         _get_correct_article_pairs_count_and_errors_and_average_sentence_count(named_entity_or_multiple_sentences_result_rows)
-
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
                                          output_report_base_file_name,
                                          ENGLISH_PORTUGUESE,
                                          INVALID_NAMED_ENTITY_OR_MULTIPLE_SENTENCES)
-
     false_negative_en_articles_with_common_named_entities_or_multiple_similar_sentences_rows = \
         get_false_negative_en_articles_with_common_named_entities_or_multiple_similar_sentences_en_pt(score_threshold, database_cursor)
-
     write_article_pair_results_into_file(score_threshold,
                                          false_negative_en_articles_with_common_named_entities_or_multiple_similar_sentences_rows,
                                          output_report_base_file_name,
                                          ENGLISH_PORTUGUESE,
                                          FALSE_NEGATIVES_NAMED_ENTITY_OR_MULTIPLE_SENTENCES)
-
     write_article_pair_results_into_file(score_threshold,
                                          named_entity_or_multiple_sentences_result_rows,
                                          output_report_base_file_name,
                                          ENGLISH_PORTUGUESE,
                                          NAMED_ENTITY_OR_MULTIPLE_SENTENCES)
+    named_entity_or_multiple_sentences_en_pt_recall = float(named_entity_or_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles / 2)
+    named_entity_or_multiple_sentences_en_pt_precision = float(named_entity_or_multiple_sentences_correct_article_pairs_count) / float(
+        len(named_entity_or_multiple_sentences_result_rows))
+    named_entity_or_multiple_sentences_en_pt_f_measure = 1 / (
+                F_MEASURE_ALPHA / named_entity_or_multiple_sentences_en_pt_precision + (1 - F_MEASURE_ALPHA) / named_entity_or_multiple_sentences_en_pt_recall)
 
-    named_entity_or_multiple_sentences_en_pt_recall = float(named_entity_or_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles/2)
-    named_entity_or_multiple_sentences_en_pt_precision = float(named_entity_or_multiple_sentences_correct_article_pairs_count) / float(len(named_entity_or_multiple_sentences_result_rows))
-    named_entity_or_multiple_sentences_en_pt_f_measure = 1/(F_MEASURE_ALPHA/named_entity_or_multiple_sentences_en_pt_precision + (1-F_MEASURE_ALPHA)/named_entity_or_multiple_sentences_en_pt_recall)
-
-    report_entries.append(('named_entity_or_multiple_sentences_en_pt_recall', named_entity_or_multiple_sentences_en_pt_recall*100))
-    report_entries.append(('named_entity_or_multiple_sentences_en_pt_precision', named_entity_or_multiple_sentences_en_pt_precision*100))
-    report_entries.append(('named_entity_or_multiple_sentences_en_pt_f1_measure', named_entity_or_multiple_sentences_en_pt_f_measure*100))
-
+    report_entries = []
+    report_entries.append(('named_entity_or_multiple_sentences_en_pt_recall', named_entity_or_multiple_sentences_en_pt_recall * 100))
+    report_entries.append(('named_entity_or_multiple_sentences_en_pt_precision', named_entity_or_multiple_sentences_en_pt_precision * 100))
+    report_entries.append(('named_entity_or_multiple_sentences_en_pt_f1_measure', named_entity_or_multiple_sentences_en_pt_f_measure * 100))
     report_entries.append(('named_entity_or_multiple_sentences_en_pt_invalid_pair_count', len(incorrect_article_pairs)))
     report_entries.append(('named_entity_or_multiple_sentences_en_pt_average_matched_sentence_count', average_matched_sentence_count_in_correct_pairs))
-
     return report_entries
 
+
+def _write_article_pairs_and_get_named_entity_and_multiple_sentences_report(database_cursor, output_report_base_file_name, score_threshold, total_number_of_articles):
+    named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold,
+                                                                                                                                          database_cursor)
+    named_entity_and_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
+        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(named_entity_and_multiple_sentences_result_rows)
+    write_article_pair_results_into_file(score_threshold,
+                                         incorrect_article_pairs,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         INVALID_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+    false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows = \
+        get_false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_en_pt(score_threshold, database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         false_negative_en_articles_with_common_named_entities_and_multiple_similar_sentences_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         FALSE_NEGATIVES_NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+    write_article_pair_results_into_file(score_threshold,
+                                         named_entity_and_multiple_sentences_result_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         NAMED_ENTITY_AND_MULTIPLE_SENTENCES)
+    named_entity_and_multiple_sentences_en_pt_recall = float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(total_number_of_articles / 2)
+    named_entity_and_multiple_sentences_en_pt_precision = float(named_entity_and_multiple_sentences_correct_article_pairs_count) / float(
+        len(named_entity_and_multiple_sentences_result_rows))
+    named_entity_and_multiple_sentences_en_pt_f_measure = 1 / (
+                F_MEASURE_ALPHA / named_entity_and_multiple_sentences_en_pt_precision + (1 - F_MEASURE_ALPHA) / named_entity_and_multiple_sentences_en_pt_recall)
+
+    report_entries = []
+    report_entries.append(('named_entity_and_multiple_sentences_en_pt_recall', named_entity_and_multiple_sentences_en_pt_recall * 100))
+    report_entries.append(('named_entity_and_multiple_sentences_en_pt_precision', named_entity_and_multiple_sentences_en_pt_precision * 100))
+    report_entries.append(('named_entity_and_multiple_sentences_en_pt_f1_measure', named_entity_and_multiple_sentences_en_pt_f_measure * 100))
+    report_entries.append(('named_entity_and_multiple_sentences_en_pt_invalid_pair_count', len(incorrect_article_pairs)))
+    report_entries.append(('named_entity_and_multiple_sentences_en_pt_average_matched_sentence_count', average_matched_sentence_count_in_correct_pairs))
+    return report_entries
+
+
+def _write_article_pairs_and_get_only_named_entity_report(database_cursor, output_report_base_file_name, score_threshold, total_number_of_articles):
+    only_named_entity_result_rows = get_unique_article_pairs_with_common_named_entities_en_pt(score_threshold, database_cursor)
+    only_named_entity_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
+        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_named_entity_result_rows)
+    write_article_pair_results_into_file(score_threshold,
+                                         incorrect_article_pairs,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         INVALID_ONLY_NAMED_ENTITY)
+    false_negative_en_articles_with_common_named_entities_rows = get_false_negative_en_articles_with_common_named_entities_en_pt(score_threshold, database_cursor)
+    write_article_pair_results_into_file(score_threshold,
+                                         false_negative_en_articles_with_common_named_entities_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         FALSE_NEGATIVES_ONLY_NAMED_ENTITY)
+    write_article_pair_results_into_file(score_threshold,
+                                         only_named_entity_result_rows,
+                                         output_report_base_file_name,
+                                         ENGLISH_PORTUGUESE,
+                                         ONLY_NAMED_ENTITY)
+    only_named_entity_en_pt_recall = float(only_named_entity_correct_article_pairs_count) / float(total_number_of_articles / 2)
+    only_named_entity_en_pt_precision = float(only_named_entity_correct_article_pairs_count) / float(len(only_named_entity_result_rows))
+    only_named_entity_en_pt_f_measure = 1 / (F_MEASURE_ALPHA / only_named_entity_en_pt_precision + (1 - F_MEASURE_ALPHA) / only_named_entity_en_pt_recall)
+
+    report_entries = []
+    report_entries.append(('only_named_entity_en_pt_recall', only_named_entity_en_pt_recall * 100))
+    report_entries.append(('only_named_entity_en_pt_precision', only_named_entity_en_pt_precision * 100))
+    report_entries.append(('only_named_entity_en_pt_f1_measure', only_named_entity_en_pt_f_measure * 100))
+    report_entries.append(('only_named_entity_en_pt_invalid_pair_count', len(incorrect_article_pairs)))
+    report_entries.append(('only_named_entity_en_pt_average_matched_sentence_count', average_matched_sentence_count_in_correct_pairs))
+    return report_entries
 
 
 if __name__ == "__main__":
@@ -202,11 +224,11 @@ if __name__ == "__main__":
         statistics_reports = {}
         for i in range(number_of_threshold_steps):
             score_threshold = sentence_pair_score_base_threshold + i * threshold_step_value
-            statistics_report = create_en_pt_article_pairs_report(score_threshold,
-                                                                  database_cursor,
-                                                                  output_report_base_file_name,
-                                                                  total_number_of_articles,
-                                                                  total_number_of_sentences)
+            statistics_report = _get_en_pt_article_pairs_report(score_threshold,
+                                                                database_cursor,
+                                                                output_report_base_file_name,
+                                                                total_number_of_articles,
+                                                                total_number_of_sentences)
             statistics_reports[score_threshold] = statistics_report
 
         print(statistics_reports)
