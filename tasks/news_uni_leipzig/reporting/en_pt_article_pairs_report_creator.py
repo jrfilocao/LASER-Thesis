@@ -94,7 +94,7 @@ def _get_general_report_entries(total_number_of_articles, total_number_of_senten
     report_entries.append(('number_of_articles_extracted_en_pt', total_number_of_articles))
     report_entries.append(('number_of_articles_extracted_per_language_en_pt', total_number_of_articles / 2))
     report_entries.append(('average_number_of_sentences_per_article', total_number_of_sentences / total_number_of_articles))
-    return
+    return report_entries
 
 
 def _write_article_pairs_and_get_named_entity_or_multiple_sentences_report(database_cursor, output_report_base_file_name, score_threshold, total_number_of_articles):
