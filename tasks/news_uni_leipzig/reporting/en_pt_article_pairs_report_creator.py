@@ -47,17 +47,17 @@ def _get_argument_parser():
     return parser
 
 
-def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_named_entity_result_rows):
+def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(rows):
     correct_article_pairs_count = 0
     total_matched_sentence_count_in_correct_pairs = 0
     incorrect_article_pairs = []
 
-    for only_named_entity_result_row in only_named_entity_result_rows:
-        if only_named_entity_result_row[0][3:] == only_named_entity_result_row[1][3:]: # en_99_1554_article_1 == pt_99_1554_article_1
+    for row in rows:
+        if row[0][3:] == row[1][3:]: # en_99_1554_article_1 == pt_99_1554_article_1
             correct_article_pairs_count += 1
-            total_matched_sentence_count_in_correct_pairs += only_named_entity_result_row[2]
+            total_matched_sentence_count_in_correct_pairs += row[2]
         else:
-            incorrect_article_pairs.append(only_named_entity_result_row)
+            incorrect_article_pairs.append(row)
 
     average_matched_sentence_count_in_correct_pairs = total_matched_sentence_count_in_correct_pairs / correct_article_pairs_count
     return correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs
