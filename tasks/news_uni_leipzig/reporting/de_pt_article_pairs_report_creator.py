@@ -63,7 +63,7 @@ def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(rows)
     return correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs
 
 
-def create_de_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles, total_number_of_sentences):
+def _get_de_pt_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles, total_number_of_sentences):
     report_entries = []
     only_named_entity_result_rows = get_unique_article_pairs_with_common_named_entities_de_pt(score_threshold, database_cursor)
     only_named_entity_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
@@ -202,11 +202,11 @@ if __name__ == "__main__":
         statistics_reports = {}
         for i in range(number_of_threshold_steps):
             score_threshold = sentence_pair_score_base_threshold + i * threshold_step_value
-            statistics_report = create_de_pt_article_pairs_report(score_threshold,
-                                                                  database_cursor,
-                                                                  output_report_base_file_name,
-                                                                  total_number_of_articles,
-                                                                  total_number_of_sentences)
+            statistics_report = _get_de_pt_article_pairs_report(score_threshold,
+                                                                database_cursor,
+                                                                output_report_base_file_name,
+                                                                total_number_of_articles,
+                                                                total_number_of_sentences)
             statistics_reports[score_threshold] = statistics_report
 
         print(statistics_reports)
