@@ -113,6 +113,9 @@ if __name__ == "__main__":
             article_sentences = _get_segmented_sentences(article)
 
             for sentence_index, sentence in enumerate(article_sentences, start=1):
+                if is_sentence_language_not_correct(sentence, language):
+                    print('sentence language not valid')
+                    continue
                 if _has_not_minimum_word_count(sentence):
                     continue
                 correct_encoded_sentence = fix_text_encoding(sentence)
