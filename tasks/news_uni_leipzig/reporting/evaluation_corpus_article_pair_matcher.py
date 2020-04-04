@@ -14,9 +14,11 @@ def get_article_pairs_match_count_and_incorrect_pairs_and_average_sentence_count
     for row in rows:
         if row[0][3:] == row[1][3:]:
             correct_article_pair = (row[0][3:], row[1][3:])
-            if correct_article_pair in correct_article_pairs:
-                raise ValueError
-            correct_article_pairs.add(correct_article_pair)
+            if correct_article_pair not in correct_article_pairs:
+                correct_article_pairs.add(correct_article_pair)
+            else:
+                print('duplicate', correct_article_pair, row)
+
             total_matched_sentence_count_in_correct_pairs += row[2]
         else:
             incorrect_article_pairs.append(row)
