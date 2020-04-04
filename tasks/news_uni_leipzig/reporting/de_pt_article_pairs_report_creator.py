@@ -53,7 +53,7 @@ def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(rows)
     incorrect_article_pairs = []
 
     for row in rows:
-        if row[0][3:] == row[1][3:]: # de-ep-11-06-23-008 == pt-ep-11-06-23-008
+        if row[0][3:] == row[1][3:]:
             correct_article_pairs_count += 1
             total_matched_sentence_count_in_correct_pairs += row[2]
         else:
