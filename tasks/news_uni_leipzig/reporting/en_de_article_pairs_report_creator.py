@@ -9,6 +9,7 @@ sys.path.append(NEWS_TASK + '/reporting')
 from database_connector import get_database_connection
 from report_repository import *
 from report_writer import *
+from evaluation_corpus_article_pair_matcher import *
 
 
 GERMAN_PORTUGUESE = 'de_pt'
@@ -50,27 +51,11 @@ def _get_argument_parser():
     return parser
 
 
-def _get_correct_article_pairs_count_and_errors_and_average_sentence_count(rows):
-    correct_article_pairs_count = 0
-    total_matched_sentence_count_in_correct_pairs = 0
-    incorrect_article_pairs = []
-
-    for row in rows:
-        if row[0][3:] == row[1][3:]:
-            correct_article_pairs_count += 1
-            total_matched_sentence_count_in_correct_pairs += row[2]
-        else:
-            incorrect_article_pairs.append(row)
-
-    average_matched_sentence_count_in_correct_pairs = total_matched_sentence_count_in_correct_pairs / correct_article_pairs_count
-    return correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs
-
-
 def _get_en_de_article_pairs_report(score_threshold, database_cursor, output_report_base_file_name, total_number_of_articles, total_number_of_sentences):
     report_entries = []
     only_named_entity_result_rows = get_unique_article_pairs_with_common_named_entities_en_de(score_threshold, database_cursor)
     only_named_entity_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
-        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(only_named_entity_result_rows)
+        get_article_pairs_match_count_and_incorrect_pairs_and_average_sentence_count(only_named_entity_result_rows)
 
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
@@ -110,7 +95,7 @@ def _get_en_de_article_pairs_report(score_threshold, database_cursor, output_rep
     named_entity_and_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_and_multiple_similar_sentences_en_de(score_threshold,
                                                                                                                                           database_cursor)
     named_entity_and_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
-        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(named_entity_and_multiple_sentences_result_rows)
+        get_article_pairs_match_count_and_incorrect_pairs_and_average_sentence_count(named_entity_and_multiple_sentences_result_rows)
 
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
@@ -146,7 +131,7 @@ def _get_en_de_article_pairs_report(score_threshold, database_cursor, output_rep
     named_entity_or_multiple_sentences_result_rows = get_unique_articles_with_common_named_entities_or_multiple_similar_sentences_en_de(score_threshold,
                                                                                                                                         database_cursor)
     named_entity_or_multiple_sentences_correct_article_pairs_count, incorrect_article_pairs, average_matched_sentence_count_in_correct_pairs = \
-        _get_correct_article_pairs_count_and_errors_and_average_sentence_count(named_entity_or_multiple_sentences_result_rows)
+        get_article_pairs_match_count_and_incorrect_pairs_and_average_sentence_count(named_entity_or_multiple_sentences_result_rows)
 
     write_article_pair_results_into_file(score_threshold,
                                          incorrect_article_pairs,
