@@ -13,7 +13,7 @@ def get_article_pairs_match_count_and_incorrect_pairs_and_average_sentence_count
 
     for row in rows:
         if row[0][3:] == row[1][3:]:
-            correct_article_pair = (row[0][3:] == row[1][3:])
+            correct_article_pair = (row[0][3:], row[1][3:])
             if correct_article_pair in correct_article_pairs:
                 raise ValueError
             correct_article_pairs.add(correct_article_pair)
