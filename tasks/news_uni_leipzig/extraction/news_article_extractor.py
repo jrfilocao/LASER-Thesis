@@ -10,7 +10,7 @@ assert os.environ.get('NEWS_TASK'), 'Please set the environment variable NEWS_TA
 NEWS_TASK = os.environ['NEWS_TASK']
 sys.path.append(NEWS_TASK + '/extraction')
 
-from article_line_extractor import get_articles
+from news_line_extractor import get_articles
 from encoding_resolver import fix_text_encoding
 from id_sentence_writer import write_id_sentence_pair_to_file, write_sentence_id_to_file, write_sentence_to_file
 from language_identification import is_sentence_language_not_correct
