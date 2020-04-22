@@ -3,6 +3,8 @@ services:
   laser:
     image: laser:latest
     tty: true
+    networks:
+      - news-network
   news-database:
     build: database/
     environment:
@@ -12,3 +14,7 @@ services:
       - "5432:5432"
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - news-network
+networks:
+  news-network:
