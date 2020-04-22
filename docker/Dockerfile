@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3
+    FROM continuumio/miniconda3
 
 MAINTAINER Gilles Bodart <gillesbodart@users.noreply.github.com>
 
@@ -51,9 +51,9 @@ RUN bash ./install_models.sh
 RUN conda install --name env -c pytorch faiss-cpu -y
 
 # Spacy
-RUN python -m spacy download de_core_news_sm
-RUN python -m spacy download pt_core_news_sm
-RUN python -m spacy download en_core_web_sm
+RUN python3 -m spacy download de_core_news_sm
+RUN python3 -m spacy download pt_core_news_sm
+RUN python3 -m spacy download en_core_web_sm
 
 RUN bash ./install_external_tools.sh
 
@@ -67,7 +67,7 @@ WORKDIR /app
 RUN echo "Hello World" > test.txt
 
 RUN $LASER/tasks/embed/embed.sh test.txt en test_embed.raw
-RUN python $LASER/tasks/embed/decode.py test_embed.raw
+RUN python3 $LASER/tasks/embed/decode.py test_embed.raw
 
 #Open the port 80
 EXPOSE 80
