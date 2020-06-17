@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+from scipy.interpolate import interp1d
+import numpy as np
 
 THRESHOLD_PRECISION_FORMAT = '.3f'
 
@@ -47,3 +49,34 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
 
         plt.plot(x, y)
         fig.savefig(file_name, bbox_inches='tight')
+
+
+def write_charts_for_methods_into_file():
+    x1 = [1, 2, 3]
+
+    y1 = [4, 5, 6]
+
+    x2 = [1, 2, 3, 4, 5]
+
+    y2 = [6, 7, 6.5, 3, 4]
+
+    x = np.linspace(0, 10, num=11, endpoint=True)
+    y = np.cos(-x**2/9.0)
+
+    fig = plt.figure()
+    fig.tight_layout()
+    plt.xlabel('Thresholds')
+    plt.ylabel('Scores' )
+    plt.title('Example Chart')
+
+    plt.plot(x1, y1, 'bo--', x, y, 'r+--')
+
+    plt.legend(["Dataset 1", "Dataset 2"])
+
+    file_name = "chart_for_methods"
+
+    fig.savefig(file_name, bbox_inches='tight')
+
+
+if __name__ == "__main__":
+    write_charts_for_methods_into_file()
