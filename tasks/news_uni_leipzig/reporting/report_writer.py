@@ -65,6 +65,10 @@ def write_charts_for_methods_into_file():
 
     fig = plt.figure()
     fig.tight_layout()
+
+    plt.xlim(0, 11)
+    plt.ylim(-2, 10)
+
     plt.xlabel('Thresholds')
     plt.ylabel('Scores' )
     plt.title('Example Chart')
