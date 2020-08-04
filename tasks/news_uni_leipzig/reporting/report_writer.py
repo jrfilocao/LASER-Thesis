@@ -21,6 +21,21 @@ def write_article_pair_results_into_file(sentence_pair_score_threshold, result_r
             report_file.write(str(result_row) + '\n')
 
 
+def write_statistics_reports_into_file(statistics_reports, output_file_name):
+    with open(output_file_name, 'w') as output_file:
+        thresholds = list(statistics_reports)  # x
+        report_entry_count = len(statistics_reports[thresholds[0]])  # y
+
+        for report_entry_index in range(report_entry_count):
+            report_entry_name = statistics_reports[thresholds[0]][report_entry_index][0]
+            if 'language' in report_entry_name:
+                continue
+            for threshold in thresholds:
+                output_file.write(threshold)
+                output_file.write(';')
+                output_file.write(statistics_reports[threshold][report_entry_index][1] + '\n')
+
+
 def write_consolidate_statistics_diagram_into_file(statistics_reports, output_report_base_file_name):
     base_file_name = output_report_base_file_name + '_diagram_{}'
 
