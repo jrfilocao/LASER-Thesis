@@ -30,10 +30,11 @@ def write_statistics_reports_into_file(statistics_reports, output_file_name):
             report_entry_name = statistics_reports[thresholds[0]][report_entry_index][0]
             if 'language' in report_entry_name:
                 continue
+            output_file.write(report_entry_name + '\n')
             for threshold in thresholds:
-                output_file.write(threshold)
+                output_file.write(str(threshold))
                 output_file.write(';')
-                output_file.write(statistics_reports[threshold][report_entry_index][1] + '\n')
+                output_file.write(str(statistics_reports[threshold][report_entry_index][1]) + '\n')
 
 
 def write_consolidate_statistics_diagram_into_file(statistics_reports, output_report_base_file_name):
