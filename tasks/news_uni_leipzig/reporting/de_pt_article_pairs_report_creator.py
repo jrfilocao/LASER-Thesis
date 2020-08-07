@@ -195,6 +195,7 @@ if __name__ == "__main__":
             statistics_reports[score_threshold] = statistics_report
 
         print(statistics_reports)
+        write_statistics_reports_into_file(statistics_reports, 'statistic_reports.txt')
         write_consolidate_statistics_diagram_into_file(statistics_reports, output_report_base_file_name)
 
     finally:
