@@ -67,36 +67,32 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
         fig.savefig(file_name, bbox_inches='tight')
 
 
-def write_charts_for_methods_into_file():
-    x1 = [1, 2, 3]
-
-    y1 = [4, 5, 6]
-
-    x2 = [1, 2, 3, 4, 5]
-
-    y2 = [6, 7, 6.5, 3, 4]
-
-    x = np.linspace(0, 10, num=11, endpoint=True)
-    y = np.cos(-x**2/9.0)
+def write_metric_chart_into_file(metric_name, en_de_metric, en_pt_metric, de_pt_metric):
+    # x1 = [1, 2, 3]
+    #
+    # y1 = [4, 5, 6]
+    #
+    # x2 = np.linspace(0, 10, num=11, endpoint=True)
+    # y2 = np.cos(-x2**2/9.0)
 
     fig = plt.figure()
     fig.tight_layout()
 
-    plt.xlim(0, 11)
-    plt.ylim(-2, 10)
+    #plt.xlim(0, 11)
+    #plt.ylim(-2, 10)
 
     plt.xlabel('Thresholds')
-    plt.ylabel('Scores' )
-    plt.title('Example Chart')
+    plt.ylabel('Scores')
+    plt.title(metric_name)
 
-    plt.plot(x1, y1, 'bo--', x, y, 'r+--')
+    plt.plot(en_de_metric[0], en_de_metric[1], 'bo--', en_pt_metric[0], en_pt_metric[1], 'r+--', de_pt_metric[0], de_pt_metric[1], 'yo--')
 
-    plt.legend(["Dataset 1", "Dataset 2"])
+    plt.legend(['English-German', 'English-Portuguese', 'German-Portuguese'])
 
-    file_name = "chart_for_methods"
+    file_name = metric_name
 
     fig.savefig(file_name, bbox_inches='tight')
 
 
 if __name__ == "__main__":
-    write_charts_for_methods_into_file()
+    write_metric_chart_into_file()
