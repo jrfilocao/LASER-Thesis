@@ -20,15 +20,20 @@ def get_metrics(file_path):
     thresholds_x = []
     values_y = []
     metrics = {}
+    current_metric_name = ''
     for file_line in file_lines:
         if KEY_VALUE_SEPARATOR not in file_line:
-            metrics[file_line.strip()] = (thresholds_x, values_y)
+            if not current_metric_name:  # initial iteration
+                current_metric_name = file_line.strip()
+                continue
+            metrics[current_metric_name] = (thresholds_x, values_y)
+            current_metric_name = file_line.strip()
             thresholds_x = []
             values_y = []
         else:
             threshold, value = file_line.split(KEY_VALUE_SEPARATOR)
-            thresholds_x.append(FLOAT_THREE_DECIMALS % float(threshold))
-            values_y.append(FLOAT_TWO_DECIMALS % float(value))
+            thresholds_x.append(float(threshold.strip()))
+            values_y.append(float(value.strip()))
     return metrics
 
 

@@ -78,21 +78,41 @@ def write_metric_chart_into_file(metric_name, en_de_metric, en_pt_metric, de_pt_
     fig = plt.figure()
     fig.tight_layout()
 
-    #plt.xlim(0, 11)
-    #plt.ylim(-2, 10)
+    # plt.xlim(0, 1.5)
+    # plt.ylim(0, 100)
 
     plt.xlabel('Thresholds')
     plt.ylabel('Scores')
     plt.title(metric_name)
 
-    plt.plot(en_de_metric[0], en_de_metric[1], 'bo--', en_pt_metric[0], en_pt_metric[1], 'r+--', de_pt_metric[0], de_pt_metric[1], 'yo--')
+    plt.plot(en_de_metric[0], en_de_metric[1], 'bo--')
+    plt.plot(en_de_metric[0], en_pt_metric[1], 'r+--')
+    plt.plot(en_de_metric[0], de_pt_metric[1], 'yo--')
 
     plt.legend(['English-German', 'English-Portuguese', 'German-Portuguese'])
 
-    file_name = metric_name
+    file_name = 'output/' + metric_name
 
     fig.savefig(file_name, bbox_inches='tight')
 
 
 if __name__ == "__main__":
-    write_metric_chart_into_file()
+    import numpy as np
+    import matplotlib.pyplot as plt
+
+    t = np.arange(1000) / 100.
+    x = np.sin(2 * np.pi * 10 * t)
+    y = np.cos(2 * np.pi * 10 * t)
+
+    fig = plt.figure()
+    ax1 = plt.subplot(211)
+    ax2 = plt.subplot(212)
+
+    ax1.plot(t, x)
+    ax2.plot(t, y)
+
+    ax1.get_shared_x_axes().join(ax1, ax2)
+    ax1.set_xticklabels([])
+    # ax2.autoscale() ## call autoscale if needed
+
+    plt.show()
