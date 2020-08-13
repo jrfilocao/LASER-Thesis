@@ -1,4 +1,4 @@
-from reporting.report_writer import write_metric_chart_into_file
+from reporting.report_writer import write_metric_chart_with_multiple_languages_into_file
 
 EMPTY = ''
 DE_PT_STRING = 'de_pt'
@@ -34,6 +34,7 @@ def get_metrics(file_path):
             threshold, value = file_line.split(KEY_VALUE_SEPARATOR)
             thresholds_x.append(float(threshold.strip()))
             values_y.append(float(value.strip()))
+    metrics[current_metric_name] = (thresholds_x, values_y)
     return metrics
 
 
@@ -59,8 +60,7 @@ if __name__ == "__main__":
 
         metric_name = de_pt_metric_name.replace(DE_PT_STRING, EMPTY)
 
-        write_metric_chart_into_file(metric_name,
-                                     en_de_metrics[en_de_metric_name],
-                                     en_pt_metrics[en_pt_metric_name],
-                                     de_pt_metrics[de_pt_metric_name])
-
+        write_metric_chart_with_multiple_languages_into_file(metric_name,
+                                                             en_de_metrics[en_de_metric_name],
+                                                             en_pt_metrics[en_pt_metric_name],
+                                                             de_pt_metrics[de_pt_metric_name])
