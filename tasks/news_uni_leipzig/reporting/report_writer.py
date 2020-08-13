@@ -67,31 +67,40 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
         fig.savefig(file_name, bbox_inches='tight')
 
 
-def write_metric_chart_into_file(metric_name, en_de_metric, en_pt_metric, de_pt_metric):
-    # x1 = [1, 2, 3]
-    #
-    # y1 = [4, 5, 6]
-    #
-    # x2 = np.linspace(0, 10, num=11, endpoint=True)
-    # y2 = np.cos(-x2**2/9.0)
-
+def write_metric_chart_with_multiple_languages_into_file(metric_name, en_de_metric, en_pt_metric, de_pt_metric):
     fig = plt.figure()
     fig.tight_layout()
-
-    # plt.xlim(0, 1.5)
-    # plt.ylim(0, 100)
 
     plt.xlabel('Thresholds')
     plt.ylabel('Scores')
     plt.title(metric_name)
 
-    plt.plot(en_de_metric[0], en_de_metric[1], 'bo--')
-    plt.plot(en_de_metric[0], en_pt_metric[1], 'r+--')
-    plt.plot(en_de_metric[0], de_pt_metric[1], 'yo--')
+    plt.plot(en_de_metric[0], en_de_metric[1], 'bo--', linewidth=0.7)
+    plt.plot(en_de_metric[0], en_pt_metric[1], 'r+--', linewidth=0.7)
+    plt.plot(en_de_metric[0], de_pt_metric[1], 'yo--', linewidth=0.7)
 
     plt.legend(['English-German', 'English-Portuguese', 'German-Portuguese'])
 
     file_name = 'output/' + metric_name
+
+    fig.savefig(file_name, bbox_inches='tight')
+
+
+def write_chart_with_multiple_metrics_into_file(metric_name, first_metric, second_metric, third_metric, language_pair_name):
+    fig = plt.figure()
+    fig.tight_layout()
+
+    plt.xlabel('Thresholds')
+    plt.ylabel('Scores')
+    plt.title(metric_name + '_' + language_pair_name)
+
+    plt.plot(first_metric[0], first_metric[1], 'go--', linewidth=0.7)
+    plt.plot(first_metric[0], second_metric[1], 'c+--', linewidth=0.7)
+    plt.plot(first_metric[0], third_metric[1], 'mo--', linewidth=0.7)
+
+    plt.legend(['ONLY', 'AND', 'OR'])
+
+    file_name = 'output/' + metric_name + '_' + language_pair_name
 
     fig.savefig(file_name, bbox_inches='tight')
 

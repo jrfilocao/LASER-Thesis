@@ -1,4 +1,4 @@
-from reporting.report_writer import write_metric_chart_with_multiple_languages_into_file
+from reporting.report_writer import write_metric_chart_with_multiple_languages_into_file, write_chart_with_multiple_metrics_into_file
 
 EMPTY = ''
 DE_PT_STRING = 'de_pt'
@@ -38,6 +38,29 @@ def get_metrics(file_path):
     return metrics
 
 
+def create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics):
+    for metric_index in range(metrics_count):
+        de_pt_metric_name = de_pt_metric_keys[metric_index]
+        en_pt_metric_name = de_pt_metric_name.replace(DE_PT_STRING, EN_PT_STRING).strip()
+        en_de_metric_name = de_pt_metric_name.replace(DE_PT_STRING, EN_DE_STRING).strip()
+
+        metric_name = de_pt_metric_name.replace(DE_PT_STRING, EMPTY)
+
+        write_metric_chart_with_multiple_languages_into_file(metric_name,
+                                                             en_de_metrics[en_de_metric_name],
+                                                             en_pt_metrics[en_pt_metric_name],
+                                                             de_pt_metrics[de_pt_metric_name])
+
+
+def create_multi_metric_diagrams(metric_name, keys, metrics, language_pair_name):
+    matching_metric_names = [metric_element for metric_element in keys if metric_name in metric_element]
+    write_chart_with_multiple_metrics_into_file(metric_name,
+                                                metrics[matching_metric_names[0]],
+                                                metrics[matching_metric_names[1]],
+                                                metrics[matching_metric_names[2]],
+                                                language_pair_name)
+
+
 if __name__ == "__main__":
     de_pt_file_path = '../input_files/statistic_reports_de_pt.txt'
     en_de_file_path = '../input_files/statistic_reports_en_de.txt'
@@ -53,14 +76,19 @@ if __name__ == "__main__":
     en_de_metric_keys = list(en_de_metrics.keys())
     en_pt_metric_keys = list(en_pt_metrics.keys())
 
-    for metric_index in range(metrics_count):
-        de_pt_metric_name = de_pt_metric_keys[metric_index]
-        en_pt_metric_name = de_pt_metric_name.replace(DE_PT_STRING, EN_PT_STRING).strip()
-        en_de_metric_name = de_pt_metric_name.replace(DE_PT_STRING, EN_DE_STRING).strip()
+    create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics)
 
-        metric_name = de_pt_metric_name.replace(DE_PT_STRING, EMPTY)
+    create_multi_metric_diagrams('precision', de_pt_metric_keys, de_pt_metrics, 'de_pt')
+    create_multi_metric_diagrams('f1', de_pt_metric_keys, de_pt_metrics, 'de_pt')
+    create_multi_metric_diagrams('recall', de_pt_metric_keys, de_pt_metrics, 'de_pt')
+    create_multi_metric_diagrams('average_matched_sentence_count', de_pt_metric_keys, de_pt_metrics, 'de_pt')
 
-        write_metric_chart_with_multiple_languages_into_file(metric_name,
-                                                             en_de_metrics[en_de_metric_name],
-                                                             en_pt_metrics[en_pt_metric_name],
-                                                             de_pt_metrics[de_pt_metric_name])
+    create_multi_metric_diagrams('precision', en_pt_metric_keys, en_pt_metrics, 'en_pt')
+    create_multi_metric_diagrams('f1', en_pt_metric_keys, en_pt_metrics, 'en_pt')
+    create_multi_metric_diagrams('recall', en_pt_metric_keys, en_pt_metrics, 'en_pt')
+    create_multi_metric_diagrams('average_matched_sentence_count', en_pt_metric_keys, en_pt_metrics, 'en_pt')
+
+    create_multi_metric_diagrams('precision', en_de_metric_keys, en_de_metrics, 'en_de')
+    create_multi_metric_diagrams('f1', en_de_metric_keys, en_de_metrics, 'en_de')
+    create_multi_metric_diagrams('recall', en_de_metric_keys, en_de_metrics, 'en_de')
+    create_multi_metric_diagrams('average_matched_sentence_count', en_de_metric_keys, en_de_metrics, 'en_de')
