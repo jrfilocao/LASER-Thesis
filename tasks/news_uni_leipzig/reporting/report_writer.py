@@ -71,15 +71,16 @@ def write_metric_chart_with_multiple_languages_into_file(metric_name, en_de_metr
     fig = plt.figure()
     fig.tight_layout()
 
-    plt.xlabel('Thresholds')
-    plt.ylabel('Scores')
-    plt.title(metric_name)
+    plt.xlabel('Margin threshold')
+    formatted_metric_name = get_metric_name_multiple_languages(metric_name)
+    plt.ylabel(formatted_metric_name)
+    plt.title('')
 
-    plt.plot(en_de_metric[0], en_de_metric[1], 'bo--', linewidth=0.7)
-    plt.plot(en_de_metric[0], en_pt_metric[1], 'r+--', linewidth=0.7)
-    plt.plot(en_de_metric[0], de_pt_metric[1], 'yo--', linewidth=0.7)
+    plt.plot(en_de_metric[0], en_de_metric[1], 'r+--', linewidth=0.7)
+    plt.plot(en_de_metric[0], en_pt_metric[1], 'bx--', linewidth=0.7)
+    plt.plot(en_de_metric[0], de_pt_metric[1], 'g.--', linewidth=0.7)
 
-    plt.legend(['English-German', 'English-Portuguese', 'German-Portuguese'])
+    plt.legend(['en-de', 'en-pt', 'de-pt'])
 
     file_name = 'output/' + metric_name
 
@@ -90,19 +91,38 @@ def write_chart_with_multiple_metrics_into_file(metric_name, first_metric, secon
     fig = plt.figure()
     fig.tight_layout()
 
-    plt.xlabel('Thresholds')
-    plt.ylabel('Scores')
-    plt.title(metric_name + '_' + language_pair_name)
+    plt.xlabel('Margin threshold')
+    formatted_metric_name = get_metric_name_multiple_metrics(metric_name)
+    plt.ylabel(formatted_metric_name)
+    plt.title('')
 
-    plt.plot(first_metric[0], first_metric[1], 'go--', linewidth=0.7)
-    plt.plot(first_metric[0], second_metric[1], 'c+--', linewidth=0.7)
-    plt.plot(first_metric[0], third_metric[1], 'mo--', linewidth=0.7)
+    plt.plot(first_metric[0], first_metric[1], 'r+--', linewidth=0.7)
+    plt.plot(first_metric[0], second_metric[1], 'bx--', linewidth=0.7)
+    plt.plot(first_metric[0], third_metric[1], 'g.--', linewidth=0.7)
 
-    plt.legend(['ONLY', 'AND', 'OR'])
+    plt.legend(['only', 'and', 'or'])
 
     file_name = 'output/' + metric_name + '_' + language_pair_name
 
     fig.savefig(file_name, bbox_inches='tight')
+
+
+def get_metric_name_multiple_metrics(metric_name):
+    name_without_underline_capitalized = metric_name.replace('_', ' ').capitalize()
+    if name_without_underline_capitalized == 'F1':
+        name_without_underline_capitalized = name_without_underline_capitalized + ' score'
+    if name_without_underline_capitalized in ['Precision', 'F1 score', 'Recall']:
+        name_without_underline_capitalized = name_without_underline_capitalized + ' (%)'
+    return name_without_underline_capitalized
+
+
+def get_metric_name_multiple_languages(metric_name):
+    name_without_underline_capitalized = metric_name.split('__')[-1].replace('_', ' ').capitalize()
+    if name_without_underline_capitalized == 'F1 measure':
+        name_without_underline_capitalized = 'F1 score'
+    if name_without_underline_capitalized in ['Precision', 'F1 score', 'Recall']:
+        name_without_underline_capitalized = name_without_underline_capitalized + ' (%)'
+    return name_without_underline_capitalized
 
 
 if __name__ == "__main__":
