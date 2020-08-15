@@ -107,6 +107,28 @@ def write_chart_with_multiple_metrics_into_file(metric_name, first_metric, secon
     fig.savefig(file_name, bbox_inches='tight')
 
 
+def write_chart_with_precision_and_recall(matching_metric_names, metrics, language_pair_name):
+    fig = plt.figure()
+    fig.tight_layout()
+
+    plt.xlabel('Margin threshold')
+    plt.ylabel('Precision (%) and Recall (%)')
+    plt.title('')
+
+    plt.plot(metrics[matching_metric_names[0]][0], metrics[matching_metric_names[0]][1], marker='+', linestyle='solid', color='red', linewidth=0.7, label='And Precision')
+    plt.plot(metrics[matching_metric_names[1]][0], metrics[matching_metric_names[1]][1], marker='+', linestyle='dashed', color='red', linewidth=0.7, label='And Recall')
+    plt.plot(metrics[matching_metric_names[2]][0], metrics[matching_metric_names[2]][1], marker='x', linestyle='solid', color='blue', linewidth=0.7, label='Or Precision')
+    plt.plot(metrics[matching_metric_names[3]][0], metrics[matching_metric_names[3]][1], marker='x', linestyle='dashed', color='blue', linewidth=0.7, label='Or Recall')
+    plt.plot(metrics[matching_metric_names[4]][0], metrics[matching_metric_names[4]][1], marker='.', linestyle='solid', color='green', linewidth=0.7, label='Only Precision')
+    plt.plot(metrics[matching_metric_names[5]][0], metrics[matching_metric_names[5]][1], marker='.', linestyle='dashed', color='green', linewidth=0.7, label='And Recall')
+
+    plt.legend()
+
+    file_name = 'output/' + 'precision_vs_recall_' + language_pair_name
+
+    fig.savefig(file_name, bbox_inches='tight')
+
+
 def get_metric_name_multiple_metrics(metric_name):
     name_without_underline_capitalized = metric_name.replace('_', ' ').capitalize()
     if name_without_underline_capitalized == 'F1':
@@ -129,19 +151,21 @@ if __name__ == "__main__":
     import numpy as np
     import matplotlib.pyplot as plt
 
-    t = np.arange(1000) / 100.
-    x = np.sin(2 * np.pi * 10 * t)
-    y = np.cos(2 * np.pi * 10 * t)
+    mean, amp = 40000, 20000
+    t = np.arange(50)
+    s1 = np.sin(t) * amp + mean  # synthetic ts, but closer to my data
 
-    fig = plt.figure()
-    ax1 = plt.subplot(211)
-    ax2 = plt.subplot(212)
+    fig, ax1 = plt.subplots()
+    ax1.plot(t, s1, 'b-')
 
-    ax1.plot(t, x)
-    ax2.plot(t, y)
+    ax1.set_xlabel('time')
+    mn, mx = ax1.set_ylim(mean - amp, mean + amp)
+    ax1.set_ylabel('km$^3$/year')
 
-    ax1.get_shared_x_axes().join(ax1, ax2)
-    ax1.set_xticklabels([])
-    # ax2.autoscale() ## call autoscale if needed
+    km3yearToSv = 31.6887646e-6
+
+    ax2 = ax1.twinx()
+    ax2.set_ylim(mn * km3yearToSv, mx * km3yearToSv)
+    ax2.set_ylabel('Sv')
 
     plt.show()
