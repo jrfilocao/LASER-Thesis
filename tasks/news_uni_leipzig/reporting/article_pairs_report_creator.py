@@ -84,7 +84,7 @@ if __name__ == "__main__":
     en_de_metric_keys = list(en_de_metrics.keys())
     en_pt_metric_keys = list(en_pt_metrics.keys())
 
-    create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics)
+    #create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics)
 
     create_multi_metric_diagrams('precision', de_pt_metric_keys, de_pt_metrics, 'de_pt')
     create_multi_metric_diagrams('f1', de_pt_metric_keys, de_pt_metrics, 'de_pt')

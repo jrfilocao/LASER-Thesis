@@ -96,11 +96,11 @@ def write_chart_with_multiple_metrics_into_file(metric_name, first_metric, secon
     plt.ylabel(formatted_metric_name)
     plt.title('')
 
-    plt.plot(first_metric[0], first_metric[1], 'b+--', linewidth=0.7)
-    plt.plot(first_metric[0], second_metric[1], 'gx--', linewidth=0.7)
-    plt.plot(first_metric[0], third_metric[1], 'r.--', linewidth=0.7)
+    plt.plot(first_metric[0], first_metric[1], 'b+--', linewidth=0.7, label='ne ≥ 1 and ps ≥ 1')
+    plt.plot(first_metric[0], second_metric[1], 'gx--', linewidth=0.7, label='ne ≥ 1 and ps ≥ 2')
+    plt.plot(first_metric[0], third_metric[1], 'r.--', linewidth=0.7, label='ne ≥ 0 and ps ≥ 2')
 
-    plt.legend(['named-entities ≥ 1 and parallel sentences ≥ 1', 'named-entities ≥ 1 and parallel sentences ≥ 2', 'named-entities ≥ 0 and parallel sentences ≥ 2'])
+    plt.legend()
 
     file_name = 'output/' + metric_name + '_' + language_pair_name
 
