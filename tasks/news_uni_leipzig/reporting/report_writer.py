@@ -67,6 +67,44 @@ def write_consolidate_statistics_diagram_into_file(statistics_reports, output_re
         fig.savefig(file_name, bbox_inches='tight')
 
 
+def write_metric_chart_into_file(metric_name, metric):
+    fig = plt.figure()
+    fig.tight_layout()
+
+    plt.xlabel('Margin threshold')
+    formatted_metric_name = get_metric_name_multiple_languages(metric_name)
+    plt.ylabel(formatted_metric_name)
+    plt.title('')
+
+    plt.plot(metric[0], metric[1], 'r+--', linewidth=0.7)
+
+    plt.legend(['en-pt'])
+
+    file_name = 'output/' + metric_name
+
+    fig.savefig(file_name, bbox_inches='tight')
+
+
+def write_chart_with_four_metrics_into_file(metric_name, first_metric, second_metric, third_metric, fourth_metric, language_pair_name):
+    fig = plt.figure()
+    fig.tight_layout()
+
+    plt.xlabel('Margin threshold')
+    plt.ylabel(metric_name)
+    plt.title('')
+
+    plt.plot(first_metric[0], first_metric[1], 'b+--', linewidth=0.7, label='ne ≥ 1 and ps ≥ 1')
+    plt.plot(first_metric[0], second_metric[1], 'gx--', linewidth=0.7, label='ne ≥ 1 and ps ≥ 2')
+    plt.plot(first_metric[0], third_metric[1], 'r.--', linewidth=0.7, label='ne ≥ 0 and ps ≥ 2')
+    plt.plot(first_metric[0], fourth_metric[1], 'kp--', linewidth=0.7, label='test')
+
+    plt.legend()
+
+    file_name = 'output/' + metric_name + '_' + language_pair_name
+
+    fig.savefig(file_name, bbox_inches='tight')
+
+
 def write_metric_chart_with_multiple_languages_into_file(metric_name, en_de_metric, en_pt_metric, de_pt_metric):
     fig = plt.figure()
     fig.tight_layout()
