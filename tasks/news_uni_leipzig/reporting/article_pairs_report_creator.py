@@ -1,4 +1,5 @@
 from reporting.report_writer import *
+from collections import OrderedDict
 
 EMPTY = ''
 DE_PT_STRING = 'de_pt'
@@ -19,7 +20,7 @@ def get_metrics(file_path):
     file_lines = _get_file_lines(file_path)
     thresholds_x = []
     values_y = []
-    metrics = {}
+    metrics = OrderedDict()
     current_metric_name = ''
     for file_line in file_lines:
         if KEY_VALUE_SEPARATOR not in file_line:
@@ -84,7 +85,7 @@ if __name__ == "__main__":
     en_de_metric_keys = list(en_de_metrics.keys())
     en_pt_metric_keys = list(en_pt_metrics.keys())
 
-    #create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics)
+    create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics)
 
     create_multi_metric_diagrams('precision', de_pt_metric_keys, de_pt_metrics, 'de_pt')
     create_multi_metric_diagrams('f1', de_pt_metric_keys, de_pt_metrics, 'de_pt')
@@ -101,6 +102,6 @@ if __name__ == "__main__":
     create_multi_metric_diagrams('recall', en_de_metric_keys, en_de_metrics, 'en_de')
     create_multi_metric_diagrams('average_matched_sentence_count', en_de_metric_keys, en_de_metrics, 'en_de')
 
-    # create_precision_recall_diagrams(en_de_metric_keys, en_de_metrics, 'en_de')
-    # create_precision_recall_diagrams(en_pt_metric_keys, en_pt_metrics, 'en_pt')
-    # create_precision_recall_diagrams(de_pt_metric_keys, de_pt_metrics, 'de_pt')
+    create_precision_recall_diagrams(en_de_metric_keys, en_de_metrics, 'en_de')
+    create_precision_recall_diagrams(en_pt_metric_keys, en_pt_metrics, 'en_pt')
+    create_precision_recall_diagrams(de_pt_metric_keys, de_pt_metrics, 'de_pt')

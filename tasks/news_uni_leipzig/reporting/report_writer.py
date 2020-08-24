@@ -90,13 +90,14 @@ def write_chart_with_four_metrics_into_file(metric_name, first_metric, second_me
     fig.tight_layout()
 
     plt.xlabel('Margin threshold')
-    plt.ylabel(metric_name)
+    formatted_metric_name = get_metric_name_multiple_metrics(metric_name)
+    plt.ylabel(formatted_metric_name)
     plt.title('')
 
     plt.plot(first_metric[0], first_metric[1], 'b+--', linewidth=0.7, label='ne ≥ 1 and ps ≥ 1')
     plt.plot(first_metric[0], second_metric[1], 'gx--', linewidth=0.7, label='ne ≥ 1 and ps ≥ 2')
     plt.plot(first_metric[0], third_metric[1], 'r.--', linewidth=0.7, label='ne ≥ 0 and ps ≥ 2')
-    plt.plot(first_metric[0], fourth_metric[1], 'kp--', linewidth=0.7, label='test')
+    plt.plot(first_metric[0], fourth_metric[1], 'kp--', linewidth=0.7, label='ne ≥ 0 and ps ≥ 1')
 
     plt.legend()
 

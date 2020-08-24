@@ -1,5 +1,5 @@
 from reporting.report_writer import *
-
+from collections import OrderedDict
 EMPTY = ''
 DE_PT_STRING = 'de_pt'
 EN_PT_STRING = 'en_pt'
@@ -19,7 +19,7 @@ def get_metrics(file_path):
     file_lines = _get_file_lines(file_path)
     thresholds_x = []
     values_y = []
-    metrics = {}
+    metrics = OrderedDict()
     current_metric_name = ''
     for file_line in file_lines:
         if KEY_VALUE_SEPARATOR not in file_line:
