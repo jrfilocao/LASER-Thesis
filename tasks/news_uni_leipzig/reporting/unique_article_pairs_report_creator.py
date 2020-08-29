@@ -70,7 +70,7 @@ def create_precision_recall_diagrams(keys, metrics, language_pair_name):
 
 
 if __name__ == "__main__":
-    unique_pairs_file_path = '../input_files/unique_article_pairs_en_pt.txt'
+    unique_pairs_file_path = '../input_files/unique_article_pairs_en_pt_parallel.txt'
 
     unique_metrics = get_metrics(unique_pairs_file_path)
 
