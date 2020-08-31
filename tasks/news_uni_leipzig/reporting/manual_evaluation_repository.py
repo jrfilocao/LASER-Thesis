@@ -63,6 +63,22 @@ group by matched_article.source_article_id, matched_article.target_article_id;
 """
 
 
+SELECT_MATCHED_SENTENCES_BY_ARTICLE_IDS = """
+select source_sentence, target_sentence
+from matched_article
+where source_article_id = %s
+and target_article_id = %s;
+"""
+
+SELECT_NAMED_ENTITIES_FROM_ARTICLE_PAIR = """
+select named_entities_score
+from matched_article
+where source_article_id = %s
+and target_article_id = %s
+limit 1;
+"""
+
+
 def get_article_pairs_and(source_language, target_language, database_cursor):
     try:
         database_cursor.execute(SELECT_ARTICLE_PAIRS_AND, (source_language, target_language))
@@ -77,3 +93,37 @@ def get_false_positive_article_pairs_and(source_language, target_language, datab
         return database_cursor.fetchall()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
+
+
+def get_false_positive_article_pairs_only(source_language, target_language, database_cursor):
+    try:
+        database_cursor.execute(SELECT_FALSE_POSITIVE_ARTICLE_PAIRS_ONLY, (source_language, target_language))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_false_positive_article_pairs_or(source_language, target_language, database_cursor):
+    try:
+        database_cursor.execute(SELECT_FALSE_POSITIVE_ARTICLE_PAIRS_OR, (source_language, target_language))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_matched_sentence_pairs_by_article_ids(source_article_id, target_article_id, database_cursor):
+    try:
+        database_cursor.execute(SELECT_MATCHED_SENTENCES_BY_ARTICLE_IDS, (source_article_id, target_article_id))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_named_entities_by_article_ids(source_article_id, target_article_id, database_cursor):
+    try:
+        database_cursor.execute(SELECT_NAMED_ENTITIES_FROM_ARTICLE_PAIR, (source_article_id, target_article_id))
+        result = database_cursor.fetchone()
+        return result[0]
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
