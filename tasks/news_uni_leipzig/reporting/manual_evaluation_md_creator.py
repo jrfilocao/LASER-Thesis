@@ -1,7 +1,7 @@
 from common.database_connector import get_database_connection
 from common.sentence_repository import get_sentences_from_article
 from reporting.manual_evaluation_repository import *
-from reporting.md_writer import write_sentences_md_file
+from reporting.md_writer import write_articles_into_md_file
 
 
 def _build_article_pairs_and_write_to_file(file_name, article_pairs, database_cursor):
@@ -10,13 +10,13 @@ def _build_article_pairs_and_write_to_file(file_name, article_pairs, database_cu
         named_entities = get_named_entities_by_article_ids(source_article_id, target_article_id, database_cursor)
         source_sentences = get_sentences_from_article(source_article_id, database_cursor)
         target_sentences = get_sentences_from_article(target_article_id, database_cursor)
-        write_sentences_md_file(file_name,
-                                source_sentences,
-                                target_sentences,
-                                source_article_id,
-                                target_article_id,
-                                matched_sentence_pairs,
-                                named_entities)
+        write_articles_into_md_file(file_name,
+                                    source_sentences,
+                                    target_sentences,
+                                    source_article_id,
+                                    target_article_id,
+                                    matched_sentence_pairs,
+                                    named_entities)
 
 
 if __name__ == "__main__":

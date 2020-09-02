@@ -3,7 +3,7 @@ def _get_article_sentences_as_text(sentences):
     return "\n ".join(sentence_tuple[0] for sentence_tuple in sentences)
 
 
-def write_sentences_md_file(file_name, source_sentences, target_sentences, source_id, target_id, matched_sentence_pairs, named_entities):
+def write_articles_into_md_file(file_name, source_sentences, target_sentences, source_id, target_id, matched_sentence_pairs, named_entities):
     source_sentence_count = len(source_sentences)
     target_sentence_count = len(target_sentences)
     max_sentence_count = source_sentence_count if source_sentence_count >= target_sentence_count else target_sentence_count
@@ -22,3 +22,6 @@ def write_sentences_md_file(file_name, source_sentences, target_sentences, sourc
                 if target_sentence in matched_sentence_pair[1]:
                     target_sentence = '**' + target_sentence + '**'
             md_file.write('| ' + source_sentence + ' | ' + target_sentence + ' |\n')
+
+
+
