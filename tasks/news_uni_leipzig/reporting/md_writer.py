@@ -1,6 +1,6 @@
 
 def _get_article_sentences_as_text(sentences):
-    return "\n ".join(sentence_tuple[0] for sentence_tuple in sentences)
+    return "\n".join(sentence_tuple[0] for sentence_tuple in sentences)
 
 
 def write_articles_into_md_file(file_name, source_sentences, target_sentences, source_id, target_id, matched_sentence_pairs, named_entities):
@@ -24,4 +24,14 @@ def write_articles_into_md_file(file_name, source_sentences, target_sentences, s
             md_file.write('| ' + source_sentence + ' | ' + target_sentence + ' |\n')
 
 
+def write_articles_into_plain_text_file(file_name, source_sentences, target_sentences, source_id, target_id):
+    source_article_text = _get_article_sentences_as_text(source_sentences)
+    target_article_text = _get_article_sentences_as_text(target_sentences)
+
+    with open(file_name, 'a') as text_file:
+        text_file.write('### ' + source_id[53:] + ' -- ' + target_id[53:] + '\n')
+        text_file.write(source_article_text)
+        text_file.write('\n\n')
+        text_file.write(target_article_text)
+        text_file.write('-------------\n\n')
 
