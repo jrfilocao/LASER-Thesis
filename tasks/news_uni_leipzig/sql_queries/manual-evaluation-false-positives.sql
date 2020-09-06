@@ -5,7 +5,7 @@ with unique_sql as
 select source_article_id, target_article_id
 from matched_article
 where source_language = 'en' and target_language = 'de'
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -44,7 +44,7 @@ from matched_article
 where source_language = 'en' and target_language = 'de'
 and named_entities_score is not null
 and number_of_similar_sentences > 1
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -58,7 +58,7 @@ from matched_article
 where source_language = 'en' and target_language = 'pt'
 and named_entities_score is not null
 and number_of_similar_sentences > 1
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -72,7 +72,7 @@ from matched_article
 where source_language = 'de' and target_language = 'pt'
 and named_entities_score is not null
 and number_of_similar_sentences > 1
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -87,7 +87,7 @@ select source_article_id, target_article_id
 from matched_article
 where source_language = 'en' and target_language = 'de'
 and number_of_similar_sentences > 1
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -100,7 +100,7 @@ select source_article_id, target_article_id
 from matched_article
 where source_language = 'en' and target_language = 'pt'
 and number_of_similar_sentences > 1
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -113,7 +113,7 @@ select source_article_id, target_article_id
 from matched_article
 where source_language = 'de' and target_language = 'pt'
 and number_of_similar_sentences > 1
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -127,7 +127,7 @@ select source_article_id, target_article_id
 from matched_article
 where source_language = 'en' and target_language = 'de'
 and named_entities_score is not null
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -140,7 +140,7 @@ select source_article_id, target_article_id
 from matched_article
 where source_language = 'en' and target_language = 'pt'
 and named_entities_score is not null
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
@@ -153,7 +153,7 @@ select source_article_id, target_article_id
 from matched_article
 where source_language = 'de' and target_language = 'pt'
 and named_entities_score is not null
-and sentence_candidates_score >= 1.05
+and sentence_candidates_score >= 1.125
 and substring(source_article_id, 0, 58) != substring(target_article_id, 0, 58)
 group by matched_article.source_article_id, matched_article.target_article_id
 )
