@@ -1,3 +1,5 @@
+|DE|PT|
+
 AND 2019-07-09_de_article_273 -- 2019-07-09_pt_article_251
 * CNET, como se fosse DPA
 AND 2019-07-09_de_article_460 -- 2019-07-08_pt_article_154
@@ -30,3 +32,19 @@ AND 2020-01-17_de_article_1744 -- 2020-01-16_pt_article_1078
 * Analyse unseres Partner-Portals "Economist": Demenzkranke können zuhause allein leben:
   Finnlands Quantensprung in der Pflege (website nicht vorhanden)
 * https://www.terra.com.br/vida-e-estilo/saude/finlandia-recorre-a-tecnologia-para-cuidar-de-seus-idosos,5c9194be2b303e34bb34f28983d771a7k22zdnt3.html
+
+AND 2020-01-17_de_article_3141 -- 2020-01-17_pt_article_998
+* Problema Named-entities
+** den USA Deus 73 73,
+
+|EN|DE|
+
+AND 2019-07-08_en_article_4222 -- 2019-07-09_de_article_229
+* noticia chocante, cachorros
+
+AND 2019-07-08_en_article_5945 -- 2019-07-08_de_article_493
+* interessante em relacao a named entities em linguas diferentes
+
+AND 2019-07-08_en_article_641 -- 2019-07-09_de_article_154
+* viele Named-entities, nur 2 gefundene Sätze
+* referencia a um jornal fonte, da parte em alemao
