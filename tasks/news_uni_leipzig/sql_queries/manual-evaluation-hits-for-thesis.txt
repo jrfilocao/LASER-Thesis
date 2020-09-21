@@ -1,0 +1,32 @@
+AND 2019-07-09_de_article_273 -- 2019-07-09_pt_article_251
+* CNET, como se fosse DPA
+AND 2019-07-09_de_article_460 -- 2019-07-08_pt_article_154
+* Bom exemplo para named-entities que faltam, como numeros
+* o fato de que algumas outras frases sao parecidas, mas o threshold de 1.125,
+  nao permite que as outras sejam marcadas.
+  ** Verificar isso no postgres
+AND 2019-07-10_de_article_421 -- 2019-07-09_pt_article_279
+* Bom match tanto em relacao a frases quanto a named-entities
+AND 2019-07-10_de_article_613 -- 2019-07-10_pt_article_193
+* Frases citacoes e bons named-entities
+* Levenshtein
+AND 2019-07-12_de_article_1176 -- 2019-07-12_pt_article_157
+* alles sehr gut, aber keine Named-entities mit Zahlen
+* DPA
+AND 2019-07-12_de_article_174 -- 2019-07-14_pt_article_119
+* Bom match mas fica claro como alguns site so utilizam partes dos textos de DPA, FPA
+** Trump kündigt Großrazzien gegen illegale Einwanderer an
+** EUA inicia operação de detenção de migrantes ilegais
+* https://www.sabado.pt/mundo/detalhe/eua-inicia-operacao-de-detencao-de-migrantes-ilegais
+* https://www.wochenblatt.de/news-stream/deutschland-welt/artikel/292486/trump-kuendigt-grossrazzien-gegen-illegale-einwanderer-an
+** vollständige Nachricht
+* https://www.faz.net/aktuell/politik/wahl-in-amerika/trump-kuendigt-grossrazzien-gegen-illegale-einwanderer-an-16282564.html
+** Nur ein Teil
+* FPA
+AND 2020-01-17_de_article_1744 -- 2020-01-16_pt_article_1078
+* The economist
+* Bom match
+* Como score de named-entities interessante
+* Analyse unseres Partner-Portals "Economist": Demenzkranke können zuhause allein leben:
+  Finnlands Quantensprung in der Pflege (website nicht vorhanden)
+* https://www.terra.com.br/vida-e-estilo/saude/finlandia-recorre-a-tecnologia-para-cuidar-de-seus-idosos,5c9194be2b303e34bb34f28983d771a7k22zdnt3.html
