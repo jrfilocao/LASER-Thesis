@@ -48,3 +48,18 @@ AND 2019-07-08_en_article_5945 -- 2019-07-08_de_article_493
 AND 2019-07-08_en_article_641 -- 2019-07-09_de_article_154
 * viele Named-entities, nur 2 gefundene Sätze
 * referencia a um jornal fonte, da parte em alemao
+
+AND 2019-07-08_en_article_7557 -- 2019-07-09_de_article_1007
+* guter Match
+* AP news
+
+AND 2019-07-09_en_article_2344 -- 2019-07-09_de_article_1342
+* so uma named-entities, provavelmente falha em Levenshtein
+
+AND 2019-07-09_en_article_6273 -- 2019-07-09_de_article_106
+* FEHLER
+* https://e-news.us/huawei-claims-its-android-alternative-will-be-faster-than-googles-os-the-inquirer/
+** Huawei Claims Its Android Alternative Will Be Faster Than Google’s OS – The INQUIRER
+* https://www.zdnet.de/88364395/5g-britische-mobilfunkprovider-setzen-auf-huawei/
+** 5G: Britische Mobilfunkprovider setzen auf Huawei
+* Retomada de fatos anteriores que sao relevantes para os fatos relatados
