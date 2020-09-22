@@ -56,10 +56,49 @@ AND 2019-07-08_en_article_7557 -- 2019-07-09_de_article_1007
 AND 2019-07-09_en_article_2344 -- 2019-07-09_de_article_1342
 * so uma named-entities, provavelmente falha em Levenshtein
 
-AND 2019-07-09_en_article_6273 -- 2019-07-09_de_article_106
+AND 2019-07-09_en_article_6273 -- 2019-07-09_de_article_106 - 2
 * FEHLER
 * https://e-news.us/huawei-claims-its-android-alternative-will-be-faster-than-googles-os-the-inquirer/
 ** Huawei Claims Its Android Alternative Will Be Faster Than Google’s OS – The INQUIRER
 * https://www.zdnet.de/88364395/5g-britische-mobilfunkprovider-setzen-auf-huawei/
 ** 5G: Britische Mobilfunkprovider setzen auf Huawei
 * Retomada de fatos anteriores que sao relevantes para os fatos relatados
+
+AND 2019-07-10_en_article_1208 -- 2019-07-10_de_article_1504
+* Exemplo com duas frases e sem nenhuma agencia de noticias, mas sim
+  baseado na mesma fonte de papua nova guiné
+
+AND 2019-07-10_en_article_635 -- 2019-07-09_de_article_1127
+* Übersetzung aus der Marketing Abteilung
+
+AND 2019-07-10_en_article_74 -- 2019-07-14_de_article_850
+* Autores independentes de agencia de noticias, mas com frases semelhantes
+** Copia? Baseado?
+* https://www.al-monitor.com/pulse/originals/2019/07/cyprus-turkey-greece-sea-maritime-sovereignty.html
+* https://www.spiegel.de/politik/ausland/tuerkei-und-zypern-streiten-um-gas-monopoly-im-mittelmeer-a-1277135.html
+
+AND 2019-07-10_en_article_9682 -- 2019-07-08_de_article_558 - 1
+* FEHLER
+* https://www.webwire.com/ViewPressRel.asp?aId=243592
+* https://www.presseportal.ch/de/pm/100016027/100830029
+* Algumas frases paralelas e muitas named-entities, mesmo assim erro
+* Informacoes de marketing sobre empresa, Diageo
+* Press release
+
+AND 2019-07-11_en_article_589 -- 2019-07-12_de_article_1282
+* AP und DPA
+* poucas frases semelhantes, so citacoes
+* https://www.theyeshivaworld.com/news/general/1756975/whats-wrong-with-angela-germanys-merkel-sits-for-anthems-after-third-shaking-episodes.html
+* https://www.abendblatt.de/politik/deutschland/article226461937/Tschentscher-zu-Merkel-Anzeichen-koerperlicher-Ueberlastung.html
+
+AND 2019-07-11_en_article_75 -- 2019-07-13_de_article_377 - 1
+* Fehler? retomada
+* https://www.heise.de/tp/features/Stand-der-Kriegsvorbereitung-gegen-den-Iran-4469482.html?wt_mc
+* https://foreignpolicy.com/2019/07/09/britain-france-agree-to-send-additional-troops-increase-syria-us-withdrawal-uk/
+* Britain, France Agree to Send Additional Troops to Syria
+* Stand der Kriegsvorbereitung gegen den Iran
+
+AND 2019-07-13_en_article_4143 -- 2019-07-12_de_article_157 - 1 ** Ate aqui **
+* Fehler, Alemao sobre outra coisa, e retoma texto
+* https://www.panarmenian.net/eng/news/270931/
+* https://www.faz.net/aktuell/finanzen/us-boersenindex-s-p-500-erstmals-ueber-3000-punkten-16282995.html
