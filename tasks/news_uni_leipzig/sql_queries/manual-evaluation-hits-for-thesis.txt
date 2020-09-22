@@ -98,7 +98,23 @@ AND 2019-07-11_en_article_75 -- 2019-07-13_de_article_377 - 1
 * Britain, France Agree to Send Additional Troops to Syria
 * Stand der Kriegsvorbereitung gegen den Iran
 
-AND 2019-07-13_en_article_4143 -- 2019-07-12_de_article_157 - 1 ** Ate aqui **
+AND 2019-07-13_en_article_4143 -- 2019-07-12_de_article_157 - 1 ** Ate aqui *
 * Fehler, Alemao sobre outra coisa, e retoma texto
 * https://www.panarmenian.net/eng/news/270931/
 * https://www.faz.net/aktuell/finanzen/us-boersenindex-s-p-500-erstmals-ueber-3000-punkten-16282995.html
+
+
+AND 2020-01-22_en_article_9581 -- 2020-01-22_de_article_31
+* Sehr gut, traducao
+
+AND 2020-01-22_en_article_2921 -- 2020-01-22_de_article_2996
+* Sehr gut, mesma agencia de noticias?
+* https://www.nachrichten.at/wirtschaft/was-das-corona-virus-fuer-die-wirtschaft-bedeutet;art15,3215854
+* https://indianexpress.com/article/explained/explained-how-coronavirus-can-impact-the-economy-and-markets-6229181/
+
+AND 2020-01-22_en_article_1865 -- 2020-01-21_de_article_531
+* lustig :D
+* https://gossiponthis.com/2020/01/22/mom-pays-daughter-wedding-gives-birth-baby-son-law/
+* https://www.focus.de/familie/eltern/9-monate-nach-der-hochzeit-frau-ueber-mutter-dann-bekam-sie-ein-kind-von-meinem-mann_id_11571078.html
+** Datum aktualisiert
+* Beispiel von Artikel, die nicht vollständig extrahiert wurden
