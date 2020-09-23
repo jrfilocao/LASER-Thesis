@@ -118,3 +118,18 @@ AND 2020-01-22_en_article_1865 -- 2020-01-21_de_article_531
 * https://www.focus.de/familie/eltern/9-monate-nach-der-hochzeit-frau-ueber-mutter-dann-bekam-sie-ein-kind-von-meinem-mann_id_11571078.html
 ** Datum aktualisiert
 * Beispiel von Artikel, die nicht vollständig extrahiert wurden
+
+
+|EN|PT|
+
+AND 2019-07-08_en_article_3879 -- 2019-07-10_pt_article_471
+* 3 frases em comum
+* Exemplo de noticia do vaticano, e outros jornais escrevem sobre isso
+* https://www.ncronline.org/news/vatican/francis-chronicles/migrants-are-people-not-just-social-issue-pope-says-mass
+* https://www.jornalgrandebahia.com.br/2019/07/os-migrantes-sao-o-simbolo-de-todos-os-descartados-da-sociedade-globalizada-diz-papa-francisco/?doing_wp_cron=1600783146.4864420890808105468750
+
+AND 2019-07-08_en_article_8803 -- 2019-07-08_pt_article_251
+* Reuters
+* 5 frases, alguns named entities
+* https://www.cbc.ca/news/world/geneva-bachelet-us-migrants-1.5203545?cmp
+* http://www.correiodobrasil.com.br/bachelet-tratamento-eua-imigrantes/
