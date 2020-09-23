@@ -133,3 +133,31 @@ AND 2019-07-08_en_article_8803 -- 2019-07-08_pt_article_251
 * 5 frases, alguns named entities
 * https://www.cbc.ca/news/world/geneva-bachelet-us-migrants-1.5203545?cmp
 * http://www.correiodobrasil.com.br/bachelet-tratamento-eua-imigrantes/
+
+AND 2019-07-09_en_article_1480 -- 2019-07-08_pt_article_434
+* Bolsonaro, par especifico das linguas
+* https://en.mercopress.com/2019/07/09/bolsonaro-involved-in-child-labor-controversy-i-ve-been-working-since-i-was-eight-year-old?utm_source
+* https://www.jornalgrandebahia.com.br/2019/07/presidente-jair-bolsonaro-ignora-previdencia-em-transmissao-ao-vivo-e-diz-que-trabalho-nao-atrapalha-criancas-governante-apresenta-baixa-cognicao/
+* Burro pra kcete
+
+AND 2019-07-09_en_article_2640 -- 2019-07-11_pt_article_476
+* Named Entities, casos interessantes (Plágio??)
+* https://www.nytimes.com/2019/07/03/well/move/weight-loss-gain-exercise.html
+* https://extra.globo.com/noticias/saude-e-ciencia/estudo-aponta-que-apenas-praticar-exercicio-fisico-nao-garante-perda-de-peso-23800529.html
+* Caso onde a agencia do Brasil nao citou fontes e tem coincidentemente 3 frases parecidas.
+** Parece ser um caso onde jornalista leu artigo em site americano e traduziu algumas frases e escreveu o resto
+** Mais frases foram copiadas porem o nosso script nao conseguiu detectar pois
+   o texto em ingles for extraido so parcialemente. É possível identificar frases outras frases semelhantes como,
+*** As expected, the control group’s numbers, including their weights and resting metabolic rates, had not budged.
+    Como esperado, os participantes que mantiveram suas rotina, não apresentaram alterações.
+
+    but about two-thirds of those in the shorter-workout group and 90 percent of those in the longer-workout group had lost less weight than would have been expected.
+    They had compensated for their extra calorie burn
+
+    Cerca de dois terços dos que estavam no grupo de mais curtos perderam alguns quilos
+    90% dos que estavam no grupo de exercícios mais longos não atingiram o objetivo esperado,
+    pois tinham compensado a queima extra de calorias comendo mais. .
+
+    about 90 additional calories each day for the some-exercise group, and 125 a day for the most-exercise set. But this noshing was sufficient to undercut weight loss.
+    As calorias extras foram pequenas — cerca de 90 calorias adicionais por dia para o grupo de exercícios moderados, e 125 por dia para o grupo com exercícios mais intensos.
+    Mas isto foi o suficiente para não atingirem a expectativa
