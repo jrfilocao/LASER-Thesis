@@ -161,3 +161,27 @@ AND 2019-07-09_en_article_2640 -- 2019-07-11_pt_article_476
     about 90 additional calories each day for the some-exercise group, and 125 a day for the most-exercise set. But this noshing was sufficient to undercut weight loss.
     As calorias extras foram pequenas — cerca de 90 calorias adicionais por dia para o grupo de exercícios moderados, e 125 por dia para o grupo com exercícios mais intensos.
     Mas isto foi o suficiente para não atingirem a expectativa
+
+AND 2019-07-09_en_article_981 -- 2019-07-09_pt_article_99
+* Textos nas duas linguas com estruturas muito semelhantes mas sem citacao de fontes
+* https://esportes.estadao.com.br/noticias/futebol,apos-deixar-a-selecao-brasileira-edu-e-anunciado-como-diretor-tecnico-do-arsenal,70002913830
+* https://www.pmnewsnigeria.com/2019/07/09/arsenal-confirm-edus-return/
+** talvez esse original https://www.standard.co.uk/sport/football/arsenal/arsenal-confirm-edu-as-the-first-technical-director-a4185991.html
+
+AND 2019-07-09_en_article_2856 -- 2019-07-09_pt_article_565
+* Exemplo AP original (ingles), portugues cita AP
+* https://www.reviewjournal.com/news/politics-and-government/trump-cant-ban-critics-from-twitter-account-appeals-court-rules-1706990/
+* https://www.correio24horas.com.br/noticia/nid/justica-americana-proibe-trump-de-bloquear-criticos-no-twitter/
+
+AND 2019-07-09_en_article_981 -- 2019-07-09_pt_article_99
+* exemplo de pare especifico brasileiro
+* https://www.standard.co.uk/sport/football/arsenal/arsenal-confirm-edu-as-the-first-technical-director-a4185991.html
+
+AND 2019-07-12_en_article_2142 -- 2020-01-17_pt_article_730
+* Error Jesus
+
+AND 2020-01-21_en_article_10495 -- 2020-01-21_pt_article_1089
+* Exemplo com somente duas frases e um named entity em comum
+* https://www.iol.co.za/news/world/china-confirms-human-to-human-transmission-of-coronavirus-223-diagnosed-globally-40972701
+* https://oglobo.globo.com/sociedade/saude/mortes-por-coronavirus-sobem-para-6-na-china-oms-ve-risco-da-doenca-atingir-outros-paises-1-24201974
+* Reuters
