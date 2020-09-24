@@ -30,20 +30,30 @@ if __name__ == "__main__":
         database_cursor = database_connection.cursor()
 
         for source_language, target_language in [('en', 'de'), ('en', 'pt'), ('de', 'pt')]:
-            and_pairs = get_false_positive_article_pairs_and(source_language, target_language, database_cursor)
-            md_file_name = 'output/{}_{}_article_pairs_and.md'.format(source_language, target_language)
-            text_file_name = 'output/{}_{}_article_pairs_and.txt'.format(source_language, target_language)
+            # and_pairs = get_false_positive_article_pairs_and(source_language, target_language, database_cursor)
+            # md_file_name = 'output/{}_{}_article_pairs_and.md'.format(source_language, target_language)
+            # text_file_name = 'output/{}_{}_article_pairs_and.txt'.format(source_language, target_language)
+            # _build_article_pairs_and_write_to_file(md_file_name, text_file_name, and_pairs, database_cursor)
+            #
+            # or_pairs = get_false_positive_article_pairs_or(source_language, target_language, database_cursor)
+            # md_file_name = 'output/{}_{}_article_pairs_or.md'.format(source_language, target_language)
+            # text_file_name = 'output/{}_{}_article_pairs_or.txt'.format(source_language, target_language)
+            # _build_article_pairs_and_write_to_file(md_file_name, text_file_name, or_pairs, database_cursor)
+            #
+            # only_pairs = get_false_positive_article_pairs_only(source_language, target_language, database_cursor)
+            # md_file_name = 'output/{}_{}_article_pairs_only.md'.format(source_language, target_language)
+            # text_file_name = 'output/{}_{}_article_pairs_only.txt'.format(source_language, target_language)
+            # _build_article_pairs_and_write_to_file(md_file_name, text_file_name, only_pairs, database_cursor)
+
+            # and_pairs = get_article_pairs_and(source_language, target_language, database_cursor)
+            # md_file_name = 'output/{}_{}_article_pairs_and.md'.format(source_language, target_language)
+            # text_file_name = 'output/{}_{}_article_pairs_and.txt'.format(source_language, target_language)
+            # _build_article_pairs_and_write_to_file(md_file_name, text_file_name, and_pairs, database_cursor)
+
+            and_pairs = get_article_pairs_and_few_named_entities(source_language, target_language, database_cursor)
+            md_file_name = 'output/{}_{}_article_pairs_and_few_nes.md'.format(source_language, target_language)
+            text_file_name = 'output/{}_{}_article_pairs_and_few_nes.txt'.format(source_language, target_language)
             _build_article_pairs_and_write_to_file(md_file_name, text_file_name, and_pairs, database_cursor)
-
-            or_pairs = get_false_positive_article_pairs_or(source_language, target_language, database_cursor)
-            md_file_name = 'output/{}_{}_article_pairs_or.md'.format(source_language, target_language)
-            text_file_name = 'output/{}_{}_article_pairs_or.txt'.format(source_language, target_language)
-            _build_article_pairs_and_write_to_file(md_file_name, text_file_name, or_pairs, database_cursor)
-
-            only_pairs = get_false_positive_article_pairs_only(source_language, target_language, database_cursor)
-            md_file_name = 'output/{}_{}_article_pairs_only.md'.format(source_language, target_language)
-            text_file_name = 'output/{}_{}_article_pairs_only.txt'.format(source_language, target_language)
-            _build_article_pairs_and_write_to_file(md_file_name, text_file_name, only_pairs, database_cursor)
 
     finally:
         if database_connection is not None:

@@ -78,6 +78,34 @@ and target_article_id = %s
 limit 1;
 """
 
+SELECT_ARTICLE_PAIRS_AND_FEW_NAMED_ENTITIES = """
+with and_entries as
+(
+select named_entities_score, source_article_id, target_article_id
+from matched_article
+where source_language = %s and target_language = %s
+and named_entities_score is not null
+and number_of_similar_sentences > 1
+and sentence_candidates_score >= 1.125
+group by named_entities_score, matched_article.source_article_id, matched_article.target_article_id
+),
+brace_counts as
+(
+select CHAR_LENGTH(named_entities_score) - CHAR_LENGTH(REPLACE(named_entities_score, ',', '')) as ne_count,
+source_article_id, target_article_id
+from and_entries
+)
+select source_article_id, target_article_id from brace_counts where ne_count < 2;
+"""
+
+
+def get_article_pairs_and_few_named_entities(source_language, target_language, database_cursor):
+    try:
+        database_cursor.execute(SELECT_ARTICLE_PAIRS_AND_FEW_NAMED_ENTITIES, (source_language, target_language))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
 
 def get_article_pairs_and(source_language, target_language, database_cursor):
     try:
