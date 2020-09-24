@@ -185,3 +185,10 @@ AND 2020-01-21_en_article_10495 -- 2020-01-21_pt_article_1089
 * https://www.iol.co.za/news/world/china-confirms-human-to-human-transmission-of-coronavirus-223-diagnosed-globally-40972701
 * https://oglobo.globo.com/sociedade/saude/mortes-por-coronavirus-sobem-para-6-na-china-oms-ve-risco-da-doenca-atingir-outros-paises-1-24201974
 * Reuters
+
+AND 2020-01-22_en_article_7579 -- 2020-01-22_pt_article_817
+* Corona
+* Bom
+* https://www.thestar.com/news/world/asia/2020/01/21/outbreak-from-new-virus-rises-to-440-in-china-with-9-dead.html
+* https://www.sabado.pt/mundo/detalhe/china-recomenda-que-se-evite-multidoes-face-a-propagacao-de-novo-virus
+** Lusa???
