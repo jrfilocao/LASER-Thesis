@@ -37,6 +37,9 @@ AND 2020-01-17_de_article_3141 -- 2020-01-17_pt_article_998
 * Problema Named-entities
 ** den USA Deus 73 73,
 
+OR 2020-01-21_de_article_3708 -- 2020-01-21_pt_article_827
+* Sem Named-Entity
+
 |EN|DE|
 
 AND 2019-07-08_en_article_4222 -- 2019-07-09_de_article_229
@@ -119,6 +122,14 @@ AND 2020-01-22_en_article_1865 -- 2020-01-21_de_article_531
 ** Datum aktualisiert
 * Beispiel von Artikel, die nicht vollständig extrahiert wurden
 
+OR 2019-07-11_en_article_5366 -- 2019-07-12_de_article_687
+* Sem Named-entity
+* exemplo de falha
+
+ONLY 2020-01-17_en_article_13056 -- 2020-01-17_de_article_2056
+* Correto
+* https://www.timesofisrael.com/police-sappers-called-as-balloon-borne-bomb-found-in-ashdod/
+* https://www.t-online.de/nachrichten/ausland/krisen/id_87172044/israel-greift-hamas-stellungen-im-gazastreifen-an.html
 
 |EN|PT|
 
@@ -192,3 +203,6 @@ AND 2020-01-22_en_article_7579 -- 2020-01-22_pt_article_817
 * https://www.thestar.com/news/world/asia/2020/01/21/outbreak-from-new-virus-rises-to-440-in-china-with-9-dead.html
 * https://www.sabado.pt/mundo/detalhe/china-recomenda-que-se-evite-multidoes-face-a-propagacao-de-novo-virus
 ** Lusa???
+
+OR 2020-01-21_en_article_3449 -- 2020-01-21_pt_article_1172
+* Sem named-entities
