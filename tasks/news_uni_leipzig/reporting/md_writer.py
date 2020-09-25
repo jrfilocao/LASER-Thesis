@@ -9,7 +9,10 @@ def write_articles_into_md_file(file_name, source_sentences, target_sentences, s
     max_sentence_count = source_sentence_count if source_sentence_count >= target_sentence_count else target_sentence_count
     with open(file_name, 'a') as md_file:
         md_file.write('### ' + source_id[53:] + ' -- ' + target_id[53:] + '\n')
-        md_file.write('| ' + named_entities + ' |\n' )
+        if named_entities:
+            md_file.write('| ' + named_entities + ' |\n' )
+        else:
+            md_file.write('| NO-NAMED-ENTITY |\n')
         md_file.write('| ------------- |\n\n' )
         md_file.write('| EN | DE | \n')
         md_file.write('| ------------- |: -------------: | \n')
