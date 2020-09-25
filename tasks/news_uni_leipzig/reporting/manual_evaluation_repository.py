@@ -22,11 +22,31 @@ and sentence_candidates_score >= 1.125
 group by matched_article.source_article_id, matched_article.target_article_id;
 """
 
+SELECT_ARTICLE_PAIRS_EXCLUSIVELY_OR = """
+select source_article_id, target_article_id
+from matched_article
+where source_language = %s and target_language = %s
+and named_entities_score is null
+and number_of_similar_sentences > 1
+and sentence_candidates_score >= 1.125
+group by matched_article.source_article_id, matched_article.target_article_id;
+"""
+
 SELECT_ARTICLE_PAIRS_ONLY = """
 select source_article_id, target_article_id
 from matched_article
 where source_language = %s and target_language = %s
 and named_entities_score is not null
+and sentence_candidates_score >= 1.125
+group by matched_article.source_article_id, matched_article.target_article_id;
+"""
+
+SELECT_ARTICLE_PAIRS_EXCLUSIVELY_ONLY = """
+select source_article_id, target_article_id
+from matched_article
+where source_language = %s and target_language = %s
+and named_entities_score is not null
+and number_of_similar_sentences = 1
 and sentence_candidates_score >= 1.125
 group by matched_article.source_article_id, matched_article.target_article_id;
 """
@@ -110,6 +130,22 @@ def get_article_pairs_and_few_named_entities(source_language, target_language, d
 def get_article_pairs_and(source_language, target_language, database_cursor):
     try:
         database_cursor.execute(SELECT_ARTICLE_PAIRS_AND, (source_language, target_language))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_article_pairs_exclusively_only(source_language, target_language, database_cursor):
+    try:
+        database_cursor.execute(SELECT_ARTICLE_PAIRS_EXCLUSIVELY_ONLY, (source_language, target_language))
+        return database_cursor.fetchall()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def get_article_pairs_exclusively_or(source_language, target_language, database_cursor):
+    try:
+        database_cursor.execute(SELECT_ARTICLE_PAIRS_EXCLUSIVELY_OR, (source_language, target_language))
         return database_cursor.fetchall()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
