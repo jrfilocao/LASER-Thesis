@@ -1,0 +1,1388 @@
+### 2020-01-21_en_article_12994 -- 2020-01-22_de_article_36
+| {Ai Weiwei's Weiwei 71 71, Ai Weiwei's Ai Weiwei 90 90} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| While Ai insists he has no illusions about Britain, he still thinks it will be better for his family. | Der chinesische Konzeptkünstler und Maler Ai Weiwei hat nach seinem Umzug von Deutschland nach England den Deutschen Fremdenfeindlichkeit und Nazismus vorgeworfen. |
+| Unemployed elephants … Ai Weiwei's first virtual reality artwork, Omni . | **Sobald du dich daran gewöhnt hast, kann diese Situation sehr angenehm sein.** |
+| Does he really believe that post-Brexit Britain will prove a haven of tolerance? | **Dort sagen sie dir, daß du in Deutschland Deutsch sprechen mußt.** |
+| He smiles and says he's here primarily for his son. | Bereits im Dezember 2018 hatte Weiwei die Stimmungslage in Deutschland beklagt. |
+| He believes 10-year-old Lao will get a good education in Britain – and will be safe. | Deutsche sagen mir, ich sollte ihnen dankbar sein, weil sie für mich als Flüchtling zahlen. |
+| I donot think Germany provides a good environment for foreigners. | Er fühle sich an die 30er Jahre erinnert, wenn er Plakate sehe, die aussagen 'Wir können unsere eigenen Babies machen, wir brauchen keine Ausländer'.. |
+| He mentions that Lao was recently threatened by a shop owner there.. | Vor vier Jahren hatte sich der Mann in der Position eines ertrunkenen Flüchtlingskinds am Strand von Lesbos fotographieren lassen. |
+| **They would say in Germany you have to speak German.** | In einer anderen Aktion umhing der Künstler die Säulen des Berliner Konzerthauses mit Schwimmwesten, die Migranten benutzt haben sollen. |
+| If Britain does let him down, he assures me he'll let us all know. | Deutschland sei intolerant, bigott und autoritär, sagte Weiwei dem . |
+| We meet at an upmarket hotel in Cambridge, the city where the 62-year-old now lives. | Faschismus ist die Denkweise, daß eine Ideologie über anderen steht und der Versuch, diese Ideologie zu reinigen, indem man andere Denkweisen ablehnt. |
+| He is dressed in trademark black, head shaved and beard clipped. | Das ist Nazismus und dieser Nazismus existiert heute noch im deutschen Alltag, urteilte der Künstler. |
+| There is something mesmerising about him: he has the appearance of a bouncer, the manner of a priest and the language of a revolutionary. | **Die Anzüge der Menschen sähen nicht mehr so aus wie in den 1930ern, aber erfüllten die gleiche Funktion.** |
+| With the gentlest of voices, he continues to eviscerate Germany. | Wegen regierungskritischen Äußerungen saß er 2011 einen Monat in China im Gefängnis und wurde mit einem vierjährigen Hausarrest belegt. |
+| I donot like a state or culture that so obeys authority. | Nachdem er seinen Reisepaß zurückerhielt, zog er 2015 nach Berlin, wo ihm an der Universität der Künste eine Professur angeboten worden war. |
+| **Once you're used to it, it can be very enjoyable.** | In Berlin sei sein Sohn in einem Laden bedroht worden. |
+| And you can see the efficiency, the show, the sense of their power being extended through the connected-mind condition. | Zudem hätten ihn in verschiedenen Situationen Taxifahrer aus dem Auto geworfen. |
+| **They have a different kind of suit: it doesnot look like what they wore in the 1930s, but it still has the same kind of function.** | Einmal habe er das Fenster geöffnet, weil ihm das Parfüm des Fahrers zu stark roch. |
+| -- | Bei einem anderen Vorfall habe ihn seine Mutter aus China angerufen und er habe abgenommen. |
+| -- | Für die Taxichauffeure Grund genug, ihm die Fahrt zu verweigern. |
+| -- | Der eine habe so abrupt gebremst, daß sein Sohn und seine Freundin sich leicht verletzt hätten.. |
+| -- | Ich mag keine Staaten und Kulturen, die dermaßen autoritätshörig sind, resümiert Weiwei seinen Aufenthalt in Berlin. |
+### 2020-01-17_en_article_7495 -- 2020-01-21_de_article_381
+| {Anindita Bhadra Anindita Bhadra 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| The dogs that went to the bowls were friendlier and less anxious, and most went to the bowl the researcher pointed to, which indicates that the dogs understood what the human wanted. . | Unklar war bisher, ob diese Fähigkeit antrainiert oder angeboren war. |
+| The report was published Jan. 17 in the journal  Frontiers in Psychology. | Sie platzierten in deren Nähe auf dem Boden jeweils zwei verdeckte Schüsseln mit Futter.. |
+| We thought it was quite amazing that the dogs could follow a gesture as abstract as momentary pointing, Bhadra said in a journal news release. | **Die Wissenschaftler deuteten darauf und registrierten, ob die Hunde die Gesten verstanden und zu der jeweiligen Schüssel liefen.** |
+| This means that they closely observe the human, whom they are meeting for the first time, and they use their understanding of humans to make a decision. | Ungefähr die Hälfte der Tiere reagierte nicht auf die Gesten. |
+| Bhadra suspects dogs have an inborn ability to understand certain gestures that arenot dependent on training. . | Das liege an deren Ängsten, vermuteten die Wissenschaftler, weil sie zuvor schlechte Erfahrungen mit Menschen gemacht hatten. |
+| They are quite capable of understanding our body language and we need to give them their space, she said. | Daraus schlossen die Forscher, dass die Tiere die Gesten zu deuten verstanden.. |
+| **A little empathy and respect for another species can reduce a lot of conflict. .** | Das bedeutet, dass Hunde Menschen, denen sie zum ersten Mal begegnen, genau beobachten, sagt Anindita Bhadra, die zum Team gehört. |
+| FRIDAY, Jan. 17, 2020 (HealthDay News) -- There's more evidence that the canine-human bond is a tight one: New research finds that stray dogs pick up on human commands, even though they havenot been trained. . | Sie nutzen ihr Wissen über Menschen, um bestimmte Entscheidungen zu treffen. |
+| Of the untrained dogs in the study, 80% went to the place a person pointed to. | Und dass sie in der Lage seien, mit Menschen konfliktfrei zu koexistieren. |
+| This suggests dogs understand complex gestures by watching humans, which might be a clue to reducing conflict between stray dogs and people, researchers in India say. . | **Ein bisschen Mitgefühl und Respekt für eine andere Art kann Konflikte lösen.** |
+| For the study, a team led by Anindita Bhadra of the Indian Institute of Science Education and Research in Kolkata studied stray dogs in several Indian cities. . | Menschen züchteten sie, sodass sie mit Eigenschaften ausgestattet wurden, die sie zu Begleitern des Menschen und sogar zu Arbeitern machten. |
+| The researchers would approach a stray and put two covered bowls on the ground near the dog. | Hunde wurden auf diese Weise sensibel für Gesten der Menschen. |
+| **They then pointed to one of the bowls and noted if the dog went to that bowl. .** | -- |
+| The researchers suggested that these animals most likely had had bad interactions with humans before. . | -- |
+### 2020-01-17_en_article_7292 -- 2020-01-17_de_article_1809
+| {Ashley Ashley 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| When Ashley's head and mindset was on 'yeah, I want to try this', why not do it now?. | **Ashley war der Meinung, dass er ein neues Abenteuer ausprobieren wollte.** |
+| If the deal is finalised, Young will up with former United teammates Romelu Lukaku and Alexis Sanchez.. | +++ 19.42 Uhr: BVB reist ohne Alcácer nach Augsburg +++. Paco Alcácer steht bei Borussia Dortmund möglicherweise vor dem Abschied.. |
+| Well, to be fair, I think it was for Ashley, you know, Solskjaer told United TV on Friday.. | Der Spanier reiste am Freitag nicht mit der Mannschaft zum Auswärtsspiel beim FC Augsburg am Samstag. |
+| **He is 35 in the summer and, if he gets a two-year contract somewhere, I think it's up to him to take that.** | Laut -Zeitung strich BVB-Trainer Lucien Favre den 26-Jährigen unmittelbar vor dem Abflug aus dem Kader.. |
+| He's been captain and he's won trophies, leagues, cups, but we've got players coming through.. | Nach der Verpflichtung von Erling Haaland gab es immer wieder Gerüchte um einen Abschied Alcácers. |
+| Elaborating on the deal, Solskjaer added: When this situation came up, and we've the options we've got at full-back. | Die spanische Zeitschrift  berichtet nun, dass auch Alcácers Jugendklub FC Valencia in das Rennen eingestiegen sein soll.. |
+| You've got Brandon [Williams], who has really come through and developed. | Bei 40 Millionen Euro ist der BVB nach -Informationen gesprächsbereit.. |
+| Luke [Shaw] is potentially one of the best left-backs in England, for me. | +++ 18.50 Uhr: Avdijaj löst Vertrag in der Türkei auf +++. Donis Avdijaj ist wieder auf Vereinssuche. . |
+| Then we've got Diogo [Dalot] and Tim [Fosu-Mensah] – they're both fit. | Der Vertrag des 23-Jährigen bei Trabzonspor wurde lautauf seinen eigenen Wunsch aufgelöst. |
+| **Ashley's mindset was that he wanted to try a new adventure and he's approaching 35 now.** | Der gebürtige Osnabrücker war im Sommer als vereinsloser Profi zu dem türkischen Klub gewechselt. . |
+| He's done a fantastic job and he's served this club fantastically. | Die Edinburgh Evening News berichtete, dass Heart of Midlothian FC an einer Verpflichtung Avdijajs interessiert sein soll. |
+| I think it was an opportunity for him that we had to say yes to. | Dort ist der deutsche Hearts-Coach Daniel Stendel auf der Suche nach Tempo und Qualität in der Offensive. . |
+| We got a transfer fee for someone who's been so loyal to the club.. | Jetzt das aktuelle Trikot von Inter Mailand bestellen - hier geht's zum Shop!. |
+| That's what Manchester United do, you have players for a long time and then they move on and someone else steps in.. | United-Coach Ole Gunnar Solskjaer bestätigte zuvor den Abgang auf der Pressekonferenz vor dem Spiel gegen den FC Liverpool.. |
+| Young has made 202 starts for United, amassing a further 59 appearances as a substitute, and has scored 19 goals.. | **Er wird im Sommer 35, und wenn er irgendwo einen Zweijahresvertrag bekommt, ist es an ihm, das anzunehmen.** |
+| He won the Premier League, FA Cup, League Cup, FA Community Shield and UEFA Europa League with United.11 BUSINESS NUGGETS FROM SUPER EAGLES BRONZE MEDAL TRIUMPH. | -- |
+| The content of this ebook will propel you above your competition. | -- |
+### 2020-01-20_en_article_2866 -- 2020-01-20_de_article_3401
+| {BBC BBC 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| I'm passionate about our values and the role we have in our country — and what we do globally too, wrote Hall.. | In seinem auf der BBC-Homepage veröffentlichten Schreiben verwies der 68-Jährige auf die neuen Verhandlungen des Senders über die gesetzliche Grundlage für das öffentlich-rechtliche Fernseh- und Rundfunksystem der Insel, der sogenannten Charta, die auch die Rahmenbedingungen für die Finanzierung stellt. |
+| **If I followed my heart I would genuinely never want to leave.** | Die BBC finanziert sich zu 75 Prozent aus den Gebühreneinnahmen, rund 3,7 Milliarden Pfund (4,35 Mrd. Euro) im vergangenen Jahr. |
+| However, I believe that an important part of leadership is putting the interests of the organization first.. | Das bedeutet eine jährliche Lizenzgebühr von 154,50 Pfund für jedes Fernsehbudget. |
+| The BBC is dealing with a scandal over the corporation's , which has been investigated by the UK Equality and Human Rights Commission.. | Werbung ist bei der BBC streng reguliert, damit die Anstalt nicht ihre staatlichzugewiesene Neutralität und ihre Reputation riskiert. |
+| On Monday radio presenter Sarah Montague revealed that she had reached a £400,000 ($520,000) settlement with the BBC over pay, and the organization had apologized for treating her . | Die BBC erreicht jede Woche mehr als 420 Millionen Menschen weltweit.. |
+| The broadcaster also suffered a bruising 2019 general election campaign in which it faced  from both main UK political parties, and a December 2019 survey revealed that respondents trusted BBC coverage less than rival ITV.. | Hall wies die Kritik, parteiisch zu sein, vehement zurück und betonte stets politische Unabhängigkeit der BBC. |
+| However Hall, who became Director General in 2013, wrote that he will be leaving the BBC in a much stronger place than when I joined.. | **In einer Ära gefälschter Nachrichten bleiben wir der Goldstandard für Unparteilichkeit und Wahrheit, heißt es in seinem Brief an die Belegschaft.** |
+| It feels a very different organisation — more innovative; more open; more inclusive; more efficient; more commercially aware.. | Auch Labour-Abgeordnete hatten zwischenzeitlich dem Sender vorgeworfen, Journalisten würden unkritisch konservative Quellen wiedergeben.. |
+| And Hall said that the BBC's values are more relevant to society than ever before.. | In den kommenden Wochen werde sich der Sender auf die Suche nach einem Nachfolger machen, sagte BBC-Präsident David Clementi laut Deutscher Presse-Agentur in einer Stellungnahme. |
+| As our country enters its next chapter it needs a strong BBC, a BBC that can champion the nation's creativity at home and abroad, and help play its part in bringing the UK together, he wrote.. | Wir wollen den bestqualifizierten Kandidaten für die Stelle auswählen, sagte der Aufsichtsratsvorsitzende. |
+| **In an era of fake news, we remain the gold standard of impartiality and truth.** | Clementi lobte Hall als inspirierende und kreative Führungspersönlichkeit, sowohl innerhalb des Vereinigten Königreichs wie auch weltweit. |
+| What the BBC is, and what it stands for, is precious for this country. | Die BBC könne sich glücklich schätzen, ihn in den vergangenen sieben Jahren als Generaldirektor gehabt zu haben. . |
+| UK Prime Minister Boris Johnson previously suggested he could scrap the license fee that funds the network's entertainment programs and supports its journalists around the world.. | Im Regelfall muss alle zehn Jahre über sie entschieden werden. |
+| A December 2019 survey of the British public delivered a blow to the organization when it revealed 67% of respondents support scrapping or substantially reforming the fee system, which provides the BBC with most of its funding.. | Eine Zwischenprüfung steht 2022 an, die Charta läuft dann 2027 aus. |
+| And that same survey showed the BBC is not the most trusted news source in the country.. | Hall, der 2012 zum BBC-Generaldirektor ernannt wurde, sollte beide Verhandlungsphasen überwachen. |
+| A reported 69% of respondents said they trust the BBC to deliver impartial and accurate television news.. | Beides, so der Medienmanager, soll jetzt ebenfalls von derselben Hand geführt werden.. |
+| That's less than the 73% of people who trust rival TV source ITV News, but more than the 55% who place their faith in Comcast-owned broadcaster Sky News.. | Das Interesse der Organisation müsse an erster Stelle stehen, betonte Hall in dem Schreiben weiter. |
+| This story has been corrected to more accurately describe the review process around the BBC's charter.. | **Würde ich meinem Herzen folgen, dann würde ich niemals gehen wollen..** |
+| -- | Die Beziehung zwischen Johnsons Konservativen und der BBC gestaltet sich schon lange schwierig, weil sich der Premierminister weigerte, an Debatten und Interviews des Senders teilzunehmen. |
+| -- | Johnson warf dem Rundfunk eine zu Brexit-kritische Berichterstattung vor und stellte im Wahlkampf das Finanzierungsmodell der BBC, das dem des ORF ähnlich ist, infrage. |
+| -- | Er habe zwar keine Pläne, die Rundfunkgebühren vollständig abzuschaffen, sagte Johnson damals. |
+| -- | Aber man müsse sich fragen, ob diese Art der Finanzierung langfristig Sinn habe.. |
+### 2020-01-16_en_article_3539 -- 2020-01-16_de_article_956
+| {Bipin Rawat Bipin Rawat 100 100, Rawat Rawat 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Speaking at the Raisina Dialogue 2020 here on Thursday, chief of defence staff (CDS) General Bipin Rawat pointed a finger at nations that sponsored terror and urged the international community to isolate them.. | Der Vorschlag, den Posten des Stabschefs der Verteidigung einzuführen, wurde vor etwa 20 Jahren nach dem Kargil-Krieg in Erwägung gezogen, aber nie durchgesetzt. |
+| But he also suggested a controversial remedy for dealing with Kashmiri children influenced by radicalisation: that they be put in de-radicalisation camps.. | Indien knüpft am endlosen Narrativ des Kriegs gegen den Terrorismus an, um Pakistan zu isolieren. |
+| **Terrorism is here to stay so long as there are states that will sponsor terrorism and use terrorists as proxies, make weapons and funding available for them.** | Chinas Antrag auf eine internationale Lösung wird von den Vereinten Nationen abgelehnt . |
+| **The war on terror is not ending, it is something which is going to continue, we will have to live with it until we understand and get to the roots of terrorism, he said..** | Der frühere Armeechef General Bipin Rawat wurde zum Jahreswechsel zum Stabschef der Verteidigung (CDS) ernannt. |
+| Rawat also said that terrorism can be put to an end only by waging a war against it as the US did after the attacks on 9/11. | Als Chef der indischen Armee, der indischen Luftwaffe und der indischen Marine kommt ihm ein mächtiger Posten zu, den es vorher nicht gab. |
+| We have to bring an end to terrorism and that can only happen the way Americans started after 9/11, they said let's go on a spree on the global war on terror. | Rawat setzt dabei auf die Narrative des Kriegs gegen den Terrorismus mit Blick auf den Nachbarn Pakistan.. |
+| To do that you need to isolate the terrorists, anybody who is sponsoring terrorism has to be taken to task, he added.. | **Der Krieg gegen den Terror hört nicht auf, er wird weitergehen, wir werden damit leben müssen, bis wir die Wurzeln des Terrorismus verstehen und wiederfinden,  Rawat diese Woche.** |
+| However, the US is still fighting those wars in Afghanistan and Iraq, almost 20 years after the 9/11 attacks and many experts question the impact it has had on combating terror. | **Der Terrorismus ist hier, um zu bleiben, solange es Staaten gibt, die den Terrorismus fördern und Terroristen als Stellvertreter einsetzen, ihnen Waffen zur Verfügung stellen und ihnen dann Mittel zur Verfügung stellen.** |
+| Candidates for the US presidential election have described these wars as endless and are debating ways for the country to exit the region. | Vor über zwanzig Jahren fand der Kargil-Krieg statt, auch genannt Vierter Indisch-Pakistanischer Krieg oder Dritter Kaschmirkrieg. |
+| A recent report said that apart from resulting in thousands of deaths, the wars have cost the US more than $6 trillion. | Kargils Sieg sei ein Symbol für Indiens Macht, sagte der hindunationalistische Premierminister Narendra Modi, der im Juli letzten Jahres zum Jahrestag des Konflikts in die Region reiste.. |
+| -- | Nachdem Indien die Pläne Pakistans in Kargil vereitelt hatte, verfolgte Pakistan eine andere Strategie - den Einsatz des Terrorismus, um seine Ziele zu erreichen, sagte Modi. |
+| -- | Das Gebot der Stunde ist, dass alle Länder gegen den Terrorismus zusammenkommen, nur dann kann der Terrorismus ausgerottet werden. |
+| -- | Es gibt Länder, die Proxy-Kriege als politisches Instrument einsetzen, um ihre Ziele zu erreichen , sagte er.. |
+### 2019-07-11_en_article_4567 -- 2019-07-11_de_article_1585
+| {Bruno Le Maire Bruno Le Maire 100 100, Bruno Le Maire Le Maire 73 73} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Now it's a pioneer in taxing the world's biggest digital companies — most of them American.. | Der Handelsbeauftragte, Robert Lighthizer, teilte in Washington mit, er habe auf Anweisung von Präsident Donald Trump eine Untersuchung dazu eingeleitet, welche Auswirkungen die Digitalsteuer auf den US-Handel haben würde. |
+| France on Thursday adopted a tax on internet giants like Google, Amazon and Facebook despite U.S. threats to use a favorite tool of the Trump administration: tariffs. | Je nach Ergebnis könnte diese Untersuchung womöglich zu Zöllen oder anderen Handelsrestriktionen für Frankreich führen.. |
+| The administration says it could invoke the same 1970s-era laws it used to slap tariffs on imports from China and other trading partners, including traditional U.S. allies. . | **Verbündete Länder würden ihre Differenzen nicht mit Drohungen regeln, setzte Frankreichs Wirtschaftsminister Bruno Le Maire den USA vor der Abstimmung über die Steuer im Senat entgegen.** |
+| France's roughly 3% annual levy applies to digital companies with at least 750 euros (about $845 million) in global revenue with 25 million euros or more in France. | **Das Land werde auch weiterhin eigenständig seine finanzpolitischen Entscheidungen treffen..** |
+| **Between allies, we can, and we should, solve our differences without using threats, French Finance Minister Bruno Le Maire said in defense of the measure just ahead of the final vote in the French Senate.** | Er sprach sich für eine gemeinsame Lösung der Mitgliedstaaten der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD) aus. |
+| **It will make its own sovereign decisions on fiscal measures..** | Das Treffen der G7-Finanzminister in der kommenden Woche im französischen Chantilly biete eine Gelegenheit, die Arbeit dazu auf internationaler Ebene zu beschleunigen, sagte Le Maire. |
+| But such a tax may unfairly discriminate against U.S. companies, the U.S. Trade Representative  late Wednesday as it opened its investigation under section 301 of the U.S. Trade Act, a decades-old law Mr. Trump used to impose tariffs on $250 billion of Chinese imports.. | Mit der Steuer auf digitale Dienstleistungen werde die Besteuerung des 21. |
+| -- | Der deutsche Europaabgeordnete Sven Giegold forderte die Europäische Kommission und EU-Regierungen dazu auf, Solidarität mit Frankreich zu zeigen. |
+| -- | Die EU müsse eine europäische Digitalsteuer auf den Weg bringen, so Giegold. |
+| -- | Es führe kein Weg daran vorbei, dass Konzerne, die Milliarden-Profite in der Europäischen Union erwirtschafteten, diese auch in der EU versteuerten, erklärte auch Linke-Fraktionsvize Fabio De Masi. |
+| -- | US-Präsident Trump könne dagegen Amok laufen wie Rumpelstilzchen, teilte De Masi mit. |
+| -- | Frankreich rechnet durch die Steuer mit Einnahmen von rund 650 Millionen Euro im Jahr 2020, wie die Nachrichtenagentur AFP berichtete.. |
+| -- | Washington sieht von der Steuer multinationalen Firmen mit Sitz in den USA diskriminiert. |
+| -- | Lighthizer sagte, die USA seien sehr besorgt, dass eine solche Abgabe auf unfaire Weise amerikanische Unternehmen treffen würde.. |
+| -- | Auf EU-Ebene war die Einführung einer Digitalsteuer für Online-Riesen im März gescheitert. |
+| -- | Deutschland und Frankreich hatten bis zuletzt versucht, die umstrittene Digitalsteuer in Europa in abgespeckter Variante durchzusetzen.. |
+### 2020-01-17_en_article_7725 -- 2020-01-17_de_article_2884
+| {Canada Kanada 83 83, Commission Kommission 90 90} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| A Voluntary Labelling framework could consist of a legal instrument whereby developers could intelligence. | Dort werden Mindeststandards für Regierungsstellen festlegt, die ein automatisiertes Entscheidungssystem einsetzen wollen.. |
+| **Certain sectors which could be considered high risk include healthcare, transport, policing and the judiciary, the document finds.** | **Was die Gesichtserkennung betrifft, so hebt das Kommissionsdokument Bestimmungen aus der allgemeinen Datenschutzverordnung der EU hervor, die den Bürgern das Recht geben, nicht Gegenstand einer Entscheidung zu sein, die ausschließlich auf einer automatisierten Verarbeitung, einschließlich der Erstellung von Profilen, beruht..** |
+| The Commission adds that in order for an application to be considered high-risk, it would have to fulfil one of two criteria: come under the scope of a high-risk sector or present potential legal ramifications and pose the risk of significant material damage for the individual.. | In dem dritten Bereich, den die Kommission derzeit für eine Regulierung vorbereitet, würden rechtsverbindliche Instrumente nur für risikoreiche Anwendungen künstlicher Intelligenz gelten. |
+| Option four covers safety and liability issues that may arise as part of the future development of Artificial Intelligence and suggests that targeted amendments could be made to legislation, including on the General Product Safety Directive, the Machinery Directive, the Radio Equipment Directive and the Product Liability Directive. . | In dem Papier heißt es: Dieser risikobasierte Ansatz würde sich auf Bereiche konzentrieren, in denen die Öffentlichkeit gefährdet ist oder ein wichtiges rechtliches Interesse auf dem Spiel steht.. |
+| Risks currently not covered in existing legislation, the document says, include theprotection, which may be considered as part of any possible future amendments. . | **Bestimmte Sektoren, die als hohes Risiko betrachtet werden könnten, sind laut dem Dokument das Gesundheitswesen, der Verkehr, die Polizei und die Justiz.** |
+| On the liability front, products, and the scope of legislation could be amended to determine whether artificial intelligence systems should be considered as 'products.' . | Die Kommission fügt hinzu, dass ein Antrag, um als risikoreich eingestuft zu werden, eines von zwei Kriterien erfüllen muss: Er muss in den Anwendungsbereich eines Hochrisikosektors fallen oder potenzielle rechtliche Auswirkungen haben und die Gefahr von Verletzungen, Tod oder erheblichen materiellen Schäden für den Einzelnen darstellen.. |
+| With regards to Option 5, 'Governance,' the Commission says that an effective system of enforcement is essential, requiring a strong system of public oversight with the involvement of national authorities. | Option vier deckt Sicherheits- und Haftungsfragen ab, die sich im Rahmen der künftigen Entwicklung der Künstlichen Intelligenz ergeben könnten, und schlägt vor, dass gezielte Änderungen an den Sicherheits- und Haftungsvorschriften der EU vorgenommen werden könnten, unter anderem an der Richtlinie über die allgemeine Produktsicherheit, der Maschinenrichtlinie, der Richtlinie über Funkanlagen und der Produkthaftungsrichtlinie.. |
+| Promoting cooperation between such national authorities would be necessary, the document notes.. | . Das europapolitische Onlinemagazin EurActiv und der Tagesspiegel kooperieren miteinander. |
+| The most likely approaches to be adopted formally, the paper notes, are a combination of Options 3, 4, and 5.. framework complemented by targeted amendments of existing EU safety and liability legislation, the document says.. | **Option zwei konzentriert sich auf einen spezifischen Bereich von öffentlichem Interesse – die Nutzung künstlicher Intelligenz durch Behörden – sowie auf den Einsatz von Gesichtserkennungstechnologien im Allgemeinen.** |
+| Should compliance in this area be guaranteed, a 'label' of ethical or trustworthy artificial intelligence would be granted, with binding conditions.. | **Im ersteren Bereich könnte die EU dem Papier zufolge einen Ansatz verfolgen, der mit dem von Kanada in seiner Richtlinie über die automatische Entscheidungsfindung vertretenen Ansatz vergleichbar ist.** |
+| **Option two focuses on a specific area of public concern – the use of artificial intelligence by public authorities – as well as the employment of facial recognition technologies generally.** | -- |
+| **In the former area, the paper states that the EU could adopt an approach akin to the stance taken by Canada in its Directive on Automated Decision Making, which sets out minimum standards for government departments that wish to use an Automated Decision System. .** | -- |
+| **As for facial recognition, the Commission document highlights provisions from the EU's General Data Protection Regulation, which give citizens the right not to be subject of a decision based solely on automated processing, including profiling..** | -- |
+| In the third area which the Commission is currently priming for regulation, legally binding instruments would apply only gence. | -- |
+### 2020-01-21_en_article_7724 -- 2020-01-21_de_article_396
+| {China China 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| There is a lot of talk about strengthening Europe's sovereignty vis-à-vis the US and China. | Indes haben die USA und China ihre Handelsstreitigkeiten etwas de-eskalieren können. |
+| Where do you see the EU's strengths, considering its incomplete monetary union and its internal divisions on foreign matters?. | **Regierungsvertreter und Wirtschaftsführer müssen sich viel nachdrücklicher dafür einsetzen, dass die Menschen die Vorteile dieses Integrations- und Inklusionspotenzials des Welthandels verstehen..** |
+| Europe is a region of the world that has opportunities both in terms of what it offers to the rest of the world and what countries within the EU need to do to transform themselves.. | Dennoch warnen viele Unternehmen und Wirtschaftsexperten vor einer Art wirtschaftlicher Entkopplung, die ebenfalls Einfluss auf den Handel und die Weltwirtschaft haben werde. |
+| For example, many European countries probably focus more on farming and manufacturing. | **Das Abkommen zwischen den USA und China ist tatsächlich nur ein erster Schritt.** |
+| You donot have a large technical or technology driven agenda today. | **Wenn man sich den Handel genau ansieht, so ist noch nicht das angegangen worden, was ich als  bezeichnen würde.** |
+| You donot have a large organisation like Alibaba, Tencent, Amazon or Facebook.. | **Daher gibt es immer noch sehr viele Spannungen, die innerhalb des Systems weiter bestehen können – und die auf lange Sicht gelöst werden müssen..** |
+| How do I become a magnet to demonstrate the transformation, so we can get more business and government leaders to change the aura of continental Europe?. | **Zweitens dürfen wir die Notwendigkeit, den Handel globaler zu gestalten, nicht herunterspielen.** |
+| Those organisations and countries that do that with speed and urgency will have competitive advantage going forward.. | -- |
+| The US and China started de-escalating their trade dispute, but there is an underlying economic decoupling that worries business leaders and analysts. | -- |
+| How concern are you about its impact on global trade?. | -- |
+| **The agreement between the US and China is only a first step.** | -- |
+| **If you think about trade, it has not yet taken on what I call the technology issues, or on fair practices and abuses.** | -- |
+| **Therefore, there is a lot more tension that still may exist within the system that have to resolve over the longer term..** | -- |
+| **Secondly, we cannot minimise the need to deal with trade more globally.** | -- |
+| **Government officials and business leaders have to be much more vocal about making sure people understand the upside of the potential for integration and inclusiveness of trade..** | -- |
+### 2020-01-21_en_article_7727 -- 2020-01-21_de_article_396
+| {China China 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| There is a lot of talk about strengthening Europe's sovereignty vis-à-vis the US and China. | **Regierungsvertreter und Wirtschaftsführer müssen sich viel nachdrücklicher dafür einsetzen, dass die Menschen die Vorteile dieses Integrations- und Inklusionspotenzials des Welthandels verstehen..** |
+| Where do you see the EU's strengths, considering its incomplete monetary union and its internal divisions on foreign matters?. | Indes haben die USA und China ihre Handelsstreitigkeiten etwas de-eskalieren können. |
+| Europe is a region of the world that has opportunities both in terms of what it offers to the rest of the world and what countries within the EU need to do to transform themselves.. | Dennoch warnen viele Unternehmen und Wirtschaftsexperten vor einer Art wirtschaftlicher Entkopplung, die ebenfalls Einfluss auf den Handel und die Weltwirtschaft haben werde. |
+| For example, many European countries probably focus more on farming and manufacturing. | **Das Abkommen zwischen den USA und China ist tatsächlich nur ein erster Schritt.** |
+| You donot have a large technical or technology driven agenda today. | **Wenn man sich den Handel genau ansieht, so ist noch nicht das angegangen worden, was ich als  bezeichnen würde.** |
+| You donot have a large organisation like Alibaba, Tencent, Amazon or Facebook.. | **Daher gibt es immer noch sehr viele Spannungen, die innerhalb des Systems weiter bestehen können – und die auf lange Sicht gelöst werden müssen..** |
+| How do I become a magnet to demonstrate the transformation, so we can get more business and government leaders to change the aura of continental Europe?. | **Zweitens dürfen wir die Notwendigkeit, den Handel globaler zu gestalten, nicht herunterspielen.** |
+| Those organisations and countries that do that with speed and urgency will have competitive advantage going forward.. | -- |
+| The US and China started de-escalating their trade dispute, but there is an underlying economic decoupling that worries business leaders and analysts. | -- |
+| How concern are you about its impact on global trade?. | -- |
+| **The agreement between the US and China is only a first step.** | -- |
+| **If you think about trade, it has not yet taken on what I call the technology issues, or on fair practices and abuses.** | -- |
+| **Therefore, there is a lot more tension that still may exist within the system that have to resolve over the longer term..** | -- |
+| **Secondly, we cannot minimise the need to deal with trade more globally.** | -- |
+| **Government officials and business leaders have to be much more vocal about making sure people understand the upside of the potential for integration and inclusiveness of trade..** | -- |
+### 2020-01-17_en_article_11899 -- 2020-01-18_de_article_24
+| {China China 100 100, Chinese chinesischen 74 74} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **Just because we have an American president who doesnot like alliances, we give all that up? he said.** | Bundeskanzlerin Angela Merkel hatte sich am Donnerstag in einem mit der Financial Times auch über Huawei und die Sicherheitsbedenken in Bezug auf die Produkte der chinesischen Firma . |
+| **Especially since he does exactly what the Chinese do and threatens the German car industry..** | Deutschland sollte demnach seine Sicherheitsanforderungen an alle Telekommunikationsanbieter verschärfen und die Lieferanten diversifizieren, damit es sich beim Ausbau von 5G-Mobilfunknetzen nicht von einer Firma abhängig mache, sagte sie. |
+| German carmakers like Volkswagen, Daimler and BMW have continued to record sales gains in China and to take share from rivals like Ford, even as the overall market has slumped.. | Es sei jedoch falsch, jemanden einfach per se auszuschließen, erklärte die Bundeskanzlerin.. |
+| See, last year, 28 million cars were sold in China; 7 million of those were German, Wu, China's ambassador to Germany, added in his remarks in December, making what many in Germany interpreted as a veiled threat.. | Auch der ehemalige deutsche Außenminister Sigmar Gabriel  vor einem Ausschluss von Huawei. |
+| As Germany's carmakers have become more deeply dependent on China, they also have become more beholden to the Chinese government.. | Sein Hauptgrund: Dadurch könnte die deutsche Autoindustrie einen enormen Schaden abbekommen.. |
+| Chinese consumer preferences, and Chinese government policies, increasingly determine what models the carmakers build and what kind of technology they develop.. | Wenn wir Huawei verbieten, dann wird die deutsche Autoindustrie vom chinesischen Markt verdrängt werden – und das in einer Situation, in der auch der US-amerikanische Präsident damit droht, die deutschen Autobauer zu bestrafen, sagte Gabriel am Donnerstag der . |
+| -- | **Nur weil wir einen US-Präsidenten haben, der keine Allianzen mag, sollen wir alles aufgeben? sagte er ferner.** |
+| -- | **Vor allem, wenn dieser Präsident exakt das tut, was China auch tut und die deutsche Autoindustrie bedroht..** |
+### 2020-01-20_en_article_7042 -- 2020-01-20_de_article_480
+| {CO2 CO2 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **The aim is, therefore, to use intestinal bacteria to create completely different substances, such as the so-called 3-hydroxypropionic acid that are in high demand throughout the industry..** | **Ziel sei es, mithilfe der Bakterien Stoffe herzustellen, die in der Industrie stark gefragt sind.** |
+| **The acid can also be obtained in various intermediate steps from hydrogen and CO2, or optionally from carbon monoxide.** | **Die Säure kann in diversen Zwischenschritten ebenfalls aus Wasserstoff und CO2, wahlweise auch aus Kohlenstoffmonoxid, gewonnen werden.** |
+| **Among other things, it is used for the production of acrylic acid and related substances, which promise a market worth billions..** | **Sie dient unter anderem zur Herstellung von Acrylsäure und verwandter Stoffe, die einen Milliardenmarkt versprechen..** |
+| **This would also ensure bioplastics, which are currently still produced from renewable resources such as maise starch, to be produced using the supporting bacteria.** | Bislang ist das allerdings erst unter Laborbedingungen und in kleinem Maßstab möglich. |
+| **This would make it possible to use emissions but also, as in the case of biofuels, to reduce the problem of large-scale biomass production..** | Die Ausbeute des Endproduktes ist noch ziemlich gering, wir können 3-Hydroxypropionsäure nicht tonnenweise herstellen. |
+| Yet, given that the process has been comparatively expensive so far, bioplastics have not yet been able to gain a foothold on the market. | Aber wir haben gezeigt, dass das möglich ist, sagt der Mikrobiologe Müller.. |
+| **However, should it be possible to optimise the bacterial metabolism further, the yields could be increased, Müller explained..** | **Mithilfe der bakteriellen Helfer könnten auch Bioplastiken, die derzeit noch aus erneuerbaren Rohstoffen wie Maisstärke hergestellt werden, erzeugt werden.** |
+| **The researcher is currently working on improving the energy balance of his bacteria so that larger amounts of 3-hydroxypropionic acid are produced in the process.** | **Dann würden nicht nur Emissionen verwendet, sondern wie im Fall der Biokraftstoffe auch das Problem der großflächigen Biomasseproduktion gemindert werden.** |
+| **At the same time, in another project, he has been researching how the sought-after acid can also be produced from methanol – also through bacterial metabolism..** | **Sollte es gelingen, den bakteriellen Stoffwechsel weiter zu optimieren, könnten die Ausbeuten erhöht werden, erklärt Müller..** |
+| **Although the possibility of converting the metabolism of bacteria to CO2 holds great potential, it would still not be enough to fundamentally reduce carbon emissions..** | **Derzeit arbeitet der Forscher daran, die Energiebilanz seiner Bakterien zu verbessern, damit im Prozess größere Mengen des Endprodukts 3-Hydroxypropionsäure entstehen.** |
+| -- | **Gleichzeitig untersucht er in einem anderen Projekt, wie sich die begehrte Säure auch aus Methanol herstellen lässt – ebenfalls durch bakteriellen Stoffwechsel.** |
+| -- | **Die Möglichkeit, den Stoffwechsel von Bakterien auf CO2 umzustellen, birgt also weiterhin viel Potential.** |
+### 2020-01-20_en_article_7292 -- 2020-01-20_de_article_480
+| {CO2 CO2 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **The aim is, therefore, to use intestinal bacteria to create completely different substances, such as the so-called 3-hydroxypropionic acid that are in high demand throughout the industry..** | **Ziel sei es, mithilfe der Bakterien Stoffe herzustellen, die in der Industrie stark gefragt sind.** |
+| **Among other things, it is used for the production of acrylic acid and related substances, which promise a market worth billions..** | **Die Säure kann in diversen Zwischenschritten ebenfalls aus Wasserstoff und CO2, wahlweise auch aus Kohlenstoffmonoxid, gewonnen werden.** |
+| **This would also ensure bioplastics, which are currently still produced from renewable resources such as maise starch, to be produced using the supporting bacteria.** | **Sie dient unter anderem zur Herstellung von Acrylsäure und verwandter Stoffe, die einen Milliardenmarkt versprechen..** |
+| **This would make it possible to use emissions but also, as in the case of biofuels, to reduce the problem of large-scale biomass production..** | Bislang ist das allerdings erst unter Laborbedingungen und in kleinem Maßstab möglich. |
+| Yet, given that the process has been comparatively expensive so far, bioplastics have not yet been able to gain a foothold on the market. | Die Ausbeute des Endproduktes ist noch ziemlich gering, wir können 3-Hydroxypropionsäure nicht tonnenweise herstellen. |
+| **However, should it be possible to optimise the bacterial metabolism further, the yields could be increased, Müller explained..** | Aber wir haben gezeigt, dass das möglich ist, sagt der Mikrobiologe Müller.. |
+| **The researcher is currently working on improving the energy balance of his bacteria so that larger amounts of 3-hydroxypropionic acid are produced in the process.** | **Mithilfe der bakteriellen Helfer könnten auch Bioplastiken, die derzeit noch aus erneuerbaren Rohstoffen wie Maisstärke hergestellt werden, erzeugt werden.** |
+| **At the same time, in another project, he has been researching how the sought-after acid can also be produced from methanol – also through bacterial metabolism..** | **Dann würden nicht nur Emissionen verwendet, sondern wie im Fall der Biokraftstoffe auch das Problem der großflächigen Biomasseproduktion gemindert werden.** |
+| **Although the possibility of converting the metabolism of bacteria to CO2 holds great potential, it would still not be enough to fundamentally reduce carbon emissions..** | **Sollte es gelingen, den bakteriellen Stoffwechsel weiter zu optimieren, könnten die Ausbeuten erhöht werden, erklärt Müller..** |
+| **The acid can also be obtained in various intermediate steps from hydrogen and CO2, or optionally from carbon monoxide.** | **Derzeit arbeitet der Forscher daran, die Energiebilanz seiner Bakterien zu verbessern, damit im Prozess größere Mengen des Endprodukts 3-Hydroxypropionsäure entstehen.** |
+| -- | **Gleichzeitig untersucht er in einem anderen Projekt, wie sich die begehrte Säure auch aus Methanol herstellen lässt – ebenfalls durch bakteriellen Stoffwechsel.** |
+| -- | **Die Möglichkeit, den Stoffwechsel von Bakterien auf CO2 umzustellen, birgt also weiterhin viel Potential.** |
+### 2020-01-17_en_article_7725 -- 2020-01-17_de_article_395
+| {Commission Kommission 90 90} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| A Voluntary Labelling framework could consist of a legal instrument whereby developers could intelligence. | **In Bezug auf Option fünf, Verwaltung, betont die Kommission, dass ein wirksames Durchsetzungssystem von wesentlicher Bedeutung ist, welches ein starkes System der öffentlichen Aufsicht unter Einbeziehung der nationalen Behörden erfordert.** |
+| Certain sectors which could be considered high risk include healthcare, transport, policing and the judiciary, the document finds. | **Die Förderung der Zusammenarbeit zwischen diesen nationalen Behörden wäre notwendig, heißt es in dem Dokument..** |
+| The Commission adds that in order for an application to be considered high-risk, it would have to fulfil one of two criteria: come under the scope of a high-risk sector or present potential legal ramifications and pose the risk of significant material damage for the individual.. | Die wahrscheinlichsten Ansätze, die formell angenommen werden, sind eine Kombination der Optionen drei, vier und fünf.. |
+| Option four covers safety and liability issues that may arise as part of the future development of Artificial Intelligence and suggests that targeted amendments could be made to legislation, including on the General Product Safety Directive, the Machinery Directive, the Radio Equipment Directive and the Product Liability Directive. . | Die Kommission könnte eine Kombination aus einem horizontalen Instrument in Betracht ziehen, das die Anforderungen an Transparenz und Rechenschaftspflicht festlegt und auch den Governance-Rahmen abdeckt, ergänzt durch gezielte Änderungen der bestehenden EU-Rechtsvorschriften im Bereich Sicherheit und Haftung, heißt es in dem Dokument.. |
+| Risks currently not covered in existing legislation, the document says, include theprotection, which may be considered as part of any possible future amendments. . | Zu den Risiken, die derzeit in den bestehenden Rechtsvorschriften nicht abgedeckt sind, so das Dokument, gehören die Risiken von Cyber-Bedrohungen, die Gefährdung der persönlichen Sicherheit, der Privatsphäre und des Schutzes personenbezogener Daten, die als Teil möglicher künftiger Änderungen in Betracht gezogen werden können. . |
+| **On the liability front, products, and the scope of legislation could be amended to determine whether artificial intelligence systems should be considered as 'products.' .** | Was die Haftung betrifft, so könnten Anpassungen erforderlich sein, um die Verantwortung der Entwickler künstlicher Intelligenz zu klären und sie von der Verantwortung des Herstellers der Produkte zu unterscheiden. |
+| **With regards to Option 5, 'Governance,' the Commission says that an effective system of enforcement is essential, requiring a strong system of public oversight with the involvement of national authorities.** | **Der Geltungsbereich der Rechtsvorschriften könnte dahingehend auch geändert werden, dass festgelegt wird, ob Systeme künstlicher Intelligenz als Produkte zu betrachten sind..** |
+| **Promoting cooperation between such national authorities would be necessary, the document notes..** | -- |
+| The most likely approaches to be adopted formally, the paper notes, are a combination of Options 3, 4, and 5.. framework complemented by targeted amendments of existing EU safety and liability legislation, the document says.. | -- |
+| Should compliance in this area be guaranteed, a 'label' of ethical or trustworthy artificial intelligence would be granted, with binding conditions.. | -- |
+| Option two focuses on a specific area of public concern – the use of artificial intelligence by public authorities – as well as the employment of facial recognition technologies generally. | -- |
+| In the former area, the paper states that the EU could adopt an approach akin to the stance taken by Canada in its Directive on Automated Decision Making, which sets out minimum standards for government departments that wish to use an Automated Decision System. . | -- |
+| As for facial recognition, the Commission document highlights provisions from the EU's General Data Protection Regulation, which give citizens the right not to be subject of a decision based solely on automated processing, including profiling.. | -- |
+| In the third area which the Commission is currently priming for regulation, legally binding instruments would apply only gence. | -- |
+### 2020-01-17_en_article_7800 -- 2020-01-17_de_article_395
+| {Commission Kommission 90 90} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| In the third area which the Commission is currently priming for regulation, legally binding instruments would apply only to high–risk applications of artificial intelligence. | **In Bezug auf Option fünf, Verwaltung, betont die Kommission, dass ein wirksames Durchsetzungssystem von wesentlicher Bedeutung ist, welches ein starkes System der öffentlichen Aufsicht unter Einbeziehung der nationalen Behörden erfordert.** |
+| The paper states that this risk–based approach would focus on areas where the public is at risk or an important legal interest is at stake.. | **Zu den Risiken, die derzeit in den bestehenden Rechtsvorschriften nicht abgedeckt sind, so das Dokument, gehören die Risiken von Cyber-Bedrohungen, die Gefährdung der persönlichen Sicherheit, der Privatsphäre und des Schutzes personenbezogener Daten, die als Teil möglicher künftiger Änderungen in Betracht gezogen werden können. .** |
+| Certain sectors which could be considered high risk include healthcare, transport, policing and the judiciary, the document finds. | **Was die Haftung betrifft, so könnten Anpassungen erforderlich sein, um die Verantwortung der Entwickler künstlicher Intelligenz zu klären und sie von der Verantwortung des Herstellers der Produkte zu unterscheiden.** |
+| The Commission adds that in order for an application to be considered high-risk, it would have to fulfil one of two criteria: come under the scope of a high-risk sector or present potential legal ramifications and pose the risk of injury, death or significant material damage for the individual.. | Der Geltungsbereich der Rechtsvorschriften könnte dahingehend auch geändert werden, dass festgelegt wird, ob Systeme künstlicher Intelligenz als Produkte zu betrachten sind.. |
+| Option four covers safety and liability issues that may arise as part of the future development of Artificial Intelligence and suggests that targeted amendments could be made to EU safety and liability legislation, including on the General Product Safety Directive, the Machinery Directive, the Radio Equipment Directive and the Product Liability Directive.. | **Die Förderung der Zusammenarbeit zwischen diesen nationalen Behörden wäre notwendig, heißt es in dem Dokument..** |
+| **Risks currently not covered in existing legislation, the document says, include the risks of cyber threats, risk to personal security, to privacy and to personal data protection, which may be considered as part of any possible future amendments. .** | **Die wahrscheinlichsten Ansätze, die formell angenommen werden, sind eine Kombination der Optionen drei, vier und fünf..** |
+| **On the liability front, adjustments may be needed to clarify the responsibility of developers of artificial intelligence and to distinguish them from the responsibilities of the producer of the products, and the scope of legislation could be amended to determine whether artificial intelligence systems should be considered as 'products.' .** | **Die Kommission könnte eine Kombination aus einem horizontalen Instrument in Betracht ziehen, das die Anforderungen an Transparenz und Rechenschaftspflicht festlegt und auch den Governance-Rahmen abdeckt, ergänzt durch gezielte Änderungen der bestehenden EU-Rechtsvorschriften im Bereich Sicherheit und Haftung, heißt es in dem Dokument..** |
+| **With regards to Option 5, 'Governance,' the Commission says that an effective system of enforcement is essential, requiring a strong system of public oversight with the involvement of national authorities.** | -- |
+| **Promoting cooperation between such national authorities would be necessary, the document notes..** | -- |
+| **The most likely approaches to be adopted formally, the paper notes, are a combination of Options 3, 4, and 5..** | -- |
+| **The Commission may consider a combination of a horizontal instrument setting out transparency and accountability requirements and covering also the governance framework complemented by targeted amendments of existing EU safety and liability legislation, the document says..** | -- |
+| A Voluntary Labelling framework could consist of a legal instrument whereby developers could chose to comply, on a voluntary basis, with requirements for ethical and trustworthy artificial intelligence. | -- |
+| Should compliance in this area be guaranteed, a 'label' of ethical or trustworthy artificial intelligence would be granted, with binding conditions.. | -- |
+| Option two focuses on a specific area of public concern – the use of artificial intelligence by public authorities – as well as the employment of facial recognition technologies generally. | -- |
+| In the former area, the paper states that the EU could adopt an approach akin to the stance taken by Canada in its Directive on Automated Decision Making, which sets out minimum standards for government departments that wish to use an Automated Decision System.. | -- |
+| As for facial recognition, the Commission document highlights provisions from the EU's General Data Protection Regulation, which give citizens the right not to be subject of a decision based solely on automated processing, including profiling.. | -- |
+### 2020-01-21_en_article_11965 -- 2020-01-21_de_article_1598
+| {Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| I wonder, what will you tell your children was the reason to fail and leave them facing the climate chaos you knowingly brought upon them? | Solange wir unsere CO2-Emissionen ignorieren, ist unser Budget dessen, was wir an CO2 verbrauchen dürfen, aufgebraucht, sagt sie.. |
+| **One year ago I came to Davos and told you that our house is on fire.** | Was Sie tun müssen, ist sofort alle Maßnahmen zu stoppen, die mit fossilen Energieträgern zu tun haben, fährt sie fort. |
+| **I've been warned that telling people to panic about the climate crisis is a very dangerous thing to do.** | **Man brauche eigentlich nur ganz wenig, um den Prozess hin zu einer nachhaltigen Wirtschaft anzustoßen.** |
+| Trust me, I've done this before and I assure you it doesnot lead to anything.. | Nur wenige würden sich damit jedoch beschäftigen wollen, viele einfach wegschauen. |
+| And, for the record, when we children tell you to panic we're not telling you to go on like before. | Und Sie sagen, Sie lieben Ihre Kinder?, schließt Greta ihre Rede.. |
+| We're not telling you to rely on technologies that donot even exist today at scale and that science says perhaps never will.. | Desaster, völlig daneben: Warum Habecks Aufregung über Trump-Rede überzogen ist. |
+| We are not telling you to keep talking about reaching net zero emissions or carbon neutrality by cheating and fiddling around with numbers. | Greta Thunberg gegen Trump: Bezahlen sie doch nicht andere Leute für Ihre Verschmutzung. |
+| We are not telling you to offset your emissions by just paying someone else to plant trees in places like Africa while at the same time forests like the Amazon are being slaughtered at an infinitely higher rate.. | **Vor einem Jahr kam ich nach Davos und habe Ihnen gesagt, dass unser Haus brennt.** |
+| Planting trees is good of course, but it's nowhere near enough of what needs to be done and it cannot replace real mitigation or rewilding nature.. | Ich habe Ihnen gesagt, dass ich möchte, dass Sie Panik bekommen. |
+| And, until we have the technologies that at scale can put our emissions to minus, then we must forget about net zero. | **Und ich wurde gewarnt: Ich solle den Menschen nicht sagen, dass sie in Bezug auf den Klimawandel panisch sein sollen, beginnt die 17-Jährige ihre Rede..** |
+| On the contrary, they seem to understand the fact that we need to change more than you do.. | Direkt zu Beginn Ihres Vortrags stichelt sie gegen Vorredner Trump. |
+| Because distant net zero emission targets will mean absolutely nothing if we just continue to ignore the carbon dioxide budget — which applies for today, not distant future dates. | Man solle nicht auf Technologien vertrauen, die es noch gar nicht gebe. |
+| If high emissions continue like now even for a few years, that remaining budget will soon be completely used up.. | Bezahlen Sie doch nicht andere Leute, damit Sie für Ihre Verschmutzung irgendwo Bäume pflanzen, schießt sie gegen den US-Präsidenten.. |
+| The fact that the U.S.A. is leaving the Paris accord seems to outrage and worry everyone, and it should. | Um Verbesserungen mit Blick auf den Klimawandel zu erreichen, dürfe man nicht auf mögliche kommende Technologien vertrauen. |
+| But the fact that we're all about to fail the commitments you signed up for in the Paris Agreement doesnot seem to bother the people in power even the least.. | -- |
+| Any plan or policy of yours that doesnot include radical emission cuts at the source, starting today, is completely insufficient for meeting the 1.5-degree or well-below-2-degrees commitments of the Paris Agreement.. | -- |
+| From a sustainability perspective, the right, the left as well as the center have all failed. | -- |
+| No political ideology or economic structure has been able to tackle the climate and environmental emergency and create a cohesive and sustainable world. | -- |
+| Because, in case you havenot noticed, that world is currently on fire.. | -- |
+| We will fix this, we promise we wonot let you down.. | -- |
+| Empty words and promises which give the impression that sufficient action is being taken.. | -- |
+| All the solutions are obviously not available within today's societies. | -- |
+| Nor do we have the time to wait for new technological solutions to become available to start drastically reducing our emissions. | -- |
+| So, of course the transition isnot going to be easy. | -- |
+| And unless we start facing this now together, with all cards on the table, we wonot be able to solve this in time.. | -- |
+| In the days running up to the 50th anniversary of the World Economic Forum, I joined a group of climate activists who are demanding that you, the world's most influential business and political leaders, begin to take the action needed.. | -- |
+| We demand that at this year's World Economic Forum, participants from all companies, banks, institutions and governments:. | -- |
+| Immediately halt all investments in fossil fuel exploration and extraction.. | -- |
+| We donot want these things done by 2050, 2030 or even 2021. | -- |
+| And you will of course say that we are naïve. | -- |
+| **But this is just the very minimum amount of effort that is needed to start the rapid sustainable transition..** | -- |
+| That it seemed so bad for the economy that we decided to resign the idea of securing future living conditions without even trying?. | -- |
+| We are still telling you to panic, and to act as if you loved your children above all else.. | -- |
+| So either you do this or you're going to have to explain to your children why you are giving up on the 1.5-degree target. | -- |
+| Well I'm here to tell you that, unlike you, my generation will not give up without a fight.. | -- |
+| The facts are clear, but they're still too uncomfortable for you to address. | -- |
+| You just leave it because you think it's too depressing and people will give up. | -- |
+| Last week I met with coal miners in Poland who lost their jobs because their mine was closed. | -- |
+### 2020-01-21_en_article_11965 -- 2020-01-22_de_article_1894
+| {Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| I wonder, what will you tell your children was the reason to fail and leave them facing the climate chaos you knowingly brought upon them? | Was Sie tun müssen, ist sofort alle Maßnahmen zu stoppen, die mit fossilen Energieträgern zu tun haben, fährt sie fort. |
+| Because distant net zero emission targets will mean absolutely nothing if we just continue to ignore the carbon dioxide budget — which applies for today, not distant future dates. | **Man brauche eigentlich nur ganz wenig, um den Prozess hin zu einer nachhaltigen Wirtschaft anzustoßen.** |
+| If high emissions continue like now even for a few years, that remaining budget will soon be completely used up.. | Nur wenige würden sich damit jedoch beschäftigen wollen, viele einfach wegschauen. |
+| The fact that the U.S.A. is leaving the Paris accord seems to outrage and worry everyone, and it should. | Und Sie sagen, Sie lieben Ihre Kinder?, schließt Greta ihre Rede.. |
+| But the fact that we're all about to fail the commitments you signed up for in the Paris Agreement doesnot seem to bother the people in power even the least.. | Desaster, völlig daneben: Warum Habecks Aufregung über Trump-Rede überzogen ist. |
+| Any plan or policy of yours that doesnot include radical emission cuts at the source, starting today, is completely insufficient for meeting the 1.5-degree or well-below-2-degrees commitments of the Paris Agreement.. | Greta Thunberg gegen Trump: Bezahlen sie doch nicht andere Leute für Ihre Verschmutzung. |
+| From a sustainability perspective, the right, the left as well as the center have all failed. | **Vor einem Jahr kam ich nach Davos und habe Ihnen gesagt, dass unser Haus brennt.** |
+| No political ideology or economic structure has been able to tackle the climate and environmental emergency and create a cohesive and sustainable world. | Ich habe Ihnen gesagt, dass ich möchte, dass Sie Panik bekommen. |
+| Because, in case you havenot noticed, that world is currently on fire.. | **Und ich wurde gewarnt: Ich solle den Menschen nicht sagen, dass sie in Bezug auf den Klimawandel panisch sein sollen, beginnt die 17-Jährige ihre Rede..** |
+| We will fix this, we promise we wonot let you down.. | Direkt zu Beginn Ihres Vortrags stichelt sie gegen Vorredner Trump. |
+| Empty words and promises which give the impression that sufficient action is being taken.. | Man solle nicht auf Technologien vertrauen, die es noch gar nicht gebe. |
+| All the solutions are obviously not available within today's societies. | Bezahlen Sie doch nicht andere Leute, damit Sie für Ihre Verschmutzung irgendwo Bäume pflanzen, schießt sie gegen den US-Präsidenten.. |
+| Nor do we have the time to wait for new technological solutions to become available to start drastically reducing our emissions. | Um Verbesserungen mit Blick auf den Klimawandel zu erreichen, dürfe man nicht auf mögliche kommende Technologien vertrauen. |
+| So, of course the transition isnot going to be easy. | Solange wir unsere CO2-Emissionen ignorieren, ist unser Budget dessen, was wir an CO2 verbrauchen dürfen, aufgebraucht, sagt sie.. |
+| And unless we start facing this now together, with all cards on the table, we wonot be able to solve this in time.. | -- |
+| In the days running up to the 50th anniversary of the World Economic Forum, I joined a group of climate activists who are demanding that you, the world's most influential business and political leaders, begin to take the action needed.. | -- |
+| We demand that at this year's World Economic Forum, participants from all companies, banks, institutions and governments:. | -- |
+| Immediately halt all investments in fossil fuel exploration and extraction.. | -- |
+| We donot want these things done by 2050, 2030 or even 2021. | -- |
+| And you will of course say that we are naïve. | -- |
+| **But this is just the very minimum amount of effort that is needed to start the rapid sustainable transition..** | -- |
+| **One year ago I came to Davos and told you that our house is on fire.** | -- |
+| **I've been warned that telling people to panic about the climate crisis is a very dangerous thing to do.** | -- |
+| Trust me, I've done this before and I assure you it doesnot lead to anything.. | -- |
+| And, for the record, when we children tell you to panic we're not telling you to go on like before. | -- |
+| We're not telling you to rely on technologies that donot even exist today at scale and that science says perhaps never will.. | -- |
+| We are not telling you to keep talking about reaching net zero emissions or carbon neutrality by cheating and fiddling around with numbers. | -- |
+| We are not telling you to offset your emissions by just paying someone else to plant trees in places like Africa while at the same time forests like the Amazon are being slaughtered at an infinitely higher rate.. | -- |
+| Planting trees is good of course, but it's nowhere near enough of what needs to be done and it cannot replace real mitigation or rewilding nature.. | -- |
+| And, until we have the technologies that at scale can put our emissions to minus, then we must forget about net zero. | -- |
+| On the contrary, they seem to understand the fact that we need to change more than you do.. | -- |
+| That it seemed so bad for the economy that we decided to resign the idea of securing future living conditions without even trying?. | -- |
+| We are still telling you to panic, and to act as if you loved your children above all else.. | -- |
+| So either you do this or you're going to have to explain to your children why you are giving up on the 1.5-degree target. | -- |
+| Well I'm here to tell you that, unlike you, my generation will not give up without a fight.. | -- |
+| The facts are clear, but they're still too uncomfortable for you to address. | -- |
+| You just leave it because you think it's too depressing and people will give up. | -- |
+| Last week I met with coal miners in Poland who lost their jobs because their mine was closed. | -- |
+### 2020-01-21_en_article_12184 -- 2020-01-21_de_article_1598
+| {Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| We demand at this year's World Economic Forum, participants from all companies, banks, institutions and governments:. | Solange wir unsere CO2-Emissionen ignorieren, ist unser Budget dessen, was wir an CO2 verbrauchen dürfen, aufgebraucht, sagt sie.. |
+| **I've been warned that telling people to panic about the climate crisis is a very dangerous thing to do.** | Was Sie tun müssen, ist sofort alle Maßnahmen zu stoppen, die mit fossilen Energieträgern zu tun haben, fährt sie fort. |
+| Trust me, I've done this before and I can assure you it doesnot lead to anything.. | **Man brauche eigentlich nur ganz wenig, um den Prozess hin zu einer nachhaltigen Wirtschaft anzustoßen.** |
+| And, for the record, when we children tell you to panic we're not telling you to go on like before. | Nur wenige würden sich damit jedoch beschäftigen wollen, viele einfach wegschauen. |
+| We're not telling you to rely on technologies that donot even exist today at scale and that science says perhaps never will.. | Und Sie sagen, Sie lieben Ihre Kinder?, schließt Greta ihre Rede.. |
+| We are not telling you to keep talking about reaching net zero emissions or carbon neutrality by cheating and fiddling around with numbers. | Desaster, völlig daneben: Warum Habecks Aufregung über Trump-Rede überzogen ist. |
+| We are not telling you to offset your emissions by just paying someone else to plant trees in places like Africa while at the same time forests like the Amazon are being slaughtered at an infinitely higher rate.. | Greta Thunberg gegen Trump: Bezahlen sie doch nicht andere Leute für Ihre Verschmutzung. |
+| Planting trees is good, of course, but it's nowhere near enough of what is needed and it cannot replace real mitigation and rewilding nature.. | **Vor einem Jahr kam ich nach Davos und habe Ihnen gesagt, dass unser Haus brennt.** |
+| Our emissions have to stop if we are to have a chance to stay below the 1.5-degree target. | Ich habe Ihnen gesagt, dass ich möchte, dass Sie Panik bekommen. |
+| And, until we have the technologies that at scale can put our emissions to minus, then we must forget about net zero. | **Und ich wurde gewarnt: Ich solle den Menschen nicht sagen, dass sie in Bezug auf den Klimawandel panisch sein sollen, beginnt die 17-Jährige ihre Rede..** |
+| Because distant net zero emission targets will mean absolutely nothing if we just continue to ignore the carbon dioxide budget — that applies for today, not distant future dates. | Direkt zu Beginn Ihres Vortrags stichelt sie gegen Vorredner Trump. |
+| If high emissions continue like now even for a few years, that remaining budget will soon be completely used up.. | Man solle nicht auf Technologien vertrauen, die es noch gar nicht gebe. |
+| The fact that the U.S.A. is leaving the Paris accord seems to outrage and worry everyone, and it should. | Bezahlen Sie doch nicht andere Leute, damit Sie für Ihre Verschmutzung irgendwo Bäume pflanzen, schießt sie gegen den US-Präsidenten.. |
+| But the fact that we're all about to fail the commitments you signed up for in the Paris Agreement doesnot seem to bother the people in power even the least.. | Um Verbesserungen mit Blick auf den Klimawandel zu erreichen, dürfe man nicht auf mögliche kommende Technologien vertrauen. |
+| Any plan or policy of yours that doesnot include radical emission cuts at the source, starting today, is completely insufficient for meeting the 1.5-degree or well-below-2-degrees commitments of the Paris Agreement.. | -- |
+| From a sustainability perspective, the right, the left as well as the center have all failed. | -- |
+| No political ideology or economic structure has been able to tackle the climate and environmental emergency and create a cohesive and sustainable world. | -- |
+| Because that world, in case you havenot noticed, is currently on fire.. | -- |
+| We will fix this, we promise we wonot let you down. | -- |
+| Empty words and promises which give the impression that sufficient action is being taken.. | -- |
+| **One year ago I came to Davos and told you that our house is on fire.** | -- |
+| Immediately halt all investments in fossil fuel exploration and extraction.. | -- |
+| We donot want these things done by 2050, 2030 or even 2021. | -- |
+| And you will of course say that we are naïve. | -- |
+| **But this is just the very minimum amount of effort that is needed to start the rapid sustainable transition..** | -- |
+| So either you do this or you're going to have to explain to your children why you are giving up on the 1.5-degree target. | -- |
+| Well I'm here to tell you that, unlike you, my generation will not give up without a fight.. | -- |
+| The facts are clear, but they're still too uncomfortable for you to address. | -- |
+| You just leave it because you think it's too depressing and people will give up. | -- |
+| Last week I met with Polish coal miners who lost their jobs because their mine was closed. | -- |
+| On the contrary, they seem to understand the fact that we need to change more than you do.. | -- |
+| I wonder, what will you tell your children was the reason to fail and leave them facing a climate chaos that you knowingly brought upon them? | -- |
+| That it seemed so bad for the economy that we decided to resign the idea of securing future living conditions without even trying?. | -- |
+| All the solutions are obviously not available within today's societies. | -- |
+| Nor do we have the time to wait for new technological solutions to become available to start drastically reducing our emissions. | -- |
+| So, of course the transition isnot going to be easy. | -- |
+| And unless we start facing this now together, with all cards on the table, we wonot be able to solve this in time.. | -- |
+| In the days running up to the 50th anniversary of the World Economic Forum, I joined a group of climate activists demanding that you, the world's most powerful and influential business and political leaders, begin to take the action needed.. | -- |
+| And we are telling you to act as if you loved your children above all else. . | -- |
+### 2020-01-21_en_article_12184 -- 2020-01-22_de_article_1894
+| {Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **One year ago I came to Davos and told you that our house is on fire.** | Was Sie tun müssen, ist sofort alle Maßnahmen zu stoppen, die mit fossilen Energieträgern zu tun haben, fährt sie fort. |
+| **I've been warned that telling people to panic about the climate crisis is a very dangerous thing to do.** | **Man brauche eigentlich nur ganz wenig, um den Prozess hin zu einer nachhaltigen Wirtschaft anzustoßen.** |
+| Trust me, I've done this before and I can assure you it doesnot lead to anything.. | Nur wenige würden sich damit jedoch beschäftigen wollen, viele einfach wegschauen. |
+| And, for the record, when we children tell you to panic we're not telling you to go on like before. | Und Sie sagen, Sie lieben Ihre Kinder?, schließt Greta ihre Rede.. |
+| We're not telling you to rely on technologies that donot even exist today at scale and that science says perhaps never will.. | Desaster, völlig daneben: Warum Habecks Aufregung über Trump-Rede überzogen ist. |
+| We are not telling you to keep talking about reaching net zero emissions or carbon neutrality by cheating and fiddling around with numbers. | Greta Thunberg gegen Trump: Bezahlen sie doch nicht andere Leute für Ihre Verschmutzung. |
+| We are not telling you to offset your emissions by just paying someone else to plant trees in places like Africa while at the same time forests like the Amazon are being slaughtered at an infinitely higher rate.. | **Vor einem Jahr kam ich nach Davos und habe Ihnen gesagt, dass unser Haus brennt.** |
+| Planting trees is good, of course, but it's nowhere near enough of what is needed and it cannot replace real mitigation and rewilding nature.. | Ich habe Ihnen gesagt, dass ich möchte, dass Sie Panik bekommen. |
+| Our emissions have to stop if we are to have a chance to stay below the 1.5-degree target. | **Und ich wurde gewarnt: Ich solle den Menschen nicht sagen, dass sie in Bezug auf den Klimawandel panisch sein sollen, beginnt die 17-Jährige ihre Rede..** |
+| And, until we have the technologies that at scale can put our emissions to minus, then we must forget about net zero. | Direkt zu Beginn Ihres Vortrags stichelt sie gegen Vorredner Trump. |
+| Because distant net zero emission targets will mean absolutely nothing if we just continue to ignore the carbon dioxide budget — that applies for today, not distant future dates. | Man solle nicht auf Technologien vertrauen, die es noch gar nicht gebe. |
+| If high emissions continue like now even for a few years, that remaining budget will soon be completely used up.. | Bezahlen Sie doch nicht andere Leute, damit Sie für Ihre Verschmutzung irgendwo Bäume pflanzen, schießt sie gegen den US-Präsidenten.. |
+| The fact that the U.S.A. is leaving the Paris accord seems to outrage and worry everyone, and it should. | Um Verbesserungen mit Blick auf den Klimawandel zu erreichen, dürfe man nicht auf mögliche kommende Technologien vertrauen. |
+| But the fact that we're all about to fail the commitments you signed up for in the Paris Agreement doesnot seem to bother the people in power even the least.. | Solange wir unsere CO2-Emissionen ignorieren, ist unser Budget dessen, was wir an CO2 verbrauchen dürfen, aufgebraucht, sagt sie.. |
+| Any plan or policy of yours that doesnot include radical emission cuts at the source, starting today, is completely insufficient for meeting the 1.5-degree or well-below-2-degrees commitments of the Paris Agreement.. | -- |
+| From a sustainability perspective, the right, the left as well as the center have all failed. | -- |
+| No political ideology or economic structure has been able to tackle the climate and environmental emergency and create a cohesive and sustainable world. | -- |
+| Because that world, in case you havenot noticed, is currently on fire.. | -- |
+| We will fix this, we promise we wonot let you down. | -- |
+| Empty words and promises which give the impression that sufficient action is being taken.. | -- |
+| We demand at this year's World Economic Forum, participants from all companies, banks, institutions and governments:. | -- |
+| Immediately halt all investments in fossil fuel exploration and extraction.. | -- |
+| We donot want these things done by 2050, 2030 or even 2021. | -- |
+| And you will of course say that we are naïve. | -- |
+| **But this is just the very minimum amount of effort that is needed to start the rapid sustainable transition..** | -- |
+| So either you do this or you're going to have to explain to your children why you are giving up on the 1.5-degree target. | -- |
+| Well I'm here to tell you that, unlike you, my generation will not give up without a fight.. | -- |
+| The facts are clear, but they're still too uncomfortable for you to address. | -- |
+| You just leave it because you think it's too depressing and people will give up. | -- |
+| Last week I met with Polish coal miners who lost their jobs because their mine was closed. | -- |
+| On the contrary, they seem to understand the fact that we need to change more than you do.. | -- |
+| I wonder, what will you tell your children was the reason to fail and leave them facing a climate chaos that you knowingly brought upon them? | -- |
+| That it seemed so bad for the economy that we decided to resign the idea of securing future living conditions without even trying?. | -- |
+| And we are telling you to act as if you loved your children above all else. . | -- |
+| All the solutions are obviously not available within today's societies. | -- |
+| Nor do we have the time to wait for new technological solutions to become available to start drastically reducing our emissions. | -- |
+| So, of course the transition isnot going to be easy. | -- |
+| And unless we start facing this now together, with all cards on the table, we wonot be able to solve this in time.. | -- |
+| In the days running up to the 50th anniversary of the World Economic Forum, I joined a group of climate activists demanding that you, the world's most powerful and influential business and political leaders, begin to take the action needed.. | -- |
+### 2020-01-17_en_article_11697 -- 2020-01-19_de_article_1321
+| {Europe Europa 83 83, Europeans Europa 80 80} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Eni's biggest competitor is the French group Total, which recently secured shares in the Waha oil field near the city of Sirte.. | Europa kooperiert mit der Regierung des libyschen Premierministers Fayez Sarraj und verlangt, dass die Folterlager geschlossen werden sollen. |
+| The conflict between France and Italy is largely due to economics. | **Das libysche Innenministerium verliert zunehmend den Einfluss auf die Milizen, die die Haftzentren kontrollieren.** |
+| Eni, the Italian energy multinational, is the largest foreign oil and gas producer in Libya and holds almost half of the market there. | **Die Sarraj-Regierung kämpft um ihr Überleben; die humanitäre Situation von Migranten und Flüchtlingen ist keine Priorität mehr für diese Regierung.** |
+| It also owns half the shares in Libya's only pipeline for exporting natural gas, called Greenstream, which transports gas from western Libya to Sicily. | Wer in Europa glaubt, dass die Flüchtlinge den libyschen Behörden in dieser Situation wichtig sind? |
+| The French were also concerned about terrorism, and for this they needed Hifter. | Zuletzt wurde am vergangenen Wochenende im Hafen von Tripolis ein Sudanese von der Küstenwache erschossen. |
+| Since August 2014, more than 3,000 French soldiers in Mali and the Sahel zone have been trying to stop the influx of terrorists via Libya as part of Operation Barkhane. | Ein weiterer Migrant wurde angeschossen, wir wissen nicht, was mit ihm passiert ist.. |
+| The Italians have been working toward a similar goal, cooperating with Libyan militias in Sarraj's part of the country to prevent migrants from crossing into Italy.. | Der Mann wurde von einem Mitglied der libyschen Küstenwache erschossen?. |
+| The Italians and the French have largely settled their dispute, though the Europeans overall have not grown more effective. | Das ist das, was uns die Geretteten, die in ein Haftzentrum gebracht wurden, erzählt haben. . |
+| The EU's high representative for foreign affairs, Josep Borrell, said in an interview with DER SPIEGEL, If there is a cease-fire in Libya, then the EU must be prepared to help implement and monitor it -- possibly with soldiers, for example as part of an EU mission. | -- |
+| So far, however, the EU has been unable to fulfill its task of enforcing the UN arms embargo.. | -- |
+| In fact, the EU has not yet dared to thoroughly inspect any ship suspected of carrying weapons. | -- |
+| It even suspended Sophia, its Mediterranean operation which was meant to make life difficult for smugglers off the coast of Libya.. | -- |
+| Such indecision on Europe's part amid a conflict in its immediate neighborhood is dangerous. | -- |
+| It is only a matter of time before the next major exodus of refugees from Libya's shores reaches Italy. | -- |
+| To prevent this from happening, the EU is counting on the country, which is currently torn by civil war, to turn into a more or less functional state. | -- |
+| The number of refugees setting sail from Libya is increasing again because of Hifter's advance. | -- |
+| In the first two weeks of 2020, the Libyan coast guard intercepted around 1,000 refugees, compared to 9,000 during all of 2019. | -- |
+| Vincent Cochetel, the UN Refugee Agency's special envoy, says the organization is seeing a significant increase in the number of refugees. | -- |
+| Libyans are also now leaving their country by boat, he added, which is new.. | -- |
+| It's also becoming increasingly apparent how little power the man the Europeans are betting on actually has. | -- |
+| **Cochetel says the Libyan Interior Ministry is increasingly losing influence over the militias that control the detention camps for migrants.** | -- |
+| **With the Sarraj government fighting for its survival, he says, the human treatment of migrants and refugees is no longer a priority for it.** | -- |
+| Various witnesses have reported that Sarraj's militias are forcing migrants to fight for them. . | -- |
+### 2019-07-09_en_article_9267 -- 2019-07-10_de_article_472
+| {Google Google 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| 'The doctors said they couldnot be sure what was happening until they had the test results back, but that they thought it might be Acanthamoeba keratitis,' Mr Humphreys said. . | Als ich Mitte 20 war, begann ich sehr viel Sport zu machen. |
+| **'I'd never heard of the infection before, but as soon as I got home I turned to Dr Google and was suddenly left thinking I was going to have my right eyeball removed.'.** | Wenn ich wieder sehen kann, werde ich nie wieder Kontaktlinsen tragen, sagte Nick.. |
+| A week later, doctors told Mr Humphreys he had tested positive for AK, leaving him fearing his footballing days were over.. | Und damals dachte ich mir, meine Brille sei ein massives Hindernis, sagte der jetzt 28-Jährige der US-Tageszeitung . |
+| Contact lenses can create small abrasions in the eye, which make it easier for the organism to attach when the eye comes into contact with water. . | Als ich endlich meine Angst vor dem Einsetzen von Kontaktlinsen überwunden hatte, dachte ich, das wäre das Beste überhaupt.. |
+| Mr Humphreys said: 'I told the doctor that I'd read a few horror stories about it and asked if I would need to have my eye removed.. | Nick trug die Kontaktlinsen seither regelmäßig – bis zu fünf Mal die Woche. |
+| 'He just looked at me and said, That could well be a possibility.. | An einem ganz normalen Morgen stand er auf, setzte seine Kontaktlinsen ein, ging ins , duschen und ins Büro. |
+| Mr Humphreys used disinfectant eye drops for three weeks, and it like he was on the mend. | Mir wurde nie gesagt, dass ich unter der Dusche keine Kontaktlinsen tragen soll. |
+| **Until suddenly, in March 2018 he found himself completely blind in his right eye..** | Es gab keine Warnung auf der Verpackung und mein Optiker erwähnte auch nie ein Risiko, erzählte der Brite.. |
+| He said: 'I was driving to work and my vision completely went in my right eye. . | Im Januar 2018 bemerkte Nick einen Kratzer auf seinem rechten Auge. |
+| 'I donot know how I managed not to crash, but it didnot take me long to realise I needed to get back to the hospital.'. | Er ging zunächst davon aus, dass er sich beim Einsetzen der Kontaktlinsen lediglich gekratzt hatte, doch im Laufe der Woche wurde ihm klar, dass es sich um etwas Ernsteres handeln musste.. |
+| Referred to the Birmingham and Midland Eye Centre, doctors prescribed higher strength eye drops that needed to be applied hourly - even at night.. | Nick suchte einen Optiker auf, der ihn sofort weiter ins Krankenhaus schickte. |
+| After weeks of sleepless nights and unable to work, Mr Humphreys was left housebound and depressed, while doctors tried to decide the best course of action.. | Verursacht wird die Infektion durch winzige Organismen, die sich im Wasser befinden. |
+| He said: 'I love my job but I physically couldnot be outside the house.. | **Ich hatte noch nie zuvor von der Infektion gehört, aber als ich nach Hause kam, wandte ich mich sofort an Dr. Google und plötzlich stand ich mit dem Gedanken da, dass ich mir meinen rechten Augapfel entfernen werden muss, erinnerte sich Nick..** |
+| 'The pain in my eye was too much and the only time I would leave was to visit the hospital.. | Der Test war positiv – ein Schock für den jungen Mann. |
+| **'I felt at my absolute lowest and the one thing that would cheer me up - playing football - was no longer an option.'.** | **Wochenlang kämpfte der Brite mit Augentropfen um seine Sehkraft, doch im März 2018 war er auf seinem rechten Auge plötzlich völlig blind.** |
+| After weeks of sleepless nights, due to constantly needing to use eyedrops, and unable to work, Mr Humphreys was left housebound and depressed with the infection (pictured). | Ich fuhr zur Arbeit und plötzlich konnte ich rechts nichts mehr sehen, so Nick.. |
+| Deciding to go to the optician, Mr Humphreys was told he had an ulcer on his eye and advised to go to the Royal Shrewsbury Hospital immediately.. | **Ich fühlte mich in meinem absoluten Tiefpunkt und die eine Sache, die mich aufheitern konnte – Fußball zu spielen – war nicht mehr möglich..** |
+| There, after being seen by a handful of eye specialists, he had five scrapings from his right eye sent away to be tested.. | Für die Ärzte stand fest: Um die Infektion zu stoppen, führe nichts an einer Hornhautvernetzung vorbei. |
+| -- | Bei diesem Eingriff wird die Hornhaut mithilfe von ultravioletten Licht und Vitamin B2-Tropfen verhärtet.. |
+| -- | Die Infektion konnte gestoppt werden – die Sehkraft seines rechten Auges erlangt Nick aber nicht zurück. |
+| -- | Ich konnte endlich zur Arbeit zurückkehren und anfangen, ins Fitnessstudio zu gehen, so Nick.. |
+| -- | Gemeinsam wollen sie auf die Gefahren aufmerksam machen, denen Menschen beim Tragen von Kontaktlinsen beim Duschen oder Schwimmen ausgesetzt sind.. |
+| -- | Ich kann ehrlich sagen, wenn ich gewusst hätte, dass überhaupt die geringste Gefahr besteht, hätte ich überhaupt keine Linsen getragen. |
+| -- | Es ist wichtig, dass die Leute da draußen wissen, dass dies Realität ist und dass es auch bei so etwas Normalen wie einer Dusche passieren kann, warnte Nick.. |
+| -- | Eine Chance auf seine Sehkraft hat der Brite übrigens: eine Hornhauttransplantation. |
+| -- | Hierbei wird eine gesunde, klare Hornhaut eines verstorbenen Spenders gegen die eigene ausgetauscht. |
+### 2019-07-09_en_article_2344 -- 2019-07-09_de_article_1342
+| {Labour Labour 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| In a significant shift, the U.K.'s main opposition Labour Party said Tuesday that Britain's next prime minister should hold a referendum on whether to leave the European Union or remain in the bloc.. | Der Sieger soll noch im Juli auch Premierminister werden und hat dann noch gut drei Monate bis zum aktuellen Brexit-Termin 31. |
+| Labour leader Jeremy Corbyn said the party would campaign to stay in the EU if a referendum was called by whoever succeeds Prime Minister Theresa May. She announced her resignation last month after failing to get Parliament to back her divorce deal with the bloc.. | Oktober Zeit, um eine Mehrheit für einen Austrittsvertrag zu finden. |
+| Lawmakers Boris Johnson and Jeremy Hunt are competing to replace May as Conservative Party leader and prime minister. | Andernfalls scheidet Großbritannien ohne Abkommen aus der EU, was nach Ansicht der meisten Experten schweren Schaden für die Wirtschaft bedeuten würde.. |
+| The winner of the contest is due to take office later this month, and will have barely more than three months to win support for a Brexit deal before Britain's scheduled Oct. 31 departure.. | **Wir haben gesehen, was fehlende Klarheit Labour bei den Europawahlen eingebracht hat.** |
+| In a letter to party members, Corbyn said that the new prime minister should have the confidence to put their deal, or no-deal, back to the people in a public vote.. | **Gegner und Anhänger haben Labour immer wieder vorgeworfen, keine klare Position zum Brexit zu beziehen, aus Angst, Wähler aus einem der beiden Lager zu verprellen.** |
+| In those circumstances, I want to make it clear that Labour would campaign for Remain against either no-deal or a Tory deal that does not protect the economy and jobs, he said.. | Die Partei lehnte Mays Vertrag ab, war aber auch gegen einen EU-Austritt ohne Abkommen. |
+| **Labour's opponents — and many supporters — have accused the party of dithering over Brexit for fear of alienating voters on either side of the national divide over Europe.** | Stattdessen strebte sie Neuwahlen an, in der Hoffnung, dann selbst an die Regierung zu kommen. |
+| **Corbyn, a longtime critic of the EU, has resisted calls for a second referendum, saying Labour must respect voters' 2016 decision to leave..** | **Der langjährige EU-Kritiker Corbyn sträubte sich zudem gegen eine neue Volksabstimmung und forderte, Labour müsse den Wählerwillen von 2016 akzeptieren..** |
+| The left-of-center party has previously rejected May's deal but also ruled out leaving the EU without an agreement, and called for an election that the party hopes will bring a Labour government to power.. | **Jüngste Wahlergebnisse zeigten aber, dass Labour Stimmen an Parteien wie die Liberaldemokraten und die Grünen verliert, die wollen, dass Großbritannien in der EU bleibt.** |
+| **But the party's poor showing in recent local and European elections suggests Labour is losing support to parties including the Liberal Democrats and the Greens that advocate remaining in the EU..** | Wir haben gesehen, was fehlende Klarheit Labour bei den Europawahlen eingebracht hat: Wir haben 14 Prozent der Stimmen erhalten, sagte der Vorsitzende des Brexitausschusses im Unterhaus.. |
+| Corbyn's letter clarifies the party's position — up to a point. | Nach Corbyns Sinneswandel ließ sein Brief einen wichtigen Punkt offen. |
+| **It's still unclear what Labour would do about Brexit if it formed a government..** | **Es blieb unklar, was Labour in Sachen Brexit zu unternehmen gedenkt, falls die Partei selbst an die Regierung kommt..** |
+| Labour lawmaker Hilary Benn, who heads Parliament's Brexit Committee, said this is a very significant moment.. | -- |
+| **We saw what a lack of clarity did to Labour in the European elections.** | -- |
+| Tory contenders Hunt and Johnson are due to square off later Tuesday in their only head-to-head debate in the campaign.. | -- |
+| Both vow to succeed where May failed and take Britain out of the EU — even if that means leaving without an agreement on divorce terms and future relations.. | -- |
+| Most businesses and economists think a no-deal Brexit would plunge Britain into recession as customs checks take effect at U.K. ports and tariffs are imposed on trade between the U.K. and the EU. | -- |
+| But many Conservatives think embracing a no-deal Brexit may be the only way to win back voters from the upstart Brexit Party led by Nigel Farage.. | -- |
+| Bookies and pollsters make Johnson, a populist former mayor of London, the strong favorite over the stolid Hunt.. | -- |
+| The television debate comes after numerous events around the country in which the candidates took questions individually from Conservative Party members.. | -- |
+| Hunt's supporters have expressed frustration at the reluctance of Johnson to take part in direct debate, and hope that this debate offers a chance to turn the contest around.. | -- |
+| But it comes late in the campaign: Ballot papers have already gone out to the party's estimated 160,000 voting members, and many people will already have voted. | -- |
+| That means that the impact may be limited even if Hunt's performance is strong.. | -- |
+| Italian hard-line minister Matteo Salvini closes migrant center in SicilyItaly's hard-line interior minister on Tuesday closed a migrant center in Sicily he called the largest in Europe, as he underlined the decrease in migrant arrivals since the populist government too.... | -- |
+### 2020-01-16_en_article_13977 -- 2020-01-16_de_article_3488
+| {Le Monde Le Monde 100 100, Tolkien Society Simon Tolkien 50 71} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Although he worked tirelessly to protect his father's legacy, he was not impressed by what he saw as the commercialisation of his work. | So war er laut eigenen Angaben nie glücklich mit den filmischen Adaptionen. |
+| He was famously critical of Peter Jackson's Oscar-winning film adaptation of The Lord of the Rings. | **Sie haben das Buch ausgeweidet und einen Actionfilm für 15- bis 25-Jährige daraus gemacht, schimpfte er in einem Interview mit der französischen Zeitung Le Monde..** |
+| **In a 2012 interview with the French newspaper Le Monde, he said: They gutted the book, making an action film for 15-to-25-year-olds..** | **Tolkien sei ein Monster geworden, das von seiner eigenen Popularität gefressen und von der Absurdität unserer Zeit in Anspruch genommen wird.** |
+| **He also said: Tolkien has become a monster, devoured by his own popularity and absorbed by the absurdity of our time, and that the commercialisation has reduced the aesthetic and philosophical impact of the creation to nothing. .** | Die ästhetischen und philosophischen Auswirkungen der Schöpfung seines Vaters seinen auf Null reduziert worden. . |
+| Christopher Tolkien, the son of Lord Of The Rings author , has died aged 95, the Tolkien Society has announced. | Aus dem Herr der Ringe macht Amazon eine offenbar sehr teure Fernsehserie. |
+| The society, which promotes the life and works of the celebrated writer, released a short statement on Twitter to confirm the news.. | Eine Brasilianerin hielt eine Figur aus dem Film lange für den Heiligen Antonius – und betete sie täglich an. |
+| The statement said: Christopher Tolkien has died at the age of 95. | Der Herr der Ringe ist nicht nur für Fantasiefans ein Segen – auch Führungskräfte können aus den Büchern lernen. |
+| The Tolkien Society sends its deepest condolences to Baillie, Simon, Adam, Rachel and the whole Tolkien family.. | **Ich erinnere mich an die vielen Papiere, die bei ihm zu Hause ankamen – und niemand bezweifelte mehr, dass er da eine sehr umfangreiche Aufgabe übernommen hatte, so Simon Tolkien..** |
+| Tolkien, who was born in Leeds in 1924, was the third and youngest son of the revered fantasy author and his wife Edith. | -- |
+| He grew up listening to his father's tales of Bilbo Baggins, which later became the children's fantasy novel, The Hobbit.. | -- |
+| He drew many of the original maps detailing the world of Middle-earth for his father's The  when the series was first published between 1954 and 55. | -- |
+| He also edited much of his father's posthumously published work following his death in 1973. | -- |
+| Tolkien Society chairman Shaun Gunner praised Christopher's commitment to his father's work and said: Millions of people around the world will be forever grateful to him … We have lost a titan and he will be sorely missed.. | -- |
+| Charlie Redmayne, chief executive of HarperCollins UK, which publishes much of JRR Tolkien's work, said: Christopher was a devoted curator of his father's work and the timeless and ongoing popularity of the world that JRR Tolkien created is a fitting testimony to the decades he spent bringing Middle-Earth to generations of readers.. [He was] the most charming of men, and a true gentleman. | -- |
+| It was an honour and privilege to know and work with him and our thoughts are with his family at this time.. | -- |
+| Tolkien scholar Dimitra Fimi hailed Christopher for enriching his father's work. | -- |
+| She said: He gave us a window into Tolkien's creative process, and he provided scholarly commentary that enriched our understanding of Middle-earth. | -- |
+| In an interview with the Guardian in 2012, Christopher's son Simon described the enormity of the task after his grandfather died with so much material still unpublished.. | -- |
+| Simon said: He had produced this huge output that covered everything from the history of the gods to the history of the people he called the Silmarils – that was his great work, but it had never seen the light of day despite his best efforts to get it published.. | -- |
+| His son was left to sift through the files and notebooks, and over the two decades after his father's death, he published The Silmarillion, Unfinished Tales, Beren And Lúthien and The History of Middle-earth, which fleshed out the complex world of elves and dwarves created by his father.. | -- |
+| It's enormously to my father's credit that he took on that huge task. | -- |
+| **I remember the crateloads of papers arriving at his home, and no one could be in any doubt at the scale of the work he had taken on, Simon said..** | -- |
+### 2020-01-16_en_article_13977 -- 2020-01-16_de_article_3654
+| {Le Monde Le Monde 100 100, Tolkien Society Simon Tolkien 50 71} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Although he worked tirelessly to protect his father's legacy, he was not impressed by what he saw as the commercialisation of his work. | Herr der Ringe macht Amazon eine offenbar sehr teure Fernsehserie. |
+| Christopher Tolkien, the son of Lord Of The Rings author , has died aged 95, the Tolkien Society has announced. | Brasilianerin hielt eine Figur aus dem Film lange für den Heiligen Antonius – und betete sie täglich an. |
+| The society, which promotes the life and works of the celebrated writer, released a short statement on Twitter to confirm the news.. | Herr der Ringe ist nicht nur für Fantasiefans ein Segen – auch Führungskräfte können aus den Büchern lernen.. |
+| The statement said: Christopher Tolkien has died at the age of 95. | **Ich erinnere mich an die vielen Papiere, die bei ihm zu Hause ankamen – und niemand bezweifelte mehr, dass er da eine sehr umfangreiche Aufgabe übernommen hatte, so Simon Tolkien..** |
+| The Tolkien Society sends its deepest condolences to Baillie, Simon, Adam, Rachel and the whole Tolkien family.. | So war er laut eigenen Angaben nie glücklich mit den filmischen Adaptionen. |
+| Tolkien, who was born in Leeds in 1924, was the third and youngest son of the revered fantasy author and his wife Edith. | **Sie haben das Buch ausgeweidet und einen Actionfilm für 15- bis 25-Jährige daraus gemacht, schimpfte er in einem Interview mit der französischen Zeitung Le Monde..** |
+| He grew up listening to his father's tales of Bilbo Baggins, which later became the children's fantasy novel, The Hobbit.. | **Tolkien sei ein Monster geworden, das von seiner eigenen Popularität gefressen und von der Absurdität unserer Zeit in Anspruch genommen wird.** |
+| He drew many of the original maps detailing the world of Middle-earth for his father's The  when the series was first published between 1954 and 55. | Die ästhetischen und philosophischen Auswirkungen der Schöpfung seines Vaters seinen auf Null reduziert worden. . |
+| He also edited much of his father's posthumously published work following his death in 1973. | -- |
+| Tolkien Society chairman Shaun Gunner praised Christopher's commitment to his father's work and said: Millions of people around the world will be forever grateful to him … We have lost a titan and he will be sorely missed.. | -- |
+| Charlie Redmayne, chief executive of HarperCollins UK, which publishes much of JRR Tolkien's work, said: Christopher was a devoted curator of his father's work and the timeless and ongoing popularity of the world that JRR Tolkien created is a fitting testimony to the decades he spent bringing Middle-Earth to generations of readers.. [He was] the most charming of men, and a true gentleman. | -- |
+| It was an honour and privilege to know and work with him and our thoughts are with his family at this time.. | -- |
+| Tolkien scholar Dimitra Fimi hailed Christopher for enriching his father's work. | -- |
+| She said: He gave us a window into Tolkien's creative process, and he provided scholarly commentary that enriched our understanding of Middle-earth. | -- |
+| In an interview with the Guardian in 2012, Christopher's son Simon described the enormity of the task after his grandfather died with so much material still unpublished.. | -- |
+| Simon said: He had produced this huge output that covered everything from the history of the gods to the history of the people he called the Silmarils – that was his great work, but it had never seen the light of day despite his best efforts to get it published.. | -- |
+| He was famously critical of Peter Jackson's Oscar-winning film adaptation of The Lord of the Rings. | -- |
+| **In a 2012 interview with the French newspaper Le Monde, he said: They gutted the book, making an action film for 15-to-25-year-olds..** | -- |
+| **He also said: Tolkien has become a monster, devoured by his own popularity and absorbed by the absurdity of our time, and that the commercialisation has reduced the aesthetic and philosophical impact of the creation to nothing. .** | -- |
+| His son was left to sift through the files and notebooks, and over the two decades after his father's death, he published The Silmarillion, Unfinished Tales, Beren And Lúthien and The History of Middle-earth, which fleshed out the complex world of elves and dwarves created by his father.. | -- |
+| It's enormously to my father's credit that he took on that huge task. | -- |
+| **I remember the crateloads of papers arriving at his home, and no one could be in any doubt at the scale of the work he had taken on, Simon said..** | -- |
+### 2020-01-18_en_article_7768 -- 2020-01-18_de_article_157
+| {Macron Macron 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Police said they prevented the protesters from getting into the theatre in the 10th district of Paris, which lies several kilometres from the president's Elysee Palace's residence.. | Kurze Zeit später hätten sich vor dem  mehrere Menschen zu einer Demonstration gegen die  versammelt. |
+| The Macrons, who occasionally slip out to enjoy a dinner or play in the French capital, finally left the theatre under police escort.. | Insgesamt 30 Protestler hätten daraufhin versucht, in das Theater einzudringen. |
+| All together, general strike, protesters shouted during the stand-off with riot police that lasted around an hour.. | Die Auseinandersetzung mit der Polizei soll eine Stunde gedauert haben. |
+| The demonstration took place on the 44th day of a crippling strike against the Macron government's proposed pension reforms.. | Währenddessen hätten Macron und seine Gattin den Ort mit einer Polizeieskorte verlassen.. |
+| Though it is now easing, the strike has snarled train and metro traffic and caused misery for millions of commuters in Paris especially.. | Inzwischen nahm ein Assistent des französischen Präsidenten zu dem Vorfall Stellung.. |
+| **The president will continue to attend plays as he is used to doing.** | **Der Präsident wird auch weiterhin Theaterbesuche unternehmen, so wie er es gewohnt ist.** |
+| **He will watch out to defend creative freedom to ensure it is not undermined by violent political acts, a Macron aide said..** | **Er wird darauf achten und sicherstellen, dass kreative Freiheit durch keine gewaltsamen politischen Aktionen untergraben wird, äußerte der Assistent..** |
+| Making few public appearances for weeks, Macron last mixed with the crowds when he visited the northern city of Amiens in November before his retirement reforms were announced.. | Die Proteste gegen die geplante Rentenreform der Mitte-Regierung des französischen Präsidenten Emmanuel Macron lähmten zeitweise das Land. |
+| The overhaul aims to forge a single pensions system from the country's 42 separate regimes, which offer early retirement and other benefits to public-sector workers as well as lawyers, physical therapists and even Paris Opera employees.. | Mit der Reform von Macrons Regierung soll für die Rente ein universelles Punktesystem eingeführt werden. |
+| Critics say it will effectively force millions of people to work longer for a smaller pension.. | Damit würde die Zersplitterung in mehr als 40 Rentenkassen enden. |
+| -- | Viele Berufsgruppen befürchten allerdings ein Aus für Sonderrechte und Privilegien. |
+| -- | Die Regierung war ihnen bereits mit sehr langen Übergangsfristen entgegengekommen.. |
+| -- | Das gesetzliche Renteneintrittsalter liegt in Frankreich bei 62 Jahren und soll bei der Reform auch nicht verändert werden. |
+| -- | Allerdings hätten Arbeitnehmer, die mit 62 in Rente gehen, der Reform nach mit Abzügen zu rechnen.. |
+### 2019-07-14_en_article_3284 -- 2019-07-11_de_article_630
+| {Mansour Mansour 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| He is a shy loner that scares some kids, but he hates the fact that he scares people.. | Das Comic endet, doch die Welt wächst: Für die neue Serie aus dem The Walking Dead-Universum wurden jetzt die ersten drei Darsteller gecastet. |
+| spinoff series (co-created by ) to star in the next chapter of the  universe, which follows two female protagonists with a focus on the first generation to come-of-age in the zombie apocalypse.. | Derzeit arbeitet der Sender AMC an einer weiteren Spin-off-Serie des Zombie-Hits und nun kennen wir die ersten drei Darsteller des Untitled The Walking Dead Spin-offs. |
+| **Mansour's character is a good-natured rule breaker who lives for today.** | Alexa Mansour, Nicolas Cantu und Hal Cumpston heißen die drei jungen Darsteller, die sich bald in eines der erfolgreichsten TV-Franchises überhaupt begeben. |
+| **She is likable and funny on the outside but sad on the inside.** | Ein paar Infos über ihre Figuren in der neuen The Walking Dead-Serie sind auch schon durchgesichert, allerdings noch ohne offizielle Bestätigung. |
+| Cantu's character is small for his age in addition to being friendly and an old soul. | Die drei Darsteller der neuen The Walking Dead-Serie.  dürfte die bekannteste Darstellerin der drei potentiellen Zombie-Opfer in der Exklusivmeldung zum Casting hervorhebt, spielte Mansour im Blumhouse-Horrorfilm Unknown User: Dark Web mit und hatte kleinere Rollen in Law & Order: New York und How to Get Away with Murder.. |
+| Speaking of the upcoming tenth season, as Lincoln assumes the helm on an episode for the first time while speculation over just how much of a role Michonne will have this season continues to grow. | Wen spielt Alexa Mansour in der neuen The Walking Dead-Serie? . |
+| Of course, there's continued buzz over 's Maggie returning in  capacity – especially now that ABC's  appears to have shuffled off the programming coil and still hasnot found a home.. | **Laut Quellen der Variety spielt Mansour eine gutmütige Rebellin, die für das hier und jetzt lebt.** |
+| As we mentioned earlier, Cudlitz is back this season to direct – and an earlier post with  (Judith) melted our hearts and reminded us that we do – in fact – have the capacity to feel. | **Sie ist nach außen hin sympathisch und lustig, aber in ihrem tiefsten Inneren traurig..** |
+| Cudlitz then followed-up that post with an image that got arenaline raging as he joined Jeffrey Dean Morgan (Negan) to reassure fans that these fuckers are killin' it in his episode:. | -- |
+### 2020-01-16_en_article_1985 -- 2020-01-16_de_article_1396
+| {New South Wales New South Wales 100 100, Virginia Connor Virginia Connor 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **Downpours on Thursday in the state of New South Wales, where many of the worst fires have burnt, offered hope that dozens of blazes could be brought under control..** | Seit September schon wüten in Australien zahlreiche außer Kontrolle geratene Buschbrände. |
+| Relief is here for a number of firefighters working across NSW, the state's Rural Fire Service said in a social media post accompanying footage of rain falling in a burning forest.. | Jetzt setzt der lang ersehnte Regen ein - und greift den Feuerwehrleuten unter die Arme. |
+| Although this rain wonot extinguish all fires, it will certainly go a long way towards containment.. | Doch für eine Entwarnung ist es noch viel zu früh.. |
+| Before the rains, there were 30 blazes burning out of control in New South Wales.. | Ergiebige Regenfälle in Teilen der australischen Buschbrandgebiete haben Feuerwehr und Bewohnern eine lang ersehnte Atempause beschert. |
+| **Along the south coast of the state, locals who witnessed towns and forests being destroyed in recent weeks expressed cautious hope..** | **Im Bundesstaat New South Wales, wo einige der schwersten Feuer wüteten, hofft die Feuerwehr, die Flammen zumindest unter Kontrolle bringen zu können.** |
+| **We're thrilled and so relieved to have some dampness in the air because it makes things safe for a little while, Virginia Connor told AFP near the town of Nowra..** | Hilfe ist da für viele Feuerwehrleute in New South Wales, schrieb die Feuerwehr unter ein Foto von Regenfällen über einem brennenden Wald. |
+| -- | Der Regen könne zwar nicht alle Brände löschen, aber zumindest bei ihrer Eindämmung helfen. |
+| -- | Vor dem Einsetzen des Regens wüteten in dem Bundesstaat 30 Brände, die außer Kontrolle waren.. |
+| -- | **Entlang der Küste des Bundesstaates hofften Bewohner, die in den vergangenen Wochen die Zerstörung von Städten und Wäldern miterleben mussten, auf Besserung.** |
+| -- | **Wir sind begeistert und so erleichtert darüber, dass die Luft jetzt feucht ist, das macht die Lage etwas sicherer, sagte Virginia Connor nahe der Stadt Nowra.** |
+| -- | Die Luftqualität habe sich in weiten Teilen des Staates verbessert, erklärte die Umweltbehörde. |
+| -- | Für Freitag und das gesamte Wochenende ist weiterer Regen vorhergesagt. |
+| -- | Dies wäre die längste Niederschlagsperiode seit Beginn der Buschbrände im September.. |
+| -- | Für eine Entwarnung ist es jedoch noch zu früh: Im australischen Sommer zwischen Januar und März herrschen üblicherweise die höchsten Temperaturen, die Brand-Krise ist bei weitem noch nicht vorüber. |
+| -- | Wir haben noch einen weiten Weg vor uns, warnte Robyn Duell vom australischen Wetterdienst. . |
+| -- | Den gesamten Sommer und Frühherbst hindurch bleibe das Buschbrandrisiko weiterhin hoch. |
+| -- | In einigen Fällen könnten die Regenfälle die Arbeit der Feuerwehr sogar erschweren, weil Löschfahrzeuge auf matschigen Waldwegen schwerer vorankommen. |
+| -- | Auch Sturzfluten könnten drohen, weil die verkohlten Böden das Regenwasser nicht aufsaugen können.. |
+| -- | Bei den seit September wütenden verheerenden Buschbränden sind bereits 28 Menschen und schätzungsweise eine Milliarde Tiere ums Leben gekommen. |
+| -- | Zehn Millionen Hektar Land brannten bereits nieder, eine Fläche größer als Portugal.. 2019 war das heißeste und trockenste Jahr seit Beginn der Aufzeichnungen in Australien. |
+| -- | Die höchste Durchschnittstemperatur herrschte mit 41,9 Grad Celsius Mitte Dezember. |
+| -- | Weltweit waren die vergangenen zehn Jahre laut der UNO die heißesten seit Beginn der Temperaturaufzeichnungen.. |
+### 2020-01-16_en_article_1985 -- 2020-01-16_de_article_2958
+| {New South Wales New South Wales 100 100, Virginia Connor Virginia Connor 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Downpours on Thursday in the state of New South Wales, where many of the worst fires have burnt, offered hope that dozens of blazes could be brought under control.. | Die Luftqualität habe sich in weiten Teilen des Staates verbessert, erklärte die Umweltbehörde. |
+| Relief is here for a number of firefighters working across NSW, the state's Rural Fire Service said in a social media post accompanying footage of rain falling in a burning forest.. | Hilfe ist da für viele Feuerwehrleute in New South Wales, schrieb die Feuerwehr am Donnerstag unter ein Foto von Regenfällen über einem brennenden Wald. |
+| Although this rain wonot extinguish all fires, it will certainly go a long way towards containment.. | Der Regen könne zwar nicht alle Brände löschen, aber zumindest bei ihrer Eindämmung helfen. |
+| Before the rains, there were 30 blazes burning out of control in New South Wales.. | Vor dem Einsetzen des Regens wüteten in dem Bundesstaat 30 Brände, die außer Kontrolle waren.. |
+| **Along the south coast of the state, locals who witnessed towns and forests being destroyed in recent weeks expressed cautious hope..** | **Entlang der Küste des Bundesstaates hofften Bewohner, die in den vergangenen Wochen die Zerstörung von Städten und Wäldern miterleben mussten, auf Besserung.** |
+| **We're thrilled and so relieved to have some dampness in the air because it makes things safe for a little while, Virginia Connor told AFP near the town of Nowra..** | **Wir sind begeistert und so erleichtert darüber, dass die Luft jetzt feucht ist, das macht die Lage etwas sicherer, sagte Virginia Connor nahe der Stadt Nowra.** |
+| -- | Für Freitag und das gesamte Wochenende ist weiterer Regen vorhergesagt. |
+| -- | Dies wäre die längste Niederschlagsperiode seit Beginn der Buschbrände im September.. |
+| -- | Für eine Entwarnung ist es jedoch noch zu früh: Im australischen Sommer zwischen Januar und März herrschen üblicherweise die höchsten Temperaturen, die Brand-Krise ist bei weitem noch nicht vorüber. |
+| -- | Wir haben noch einen weiten Weg vor uns, warnte Robyn Duell vom australischen Wetterdienst. |
+| -- | Den gesamten Sommer und Frühherbst hindurch bleibe das Buschbrandrisiko weiterhin hoch.. |
+| -- | In einigen Fällen könnten die Regenfälle die Arbeit der Feuerwehr sogar erschweren, weil Löschfahrzeuge auf matschigen Waldwegen schwerer vorankommen. |
+| -- | Auch Sturzfluten könnten drohen, weil die verkohlten Böden das Regenwasser nicht aufsaugen können.. |
+| -- | Bei den seit September wütenden verheerenden Buschbränden sind bereits 28 Menschen und schätzungsweise eine Milliarde Tiere ums Leben gekommen. |
+| -- | Zehn Millionen Hektar Land brannten bereits nieder, eine Fläche größer als Portugal.. 2019 war das heißeste und trockenste Jahr seit Beginn der Aufzeichnungen in Australien. |
+| -- | Die höchste Durchschnittstemperatur herrschte mit 41,9 Grad Celsius Mitte Dezember. |
+| -- | Weltweit waren die vergangenen zehn Jahre laut der UNO die heißesten seit Beginn der Temperaturaufzeichnungen. . |
+### 2020-01-17_en_article_7779 -- 2020-01-16_de_article_1418
+| {Olaf Bandt Olaf Bandt 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **Instead of 3 gigawatts, only 2.8 gigawatts of brown coal are to be decommissioned by 2022..** | Kommentare und Einschätzungen zur Einigung von Bund und Ländern zum detaillierten Zeitplan für den Kohleausstieg: . |
+| The government's new coal phase-out plan also contained paradoxes, with the planned construction of a new hard coal unit, Datteln 4. | Die Gewerkschaft Verdi begrüßt die Einigung, da sie monatelangen Stillstand endlich beende und die Beschäftigten in der Energiewirtschaft nun Planungssicherheit und eine Absicherung erhalten. |
+| The confirmation of the new coal plant sends contradictory signals at international level given that Germany is a member of the Powering Past Coal Alliance.. | Jetzt kann die Arbeit an der Umsetzung der Ergebnisse der Kohlekommission beginnen und ein sozialverträglicher Kohleausstieg organisiert werden, sagte Verdi-Bundesvorstandsmitglied Christoph Schmitz. |
+| For Olaf Bandt, Head of the German branch of Friends of the Earth Germany (BUND), connecting Datteln 4 to the grid is a climate policy embarrassment for the German government and a clear break with the country's coal compromise.. | Dabei ist es besonders wichtig, dass das Anpassungsgeld in der Braun- und Steinkohle ohne Vorbehalte gezahlt wird. |
+| **The so-called agreement is an energy and climate policy scandal, Bandt said.** | Es sei gut, dass dadurch die Klimaziele erreicht und der Hambacher Forst erhalten werde. |
+| The federal government has disregarded the coal compromise on substantial points. | Deutliche Anstrengungen zur CO2-Einsparung seien aber auch bei Verkehr, Industrie, Gebäuden und Landwirtschaft unerlässlich für eine erfolgreiche Klimawende. . |
+| According to Bandt, Germany's new coal phase-out plan misses a clear switch-off path. | Der Bund für Umwelt und Naturschutz Deutschland (BUND) hat heftige Kritik geübt. |
+| No shutdowns are planned between 2022 and 2025, the majority is postponed until after 2030. | **Die sogenannte Einigung ist ein energie- und klimapolitischer Skandal, sagte Vorsitzender Olaf Bandt.** |
+| **Once again, it is clear that the German government has not understood the extent of the climate crisis – or is coldly ignoring it, Bandt said..** | **An Stelle von 3 Gigawatt sollten bis 2022 nur 2,8 Gigawatt Braunkohle stillgelegt werden, und es fehle ein stetiger Abschaltpfad.** |
+| -- | **Einmal mehr zeigt sich, dass die Bundesregierung die Tragweite der Klimakrise nicht verstanden hat - oder eiskalt ignoriert.** |
+| -- | Die Inbetriebnahme des Steinkohlekraftwerks Datteln 4 nannte er einen klaren Bruch mit dem Kohle-Kompromiss. |
+| -- | Man werde den Protest jetzt zum Kraftwerk Datteln 4 und in die Dörfer tragen. . |
+### 2020-01-17_en_article_7777 -- 2020-01-17_de_article_400
+| {Olaf Scholz Olaf Scholz 100 100, Scholz Olaf Scholz 71 71} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| The agreement, presented in Berlin on Thursday, involves the lignite mining states of North Rhine-Westphalia, Saxony, Saxony-Anhalt and Brandenburg, which have agreed a complete phase-out of hard coal by 2035. | In den von der Stilllegung von Kraftwerken und Kohlebergwerken betroffenen Bergbauregionen plant der Staat die Einrichtung eines Ausgleichsfonds für Beschäftigte der Branche, der bis 2043 ausgezahlt werden könnte.. |
+| All this will be be formalised in a draft law to be presented on 29 January with a view to final adoption in the first half of 2020, according to the German Ministry of Economic Affairs.. | Darüber hinaus werden den vier Bergbauländern bis 2038 insgesamt 40 Milliarden Euro an Finanzhilfen gewährt.. |
+| Yesterday's deal confirmed handsome payments for coal mining regions in the states of Brandenburg, Saxony-Anhalt, Saxony and North Rhine-Westphalia. | **Die Bundesregierung mobilisiert außerdem 4,35 Milliarden Euro an Ausgleichszahlungen für die Betreiber von Kohlekraftwerken, so Finanzminister Olaf Scholz.** |
+| Workers in lignite plants and coal mines there will be eligible for so-called adjustment money until 2043.. | Das sind 2,6 Milliarden Euro für die vom Energiekonzern RWE verwalteten Anlagen im Westen Deutschlands und 1,75 Milliarden im Osten, ein Betrag, der sich über fünfzehn Jahre nach den Schließungen verteilt, sagte der Minister vor der Presse. |
+| In addition, the four coal states will receive a total of €14 billion until 2038 for direct investments in the regions and the federal government will provide another €26 billion to implement further measures to strengthen local economies.. | **Die Rechnung ist möglicherweise nicht endgültig, da Olaf Scholz bisher nur die Kraftwerke erwähnt hat, die in den nächsten zwei Jahren stillgelegt werden sollen..** |
+| **The German government also plans €4.35 billion in compensation for power producers, Finance Minister Olaf Scholz told the press in Berlin.** | Diese deckten nicht die durch den Kohleausstieg entstehenden Einbußen, sagte Konzernchef Rolf Schmitz. |
+| This will represent €2.6 billion for RWE, the country's biggest power producer and coal power plant operator in western Germany, and €1.75 billion in the east.. | Laut Finanzvorstand Markus Krebber, belaufen sich die Verluste für das Unternehmen auf 3,5 Milliarden Euro, und das sei eine konservative Rechnung betonte er. |
+| Those amounts will be spread over fifteen years following the closures, Scholz said. | Rolf Schmitz kündigte auch kurzfristig den Wegfall von 3000 Arbeitsplätzen und bis 2030 von weiteren etwa 3000 Stellen an.. |
+| **But the bill may not be final yet as Scholz only mentioned the coal plants that are due to close in the next two years..** | -- |
+| That's three years before the date set by Germany's so-called Coal Commission in February last year.. | -- |
+| The deal provides for two review periods, in 2026 and 2029, to assess whether the 2035 deadline can be met. | -- |
+| It also ensures the preservation of the Hambach Forest, a woodland near Cologne that has become a symbol for climate activists who are seeking to prevent energy company RWE from razing it to expand a nearby coal mine.. | -- |
+### 2019-07-11_en_article_1192 -- 2019-07-11_de_article_1043
+| {Orlandi Orlandi 100 100, Vatican Vatikan 86 86} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| The mystery surrounding the disappearance of an Italian teenager 36 years ago deepened Thursday after two graves at the Vatican thought to possibly hold her remains were discovered to be empty. . | Keine menschlichen Funde oder Begräbnisurnen wurden gefunden, erklärte der Vatikan. |
+| Not only were Emanuela Orlandi's remains not found, the tombs did not even hold the remains of the two princesses supposed to be buried there in the Teutonic Cemetery in the tiny city state, the Vatican said in a statement.. | **Die Gräber gehörten zwei Prinzessinnen, die in den Jahren 1836 und 1840 dort begraben wurden.** |
+| No human findings or funeral urns were found, it said.. dig followed an anonymous tip-off that the cemetery may be the last resting place of Orlandi, the daughter of a Vatican employee, who was last seen leaving a music class aged 15.. | **Ihre Nachkommen seien informiert worden, dass die Überreste der beiden Frauen vermisst würden, hieß es. Demnach soll nun überprüft werden, welche Arbeiten an den Gräbern unternommen wurden, um herauszufinden, was mit den Gebeinen passiert ist..** |
+| Theories have circulated for decades about who took her and where her body may lie.. | Die beiden Gräber gehören laut Vatikan zu Sophie von Hohenlohe, gestorben 1836, und zu Herzogin Charlotte Friederike zu Mecklenburg, 1840 gestorben. |
+| The family had been sent a picture of an angel-topped grave in the cemetery, and a message which simply read: Look where the angel is pointing.. | Es hieß lediglich, im Hohenlohe-Grab sei ein Hohlraum von etwa 4 mal 3,70 Metern entdeckt worden. |
+| A second, similar grave alongside the first was also opened to rule out any misunderstandings over which grave was meant.. | Die Hinterbliebenen der Adeligen seien über das Ergebnis benachrichtigt worden, fügte Papstsprecher Gisotti hinzu. |
+| **The tombs belonged to two princesses, buried in 1836 and 1840..** | Es sollten nun Dokumente ausgewertet werden, in denen Renovierungen auf dem Friedhof dokumentiert sind. |
+| The Vatican said it had informed their descendants of Thursday's discovery that their remains were missing.. | Die habe es sowohl im 18. als auch im 19. |
+| **It said it would look into when work was done on the tombs in a bid to find out what happened to them..** | Leere Gräber seien das Letzte gewesen, was er erwartet habe. |
+| Documentary checks are underway on the structural interventions that took place in the area... in a first phase at the end of the 19th century, and in a second more recent phase between the 60s and 70s of the last century, the Vatican said.. | Die Familie habe ein Recht darauf zu erfahren, was passiert sei, fügte sie hinzu. |
+| **The Holy See expressed its attention and closeness to the suffering of the Orlandi Family and in particular to Emanuela's mother, who still lives inside the Vatican..** | **Der Heilige Stuhl drückte seine Nähe zum Leiden der Familie Orlandi und insbesondere deren Mutter aus, die nach wie vor im Vatikan lebt..** |
+### 2020-01-22_en_article_1865 -- 2020-01-21_de_article_531
+| {Paul Paul 100 100, Lauren Lauren 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Lauren added: I couldnot believe the two people I loved and trusted most in the world could betray me like this. | **Das ist eines der schlimmsten Dinge, die eine Mutter einer Tochter antun kann., erklärte Lauren.** |
+| **It's one of the worst things a mum can do to a daughter..** | Die kirchliche Zeremonie sei wunderschön gewesen, Julie habe stolz zugesehen, als die beiden ihre Gelübde aussprachen. |
+| **Paul may have been a gutless groom but she's my mum.** | Paul sagte mir, dass er für immer bei mir sein will! |
+| She's meant to love and protect me above all others. | Aus Dankbarkeit, dass Ihre Mutter die Kosten für ihre Hochzeit übernommen hatte, entschloss Lauren sich, Julie mit auf die Hochzeitsreise nach Devon zu nehmen.. |
+| Instead, she stole my husband, shattering my family and my dreams. | Ich konnte es gar nicht erwarten,  zu sein, berichtet die Britin. |
+| Lauren's relationship with Paul began on Valentine's Day (She was 17 at the time and Paul was 18), when they went on their first date as a couple, just two years prior to the infidelity that not only destroyed their marriage, but also Lauren's relationship with her mother.. | Doch kaum, dass die Tinte unserer Heiratsurkunde getrocknet war, begann Paul, sich zu verändern. |
+| I met him at a local pub – I fancied him straight away, she said. | Ihr Ehemann habe sich auffällig verhalten, habe sein Handy vor ihr versteckt.. |
+| He asked for my number and the next day he texted asking to go on a date to the cinema. | Nur vier Wochen später entdeckte Laurens Schwester Texte von Paul auf dem Handy ihrer Mutter. |
+| A few months later, Lauren became pregnant, and their daughter was born in March 2004. | Julie bestritt damals, dass irgendetwas vor sich ging, meinte, Lauren sei verrückt.. |
+| Not long after the birth of their daughter, Paul proposed to Lauren, she said yes, and they were married by August of that same year.. | Als ich Paul damit konfrontierte, wurde er weiß wie die Wand, erinnert sich Lauren. |
+| -- | Nur wenige Tage später nahm er seinen Ehering ab und verließ Lauren und die gemeinsame, sieben Monate alte Tochter.. |
+| -- | **Paul mag vielleicht ein schlechter Bräutigam gewesen sein, aber sie ist meine Mutter.** |
+| -- | Dass die beiden Menschen, die sie liebte und denen sie am meisten vertraute, sie so behandelten, konnte Lauren zunächst nicht fassen. |
+### 2020-01-22_en_article_1865 -- 2020-01-22_de_article_668
+| {Paul Paul 100 100, Lauren Lauren 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Lauren added: I couldnot believe the two people I loved and trusted most in the world could betray me like this. | Die kirchliche Zeremonie sei wunderschön gewesen, Julie habe stolz zugesehen, als die beiden ihre Gelübde aussprachen. |
+| **It's one of the worst things a mum can do to a daughter..** | Paul sagte mir, dass er für immer bei mir sein will! |
+| **Paul may have been a gutless groom but she's my mum.** | Aus Dankbarkeit, dass Ihre Mutter die Kosten für ihre Hochzeit übernommen hatte, entschloss Lauren sich, Julie mit auf die Hochzeitsreise nach Devon zu nehmen.. |
+| She's meant to love and protect me above all others. | Ich konnte es gar nicht erwarten,  zu sein, berichtet die Britin. |
+| Instead, she stole my husband, shattering my family and my dreams. | Doch kaum, dass die Tinte unserer Heiratsurkunde getrocknet war, begann Paul, sich zu verändern. |
+| Lauren's relationship with Paul began on Valentine's Day (She was 17 at the time and Paul was 18), when they went on their first date as a couple, just two years prior to the infidelity that not only destroyed their marriage, but also Lauren's relationship with her mother.. | Ihr Ehemann habe sich auffällig verhalten, habe sein Handy vor ihr versteckt.. |
+| I met him at a local pub – I fancied him straight away, she said. | Nur vier Wochen später entdeckte Laurens Schwester Texte von Paul auf dem Handy ihrer Mutter. |
+| He asked for my number and the next day he texted asking to go on a date to the cinema. | Julie bestritt damals, dass irgendetwas vor sich ging, meinte, Lauren sei verrückt.. |
+| A few months later, Lauren became pregnant, and their daughter was born in March 2004. | Als ich Paul damit konfrontierte, wurde er weiß wie die Wand, erinnert sich Lauren. |
+| Not long after the birth of their daughter, Paul proposed to Lauren, she said yes, and they were married by August of that same year.. | Nur wenige Tage später nahm er seinen Ehering ab und verließ Lauren und die gemeinsame, sieben Monate alte Tochter.. |
+| -- | Dass die beiden Menschen, die sie liebte und denen sie am meisten vertraute, sie so behandelten, konnte Lauren zunächst nicht fassen. |
+| -- | **Das ist eines der schlimmsten Dinge, die eine Mutter einer Tochter antun kann., erklärte Lauren.** |
+| -- | **Paul mag vielleicht ein schlechter Bräutigam gewesen sein, aber sie ist meine Mutter.** |
+### 2020-01-22_en_article_8453 -- 2020-01-22_de_article_444
+| {Poland Polen 73 73, the European Union Europäischen Union 72 74} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **This article is part of our special report Bioeconomy in the CAP's nine objectives.** | **This article is part of our special report Die neun Ziele der GAP und die Bioökonomie.** |
+| **While experts say Poland could become key for the EU's bioeconomy, scientists are calling for the sustainable use of the country's forest resources in energy production.** | **Polen könnte einen wichtigen Beitrag für die Bioökonomie der EU leisten, die Wissenschaft mahnt dabei aber eine möglichst nachhaltige Nutzung der Waldressourcen bei der Energieerzeugung an.** |
+| **The bioeconomy is expected to play an important role in achieving climate neutrality in the European Union and of the nine objectives of the future EU Common Agricultural Policy (CAP) for 2021-2027, at least half relate directly to the bioeconomy..** | Es scheint beschlossene Sache: Die Bioökonomie wird eine wichtige Rolle bei der Erreichung der Klimaneutralität in der Europäischen Union spielen. |
+| **Managing renewable and mineral resources will play an important role in the EU's path to climate neutrality and experts agree that Central and Eastern European countries, including Poland, have great potential in this field..** | **Von den neun Zielen der künftigen Gemeinsamen Agrarpolitik (GAP) der EU für den Zeitraum 2021-2027 bezieht sich über die Hälfte direkt auf die Bioökonomie..** |
+| **There is no shortage of support in Poland to replace coal-generated energy with energy produced from biomass.** | Die Nutzung erneuerbarer und mineralischer Ressourcen dürfte auf dem Weg der EU zum Ziel Klimaneutralität bis 2050 eine wichtige Rolle spielen. |
+| **However, scientists warn against the damage to biodiversity that can be caused by treating bioenergy from forest biomass as a renewable energy source..** | **Viele Expertinnen und Experten sind sich in dieser Hinsicht einig, dass die mittel- und osteuropäischen Länder, gerade Polen, in diesem Bereich großes Potenzial bieten..** |
+| **In March, the EU will present an updated biodiversity strategy, which is known to include quantitative targets for increasing the area of land and sea protected areas with rich biodiversity.** | **Tatsächlich gibt es in Polen relativ viel Unterstützung für den Umstieg von Kohle auf Energie aus Biomasse.** |
+| **Awareness of the role of ecosystems has increased in recent years, hence the efforts to save them..** | **Wissenschaftlerinnen und Wissenschaftler warnen jedoch vor irreversiblen Schäden an der biologischen Vielfalt, wenn Biomasse aus den Wäldern als erneuerbare Energiequelle genutzt wird..** |
+| In a recent conversation with EURACTIV Poland, Zbigniew Karaczun from the Warsaw School of Life Sciences argued that the transfer of part of the funds from the CAP to the European Green Deal is beneficial for farmers because agriculture is increasingly affected by climate change,. | **Im März will die EU-Kommission derweil eine aktualisierte Biodiversitätsstrategie vorlegen, die quantitative Ziele für die Vergrößerung der Fläche von Land- und Meeresschutzgebieten mit reicher biologischer Vielfalt enthalten soll.** |
+| This manifests itself in the form of droughts or heavy rainfall, which leads to consumers having to pay higher prices for agricultural produce.. | **Das Bewusstsein für die Rolle der Ökosysteme hat in den letzten Jahren zugenommen – daher die Bemühungen um ihre Erhaltung..** |
+| The agricultural economy is most vulnerable to climate change and if it goes too far, it could be catastrophic for Europe's farming sector and consequently affect food prices for consumers, said Karaczun.. | -- |
+### 2020-01-21_en_article_7723 -- 2020-01-21_de_article_394
+| {PwC PwC 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **This year's CEO survey by PwC detected unprecedented pessimism among global CEOs.** | **Die diesjährige CEO-Befragung von PwC weist auf einen Rekordpessimismus in der Weltwirtschaft hin.** |
+| **Again, let's make sure that we donot get overcome by the amount of risks, and rather focus on what we can do to take actions to be successful and sustainable over time..** | Droht dies nun, eine self-fulfilling prophecy zu werden und zu einer selbstverschuldeten Rezession. |
+| Speaking of sustainability, only 25% of the CEOs you surveyed believe that they could seize the opportunities brought by climate action and the shift to a green economy. | Es ist offensichtlich, dass der Optimismus in der CEO-Umfrage rekordverdächtig gesunken und der Pessimismus gestiegen ist. |
+| Is it not surprising, considering how important this issue has become in Davos or in Europe?. | 53 Prozent der befragten Geschäftsführer prognostizieren einen Rückgang des Wirtschaftswachstums im Jahr 2020. |
+| To me, it's very surprising and a bit disappointing that climate did not end up among the top 10 risk list for the CEOs.. | **Aber: Wenn wir diese Umfrage heute erneut durchführen würden, würde man wahrscheinlich ein wenig mehr Zurückhaltung bei diesem Phänomen feststellen..** |
+| It was pleasantly surprising that more than 50% of the CEOs are now seeing it as an opportunity. | So oder so: Wir wollen nicht, dass es eine sich selbst erfüllende Prophezeiung wird. |
+| If they take action and blend climate and sustainability into their strategy, they can differentiate in a positive manner. | **Die Denkweise eines CEO sollte eher lauten: Zuversichtlich sein und die notwendigen Maßnahmen ergreifen..** |
+| That's where there is a competitive advantage to be gained.. | **Die Frage ist: Wie kann ich zwischen einem Risiko, gegen das ich etwas tun kann, und einem Risiko, das nicht kontrollierbar ist, unterscheiden?** |
+| The question is: how do you get that across an entire organisation, not only for the case of CO2 emissions, but also in terms of water pollution, or the scarcity of resources? | **Sie sollten bei dem Risiko, das Sie kontrollieren können, Maßnahmen ergreifen.** |
+| My hope is that the dialogue in Davos this week and the business community over the next year will put this issue higher on the agenda and, more importantly, actions will be taken.. | Und die Risiken, die Sie nicht kontrollieren können, sollten Sie schnell analysieren und mögliche Szenarien planen.. |
+| It is clear that the CEO survey saw a record drop in the optimism and a record level of pessimism, with 53% business leaders predicting a decline in the rate of economic growth in 2020. | **Auch hier sollten wir sicherstellen, dass wir uns nicht von der Masse der Risiken erschlagen oder überwältigen lassen und uns lieber darauf konzentrieren, was wir tun können, um Maßnahmen zu ergreifen, damit wir im Laufe der Zeit erfolgreich und nachhaltig agieren können..** |
+| **If we were to do this survey today, I think you probably would see a little bit more muting of those phenomenon..** | -- |
+| **Having said that, we donot want it to be a self fulfilling prophecy, because the mindset of the CEO should be 'come with confidence and take the actions you need'..** | -- |
+| **The question is: how can I differentiate between a risk I can do something about versus a risk that's not controllable?** | -- |
+| **You should take actions on the risk you can control.** | -- |
+| You should scenario plan and move with speed on the risks you canot control.. | -- |
+### 2020-01-21_en_article_7726 -- 2020-01-21_de_article_394
+| {PwC PwC 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **This year's CEO survey by PwC detected unprecedented pessimism among global CEOs.** | 53 Prozent der befragten Geschäftsführer prognostizieren einen Rückgang des Wirtschaftswachstums im Jahr 2020. |
+| It is clear that the CEO survey saw a record drop in the optimism and a record level of pessimism, with 53% business leaders predicting a decline in the rate of economic growth in 2020. | **Die diesjährige CEO-Befragung von PwC weist auf einen Rekordpessimismus in der Weltwirtschaft hin.** |
+| **If we were to do this survey today, I think you probably would see a little bit more muting of those phenomenon..** | Droht dies nun, eine self-fulfilling prophecy zu werden und zu einer selbstverschuldeten Rezession. |
+| **Having said that, we donot want it to be a self fulfilling prophecy, because the mindset of the CEO should be 'come with confidence and take the actions you need'..** | Es ist offensichtlich, dass der Optimismus in der CEO-Umfrage rekordverdächtig gesunken und der Pessimismus gestiegen ist. |
+| **The question is: how can I differentiate between a risk I can do something about versus a risk that's not controllable?** | **Aber: Wenn wir diese Umfrage heute erneut durchführen würden, würde man wahrscheinlich ein wenig mehr Zurückhaltung bei diesem Phänomen feststellen..** |
+| **You should take actions on the risk you can control.** | So oder so: Wir wollen nicht, dass es eine sich selbst erfüllende Prophezeiung wird. |
+| You should scenario plan and move with speed on the risks you canot control.. | **Die Denkweise eines CEO sollte eher lauten: Zuversichtlich sein und die notwendigen Maßnahmen ergreifen..** |
+| **Again, let's make sure that we donot get overcome by the amount of risks, and rather focus on what we can do to take actions to be successful and sustainable over time..** | **Die Frage ist: Wie kann ich zwischen einem Risiko, gegen das ich etwas tun kann, und einem Risiko, das nicht kontrollierbar ist, unterscheiden?** |
+| Speaking of sustainability, only 25% of the CEOs you surveyed believe that they could seize the opportunities brought by climate action and the shift to a green economy. | **Sie sollten bei dem Risiko, das Sie kontrollieren können, Maßnahmen ergreifen.** |
+| Is it not surprising, considering how important this issue has become in Davos or in Europe?. | Und die Risiken, die Sie nicht kontrollieren können, sollten Sie schnell analysieren und mögliche Szenarien planen.. |
+| To me, it's very surprising and a bit disappointing that climate did not end up among the top 10 risk list for the CEOs.. | **Auch hier sollten wir sicherstellen, dass wir uns nicht von der Masse der Risiken erschlagen oder überwältigen lassen und uns lieber darauf konzentrieren, was wir tun können, um Maßnahmen zu ergreifen, damit wir im Laufe der Zeit erfolgreich und nachhaltig agieren können..** |
+| It was pleasantly surprising that more than 50% of the CEOs are now seeing it as an opportunity. | -- |
+| If they take action and blend climate and sustainability into their strategy, they can differentiate in a positive manner. | -- |
+| That's where there is a competitive advantage to be gained.. | -- |
+| The question is: how do you get that across an entire organisation, not only for the case of CO2 emissions, but also in terms of water pollution, or the scarcity of resources? | -- |
+| My hope is that the dialogue in Davos this week and the business community over the next year will put this issue higher on the agenda and, more importantly, actions will be taken.. | -- |
+### 2020-01-17_en_article_7778 -- 2020-01-17_de_article_400
+| {Rolf Martin Schmitz Rolf Schmitz 77 77, Schmitz Rolf Schmitz 74 74} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **These did not cover the losses caused by the coal phase-out, Chief Executive Rolf Martin Schmitz told journalists at a teleconference call.** | In den von der Stilllegung von Kraftwerken und Kohlebergwerken betroffenen Bergbauregionen plant der Staat die Einrichtung eines Ausgleichsfonds für Beschäftigte der Branche, der bis 2043 ausgezahlt werden könnte.. |
+| **Markus Krebber, the company's chief financial officer, evaluates the hit for the company at €3.5 billion, saying this was a conservative estimate which excludes lost profits from its power stations..** | Darüber hinaus werden den vier Bergbauländern bis 2038 insgesamt 40 Milliarden Euro an Finanzhilfen gewährt.. |
+| **Schmitz also announced the loss of 3,000 jobs in the short term and of another 3,000 or so jobs by 2030..** | Die Bundesregierung mobilisiert außerdem 4,35 Milliarden Euro an Ausgleichszahlungen für die Betreiber von Kohlekraftwerken, so Finanzminister Olaf Scholz. |
+| RWE stretches to the limits of what is possible, he said. | Das sind 2,6 Milliarden Euro für die vom Energiekonzern RWE verwalteten Anlagen im Westen Deutschlands und 1,75 Milliarden im Osten, ein Betrag, der sich über fünfzehn Jahre nach den Schließungen verteilt, sagte der Minister vor der Presse. |
+| And we will bear the majority of the burden the German government demands for the coal phase-out.. | Die Rechnung ist möglicherweise nicht endgültig, da Olaf Scholz bisher nur die Kraftwerke erwähnt hat, die in den nächsten zwei Jahren stillgelegt werden sollen.. |
+| As the decline of coal power progresses in Germany, renewable energies are projected to simultaneously rise to reach 65% of electricity by 2030. | **Diese deckten nicht die durch den Kohleausstieg entstehenden Einbußen, sagte Konzernchef Rolf Schmitz.** |
+| Combined heat and power generation will be further expanded and two additional gas-fired power plants have also been announced.. | **Laut Finanzvorstand Markus Krebber, belaufen sich die Verluste für das Unternehmen auf 3,5 Milliarden Euro, und das sei eine konservative Rechnung betonte er.** |
+| But the German wind energy industry is cautious at this stage, saying measures now have to be implemented to boost the sector.. | **Rolf Schmitz kündigte auch kurzfristig den Wegfall von 3000 Arbeitsplätzen und bis 2030 von weiteren etwa 3000 Stellen an..** |
+| We assume that the Government will now implement the measures quickly, said Christoph Zipf of the German Wind Energy Association. | -- |
+| We had a wind summit in December which aimed at a faster expansion of the wind energy industry, and we are already wondering why so little has happened thus far, he told EURACTIV.. | -- |
+| It is important that there is now a legal framework, it is a very clear signal to investors, it will trigger a shift in investors, he said.. | -- |
+### 2020-01-22_en_article_8606 -- 2020-01-22_de_article_2524
+| {Ron Magill Ron Magill 100 100, Zoo Miami Zoo Miami 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Once the temperature drops below 45 degrees Fahrenheit the iguanas go into a dormant or cold-stunned state. | Ein Wetterumschwung hat die zuständigen Behörden im südlichen Florida zu einer sehr ungewöhnlichen Warnung veranlasst: Seien Sie nicht überrascht, wenn Sie heute Abend Leguane von den Bäumen fallen sehen, twittert das Büro des Nationalen Wetterdienstes von . |
+| It is their body's way of protecting them until the temperature warms back up above 50 degrees.. | Die Kälte betäubt die Echsen, sie können sich nicht mehr festhalten und stürzen starr aus den Baumkronen. . |
+| If those temperatures remain in the 40s for periods over eight hours, a significant number of those iguanas will die, especially the smaller ones.. | Die Echsen würden dann wieder aufwachen, heißt es laut US-Wetterdienst. |
+| **The temperature threshold for when iguanas begin to go into a dormant state depends greatly on the size of the iguana, explains Ron Magill, communications director for Zoo Miami.** | **Die Temperaturschwelle, die für Leguane kritisch ist und sie in einen Ruhezustand fallen lässt, hängt stark von der Größe des Leguans ab, erklärte Ron Magill, Kommunikationsdirektor des Zoo Miami, dem CNN.** |
+| **Generally speaking, the larger the iguana, the more cold it can tolerate for longer periods..** | **Im Allgemeinen gilt: Je größer der Leguan, desto mehr Kälte kann er für längere Zeit vertragen..** |
+| He also demonstrates how even though extended periods of air temperatures in the 40s could lead to the demise of some iguanas. | Leguane können bis zu 1,50 Meter groß und etwa neun Kilogramm schwer werden. |
+| Many iguanas in South Florida have adapted to going deep into burrows where they stay insulated from the cold. | Normalerweise sind die Tiere für Menschen nicht gefährlich – allerdings kann es zu Verletzungen kommen, wenn ein Leguan aus einem Baum auf ein Auto oder einen Menschen stürzt. . |
+| They tend to also live close to large bodies of water, which tend to be warmer than the air temperatures, which help them survive short cold snaps.. | Die Frostwarnungen sind vom Wetterdienst für Florida und Georgia ausgesprochen worden, berichtet CNN. |
+| Not everyone is concerned about the well-being of these iguanas, though. | Von Louisiana bis zu den Carolinas, sogar bis hinunter nach Florida, liegen die Temperaturen im Durchschnitt 10 bis 15 Grad unter der Norm. . |
+| They are considered an invasive species, so some people are looking forward to an opportunity to rid their yards of these reptiles.. | -- |
+| I do know that there are several iguana hunters that are looking forward to this upcoming cold front as it will certainly facilitate them removing these invasive reptiles from the South Florida environment as they will not be able to run away! | -- |
+### 2020-01-22_en_article_9163 -- 2020-01-16_de_article_51
+| {Russia Russland 71 71} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **In this regard, the president must undoubtedly retain the right to determine the Government's tasks and priorities, as well as the right to dismiss the prime minister, his deputies and federal ministers in case of improper execution of duties or due to loss of trust..** | Das führt zu einer effektiveren, sinnvolleren Interaktion zwischen repräsentativen und exekutiven Zweigen der Regierung.. |
+| In 2018 and 2019, Duma Chairman, Vyacheslav Volodin, a former aide to Putin seen as a close political ally, proposed that the Duma's power be strengthened, including in the formation of the government.. | Die wichtigsten politischen Kräfte des Landes, trotz aller Unterschiede in den Ansätzen zur Lösung der vor uns vorliegenden Probleme, sprechen aus patriotischen Positionen, spiegeln die Interessen ihrer Anhänger und Wähler wider.. |
+| In his 2019 year-end press conference, Putin himself suggested limiting presidential powers and increasing those of the Duma. | Gleichzeitig glauben fast alle in der Staatsduma vertretenen Fraktionen – und mit ihren Führern treffe ich mich regelmäßig, wie Sie wissen -, dass das Parlament bereit ist, eine größere Verantwortung für die Regierungsbildung zu übernehmen. |
+| Following Putin's 15 January speech, Prime Minister Dmitry Medvedev resigned from his post. | Den Applaus habe ich erwartet, aber ich denke, Sie werden die Chance haben, noch einmal zu applaudieren, hören zu Ende, was ich zu sagen habe.. |
+| He was subsequently appointed Deputy Head of the powerful Security Council.. | Und wenn sie mehr Verantwortung für die Regierungsbildung übernehmen, bedeutet das, mehr Verantwortung für die Politik zu übernehmen, die diese Regierung verfolgt. |
+| The PM-designate was Mikhail Mishutin, a capable technocrat who ran the tax service. | Gemäß den Artikeln 111 und 112 der Verfassung der Russischen Föderation erhält der Präsident nur die Zustimmung der Staatsduma für die Ernennung des russischen Ministerpräsidenten und ernennt dann selbst und den Kabinettschef, seine Stellvertreter und alle Minister. |
+| Mishutin is credited with having established an effective and well-run tax system. | Ich schlage vor, diese Reihenfolge zu ändern und die Staatsduma nicht nur die Zustimmung anzuvertrauen, sondern die ihr Ernennung des Premierministers der Russischen Föderation anzuvertrauen, und dann auf seinen Vorschlag alle Stellvertretende Ministerpräsidenten und Bundesminister zu ernennen. |
+| He met Singapore's Minister Mentor, Mr Lee Kuan Yew almost a decade ago during the latter's visit to Moscow. | Gleichzeitig wird der Präsident verpflichtet sein, sie für das Amt zu ernennen, das heißt, er wird nicht das Recht haben, die Nominierungen abzulehnen, die vom Parlament kommen. |
+| Fluent in English, Mishutin's articulation of ideas and clarity of thought about Russia's development and future was said to be most impressive.. | All dies ist eine sehr ernste Veränderung des politischen Systems. |
+| Speculation has been rife that Putin's wish was to retain power after 2024. | Ich wiederhole jedoch, dass angesichts der Reife unserer wichtigsten politischen Vereinigungen, der Parteien und der Autorität der Zivilgesellschaft solche Vorschläge gerechtfertigt sind. |
+| This may entail integrating with Belarus in a unified state with him at the political helm or assuming a more powerful premiership in a new political configuration.. | Dies wird die Rolle und Bedeutung des Parlaments des Landes erhöhen, die Rolle und Bedeutung der Staatsduma, der im Parlament vertretenen Parteien, die Unabhängigkeit und Verantwortung des Premierministers und aller Mitglieder des Kabinetts. |
+| The integration with Belarus appears to have been stalled by Belarussian President Alexander Lukashenko dragging his feet on Russia's consistent proposal. | Gleichzeitig, liebe Kolleginnen und Kollegen, möchte ich Folgendes betonen, gleichzeitig bin ich davon überzeugt, dass sich unser Land mit seinem riesigen Territorium, seiner komplexen ethnisch-territorialen Struktur, der Vielfalt kultureller und historischer Traditionen nicht normal entwickeln kann, wenn es die Form einer parlamentarischen Republik annimmt. |
+| A more powerful premiership in a new political configuration would be a logical conclusion.. | **Daher muss der Präsident selbstverständlich das Recht behalten, die Aufgaben und Prioritäten der Regierung zu bestimmen und das Recht haben, den den Ministerpräsidenten, seinen Stellvertreter und die Minister im Falle von Fehlleistungen oder wenn das Vertrauensverhältnis gestört ist, zu entlassen.** |
+| Putin's latest proposals have been interpreted as an attempt to assume the premiership again after 2024.He had held this position previously from 2008-2012 since the Constitution barred a third consecutive term.. | **Außerdem sollte der Präsident den Oberbefehl über die Streitkräfte und das Strafverfolgungssystem behalten..** |
+| Unlike the 2008-2012 period, the prime minister's post after 2024 will come with more power.. | Diese Bestimmungen sind nur konsequent, da Russland sich gegen Einmischungen von außen wehrt, ist es logisch, dass niemand leitende Positionen im Staat übernehmen darf, der zu enge Verbindungen ins Ausland hat. |
+| **Putin proposed that the president also exercises direct command over the Armed Forces and the entire law enforcement system.** | In den USA ist die Regelung noch strenger: Wer nicht in den USA geboren wurde, darf nicht Präsident werden.. |
+| In this regard, I believe another step is necessary to provide a greater balance between the branches of power.. | -- |
+| To ensure broad public support, Putin suggested putting the entire package of proposed constitutional changes to a referendum. | -- |
+| The final decision must be made only on the basis of its results.. | -- |
+### 2020-01-16_en_article_8477 -- 2020-01-16_de_article_422
+| {Sánchez-Bordona Sánchez-Bordona 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| She added: The result is that you cannot trust your connection to be as strongly protected as it seems. | **Fälle von allgemeiner und unterschiedsloser Datenspeicherung durch nationale Sicherheitsbehörden greifen ernsthaft in den Schutz der Privatsphäre ein, der in der EU-Grundrechtecharta verankert ist, so ein unverbindliches Gutachten des Europäischen Gerichtshofs vom Mittwoch..** |
+| that the European Commission is working alongside Europol and EU member states to identify appropriate ways of preserving lawful interception capabilities in 5G networks, according to Ylva Johansson, the EU's Home Affairs Commissioner.. | Generalanwalt Manuel Campos Sánchez-Bordona legte gestern eine Stellungnahme zu Fällen vor, in denen Behörden im Vereinigten Königreich, in Frankreich und in Belgien involviert sind und in denen es um die Frage geht, ob Sicherheitsbehörden grundsätzlich Zugang zu Daten im Besitz von Kommunikationsanbietern haben sollten.. |
+| As a result, for security services to obtain data for the purposes of criminal investigation, either software standards would have to be lowered, or backdoors would have to be built into the hardware.. | **Dabei kam Sánchez-Bordona zu dem Schluss, dass die allgemeine, anlassunabhängige und verdachtslose Vorratsspeicherung aller Kommunikations- und Standortdaten aller Teilnehmer und registrierten Nutzer unverhältnismäßig sei und dass die Behörden eher eine begrenzte und auf konkreten Verdachtsfällen beruhende Vorratsspeicherung von Daten vornehmen sollten..** |
+| We caught up with MEP Cornelia Ernst to hear her thoughts on the subject. | Abweichungen von dieser Grundregel könne es aber geben, wenn es sich um einen Ausnahmezustand handele. |
+| She told us that because 5G is designed the way it is, with connections encrypted by default all connections will always look like they were genuinely encrypted using state-of-the-art technology. | Dann wäre es den nationalen Gesetzgebern erlaubt, eine umfassende und allgemeine Verpflichtung zur Vorratsspeicherung von Daten anzuordnen.. |
+| This is not about free speech, this is about the free advertising YouTube is giving to factually inaccurate videos that risk confusing people about one of the biggest crises of our time.. | Der EuGH wird die Stellungnahme des Generalanwalts prüfen und in den kommenden Monaten dann ein eigenes Urteil fällen.. |
+| Gen. John Shanahan, director of Joint Artificial Intelligence Center at the U.S. Department of Defense, is in Brussels today for talks with EU and NATO officials.. | -- |
+| Speaking to reporters yesterday, Shanahan highlighted concerns with the use of some AI technologies, including facial recognition. | -- |
+| Ubiquitous social surveillance, facial recognition is an area that we have a concern about, used by authoritarian regimes. | -- |
+| Again, it's not the technology itself I'm worried about; it's how the technology is being used, he said.. | -- |
+| Despite this, Shanahan reiterated an earlier  from the White House that the EU should avoid heavy regulation in the field of AI. | -- |
+| Responding to a question from EURACTIV, he said: The last thing we want to do in this field of emerging technology moving as fast as it is, is to stifle innovation. | -- |
+| Over-regulating artificial intelligence is one way to stifle innovation and do it very quickly. | -- |
+| Shanahan did, however, add that his government realise that self-regulation will not work everywhere all the time, and finding common ground with NATO and the EU in this regard was one of the objectives during his time in Brussels this week.. . | -- |
+| Yesterday, the EU delegation to the Council of Europe underlined their  to the CoE's Budapest Convention on cybercrime. | -- |
+| We need to protect an open free, interoperable and secure Internet and to fight cybercrime by supporting its implementation and development, a statement from the EU read. . | -- |
+| However, this comes after the EU refused to support the UN General Assembly Resolution Countering the use of information and communications technologies for criminal purposes, adopted on 27 December 2019, which the US and EU had believed could lead to a crackdown on freedom of expression.. . | -- |
+| Italian authorities have slapped the social media giant with a €5 million fine for falsely claiming that use of the platform was free of charge, and for a lack of clarity in how the platform uses data. | -- |
+| This comes after the recent announcement that the Hungarian Competition Authority, the GVH, has fined Facebook €3.6 million for alleged violations of the country's competition law, for advertising its services as being free of charge on its home page and Help Centre.. | -- |
+| The country's whistleblower laws will be put to the test in what is an unparalleled case for Portugal's João Godinho and Jorge Afonso Silva have the . | -- |
+| Yesterday, German prosecutors  that they are investigating three people who had reportedly been spying on behalf of the Chinese state, including a former EU diplomat, according to media reports. | -- |
+| Last year, we reported that  of Russian and Chinese spies have been planted in and around Brussels' EU quarter.. | -- |
+| In this context, the Council's High Working Party on cyber  on 17 January. | -- |
+| As part of the agenda, the European External Action Service will debrief the working party on the EU-China Cyber Taskforce meeting that took place 13 January 2020.. . | -- |
+| I just want to make it very clear, Huawei will not be involved in our critical national infrastructure, the UK's Digital Secretary Nicky Morgan told Bloomberg Television yesterday. | -- |
+| The security, the safety of that infrastructure is absolutely paramount when the government is going to be making that decision. | -- |
+| After the recent news that Germany's Interior Minister Horst Seehofer plans to use automatic facial recognition at 134 railway stations and 14 airports, an alliance between civil society and politicians has called for the banning of this surveillance technology, Euractiv's Phillip Grull . | -- |
+| POP Pankki (POP Bank) the Finnish cooperative banking group has been issued with a notice from the Finnish Assistant Data Protection Commissioner regarding a 2019 security breach. | -- |
+| Allegedly, the bank provided incomplete information on its website and Facebook page as to whether all the individuals who had been compromised were personally informed or not.. | -- |
+| Late on Sunday (12 January) evening, the Montenegrin police arrested two journalists of pro-Serb news websites, Gojko Raičević and Dražen Živković. | -- |
+| The two editors of the in4.net and borba.me were taken into custody for inducing panic in a public space because they had published information about an explosion in Vila Gorica Palace, in which senior state officials, including Montenegrin President Milo Đukanović, organise receptions for distinguished guests. | -- |
+| Seen as a 'hero' for some and a 'villain' for others, the creator of Football Leaks, Rui Pinto, will know this Monday how many crimes he will be tried for. | -- |
+| However, the admission was not a full-fledged disclosure of whether the UK would allow Huawei involvement in either core or non-core aspects of its 5G infrastructure. | -- |
+| Morgan is set to clarify the UK government's position on this in due course a DCMS official told EURACTIV recently.. | -- |
+| Meanwhile, Morgan delivered a  yesterday, rallying for a pro-innovative approach to tech regulation. | -- |
+| She decided to omit any explicit commitments to the UK's future data protection regime – surprising, as the UK will soon be subject to a prospective EU adequacy decision on data transfers between the bloc and the UK. | -- |
+| We previously outlined the hurdles in this regard as part of a Special Brexit edition of the Digital Brief.. | -- |
+| **Mass security data retention 'unlawful.' cases of 'general and indiscriminate' data retention by EU national security authorities  with the privacy protections enshrined in the EU Charter of Fundamental Rights, according to a non-binding opinion from the European Court of Justice delivered on Wednesday (15 January)..** | -- |
+| **Advocate-General Sánchez-Bordona noted that the general and indiscriminate retention of all traffic and location data of all subscribers and registered users is disproportionate and authorities should rather conduct a limited and discriminate retention of data, unless in the case of a 'state of emergency.'.** | -- |
+| At the time of writing, MEPs have not yet voted on a resolution to support measures obliging industry players to develop a common charger. | -- |
+| During a debate on the issue on Monday, MEPs said the Commission's previous approach in this arena of encouraging industry to develop common chargers, fell short of the co-legislators' objectives.. | -- |
+| The voluntary agreements between different industry players have not yielded the desired results, a statement from lawmakers read. | -- |
+| The Commission is now due to publish a study on common chargers by the end of the month.. | -- |
+| YouTube Climate Misinformation by activist group Avaaz has found that YouTube has been driving millions in traffic to climate denial videos with its recommendation algorithm, while also running ads on some of these videos from top green and household brands.. | -- |
+| Avaaz's report uncovered evidence that 16% of the top 100 related videos for the search term global warming contained misinformation.. | -- |
+| A statement from Julie Deruy, a senior campaigner at Avaaz, read: YouTube is the largest broadcasting channel in the world, and it is driving millions of people to climate misinformation videos. | -- |
+### 2019-07-10_en_article_733 -- 2019-07-10_de_article_399
+| {Serena Serena 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| I am, was, and will always be happy for you and supportive of you. | Im Endspiel leistete sich Serena einen emotionalen Ausraster, nachdem sie drei Strafen kassiert hatte und damit ihre Niederlage besiegelte. |
+| is the on the cover of 's August Edition and in it, she talks about her journey since she first won her first . | Nach der Finalniederlage der US-Open 2018 konnte Williams zunächst keinen Schläger mehr in die Hand nehmen, so Williams gegenüber der Modezeitschrift. |
+| Since that fateful victory in 1999, I've won 23 Grand Slam singles titles, 39 Grand Slam titles in all, and countless gold medals. | Serena Williams (37) ist aktuell eine der erfolgreichsten Tennisspielerinnen der Welt. |
+| I have been asked what keeps me motivated to continue playing tennis. | Nun präsentiert sich die US-Amerikanerin überraschend freizügig auf dem Cover der Modezeitschrift Harper's Bazar.. |
+| To me, the answer is simple: I love the sport. | Die 37-jährige Sportskanone zählt nicht nur zu den besten Freundinnen von Herzogin  (37), sondern auch zu den besten Tennisspielerinnen des Planeten. |
+| When I'm giving speeches I always say how important it is to love what you do. | Nun erschien sie auf dem Cover des Modezeitschrift-Giganten Harpers Bazaar und setzt damit ein Zeichen, denn: Serena hatte es nicht zuletzt wegen ihrer rundlichen Figur immer so leicht, wie man zunächst annehmen mag. Diese präsentiert sie jetzt jedoch völlig selbstsicher auf dem Titelblatt: Sie machte sich nicht wie üblich obenrum frei, sondern untenrum.. |
+| If you donot, then find something that speaks to you. | Der Insta-Account der US-Zeitschrift postete ein Foto des August-Covers mit der 37-jährigen. |
+| She talked about being penalized, just when she was looking forward to winning the 24th Grand Slam singles at the final of the . | Dazu schrieb Harper's Bazaar ein bewegendes Statement der erfolgreichen Tennislegende: Ich habe mich wegen meiner Körperform geschämt. |
+| How can you take a game away from me in the final of a Grand Slam? | **Ich bin im Finale eines Majors bestraft worden, weil ich meine Meinung geäußert habe oder zu laut gegrunzt habe, zitiert die Zeitschrift .** |
+| Really, how can you take a game away from anyone at any stage of any tournament? | **Aber dann denke ich an das nächste Mädchen, das wie ich aussieht und ich hoffe, dass ihr vielleicht, nur vielleicht, meine Stimme hilft.** |
+| I turn over, exhausted from lack of sleep, thoughts still spinning in my head. | Auf den ersten Blick scheint Serena Williams das perfekte Leben zu führen aber mit diesem Statement gibt die Mutter einer 1-jährigen Tochter tiefe Einblicke in ihr Innerstes. |
+| If I were a man, would I be in this situation? | Zudem ermutigt sie junge Mädchen für sich einzustehen und sich so zu akzeptieren wie sie sind.. |
+| I am asking to be treated the same way as everyone else. | Vergangenes Jahr begab sich die ehemalige Nummer eins der Weltrangliste in psychologische Behandlung. |
+| Sadly, that's simply not the world we currently live in.. | Damals warf sie dem Schiedsrichter vor Männer anders zu behandeln als Frauen. |
+| I started to think again, What could I have done better? | Serena steht heute nach wie vor zu ihrer Meinung und gab gegenüber der  mal wieder ein ehrliches Statement.. |
+| Why is it that when women get passionate, they're labeled emotional, crazy, and irrational, but when men do they're seen as passionate and strong?. | -- |
+| After days of being restless and angry, Serena not only saw a therapist, she also wrote a letter to . | -- |
+| As I said on the court, I am so proud of you and I am truly sorry. | -- |
+| I thought I was doing the right thing in sticking up for myself. | -- |
+| But I had no idea the media would pit us against each other. | -- |
+| I would love the chance to live that moment over again. | -- |
+| I would never, ever want the light to shine away from another female, specifically another black female athlete. | -- |
+| I canot wait for your future, and believe me I will always be watching as a big fan! | -- |
+| I wish you only success today and in the future. | -- |
+| When Naomi's response came through, tears rolled down my face. | -- |
+| 'People can misunderstand anger for strength because they canot differentiate between the two,' she said graciously. | -- |
+| 'No one has stood up for themselves the way you have and you need to continue trailblazing.'. | -- |
+| Talking about her challenges, Serena said as a teenager, I was booed by an entire stadium (I took the high road and even thanked those who didnot want to see me win). | -- |
+| **I've been penalized a game in the final of a major because I expressed my opinion or grunted too loudly.** | -- |
+| I've been blatantly cheated against to the point where the Hawk-Eye rules were introduced so that something like that would not happen again. | -- |
+| And these are only the things that are seen by the public. | -- |
+| **But then I think of the next girl who is going to come along who looks like me, and I hope, Maybe, just maybe, my voice will help her..** | -- |
+| But Serena is not stopping anytime soon, especially now that she has a daughter.. | -- |
+| Ultimately, my daughter is the reason I use my voice, the reason I picked up a racket again. | -- |
+| It's not about quitting when someone presents a challenge; it's about getting up when you are down, dusting yourself off and asking, Is that the best you got? | -- |
+| Because I have God with me, and I can take whatever comes my way.. | -- |
+### 2020-01-17_en_article_3619 -- 2020-01-17_de_article_1263
+| {Suris Suris 100 100, Yaroslav Suris Yaroslaw Suris 93 93} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **We understand that Yaroslav Suris is suing Pornhub for claiming we've denied the deaf and hearing impaired access to our videos.** | **Wir äußern uns im Allgemeinen zwar nicht zu aktiven Klagen, wollen aber diese Gelegenheit nutzen und darauf hinweisen, dass wir eine Untertitelkategorie haben..** |
+| **While we do not generally comment on active lawsuits, we'd like to take this opportunity to point out that we do have a closed captions category..** | Die wenigsten Menschen kaufen den Playboy wegen seiner Artikel oder gucken Pornos wegen der Dialoge. |
+| However, the closed caption category has a mere 410 videos as of this writing. | Aber manchmal geht es wohl wirklich nicht nur um das eine: Ein gehörloser US-Amerikaner hat Klage gegen die Internetseite Pornhub eingereicht, weil er den Sexvideos nicht ganz folgen kann.. |
+| Meanwhile the website proudly says it has 10,579,925 videos total. | Warum liegt hier überhaupt Stroh? oder Willst du mal meine gute Wurst probieren? |
+| That means only .003% of the total vids have closed captioning.. | Aus welcher Art von Filmen diese wahnsinnig tiefgründigen Dialoge stammen, weiß so ziemlich jeder: natürlich aus Pornos. |
+| Suris is asking for an undisclosed amount in compensatory damages, civil penalties, and fines for the website, as well as compliance with the ADA.. | Doch so sehr manche Drehbücher für Belustigung sorgen - für einige scheinen sie zentral zu sein, um die Sexfilme in vollen Zügen genießen zu können.. |
+| The question is, if they do comply whose job will it be to go into all the videos and type up the closed captions? | Laut dem Promiportal TMZ hat der gehörlose US-Amerikaner eine Sammelklage gegen die Porno-Webseite Pornhub eingereicht. |
+| -- | Wie aus den Gerichtsunterlagen hervorgeht, die tmz.com vorliegen, wirft Suris der Seite vor, gehörlosen und hörgeschädigten Menschen den Zugang zu den Videos zu verweigern. |
+| -- | Sein Vorwurf: Das Fehlen von Untertiteln in den Filmchen sei ein Verstoß gegen den Americans with Disabilities Act - ein Bundesgesetz, das die Diskriminierung von Behinderten verbietet.. |
+| -- | Beim Angucken verschiedener Videos sei er bei den Dialogen nicht mehr mitgekommen, steht demnach in den Dokumenten. |
+| -- | Zu den Pornos gehören Sexy Polizistin bringt Zeugen zum Reden, Daddy 4K - Allison kommt, um mit dem bösen Vater ihres Sohnes über Geld zu reden und Heiße Stieftante babysittet ungehorsamen Neffen.. |
+| -- | Neben Schadenersatz verlangt Suris von den Pornhub-Betreibern, ihre Seite für Menschen mit Behinderungen inklusiver zu gestalten. |
+| -- | Er wie auch andere Betroffene seien generell bereit, für ein Premium-Abonnement zu zahlen - ohne Untertitel sei dies aber sinnlos.. |
+| -- | Der Vizepräsident von Pornhub ließ mit einer Antwort nicht lange auf sich warten. |
+| -- | **Gegenüber TMZ sagte Corey Price: Wir haben gehört, dass Yaroslaw Suris 'Pornhub' verklagt, weil er behauptet, wir hätten den Zugang zu unseren Videos für Gehörlose und Hörgeschädigte verweigert.** |
+### 2020-01-17_en_article_11766 -- 2020-01-20_de_article_1125
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| The 17-year-old denounced a lack of government action to cut heat-trapping emissions before it is too late.. | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne on Thursday.. | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| **You have not seen the last of us, we can assure you that.** | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| Protesters held signs with messages including Wake up and Smell the Bushfires and It is late but it is not too late.. | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| Hundreds of campaigners will take trains over the weekend and then march to Klosters near Davos, which Thunberg is attending for the second year in a row and will take part in two panel events.. | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| Climate change and environmental destruction top the risks highlighted by world decision-makers in a survey ahead of the 2020 gathering of the global elite.. | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| This year's gathering takes place against the backdrop of some of Australia's worst ever bushfires.. | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| While the government there has avoided making a link to climate change, the fires have added to public concern about the heating of the planet.. | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| -- | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| -- | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| -- | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+### 2020-01-17_en_article_11766 -- 2020-01-20_de_article_1334
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| Protesters held signs with messages including Wake up and Smell the Bushfires and It is late but it is not too late.. | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| Hundreds of campaigners will take trains over the weekend and then march to Klosters near Davos, which Thunberg is attending for the second year in a row and will take part in two panel events.. | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| Climate change and environmental destruction top the risks highlighted by world decision-makers in a survey ahead of the 2020 gathering of the global elite.. | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| This year's gathering takes place against the backdrop of some of Australia's worst ever bushfires.. | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| While the government there has avoided making a link to climate change, the fires have added to public concern about the heating of the planet.. | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| The 17-year-old denounced a lack of government action to cut heat-trapping emissions before it is too late.. | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne on Thursday.. | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| **You have not seen the last of us, we can assure you that.** | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| -- | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| -- | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| -- | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+### 2020-01-17_en_article_11766 -- 2020-01-20_de_article_2441
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| The 17-year-old denounced a lack of government action to cut heat-trapping emissions before it is too late.. | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| Protesters held signs with messages including Wake up and Smell the Bushfires and It is late but it is not too late.. | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| Hundreds of campaigners will take trains over the weekend and then march to Klosters near Davos, which Thunberg is attending for the second year in a row and will take part in two panel events.. | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| Climate change and environmental destruction top the risks highlighted by world decision-makers in a survey ahead of the 2020 gathering of the global elite.. | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| This year's gathering takes place against the backdrop of some of Australia's worst ever bushfires.. | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| While the government there has avoided making a link to climate change, the fires have added to public concern about the heating of the planet.. | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne on Thursday.. | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| **You have not seen the last of us, we can assure you that.** | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| -- | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| -- | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| -- | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+### 2020-01-17_en_article_11766 -- 2020-01-20_de_article_2594
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| The 17-year-old denounced a lack of government action to cut heat-trapping emissions before it is too late.. | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne on Thursday.. | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| **You have not seen the last of us, we can assure you that.** | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| Protesters held signs with messages including Wake up and Smell the Bushfires and It is late but it is not too late.. | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| Hundreds of campaigners will take trains over the weekend and then march to Klosters near Davos, which Thunberg is attending for the second year in a row and will take part in two panel events.. | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| Climate change and environmental destruction top the risks highlighted by world decision-makers in a survey ahead of the 2020 gathering of the global elite.. | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| This year's gathering takes place against the backdrop of some of Australia's worst ever bushfires.. | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| While the government there has avoided making a link to climate change, the fires have added to public concern about the heating of the planet.. | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| -- | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| -- | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| -- | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+### 2020-01-18_en_article_10347 -- 2020-01-20_de_article_1125
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| marched with 10,000 protesters in the Swiss city of Lausanne on Jan. 17 and said you have not seen anything yet before some head to  next week to challenge the global financial elite to fight climate change.. | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| The 17-year-old, who launched the #FridaysforFuture movement that has sparked worldwide protests, denounced a lack of government action to cut heat-trapping emissions before it is too late.. | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne.. | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| **You have not seen the last of us, we can assure you that.** | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| Protesters held signs including Wake up and Smell the Bushfires and It is late but it is not too late.. | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| Hundreds will take trains over the weekend and then march to Klosters near Davos, the annual gathering of world political and business leaders that Thunberg is attending for the second year in a row and will take part in two panel events.. | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| Climate change and environmental destruction top the risks highlighted by global decision-makers in a survey ahead of the 2020 gathering of the global elite.. | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| This year's meeting of 3,000 includes U.S. President  who once described climate change as a hoax and whose administration in November filed paperwork to withdraw the United States from the Paris Agreement, the first formal step in a one-year process to exit the pact to fight climate change.. | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| The latest World Economic Forum annual meeting takes place against the backdrop of some of Australia's worst ever bushfires. | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+| While the government there has avoided making a link to climate change, the fires have deepened public concern about the heating of the planet.. | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| Last year was the Earth's second-hottest since records began, and the world should brace itself for more extreme weather events like Australia's fires, the U.N. World Meteorological Organization said on Jan. 15.. | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| We are...an alliance that is organizing next week in 20 countries to say 'time is up' to the World Economic Forum in Davos. | -- |
+| Time is up, a Kenyan activist, Njoki Njoroge Njehu, told the crowd in Lausanne.. | -- |
+| It is time to abolish billionaires, because we cannot afford them, the planet cannot afford billionaires, she said.. | -- |
+### 2020-01-18_en_article_10347 -- 2020-01-20_de_article_1334
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| marched with 10,000 protesters in the Swiss city of Lausanne on Jan. 17 and said you have not seen anything yet before some head to  next week to challenge the global financial elite to fight climate change.. | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| We are...an alliance that is organizing next week in 20 countries to say 'time is up' to the World Economic Forum in Davos. | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| Time is up, a Kenyan activist, Njoki Njoroge Njehu, told the crowd in Lausanne.. | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| It is time to abolish billionaires, because we cannot afford them, the planet cannot afford billionaires, she said.. | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| The 17-year-old, who launched the #FridaysforFuture movement that has sparked worldwide protests, denounced a lack of government action to cut heat-trapping emissions before it is too late.. | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne.. | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| **You have not seen the last of us, we can assure you that.** | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| Protesters held signs including Wake up and Smell the Bushfires and It is late but it is not too late.. | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| Hundreds will take trains over the weekend and then march to Klosters near Davos, the annual gathering of world political and business leaders that Thunberg is attending for the second year in a row and will take part in two panel events.. | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| Climate change and environmental destruction top the risks highlighted by global decision-makers in a survey ahead of the 2020 gathering of the global elite.. | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| This year's meeting of 3,000 includes U.S. President  who once described climate change as a hoax and whose administration in November filed paperwork to withdraw the United States from the Paris Agreement, the first formal step in a one-year process to exit the pact to fight climate change.. | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+| The latest World Economic Forum annual meeting takes place against the backdrop of some of Australia's worst ever bushfires. | -- |
+| While the government there has avoided making a link to climate change, the fires have deepened public concern about the heating of the planet.. | -- |
+| Last year was the Earth's second-hottest since records began, and the world should brace itself for more extreme weather events like Australia's fires, the U.N. World Meteorological Organization said on Jan. 15.. | -- |
+### 2020-01-18_en_article_10347 -- 2020-01-20_de_article_2441
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| We are...an alliance that is organizing next week in 20 countries to say 'time is up' to the World Economic Forum in Davos. | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| Time is up, a Kenyan activist, Njoki Njoroge Njehu, told the crowd in Lausanne.. | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| It is time to abolish billionaires, because we cannot afford them, the planet cannot afford billionaires, she said.. | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| marched with 10,000 protesters in the Swiss city of Lausanne on Jan. 17 and said you have not seen anything yet before some head to  next week to challenge the global financial elite to fight climate change.. | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| The 17-year-old, who launched the #FridaysforFuture movement that has sparked worldwide protests, denounced a lack of government action to cut heat-trapping emissions before it is too late.. | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne.. | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| **You have not seen the last of us, we can assure you that.** | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| Protesters held signs including Wake up and Smell the Bushfires and It is late but it is not too late.. | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| Hundreds will take trains over the weekend and then march to Klosters near Davos, the annual gathering of world political and business leaders that Thunberg is attending for the second year in a row and will take part in two panel events.. | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| Climate change and environmental destruction top the risks highlighted by global decision-makers in a survey ahead of the 2020 gathering of the global elite.. | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| This year's meeting of 3,000 includes U.S. President  who once described climate change as a hoax and whose administration in November filed paperwork to withdraw the United States from the Paris Agreement, the first formal step in a one-year process to exit the pact to fight climate change.. | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+| The latest World Economic Forum annual meeting takes place against the backdrop of some of Australia's worst ever bushfires. | -- |
+| While the government there has avoided making a link to climate change, the fires have deepened public concern about the heating of the planet.. | -- |
+| Last year was the Earth's second-hottest since records began, and the world should brace itself for more extreme weather events like Australia's fires, the U.N. World Meteorological Organization said on Jan. 15.. | -- |
+### 2020-01-18_en_article_10347 -- 2020-01-20_de_article_2594
+| {Thunberg Greta Thunberg 73 73, Davos Davos 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| marched with 10,000 protesters in the Swiss city of Lausanne on Jan. 17 and said you have not seen anything yet before some head to  next week to challenge the global financial elite to fight climate change.. | Während Greta Thunberg Donald Trump kritisiert, erhebt Luisa Neubauer einen schweren Vorwurf gegen die Bundesregierung. |
+| The 17-year-old, who launched the #FridaysforFuture movement that has sparked worldwide protests, denounced a lack of government action to cut heat-trapping emissions before it is too late.. | Damit wird es das erste Mal seit dem * in New York sein, dass Greta Thunberg und Donald Trump bei der gleichen Veranstaltung zusammenkommen. |
+| So, we are now in a new year and we have entered a new decade and so far, during this decade, we have seen no sign whatsoever that real climate action is coming and that has to change, Thunberg said in a speech in Lausanne.. | Dort warf die junge Klimaaktivistin dem US-Präsidenten böse Blicke zu. |
+| **To the world leaders and those in power, I would like to say that you have not seen anything yet.** | Später sagte sie, sie hätte niemals ihre Zeit verschwendet und mit Trump über die Klimakrise geredet. |
+| **You have not seen the last of us, we can assure you that.** | Offensichtlich hört er nicht auf Wissenschaftler oder Experten, warum hätte er da mir zuhören sollen? |
+| **And that is the message that we will bring to the World Economic Forum in Davos next week..** | **Bereits im Vorfeld kündigte  an: Den Staatschefs und Machthabern möchte ich sagen, das war hier noch gar nichts.** |
+| Protesters held signs including Wake up and Smell the Bushfires and It is late but it is not too late.. | **Wir fangen gerade erst an, das können wir Ihnen versichern.** |
+| Hundreds will take trains over the weekend and then march to Klosters near Davos, the annual gathering of world political and business leaders that Thunberg is attending for the second year in a row and will take part in two panel events.. | **Und das ist die Botschaft, die wir dem Weltwirtschaftsforum in Davos nächste Woche beibringen werden.** |
+| Climate change and environmental destruction top the risks highlighted by global decision-makers in a survey ahead of the 2020 gathering of the global elite.. | Ob es zu Streitigkeiten zwischen der Klimaaktivistin und dem * kommen wird, ist fraglich, da sie augenscheinlich nicht mit Trump reden möchte. . |
+| This year's meeting of 3,000 includes U.S. President  who once described climate change as a hoax and whose administration in November filed paperwork to withdraw the United States from the Paris Agreement, the first formal step in a one-year process to exit the pact to fight climate change.. | Die Kontraste zwischen Klimaschützern, die radikale Lösungen fordern und Politikern und Unternehmenslenkern, die höchst komplizierte Interessenkonflikte austarieren müssen, werden mit Sicherheit deutlich werden. |
+| The latest World Economic Forum annual meeting takes place against the backdrop of some of Australia's worst ever bushfires. | Greta Thunberg hat längst ihr erstes Buch veröffentlicht und Bücher über die Umweltaktivistin sind zahlreich am Markt - auch geschrieben von ihrer Mutter. |
+| While the government there has avoided making a link to climate change, the fires have deepened public concern about the heating of the planet.. | Eigentlich gilt er als Freund von Mauerbau-Projekten - den Bürgern seines Ex-Wohnorts New York hat Donald Trump nun aber einen mehr als patzigen Ratschlag erteilt.. |
+| Last year was the Earth's second-hottest since records began, and the world should brace itself for more extreme weather events like Australia's fires, the U.N. World Meteorological Organization said on Jan. 15.. | Damit gehört der New Yorker zu den mächtigsten Menschen auf der Welt. |
+| We are...an alliance that is organizing next week in 20 countries to say 'time is up' to the World Economic Forum in Davos. | -- |
+| Time is up, a Kenyan activist, Njoki Njoroge Njehu, told the crowd in Lausanne.. | -- |
+| It is time to abolish billionaires, because we cannot afford them, the planet cannot afford billionaires, she said.. | -- |
+### 2020-01-19_en_article_7510 -- 2020-01-21_de_article_419
+| {Trump Trump 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| **There will be no mention at Davos of any of this, nor of the increasing political and economic power of these elites and the diminishing power of average workers and citizens around the world..** | Seit 1989 allerdings gilt: Der amerikanische Aktienmarkt wird immer weniger durch das Wirtschaftswachstum in den Vereinigten Staaten beeinflusst, sondern immer stärker durch den rückläufigen Anteil der Arbeitseinkommen an der Wirtschaftsleistung, vor allem also durch die Schwäche der Gewerkschaften und auf Kosten der Arbeiter*innen.. |
+| **Nothing will be achieved in the Swiss Alps because the growing global discontent has yet to affect the bottom lines of the corporations and financial institutions whose leaders are assembling to congratulate themselves on their wealth, influence and benevolence..** | Die Wut der Bevölkerung auf die Eliten kocht über, die als hoffnungslos gierig, korrupt und gleichgülitig gegenüber den Sorgen der meisten Menschen angesehen werden, die nur mit Not über die Runden kommen. |
+| **Trump, meanwhile, is likely to be acquitted by Senate Republicans who are so cowardly and unprincipled that they will ignore his flagrantly unconstitutional acts..** | Diese Wut hat in , Spanien, Ecuador, im , in Ägypten und Bolivien zu Aufständen geführt, in Großbritannien, Deutschland, Österreich, Frankreich und Neuseeland Umweltproteste befördert und in den USA, Großbritannien,  und Ungarn eine ausländerfeindliche Politik angeheizt.. |
+| **Trump plans to speak at Davos, by the way: an impeached president addressing world economic leaders while being tried in the Senate.** | Trumps Unterstützer*innen kommen weitgehend aus der amerikanischen Arbeiterklasse, deren Löhne seit Jahrzehnten nicht mehr gestiegen sind, deren Jobs unsicherer sind als jemals zuvor und deren politische Stimme vom großen Geld übertönt wird.. |
+| **He'll probably boast about the stock market, bully and lie, as usual..** | Obwohl Trump den Unternehmen und der Wall Street alles gegeben hat, was sie wollten, und nichts zu seinen Unterstützer*innen durchgesickert ist, ist es ihm gelungen, diesen Leute weiszumachen, er sei auf ihrer Seite, indem er ihre Wut auf Ausländer*innen, Einwanderer*innen, Minderheiten und die Bürokrat*innen des tiefen Staates umgelenkt hat.. |
+| One thing he wonot say is that the whatever-it-takes abuses of economic and political power such as he and much of his audience are engaged in threaten to destroy capitalism, democracy and the planet.. | Es scheint daher auf merkwürdige Weise angemessen, dass das Thema der diesjährigen Zusammenkunft in Davos Stakeholder-Kapitalismus lautet – die Idee, dass Unternehmen gegenüber ihren Angestellten, den Kommunen und der Umwelt ebenso Verantwortung tragen wie gegenüber ihren Aktionär*innen.. |
+| -- | Erwarten Sie endlose Reden über die langfristigen Vorteile des Stakeholder-Kapitalismus für die Unternehmensdaten: Glückliche Arbeiter*innen sind produktiver. |
+| -- | Der Klimawandel verursacht so langsam eine ganze Reihe von Kosten in Form von Umweltkatastrophen und fälligen Versicherungen und muss deshalb aufgehalten werden.. |
+| -- | Das stimmt zwar alles, aber die versammelten CEOs wissen auch, dass sie ihren Reichtum weitaus schneller vermehren, wenn sie kurzfristig die Aktienwerte in die Höhe treiben, indem sie ihre Anteile zurückkaufen, Löhne drücken, die Gewerkschaften bekämpfen, sich Umweltschultzbestimmungen widersetzen und sich Politiker*innen kaufen, um Steuersenkungen und Subventionen zu erwirken.. |
+| -- | Sie verfolgen diese Strategie nun schon seit drei Jahrzehnten und es wird noch schlimmer werden. |
+| -- | Drei Wissenschaftler – Daniel Greenwald von der Sloan School des MIT, Martin Lettau von der Universität in Berkeley und Sydney Ludvigson von der New York University – haben , dass zwischen 1952 und 1988 das Wirtschaftswachstum für 92 Prozent des Anstiegs der Aktienwerte an der Wall Street verantwortlich war. |
+| -- | Das bedeutet: Wenn der Aktienmarkt auch in den kommenden Jahren weiter so prosperieren soll, muss sich entweder das Wirtschaftswachstum deutlich beschleunigen (höchst unwahrscheinlich) oder Unternehmensführer*innen werden noch mehr von den Wachstumsgewinnen der abhängig Beschäftigten und anderer Beteiligter an die Aktionär*innen abführen müssen.. |
+| -- | Dafür dürften wahrscheinlich noch mehr Druck auf die Löhne, mehr Zahlungen an Politiker*innen für Steuersenkungen und Subventionen sowie weitere Rückschritte bei den Umweltauflagen notwendig sein, was wiederum die herrschende Unzufriedenheit weiter verschlechtern wird.. |
+| -- | **In Davos wird nichts davon zur Sprache kommen – auch nicht von der wachsenden politischen und wirtschaftlichen Macht dieser Eliten und der immer geringer werdenden Macht der normalen abhängig Beschäftigten und Bürger*innen rund um die Welt..** |
+| -- | **Nichts wird in den Schweizer Alpen erreicht werden, denn die wachsende weltweite Unzufriedenheit muss sich erst auf die Bilanzen der Unternehmen und Finanzinstitute auswirken, deren Chefs in Davos zusammenkommen, um sich zu ihrem Reichtum, Einfluss und ihrem Wohlwollen zu gratulieren..** |
+| -- | **Trump wird unterdessen wohl von den Republikaner*innen im Senat freigesprochen werden, die so feige und prinzipienlos sind, dass sie über sein eklatant verfassungswidriges Verhalten hinwegsehen werden..** |
+| -- | **Trump plant übrigens, in Davos eine Rede zu halten: Ein Präsident, gegen den ein Amtsenthebungsverfahren läuft, spricht vor dem Weltwirtschaftsforum, während der Senat über sein Schicksal berät.** |
+| -- | **Wahrscheinlich wird er wie üblich mit den Börsenkursen angeben, drohen und lügen..** |
+| -- | Was er nicht sagen wird, ist, dass der Missbrauch der politischen Macht, wie er und viele seiner Zuhörer*innen ihn betreiben, droht, den Kapitalismus, die Demokratie und den Planeten zu zerstören.. |
+### 2019-07-09_en_article_2110 -- 2019-07-10_de_article_977
+| {Williams Williams 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Is it because I'm a woman? she recalled thinking at the time.. | Williams habe sogar so sehr mit den Geschehnissen zu kämpfen gehabt, dass sie therapeutische Hilfe aufsuchte. |
+| Simon Stacpoole/Offside/Getty Images(NEW YORK) —  Serena Williams is opening up about her 2018 US Open final's loss to Naomi Osaka and what she learned from the emotional moment.. | Als erste Konsequenz daraus folgte eine SMS an Tenniskollegin Osaka. |
+| The 23-time Grand Slam champion was defeated by Osaka 6-2, 6-4, but famously argued with an umpire over a warning for coaching during the final.. | Der Inhalt: Ich bin so stolz auf dich, und es tut mir wirklich leid. |
+| She was fined $17,000 for code violations for the coaching warning, breaking her racket and alleged verbal abuse against the umpire.. | **Ich dachte, ich tue das Richtige, um für mich selbst einzustehen.** |
+| In a first-person essay for Harper's BAZAAR, Williams reflected on what she learned from standing up to the umpire, how she coped with the backlash she received and what messages she wants to pass on to her daughter.. | **Aber ich hatte keine Ahnung, dass die Medien uns gegeneinander ausspielen würden.** |
+| In the end, my opponent simply played better than me that day and ended up winning her first Grand Slam title, she wrote on Osaka. | **Ich wünschte, es gäbe die Möglichkeit, diesen Moment noch einmal zu erleben.** |
+| As for me, I felt defeated and disrespected by a sport that I love — one that I had dedicated my life to and that my family truly changed, not because we were welcomed, but because we wouldnot stop winning, she continued.. | **Ich bin, war und werde mich immer für dich freuen und dich unterstützen..** |
+| She described some of her thoughts post-final and how she struggled with understanding what occurred.. | Starke Worte, die Williams nun in einem anderen Licht zeigen. |
+| If I were a man, would I be in this situation? | Auch die Antwort der Japanerin lässt aufhorchen: Die Leute können Stärke als Ärger missverstehen, weil sie nicht zwischen den beiden unterscheiden können ... |
+| I tried to compare it to other setbacks I'd had in my life and career, and for some reason I couldnot shake the feeling that this was about so much more than just me.. | Niemand ist so für sich selbst eingestanden, wie du es getan hast, und du musst genauso bahnbrechend weitermachen.. |
+| Williams said that she felt that she'd experienced gender discrimination and the ramifications for men speaking out against what they perceive are bad calls are different.. | Die 37 Jahre alte Amerikanerin und Mutter einer fast zwei Jahre alten Tochter ließ sich elegant und recht freizgügig ablichten . |
+| So often, in situations similar to mine, when men fight back against the referees, they're met with a smile or even a laugh from the umpire, as if they're sharing an inside joke, she wrote. | -- |
+| I am asking to be treated the same way as everyone else.. | -- |
+| Sadly, that's simply not the world we currently live in, she added.. | -- |
+| In order to get past what occurred and process the situation, Williams sought out therapy and shared that she realized she wanted to apologize to Osaka.. | -- |
+| She wrote that she sent the following message to Osaka:. | -- |
+| As I said on the court, I am so proud of you and I am truly sorry. | -- |
+| **I thought I was doing the right thing in sticking up for myself.** | -- |
+| **But I had no idea the media would pit us against each other.** | -- |
+| **I would love the chance to live that moment over again.** | -- |
+| **I am, was, and will always be happy for you and supportive of you.** | -- |
+| I've been blatantly cheated against to the point where the Hawk-Eye rules were introduced so that something like that would not happen again. | -- |
+| And these are only the things that are seen by the public.. | -- |
+| But then I think of the next girl who is going to come along who looks like me, and I hope, 'Maybe, just maybe, my voice will help her.'. | -- |
+| I would never, ever want the light to shine away from another female, specifically another black female athlete. | -- |
+| I canot wait for your future, and believe me I will always be watching as a big fan! | -- |
+| I wish you only success today and in the future. | -- |
+| Williams's belief that she did the right thing in speaking up for herself against the umpire was reaffirmed with Osaka's response. | -- |
+| No one has stood up for themselves the way you have and you need to continue trailblazing, Williams said the young woman wrote back to her.. | -- |
+| She described that the fight she had with the umpire during the final, exemplified how thousands of women in every area of the workforce are treated every day.. | -- |
+| We are not allowed to have emotions, we are not allowed to be passionate, she continued. | -- |
+| We are told to sit down and be quiet, which frankly is just not something I'm okay with. | -- |
+| It's shameful that our society penalizes women just for being themselves.. | -- |
+| Williams also promised she will never stop raising my voice against injustice.. | -- |
+| The tennis legend finished her passionate letter by describing what she's had to overcome throughout her career and what motivates her to keep pushing forward.. | -- |
+| As a teenager, I was booed by an entire stadium … I've been called every name in the book. | -- |
+| I've been shamed because of my body shape, she wrote. | -- |
+| I've been penalized a game in the final of a major because I expressed my opinion or grunted too loudly. | -- |
+### 2019-07-09_en_article_5714 -- 2019-07-10_de_article_977
+| {Williams Williams 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| is currently playing in Wimbledon and made it to the semifinals after gutting out a 2-1 match against fellow American Alison Riske. | Williams habe sogar so sehr mit den Geschehnissen zu kämpfen gehabt, dass sie therapeutische Hilfe aufsuchte. |
+| I would never, ever want the light to shine away from another female, specifically another black female athlete. | Als erste Konsequenz daraus folgte eine SMS an Tenniskollegin Osaka. |
+| When Naomi's response came through, tears rolled down my face. | Der Inhalt: Ich bin so stolz auf dich, und es tut mir wirklich leid. |
+| People can misunderstand anger for strength because they canot differentiate between the two, she said graciously. | **Ich dachte, ich tue das Richtige, um für mich selbst einzustehen.** |
+| No one has stood up for themselves the way you have and you need to continue trailblazing.. | **Aber ich hatte keine Ahnung, dass die Medien uns gegeneinander ausspielen würden.** |
+| It was in this moment that I realized the real reason the US Open was so hard for me to get over: It wasnot because of the backlash I faced but rather because of what had happened to the young woman who deserved so much more in her special moment. | **Ich wünschte, es gäbe die Möglichkeit, diesen Moment noch einmal zu erleben.** |
+| I had felt that it was my fault and that I should have kept my mouth closed. | **Ich bin, war und werde mich immer für dich freuen und dich unterstützen..** |
+| But now, seeing her text putting everything in perspective, I realized she was right.. | Starke Worte, die Williams nun in einem anderen Licht zeigen. |
+| The entire piece actually dives deep into the perception that women athletes face far more scrutiny than their male counterparts when it comes to being expressive on the court, the field, and in life period. | Auch die Antwort der Japanerin lässt aufhorchen: Die Leute können Stärke als Ärger missverstehen, weil sie nicht zwischen den beiden unterscheiden können ... |
+| The entire essay is a worthy read full of self-reflection and humility.. | Niemand ist so für sich selbst eingestanden, wie du es getan hast, und du musst genauso bahnbrechend weitermachen.. |
+| I canot wait for your future, and believe me I will always be watching as a big fan! | Die 37 Jahre alte Amerikanerin und Mutter einer fast zwei Jahre alten Tochter ließ sich elegant und recht freizgügig ablichten . |
+| While the tennis world is still very much tuned in to Williams' exploits on the court, an essay she penned as part of  August cover story shares details of her controversial 2018 U.S. Open match against . | -- |
+| As I said on the court,I am so proud of you and I am truly sorry. | -- |
+| **I thought I was doing the right thing in sticking up for myself.** | -- |
+| **But I had no idea the media would pit us against each other.** | -- |
+| **I would love the chance to live that moment over again.** | -- |
+| **I am, was, and will always be happy for you and supportive of you.** | -- |
+| I wish you only success today and in the future. | -- |
+### 2019-07-10_en_article_6147 -- 2019-07-10_de_article_977
+| {Williams Williams 100 100} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| People can misunderstand anger for strength because they canot differentiate between the two, she wrote back to Williams. | Williams habe sogar so sehr mit den Geschehnissen zu kämpfen gehabt, dass sie therapeutische Hilfe aufsuchte. |
+| I wish you only success today and in the future. | Als erste Konsequenz daraus folgte eine SMS an Tenniskollegin Osaka. |
+| Six-time US Open winning tennis star Serena Williams has done a very special cover story for the August issue of Harper's Bazaar. . | Der Inhalt: Ich bin so stolz auf dich, und es tut mir wirklich leid. |
+| Williams also wrote a personal essay for the magazine to accompany her un-retouched shoot as she reflected on some of the tougher moments she has faced in her career. . | **Ich dachte, ich tue das Richtige, um für mich selbst einzustehen.** |
+| In the final of the  in September of 2018, the umpire took the game from Williams after issuing her three violations – one for allegedly taking signals from her coach in the stands, one for throwing her racket in frustration and one for calling him a thief. | **Aber ich hatte keine Ahnung, dass die Medien uns gegeneinander ausspielen würden.** |
+| Her reaction to the umpire drew criticism in some quarters and sparked an online debate on whether female anger is considered less acceptable. . | **Ich wünschte, es gäbe die Möglichkeit, diesen Moment noch einmal zu erleben.** |
+| Williams admits her opponent, , just played better than her that day but also explores the questions running through her head after her loss.. | **Ich bin, war und werde mich immer für dich freuen und dich unterstützen..** |
+| How can you take a game away from me in the final of a Grand Slam? she writes for Harper's Bazaar. | Starke Worte, die Williams nun in einem anderen Licht zeigen. |
+| Really, how can you take a game away from anyone at any stage of any tournament? | Auch die Antwort der Japanerin lässt aufhorchen: Die Leute können Stärke als Ärger missverstehen, weil sie nicht zwischen den beiden unterscheiden können ... |
+| I turn over, exhausted from lack of sleep, thoughts still spinning in my head. | Niemand ist so für sich selbst eingestanden, wie du es getan hast, und du musst genauso bahnbrechend weitermachen.. |
+| If I were a man, would I be in this situation? | Die 37 Jahre alte Amerikanerin und Mutter einer fast zwei Jahre alten Tochter ließ sich elegant und recht freizgügig ablichten . |
+| So often, in situations similar to mine, when men fight back against the referees, they're met with a smile or even a laugh from the umpire, as if they're sharing an inside joke, she writes in her personal essay. | -- |
+| I am asking to be treated the same way as everyone else. | -- |
+| Sadly, that's simply not the world we currently live in.. | -- |
+| In the end, Williams decided the best thing she could do to overcome the incident was to apologize to Osaka. | -- |
+| As I said on the court, I am so proud of you and I am truly sorry. | -- |
+| **I thought I was doing the right thing in sticking up for myself.** | -- |
+| **But I had no idea the media would pit us against each other.** | -- |
+| **I would love the chance to live that moment over again.** | -- |
+| **I am, was, and will always be happy for you and supportive of you.** | -- |
+| I would never, ever want the light to shine away from another female, specifically another black female athlete. | -- |
+| I canot wait for your future, and believe me I will always be watching as a big fan! | -- |
+| No one has stood up for themselves the way you have and you need to continue trailblazing. . | -- |
+| It's not about quitting when someone presents a challenge, Williams writes, it's about getting up when you are down, dusting yourself off and asking, 'Is that the best you got?' | -- |
+| Because I have God with me, and I can take whatever comes my way.. | -- |
+### 2019-07-09_en_article_280 -- 2019-07-10_de_article_977
+| {Williams Williams 100 100, Japanese Japanerin 71 71} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Serena Williams revealed Tuesday that she consulted a therapist after her infamous 2018 US Open final meltdown in which her bitter war of words with the umpire overshadowed Naomi Osaka's maiden Grand Slam victory. | Williams habe sogar so sehr mit den Geschehnissen zu kämpfen gehabt, dass sie therapeutische Hilfe aufsuchte. |
+| The American superstar was widely vilified for her New York outburst in which she branded the chair umpire a liar and thief.. | Als erste Konsequenz daraus folgte eine SMS an Tenniskollegin Osaka. |
+| She was handed a code violation for coaching,docked a point for smashing her racquet and penalised a game for verbal abuse.. | **Der Inhalt: Ich bin so stolz auf dich, und es tut mir wirklich leid.** |
+| I started seeing a therapist, Williams wrote in a first-person account published in US glossy magazine Harper's Bazaar.. | **Ich dachte, ich tue das Richtige, um für mich selbst einzustehen.** |
+| I was searching for answers, and although I felt like I was making progress, I still wasnot ready to pick up a racquet.. | Aber ich hatte keine Ahnung, dass die Medien uns gegeneinander ausspielen würden. |
+| Williams's essay appeared online and on her own Instagram account in the middle of her Wimbledon quarter-final defeat of Alison Riske on Tuesday.. | **Ich wünschte, es gäbe die Möglichkeit, diesen Moment noch einmal zu erleben.** |
+| In it, she says she has apologised to Osaka, the breakout Japanese star who won the US Open final in straight sets.. | Ich bin, war und werde mich immer für dich freuen und dich unterstützen.. |
+| **I am so proud of you and I am truly sorry.** | Starke Worte, die Williams nun in einem anderen Licht zeigen. |
+| **I thought I was doing the right thing in sticking up for myself.** | Auch die Antwort der Japanerin lässt aufhorchen: Die Leute können Stärke als Ärger missverstehen, weil sie nicht zwischen den beiden unterscheiden können ... |
+| But I had no idea the media would pit us against each other, said the 37-year-old Williams.. | Niemand ist so für sich selbst eingestanden, wie du es getan hast, und du musst genauso bahnbrechend weitermachen.. |
+| **I would love the chance to live that moment over again.** | Die 37 Jahre alte Amerikanerin und Mutter einer fast zwei Jahre alten Tochter ließ sich elegant und recht freizgügig ablichten . |
+| I am, was, and will always be happy for you and supportive of you. . | -- |
+| I would never, ever want the light to shine away from another female, specifically another black female athlete.. | -- |
+| Williams said that Osaka, who went on to take the Australian Open title and the world number one spot, had accepted her apology.. | -- |
+| Osaka's reply, she insisted, had even moved her to tears.. | -- |
+| Despite her apology, Williams still insists she was a victim of sexism at Flushing Meadows.. | -- |
+| Why is it that when women get passionate, they're labeled emotional, crazy, and irrational, but when men do they're seen as passionate and strong?. | -- |
+| So often, in situations similar to mine, when men fight back against the referees, they're met with a smile or even a laugh from the umpire, as if they're sharing an inside joke. . | -- |
+| I am asking to be treated the same way as everyone else. | -- |
+| Sadly, that's simply not the world we currently live in.. | -- |
+| After partnering Andy Murray in the mixed doubles on Tuesday, the American said it had been a tough decision to seek counselling.. | -- |
+| I've had a lot of things happen to me at that particular tournament in general, she explained.. | -- |
+| It was just important to always try to better yourself in any way that you can.. | -- |
+### 2019-07-09_en_article_947 -- 2019-07-10_de_article_977
+| {Williams Williams 100 100, Japanese Japanerin 71 71} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| Serena Williams revealed Tuesday that she consulted a therapist after her infamous 2018 US Open final meltdown in which her bitter war of words with the umpire overshadowed Naomi Osaka's maiden Grand Slam victory.. | Williams habe sogar so sehr mit den Geschehnissen zu kämpfen gehabt, dass sie therapeutische Hilfe aufsuchte. |
+| The American superstar was widely vilified for her New York outburst in which she branded the chair umpire a liar and thief.. | Als erste Konsequenz daraus folgte eine SMS an Tenniskollegin Osaka. |
+| She was handed a code violation for coaching, docked a point for smashing her racquet and penalised a game for verbal abuse.. | **Der Inhalt: Ich bin so stolz auf dich, und es tut mir wirklich leid.** |
+| I started seeing a therapist, Williams wrote in a first-person account published in US glossy magazine Harper's Bazaar.. | **Ich dachte, ich tue das Richtige, um für mich selbst einzustehen.** |
+| I was searching for answers, and although I felt like I was making progress, I still wasnot ready to pick up a racquet.. | Aber ich hatte keine Ahnung, dass die Medien uns gegeneinander ausspielen würden. |
+| Williams's essay appeared online and on her own Instagram account in the middle of her Wimbledon quarter-final defeat of Alison Riske on Tuesday.. | **Ich wünschte, es gäbe die Möglichkeit, diesen Moment noch einmal zu erleben.** |
+| In it, she says she has apologised to Osaka, the breakout Japanese star who won the US Open final in straight sets.. | Ich bin, war und werde mich immer für dich freuen und dich unterstützen.. |
+| **I am so proud of you and I am truly sorry.** | Starke Worte, die Williams nun in einem anderen Licht zeigen. |
+| **I thought I was doing the right thing in sticking up for myself.** | Auch die Antwort der Japanerin lässt aufhorchen: Die Leute können Stärke als Ärger missverstehen, weil sie nicht zwischen den beiden unterscheiden können ... |
+| But I had no idea the media would pit us against each other, said the 37-year-old Williams.. | Niemand ist so für sich selbst eingestanden, wie du es getan hast, und du musst genauso bahnbrechend weitermachen.. |
+| **I would love the chance to live that moment over again.** | Die 37 Jahre alte Amerikanerin und Mutter einer fast zwei Jahre alten Tochter ließ sich elegant und recht freizgügig ablichten . |
+| I am, was, and will always be happy for you and supportive of you.. | -- |
+| I would never, ever want the light to shine away from another female, specifically another black female athlete.. | -- |
+| Williams said that Osaka, who went on to take the Australian Open title and the world number one spot, had accepted her apology.. | -- |
+| Osaka's reply, she insisted, had even moved her to tears.. | -- |
+| Despite her apology, Williams still insists she was a victim of sexism at Flushing Meadows.. | -- |
+| Why is it that when women get passionate, they're labeled emotional, crazy, and irrational, but when men do they're seen as passionate and strong?. | -- |
+| So often, in situations similar to mine, when men fight back against the referees, they're met with a smile or even a laugh from the umpire, as if they're sharing an inside joke.. | -- |
+| I am asking to be treated the same way as everyone else. | -- |
+| Sadly, that's simply not the world we currently live in.. | -- |
+| After partnering Andy Murray in the mixed doubles on Tuesday, the American said it had been a tough decision to seek counselling.. | -- |
+| I've had a lot of things happen to me at that particular tournament in general, she explained.. | -- |
+| It was just important to always try to better yourself in any way that you can.. | -- |
+### 2020-01-20_en_article_7054 -- 2020-01-20_de_article_425
+| {Zagreb Zagreb 100 100, Wojciechowski Kommissar Wojciechowski 72 72} |
+| ------------- |
+
+| EN | DE | 
+| ------------- |: -------------: | 
+| The Finnish presidency carried on with the discussion insisting that every member state should learn from one another, share best practices and adopt the no one should be left behind approach.. | **Eine dritte Konferenz zur Bioökonomie ist nun für Ende April während der derzeitigen kroatischen EU-Ratspräsidentschaft geplant, teilte ein kroatischer Diplomat gegenüber EURACTIV.com mit..** |
+| The Finns also highlighted the crucial role of farmers in achieving a European circular bioeconomy, but also of forest owners, who play an active role in tackling challenges linked to climate change.. | Noch interessanter dürfte derweil sein, dass während der kroatischen Ratspräsidentschaft eine Evaluierung der überarbeiteten EU-Bioökonomiestrategie, zwei Jahre nach ihrer Verabschiedung, ansteht.. |
+| EU agriculture ministers also stressed on several occasions that the added-value stemming from the bio-based value chains should be shared equally between the actors involved, including farmers, who are an integrated part of those value chains.. | In diesem Zusammenhang soll die Umsetzung der Strategie – auch über den Agrarsektor hinaus – überprüft werden.. |
+| **A third conference on bioeconomy is planned to be held by the end of April during the Croatian presidency, a Croatian diplomat told EURACTIV..** | **Die Bioökonomie wird darüber hinaus ausdrücklich im Programm der kroatischen Präsidentschaft erwähnt, zusammen mit einem Schwerpunkt auf Familienbetrieben und jungen Landwirten..** |
+| **Bioeconomy is also explicitly mentioned in the programme of the Croatian presidency together with the emphasis on family farms and young farmers.** | **Auch bei seinem kürzlichen Besuch in Zagreb unterstrich Kommissar Wojciechowski, dass die Bioökonomie gerade für kleine und mittelständische Familienbetriebe eine große Hilfe und Chance sein könne..** |
+| **In Zagreb, Commissioner Wojciechowski also underlined how the bioeconomy could provide a big boost to small and medium-sized family farms..** | -- |
