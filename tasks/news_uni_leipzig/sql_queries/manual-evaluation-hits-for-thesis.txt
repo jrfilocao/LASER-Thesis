@@ -15,6 +15,7 @@ AND 2019-07-10_de_article_613 -- 2019-07-10_pt_article_193
 AND 2019-07-12_de_article_1176 -- 2019-07-12_pt_article_157
 * alles sehr gut, aber keine Named-entities mit Zahlen
 * DPA
+* sda, FPA
 AND 2019-07-12_de_article_174 -- 2019-07-14_pt_article_119
 * Bom match mas fica claro como alguns site so utilizam partes dos textos de DPA, FPA
 ** Trump kündigt Großrazzien gegen illegale Einwanderer an
@@ -94,6 +95,12 @@ AND 2019-07-11_en_article_589 -- 2019-07-12_de_article_1282
 * https://www.theyeshivaworld.com/news/general/1756975/whats-wrong-with-angela-germanys-merkel-sits-for-anthems-after-third-shaking-episodes.html
 * https://www.abendblatt.de/politik/deutschland/article226461937/Tschentscher-zu-Merkel-Anzeichen-koerperlicher-Ueberlastung.html
 
+AND 2019-07-10_en_article_5303 -- 2019-07-10_de_article_1615
+* https://www.freemalaysiatoday.com/category/world/2019/07/10/australia-to-hold-aboriginal-constitutional-recognition-referendum/
+* https://www.blick.ch/news/australien-australien-will-ureinwohner-in-verfassung-anerkennen-id15413825.html
+* SDA und FPA
+* Plágio??
+
 AND 2019-07-11_en_article_75 -- 2019-07-13_de_article_377 - 1
 * Fehler? retomada
 * https://www.heise.de/tp/features/Stand-der-Kriegsvorbereitung-gegen-den-Iran-4469482.html?wt_mc
@@ -127,7 +134,7 @@ OR 2019-07-11_en_article_5366 -- 2019-07-12_de_article_687
 * exemplo de falha
 
 ONLY 2020-01-17_en_article_13056 -- 2020-01-17_de_article_2056
-* Correto
+* Correto (ou Plágio)
 * https://www.timesofisrael.com/police-sappers-called-as-balloon-borne-bomb-found-in-ashdod/
 * https://www.t-online.de/nachrichten/ausland/krisen/id_87172044/israel-greift-hamas-stellungen-im-gazastreifen-an.html
 
@@ -206,3 +213,7 @@ AND 2020-01-22_en_article_7579 -- 2020-01-22_pt_article_817
 
 OR 2020-01-21_en_article_3449 -- 2020-01-21_pt_article_1172
 * Sem named-entities
+
+ONLY 2020-01-22_en_article_9990 -- 2020-01-22_pt_article_430
+* Griechenland
+* https://www.ibtimes.co.uk/parliament-elect-greeces-first-woman-president-1674813
