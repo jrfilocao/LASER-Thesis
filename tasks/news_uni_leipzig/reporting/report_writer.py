@@ -135,9 +135,9 @@ def write_chart_with_multiple_metrics_into_file(metric_name, first_metric, secon
     plt.ylabel(formatted_metric_name)
     plt.title('')
 
-    plt.plot(first_metric[0], first_metric[1], 'b+--', linewidth=0.7, label='NE ≥ 1 and PS ≥ 1')
     plt.plot(first_metric[0], second_metric[1], 'gx--', linewidth=0.7, label='NE ≥ 1 and PS ≥ 2')
     plt.plot(first_metric[0], third_metric[1], 'r.--', linewidth=0.7, label='NE ≥ 0 and PS ≥ 2')
+    plt.plot(first_metric[0], first_metric[1], 'b+--', linewidth=0.7, label='NE ≥ 1 and PS ≥ 1')
 
     plt.legend()
 
@@ -154,13 +154,12 @@ def write_chart_with_precision_and_recall(matching_metric_names, metrics, langua
     plt.ylabel('Precision (%) and Recall (%)')
     plt.title('')
 
-    plt.plot(metrics[matching_metric_names[0]][0], metrics[matching_metric_names[0]][1], marker='+', linestyle='solid', color='red', linewidth=0.7, label='And Precision')
-    plt.plot(metrics[matching_metric_names[1]][0], metrics[matching_metric_names[1]][1], marker='+', linestyle='dashed', color='red', linewidth=0.7, label='And Recall')
-    plt.plot(metrics[matching_metric_names[2]][0], metrics[matching_metric_names[2]][1], marker='x', linestyle='solid', color='blue', linewidth=0.7, label='Or Precision')
-    plt.plot(metrics[matching_metric_names[3]][0], metrics[matching_metric_names[3]][1], marker='x', linestyle='dashed', color='blue', linewidth=0.7, label='Or Recall')
-    plt.plot(metrics[matching_metric_names[4]][0], metrics[matching_metric_names[4]][1], marker='.', linestyle='solid', color='green', linewidth=0.7, label='Only Precision')
-    plt.plot(metrics[matching_metric_names[5]][0], metrics[matching_metric_names[5]][1], marker='.', linestyle='dashed', color='green', linewidth=0.7, label='And Recall')
-
+    plt.plot(metrics[matching_metric_names[0]][0], metrics[matching_metric_names[0]][1], marker='x', linestyle='solid', color='green', linewidth=0.7, label='NE ≥ 1 and PS ≥ 2 Precision')
+    plt.plot(metrics[matching_metric_names[2]][0], metrics[matching_metric_names[2]][1], marker='x', linestyle='solid', color='red', linewidth=0.7, label='NE ≥ 0 and PS ≥ 2 Precision')
+    plt.plot(metrics[matching_metric_names[4]][0], metrics[matching_metric_names[4]][1], marker='o', linestyle='solid', color='blue', linewidth=0.7, label='NE ≥ 1 and PS ≥ 1 Precision', fillstyle='none')
+    plt.plot(metrics[matching_metric_names[1]][0], metrics[matching_metric_names[1]][1], marker='.', linestyle='dashed', color='black', linewidth=0.7, label='NE ≥ 1 and PS ≥ 2 Recall')
+    plt.plot(metrics[matching_metric_names[3]][0], metrics[matching_metric_names[3]][1], marker='.', linestyle='dashed', color='#888888', linewidth=0.7, label='NE ≥ 0 and PS ≥ 2 Recall')
+    plt.plot(metrics[matching_metric_names[5]][0], metrics[matching_metric_names[5]][1], marker='o', linestyle='dashed', color='#a1665e', linewidth=0.7, label='NE ≥ 1 and PS ≥ 1 Recall', fillstyle='none')
     plt.legend()
 
     file_name = 'output/' + 'precision_vs_recall_' + language_pair_name
