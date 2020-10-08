@@ -1,5 +1,23 @@
 |DE|PT|
 
+AND 2019-07-08_de_article_1279 -- 2019-07-09_pt_article_38 1.05 BASEADO
+* verschiedene agencias Reuters
+* https://www.jornalgrandebahia.com.br/2019/07/eua-presidente-donald-trump-ataca-primeira-ministra-theresa-may-e-embaixador-que-chamou-seu-governo-de-disfuncional/
+* https://agenciabrasil.ebc.com.br/internacional/noticia/2019-07/trump-ataca-may-e-embaixador-que-chamou-seu-governo-de-disfuncional
+* https://www.welt.de/politik/ausland/article196531471/Trump-startet-Frontalangriff-auf-britischen-Botschafter.html
+** jornalista de Londres
+* Plagio ou nao, baseado na Reuters talvez
+
+2019-07-10_de_article_1530 -- 2019-07-10_pt_article_403
+* DPA https://www.focus.de/sport/fussball/frauenfussball/frauen-fussball-us-weltmeisterin-rapinoe-mit-naechstem-seitenhieb-gegen-trump_id_10913113.html
+* Hit http://www.oestadoce.com.br/esportes/megan-rapinoe-campea-da-copa-feminina-diz-que-discurso-de-trump-exclui-pessoas/
+* ORIGINAL https://www1.folha.uol.com.br/esporte/2019/07/megan-rapinoe-campea-da-copa-feminina-diz-que-mensagem-de-trump-exclui-pessoas.shtml
+
+2019-07-12_de_article_304 -- 2019-07-12_pt_article_157
+* https://www.diariodepernambuco.com.br/noticia/mundo/2019/07/turquia-recebe-primeiro-carregamento-de-misseis-russos.html
+* https://www.welt.de/newsticker/news1/article196753363/Konflikte-Tuerkei-erhaelt-erste-S-400-Luftabwehrraketen-aus-Russland.html
+* FPA
+
 AND 2019-07-09_de_article_273 -- 2019-07-09_pt_article_251
 * CNET, como se fosse DPA
 AND 2019-07-09_de_article_460 -- 2019-07-08_pt_article_154
@@ -9,7 +27,7 @@ AND 2019-07-09_de_article_460 -- 2019-07-08_pt_article_154
   ** Verificar isso no postgres
 AND 2019-07-10_de_article_421 -- 2019-07-09_pt_article_279
 * Bom match tanto em relacao a frases quanto a named-entities
-AND 2019-07-10_de_article_613 -- 2019-07-10_pt_article_193
+AND 2019-07-10_de_article_613 -- 2019-07-10_pt_article_193 OU BASEADO
 * Frases citacoes e bons named-entities
 * Levenshtein
 AND 2019-07-12_de_article_1176 -- 2019-07-12_pt_article_157
