@@ -18,8 +18,14 @@ AND 2019-07-08_de_article_1279 -- 2019-07-09_pt_article_38 1.05 BASEADO
 * https://www.welt.de/newsticker/news1/article196753363/Konflikte-Tuerkei-erhaelt-erste-S-400-Luftabwehrraketen-aus-Russland.html
 * FPA
 
+AND 2020-01-22_de_article_3197 -- 2020-01-22_pt_article_777
+* somente uma named-entity Pisa
+
 AND 2019-07-09_de_article_273 -- 2019-07-09_pt_article_251
 * CNET, como se fosse DPA
+
+AND 2020-01-22_de_article_3197 -- 2020-01-22_pt_article_777
+* Uma named-entity
 AND 2019-07-09_de_article_460 -- 2019-07-08_pt_article_154
 * Bom exemplo para named-entities que faltam, como numeros
 * o fato de que algumas outras frases sao parecidas, mas o threshold de 1.125,
@@ -33,7 +39,10 @@ AND 2019-07-10_de_article_613 -- 2019-07-10_pt_article_193 OU BASEADO
 AND 2019-07-12_de_article_1176 -- 2019-07-12_pt_article_157
 * alles sehr gut, aber keine Named-entities mit Zahlen
 * DPA
-* sda, FPA
+* sda
+  * https://www.solothurnerzeitung.ch/ausland/tuerkei-erhaelt-erste-s-400-luftabwehrraketen-aus-russland-134744148
+* FPA
+  * https://www.diariodepernambuco.com.br/noticia/mundo/2019/07/turquia-recebe-primeiro-carregamento-de-misseis-russos.html
 AND 2019-07-12_de_article_174 -- 2019-07-14_pt_article_119
 * Bom match mas fica claro como alguns site so utilizam partes dos textos de DPA, FPA
 ** Trump kündigt Großrazzien gegen illegale Einwanderer an
@@ -134,6 +143,7 @@ AND 2019-07-13_en_article_4143 -- 2019-07-12_de_article_157 - 1 ** Ate aqui *
 
 AND 2020-01-22_en_article_9581 -- 2020-01-22_de_article_31
 * Sehr gut, traducao
+* Arauca Province Provinz Arauca 48 90, HRW
 
 AND 2020-01-22_en_article_2921 -- 2020-01-22_de_article_2996
 * Sehr gut, mesma agencia de noticias?
@@ -143,6 +153,7 @@ AND 2020-01-22_en_article_2921 -- 2020-01-22_de_article_2996
 AND 2020-01-22_en_article_1865 -- 2020-01-21_de_article_531
 * lustig :D
 * https://gossiponthis.com/2020/01/22/mom-pays-daughter-wedding-gives-birth-baby-son-law/
+* https://www.dailymail.co.uk/news/article-7904325/Daughter-tells-never-forgive-mother-heartbreak-seeing-marry-ex.html?ns_mchannel
 * https://www.focus.de/familie/eltern/9-monate-nach-der-hochzeit-frau-ueber-mutter-dann-bekam-sie-ein-kind-von-meinem-mann_id_11571078.html
 ** Datum aktualisiert
 * Beispiel von Artikel, die nicht vollständig extrahiert wurden
@@ -170,7 +181,7 @@ AND 2019-07-08_en_article_8803 -- 2019-07-08_pt_article_251
 * https://www.cbc.ca/news/world/geneva-bachelet-us-migrants-1.5203545?cmp
 * http://www.correiodobrasil.com.br/bachelet-tratamento-eua-imigrantes/
 
-AND 2019-07-09_en_article_1480 -- 2019-07-08_pt_article_434
+AND 2019-07-09_en_article_1480 -- 2019-07-08_pt_article_434 Plagio?
 * Bolsonaro, par especifico das linguas
 * https://en.mercopress.com/2019/07/09/bolsonaro-involved-in-child-labor-controversy-i-ve-been-working-since-i-was-eight-year-old?utm_source
 * https://www.jornalgrandebahia.com.br/2019/07/presidente-jair-bolsonaro-ignora-previdencia-em-transmissao-ao-vivo-e-diz-que-trabalho-nao-atrapalha-criancas-governante-apresenta-baixa-cognicao/
@@ -227,7 +238,8 @@ AND 2020-01-22_en_article_7579 -- 2020-01-22_pt_article_817
 * Bom
 * https://www.thestar.com/news/world/asia/2020/01/21/outbreak-from-new-virus-rises-to-440-in-china-with-9-dead.html
 * https://www.sabado.pt/mundo/detalhe/china-recomenda-que-se-evite-multidoes-face-a-propagacao-de-novo-virus
-** Lusa???
+** Lusa??? e AP
+*** Nao achamos correspondente
 
 OR 2020-01-21_en_article_3449 -- 2020-01-21_pt_article_1172
 * Sem named-entities
