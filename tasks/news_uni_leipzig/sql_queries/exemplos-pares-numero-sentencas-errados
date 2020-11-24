@@ -1,0 +1,32 @@
+source_article_id           | /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-22_en_article_11231
+target_article_id           | /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-21_pt_article_557
+number_of_common_phrases    | 5
+number_of_similar_sentences | 2
+named_entities_score        | {Andrew Sewell Andrew Sewell 100 100, MR1 MR1 100 100, Cardiff University Universidade de Cardiff 39 78, Nature Immunology Nature Immunology 100 100}
+sentence_candidates_score   | 1.0164003747690376
+source_sentence             | However, the Cardiff researchers say they uncovered a unique T-cell receptor that can find the molecule MR1, which does not vary among people..
+target_sentence             | Embora o processo como a célula ataca outras células ainda não seja compreendido, os cientistas acreditam que o receptor das células T interage com uma molécula, chamada MR1, que existe na superfície de todas as células do corpo humano..
+
+
+
+select source_sentence, target_sentence, sentence_candidates_score, number_of_similar_sentences
+from matched_article
+where source_article_id like '/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-22_en_article_11231'
+and target_article_id like '/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-21_pt_article_557';
+
+
+source_article_id           | /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-18_en_article_8164
+target_article_id           | /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-18_de_article_1963
+number_of_common_phrases    | 3
+number_of_similar_sentences | 1
+named_entities_score        | {Boeing Co Boeing 80 80, Boeing Co's Boeings 78 78, Boeing Boeings 92 92, Boeing Co Boeings 75 75, FAA FAA 100 100, Boeing Co's Boeing 71 71, Boeing Boeing 100 100}
+sentence_candidates_score   | 1.086297253227016
+source_sentence             | We are making necessary updates, Boeing said in a statement.
+target_sentence             | Wir nehmen die notwendigen Updates vor, teilte Boeing mit. .
+
+
+
+select source_sentence, target_sentence, sentence_candidates_score, number_of_similar_sentences
+from matched_article
+where source_article_id like '/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-18_en_article_8164'
+and target_article_id like '/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-18_de_article_1963';
