@@ -27,9 +27,9 @@ Dr Stanley added: 'This is not the first time that HFC-23 reduction measures att
 https://www.marketscreener.com/news/latest/Keppel-Emissions-of-potent-greenhouse-gas-have-grown-contradicting-reports-of-huge-reductions--29867448/
 /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-21_en_article_13028
 
--------
+------- 1.1753880499875105 PT, 1.0927499451174518 DE
 'Our study finds that it is very likely that China has not been as successful in reducing HFC-23 emissions as reported.
--------
+------- 1.0919113340589839 PT, 1.0919113340589839 DE
 However, without additional measurements, we canot be sure whether India has been able to implement its abatement programme..
 -------
 
