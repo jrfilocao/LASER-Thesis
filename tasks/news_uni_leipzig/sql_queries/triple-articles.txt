@@ -63,6 +63,7 @@ Die Wissenschaft hat die Gefahr der Substanzen erkannt, die Politik hat reagiert
 Die Umsetzung der Vorgaben liege allerdings bei den Unterzeichnerstaaten, da Sanktionen bei Verstößen nicht vorgesehen sind..
 
 /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-22_de_article_2691
+https://www.focus.de/wissen/klima/klimaerwaermung-ozonkiller-wirken-wie-treibhausgase_id_11582349.html
 
 ------- 1.0992903844227935 PT
 Unsere Studie zeigt, dass es China sehr wahrscheinlich nicht geschafft hat, die HFC-23-Emissionen so weitreichend wie angekündigt zu reduzieren, erklärt Stanley in einer Mitteilung der University of Bristol.
@@ -87,6 +88,7 @@ No entanto, sem mais medições, com modelos e dados regionais, não podemos ter
 Uma tonelada deste gás emitido para a atmosfera é equivalente a 12.000 toneladas de dióxido de carbono..
 
 /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-21_pt_article_716
+https://www.sabado.pt/ciencia---saude/detalhe/um-dos-mais-potentes-gases-de-efeito-de-estufa-esta-a-aumentar-na-atmosfera
 
 ------- 1.0992903844227935 DE
 Na nossa investigação, descobrimos que é muito provável que a China não tenha tido tanto sucesso na redução de emissões de HFC-23 como anunciou.
