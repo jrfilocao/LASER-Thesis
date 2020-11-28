@@ -143,7 +143,6 @@ Avaaz also urges all brands advertising on YouTube to establish ethical ad place
 -------
 
 
-  
 article-11
 -------
 Unternehmen, die auf Youtube Werbung schalten, würden aber gar nicht wissen, wo diese geschaltet wird.
@@ -226,9 +225,12 @@ DeRozan, who shot 12 of 14 from the field, has scored 20 or more points in 12 co
 San Antonio's Patty Mills finished with 21 points and converted 5 of 12 3-point attempts..
 The Spurs also got double-figure scoring from LaMarcus Aldridge (12) and Bryn Forbes and Derrick White (11 apiece)..
 
--------
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-16_en_article_13011
+https://nationalpost.com/pmn/sports-pmn/nunns-33-points-propel-heat-past-spurs-2
+
+------- 1.0018005210115812 DE 1.0496219107313247 PT
 Kendrick Nunn scored 33 points to lead the host Miami Heat to a 106-100 victory over the San Antonio Spurs on Wednesday night..
--------
+------- 1.0312283960699908 DE 1.1046639689911222 PT
 DeMar DeRozan scored 30 points on 12-of-14 shooting for San Antonio, while Patty Mills added 21 for the Spurs.
 -------
 
@@ -249,9 +251,12 @@ Der Jungstar verzeichnete mit 25 Punkten, 17 Assists (persönlicher Rekord an Vo
 Die Los Angeles Lakers mussten nach neun Siegen in Serie erstmals wieder eine Niederlage hinnehmen.
 Sie lagen gegen Orlando Magic bis zu 21 Punkte zurück und verloren letztlich mit 118:119.
 
--------
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-16_de_article_874
+https://www.derstandard.at/story/2000113360680/spurs-verlieren-in-miami-100106-zwei-punkte-und-vier-rebounds?ref
+
+------- 1.0250796182897746 PT
 Miami – Die San Antonio Spurs haben am Mittwoch (Ortszeit) in der National Basketball Association (NBA) bei Miami Heat eine 100:106-Niederlage hinnehmen müssen.
--------
+------- 1.0276367362544456 PT
 DeMar DeRozan (30) und Patty Mills (21) waren die erfolgreichsten Scorer der Spurs.
 -------
 
@@ -289,6 +294,10 @@ Em Minneapolis, o Indiana Pacers fez 104 a 99 no Minnesota Timberwolves com 29 p
 O Denver Nuggets derrotou o Charlotte Hornets por 100 a 86, em casa, com 19 pontos de Michael Porter Jr., além de 12 pontos, oito rebotes e oito assistências de Nikola Jokic.
 Já o Dallas Mavericks bateu o Sacramento Kings por 127 a 123 com 25 pontos, 15 rebotes e 17 assistências de Nikola Jokic..
 
+https://www.tribunadosertao.com.br/2020/01/com-triple-double-de-fultz-magic-encerra-serie-de-9-triunfos-dos-lakers/
+
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-16_pt_article_1043
+
 -------
 O Miami Heat reassumiu a vice-liderança da Conferência Leste na rodada de quarta-feira ao vencer o San Antonio Spurs por 106 a 100, em casa.
 -------
@@ -299,4 +308,4 @@ DeMar DeRozan marcou 30 pontos, tendo convertido 12 de 14 arremessos de quadra p
 
 
 
-select source_sentence, target_sentence, source_article_id, named_entities_score, sentence_candidates_score from matched_article where source_sentence like '%Avaaz examined the videos YouTube recommends to users when they search global warming, climate change, or climate manipulation on the platform%';
+select source_sentence, target_sentence, source_article_id, named_entities_score, sentence_candidates_score from matched_article where source_sentence like '%Kendrick Nunn scored 33 points to lead the host Miami Heat to a 106-100 victory over the San Antonio Spurs on Wednesday night.%';
