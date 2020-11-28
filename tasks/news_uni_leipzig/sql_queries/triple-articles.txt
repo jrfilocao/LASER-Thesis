@@ -104,6 +104,7 @@ No entanto, sem mais medições, com modelos e dados regionais, não podemos ter
 ---------------------------------------------------------
 
 article-11
+
 -------
 A new investigation by Avaaz finds that YouTube has been driving millions to climate denial videos with its recommendation algorithm, and running ads on some of these videos from top green and household brands.
 Samsung, L'Oreal, Danone along with a host of environmental groups like Greenpeace and Friends of the Earth have called on YouTube to stop promoting this dangerous climate misinformation..
@@ -125,11 +126,15 @@ The reach of these videos is still growing, with some videos adding hundreds of 
 YouTube has previously taken welcome steps to protect its users from Anti-vaxx and conspiracy theories -- but has not acted with equal force against broader misinformation and disinformation content, including climate misinformation..
 After consultation with industry experts, advertisers and legislators around the world, Avaaz recommends that YouTube:.
 
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-20_en_article_13193
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-20_en_article_13194
+https://www.webwire.com/ViewPressRel.asp?aId=253667<
+
 -------
 According to Avaaz's report, 16% of the top 100 related videos for the search term global warming contained misinformation, with an average of over 1 million views per video for the top ten videos.
 -------
 To date, companies including Samsung, L'Oreal, Decathlon, Carrefour, WWF, Greenpeace Spain, Nikin, and Ecosia have confirmed to Avaaz that they were unaware that their ads were accompanying these videos.
--------
+------- 1.0833569517728698 PT,  1.0296467990443687 DE
 Avaaz examined the videos YouTube recommends to users when they search global warming, climate change, or climate manipulation on the platform.
 -------
 According to the investigation, this is just the tip of the iceberg, given that YouTube's recommendation algorithms are responsible for about 70% of the total time users spend on the platform..
@@ -138,7 +143,7 @@ Avaaz also urges all brands advertising on YouTube to establish ethical ad place
 -------
 
 
-
+  
 article-11
 -------
 Unternehmen, die auf Youtube Werbung schalten, würden aber gar nicht wissen, wo diese geschaltet wird.
@@ -154,6 +159,9 @@ Etwa 55 Prozent der Werbeeinnahmen gehen damit an den Ersteller eines Videos, de
 So hätten etwa einige der größten Unternehmen der Welt, darunter Samsung, L'Oreal und Danone, unabsichtlich Klimawandel-Leugner finanziert.
 Auch Organisationen wie WWF oder Greenpeace Spanien bestätigten gegenüber Avaaz, dass ihre Werbung vor den besagten Videos abgespielt wurde.
 Hier geht es nicht um Meinungs-, sondern um Werbefreiheit, erklärte Avaaz-Vertreterin Julie Deruy in einer Aussendung..
+
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-22_de_article_533
+https://www.derstandard.at/story/2000113527440/youtube-soll-massenhaft-videos-von-klimawandel-leugnern-empfohlen-haben?ref
 
 -------
 Laut Avaaz enthalten 16 Prozent der 100 meistempfohlenen Videos zum Thema globale Erwärmung Falschinformationen, sucht man nach Klimamanipulation, seien es sogar 21 Prozent.
@@ -186,6 +194,9 @@ No entanto, a ONG fez uma série de recomendações ao Youtube para que desintox
 Citada pela agência EFE, a Avaaz pediu ao Youtube para excluir os vídeos de desinformação sobre alterações climáticas, trabalhando com verificadores independentes para informar os utilizadores da veracidade dos conteúdos, assim como publicar correções..
 Por seu turno, o YouTube, em resposta à AFP, garantiu que os seus sistemas de recomendações não foram projetados para filtrar ou remover vídeos ou canais com base em perspetivas específicas..
 A investigação da Avaaz ocorreu entre agosto e dezembro de 2019, tendo analisado dados da Alemanha, Brasil, Espanha, Estados Unidos, França e Reino Unido..
+
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-17_pt_article_696
+https://www.sabado.pt/mundo/detalhe/algoritmos-do-youtube-estao-a-desinformar-milhoes-sobre-o-clima
 
 -------
 De acordo com o relatório da Avaaz, 16% dos 100 vídeos analisados relacionados com aquecimento global continham informações erradas, numa média de um milhão de visualizações por vídeo..
@@ -283,3 +294,9 @@ O Miami Heat reassumiu a vice-liderança da Conferência Leste na rodada de quar
 -------
 DeMar DeRozan marcou 30 pontos, tendo convertido 12 de 14 arremessos de quadra pelo San Antonio, enquanto Patty Mills adicionou 21.
 -------
+
+
+
+
+
+select source_sentence, target_sentence, source_article_id, named_entities_score, sentence_candidates_score from matched_article where source_sentence like '%Avaaz examined the videos YouTube recommends to users when they search global warming, climate change, or climate manipulation on the platform%';
