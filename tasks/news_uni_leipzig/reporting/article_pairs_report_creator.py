@@ -71,12 +71,12 @@ def create_precision_recall_diagrams(keys, metrics, language_pair_name):
 
 
 if __name__ == "__main__":
-    de_pt_file_path = '../input_files/unique_de_pt.txt'
-    en_de_file_path = '../input_files/unique_en_de.txt'
-    en_pt_file_path = '../input_files/unique_en_pt.txt'
-    # de_pt_file_path = '../input_files/statistic_reports_de_pt.txt'
-    # en_de_file_path = '../input_files/statistic_reports_en_de.txt'
-    # en_pt_file_path = '../input_files/statistic_reports_en_pt.txt'
+    # de_pt_file_path = '../input_files/unique_de_pt.txt'
+    # en_de_file_path = '../input_files/unique_en_de.txt'
+    # en_pt_file_path = '../input_files/unique_en_pt.txt'
+    de_pt_file_path = '../input_files/statistic_reports_de_pt.txt'
+    en_de_file_path = '../input_files/statistic_reports_en_de.txt'
+    en_pt_file_path = '../input_files/statistic_reports_en_pt.txt'
 
     de_pt_metrics = get_metrics(de_pt_file_path)
     en_de_metrics = get_metrics(en_de_file_path)
@@ -88,22 +88,25 @@ if __name__ == "__main__":
     en_de_metric_keys = list(en_de_metrics.keys())
     en_pt_metric_keys = list(en_pt_metrics.keys())
 
-    create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics)
+    #create_multilingual_diagrams(metrics_count, de_pt_metric_keys, en_de_metrics, en_pt_metrics, de_pt_metrics)
 
     # create_multi_metric_diagrams('precision', de_pt_metric_keys, de_pt_metrics, 'de_pt')
-    # create_multi_metric_diagrams('f1', de_pt_metric_keys, de_pt_metrics, 'de_pt')
-    # create_multi_metric_diagrams('recall', de_pt_metric_keys, de_pt_metrics, 'de_pt')
+    create_multi_metric_diagrams('f1', de_pt_metric_keys, de_pt_metrics, 'de_pt')
+    #create_multi_metric_diagrams('recall', de_pt_metric_keys, de_pt_metrics, 'de_pt')
     # create_multi_metric_diagrams('average_matched_sentence_count', de_pt_metric_keys, de_pt_metrics, 'de_pt')
+    #create_multi_metric_diagrams('invalid_pair_count', de_pt_metric_keys, de_pt_metrics, 'de_pt')
     #
     # create_multi_metric_diagrams('precision', en_pt_metric_keys, en_pt_metrics, 'en_pt')
-    # create_multi_metric_diagrams('f1', en_pt_metric_keys, en_pt_metrics, 'en_pt')
-    # create_multi_metric_diagrams('recall', en_pt_metric_keys, en_pt_metrics, 'en_pt')
+    create_multi_metric_diagrams('f1', en_pt_metric_keys, en_pt_metrics, 'en_pt')
+    #create_multi_metric_diagrams('recall', en_pt_metric_keys, en_pt_metrics, 'en_pt')
     # create_multi_metric_diagrams('average_matched_sentence_count', en_pt_metric_keys, en_pt_metrics, 'en_pt')
+    #create_multi_metric_diagrams('invalid_pair_count', en_pt_metric_keys, en_pt_metrics, 'en_pt')
     #
     # create_multi_metric_diagrams('precision', en_de_metric_keys, en_de_metrics, 'en_de')
-    # create_multi_metric_diagrams('f1', en_de_metric_keys, en_de_metrics, 'en_de')
-    # create_multi_metric_diagrams('recall', en_de_metric_keys, en_de_metrics, 'en_de')
+    create_multi_metric_diagrams('f1', en_de_metric_keys, en_de_metrics, 'en_de')
+    #create_multi_metric_diagrams('recall', en_de_metric_keys, en_de_metrics, 'en_de')
     # create_multi_metric_diagrams('average_matched_sentence_count', en_de_metric_keys, en_de_metrics, 'en_de')
+    #create_multi_metric_diagrams('invalid_pair_count', en_de_metric_keys, en_de_metrics, 'en_de')
     #
     # create_precision_recall_diagrams(en_de_metric_keys, en_de_metrics, 'en_de')
     # create_precision_recall_diagrams(en_pt_metric_keys, en_pt_metrics, 'en_pt')

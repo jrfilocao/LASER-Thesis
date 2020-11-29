@@ -226,6 +226,10 @@ San Antonio's Patty Mills finished with 21 points and converted 5 of 12 3-point 
 The Spurs also got double-figure scoring from LaMarcus Aldridge (12) and Bryn Forbes and Derrick White (11 apiece)..
 
 /app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-16_en_article_13011
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-16_en_article_4323
+/app/LASER-Thesis/tasks/news_uni_leipzig/input_files/2020-01-16_en_article_2686
+
+
 https://nationalpost.com/pmn/sports-pmn/nunns-33-points-propel-heat-past-spurs-2
 
 ------- 1.0018005210115812 DE 1.0496219107313247 PT
@@ -303,6 +307,192 @@ O Miami Heat reassumiu a vice-liderança da Conferência Leste na rodada de quar
 -------
 DeMar DeRozan marcou 30 pontos, tendo convertido 12 de 14 arremessos de quadra pelo San Antonio, enquanto Patty Mills adicionou 21.
 -------
+
+
+
+article-23
+-------
+Lopez Obrador, an anti-establishment figure who came to power last year vowing a pro-austerity and anti-corruption drive, accepted Urzua's resignation..
+MEXICO CITY: Mexico's Finance Minister Carlos Urzua offered his resignation on Tuesday (Jul 9), blasting the government of President Andres Manuel Lopez Obrador for imposing on the ministry officials with no knowledge of government finances..
+Following the news, the Mexican peso lost almost two per cent, dropping from 18.90 to 19.27 against the US dollar..
+Some of those were because in this administration public policy decisions have been taken without sufficient substance, Urzua, a respected economist, said on his Twitter account..
+The 64-year-old also hit out at the unacceptable hiring of officials with no knowledge of the Public Treasury..
+This was caused by influential people in the current government with a patent conflict of interests, added Urzua, without naming names..
+He appointed Arturo Herrera, the current finance undersecretary, in his place..
+He (Urzua) doesnot agree with the decisions we're taking and we're committed to changing the economic policy that was imposed over the last 36 years, Lopez Obrador said in a video..
+Urzua also worked with Lopez Obrador from 2000 to 2003 when he was Mexico City mayor.
+He assumed his ministerial role at the start of the leftist leader's presidency on Dec 1..
+During his stewardship, the finance ministry was harshly criticised by various federal agencies for carrying out heavy cuts in public spending..
+However, markets and investors were largely supportive of Urzua's efforts to balance the public books..
+
+https://www.france24.com/en/20190709-mexico-finance-minister-quits-over-lopez-obrador-disagreements
+
+-------
+He (Urzua) does not agree with the decisions we're taking and we're committed to changing the economic policy that was imposed over the last 36 years, Lopez Obrador said in a video..
+-------
+Urzua also worked with Lopez Obrador from 2000 to 2003 when he was Mexico City mayor.
+-------
+
+
+
+article-23
+-------
+Urzúa hatte López Obrador bereits von 2000-2005 während dessen Zeit als Regierungschef von Mexiko-Stadt  begleitet und war damals für die öffentlichen Ausgaben verantwortlich.
+Dieser sei nicht zufrieden mit den Entscheidungen, die wir treffen..
+López Obrador bekräftigte, die seit 36 Jahren auferlegte Wirtschaftspolitik zu ändern.
+Manchmal wird nicht verstanden, dass wir nicht mit den gleichen Strategien weitermachen können, man kann keinen neuen Wein in alte Flaschen füllen.
+In seiner auf Facebook veröffentlichten Erklärung bestand der Präsident darauf, dass die Wirtschaft des Landes stabil sei, ohne Defizite und mit kontrollierter Wechselkursparität und Inflation..
+Urzúas unerwarteter Rücktritt aber wiederbelebt die Zweifel an den Märkten.
+Der mexikanische Peso verlor stark an Wert und brach, nachdem der Rücktritt des Finanzministers bekannt wurde, um mehr als zwei Prozent ein; auch die Börsenkurse gaben nach..
+Von einigen Wirtschaftsverbänden wurde der Rücktritt des Finanzministers mit Sorge aufgenommen.
+Auch wenn Urzúa als linker Ökonom gilt, wurde er von ihnen aufgrund seiner vergleichsweise orthodoxen Ansichten in der Regierung als vertrauenswürdiges Gegengewicht zu wirtschaftsfeindlichen Stimmen in der Verwaltung sowie der Regierungspartei Morena wahrgenommen..
+Das Finanzministerium ist traditionell eines der Schlüsselressorts in Mexikos Regierung.
+Es ist der Garant der öffentlichen Finanzen und für Vertrauen der internationalen Märkte, eine nicht unwichtige Aufgabe in einem Land, das so sehr auf ausländische Investitionen angewiesen ist wie Mexiko..
+Mehrere wirtschaftspolitische Entscheidungen des Präsidenten hatten bei Anlegern Besorgnis ausgelöst, vor allem der Stopp des bereits im Bau befindlichen neuen Flughafens in Mexiko-Stadt und die rückgängig gemachte Öffnung der mexikanischen Energiesektors für private Investitionen..
+Eines der Streitobjekte der mexikanischen Politik: Der noch nicht fertiggestellte neue Flughafen..
+
+https://www.dw.com/de/mexiko-ministerr%C3%BCcktritt-sorgt-f%C3%BCr-wirbel/a-49549458
+
+-------
+López Obrador bekräftigte, die seit 36 Jahren auferlegte Wirtschaftspolitik zu ändern.
+-------
+Urzúa hatte López Obrador bereits von 2000-2005 während dessen Zeit als Regierungschef von Mexiko-Stadt  begleitet und war damals für die öffentlichen Ausgaben verantwortlich.
+-------
+
+
+article-23
+-------
+A saída de Urzúa ocorre em meio a um clima de desconfiança sobre os rumos da economia mexicana.
+A promessa do presidente Obrador era de  crescimento de até 2% do PIB  este ano.
+Economistas já falam em recessão, ainda mais depois do resultado do primeiro trimestre, que revelou uma queda de 0,2% do PIB.
+No mercado, a renúncia inesperada levou a uma queda dos principais índices de ações e desvalorização da moeda mexicana, mas os números se recuperaram depois do anúncio do nome do sucessor de Urzúa,  , que era subsecretário da Fazenda.
+Em um vídeo, López Obrador afirma que segue com o compromisso de mudar a política econômica imposta nos últimos 36 anos, mesmo após a saída do agora ex-ministro de Fazenda.  .
+— Como é uma mudança, uma transformação, por vezes não se entende que não podemos seguir com as mesmas estratégias.
+O novo ministro, Arturo Herrera, trabalhou com López Obrador quando ele era prefeito da Cidade do México.
+Ele ainda atuou como especialista em políticas públicas no Banco Mundial.
+Ele estará a cargo de algumas das principais promessas de campanha do atual presidente, como dinamizar a economia, manter a disciplina fiscal e convencer as agências de classificação de risco que a economia mexicana segue sólida. .
+Após o anúncio, o economista-chefe para a América Latina do banco Goldman Sachs, Alberto Ramos, disse que Herrera é uma figura conhecida por seu bom diálogo com o mercado.
+Mas ele se mostrou preocupado com a carta publicada pelo ex-ministro Carlos Urzúa. .
+Há uma dúvida persistente sobre quem está realmente no comando  da política econômica. .
+Artigo: México tenta transformar o acordo com Trump em vitória.
+
+-------
+Em um vídeo, López Obrador afirma que segue com o compromisso de mudar a política econômica imposta nos últimos 36 anos, mesmo após a saída do agora ex-ministro de Fazenda.  .
+-------
+O novo ministro, Arturo Herrera, trabalhou com López Obrador quando ele era prefeito da Cidade do México.
+-------
+
+https://oglobo.globo.com/mundo/de-forma-inesperada-ministro-da-fazenda-do-mexico-anuncia-demissao-posta-carta-no-twitter-23795189
+
+-------------------------------
+
+article-24
+-------
+It was so many months of talks after so many years of challenges and I know I havenot always got it right, but as far as this goes there really was no other option..
+However, the Duke of Sussex made clear that he and Meghan were not walking away..
+The UK is my home and a place that I love, that will never change, he said..
+It is the first time Harry has spoken publicly since it was announced the couple would give up their His and Her Royal Highness (HRH) titles and will also no longer formally represent the Queen..
+During his speech, he said, I can only imagine what you may have heard and perhaps read over the past few weeks..
+So I want you to hear the truth from me as much as I can share, not as a prince or a duke but as Harry..
+The Duke of Sussex said he would always have the utmost respect for my grandmother, my commander in chief..
+Our hope was to continue serving the Queen, the Commonwealth, and my military associations, but without public funding.
+I've accepted this, knowing that it doesnot change who I am or how committed I am..
+As part of a deal finalised on Saturday between the Queen, senior royals, and the couple, from the spring this year, they will stop using their HRH titles and withdraw from royal duties, including official military appointments..
+However, the statement by Buckingham Palace said they would continue to maintain their private patronages and associations..
+
+-------
+So I want you to hear the truth from me as much as I can share, not as a prince or a duke but as Harry..
+-------
+The UK is my home and a place that I love, that will never change, he said..
+-------
+Earlier this month, Prince Harry and Meghan announced their intention to step back as 'senior' members of the Royal Family and work to become financially independent..
+-------
+The Duke of Sussex said he would always have the utmost respect for my grandmother, my commander in chief..
+-------
+I've accepted this knowing it doesnot change who I am, or how committed I am.
+-------
+
+
+
+article-24
+-------
+Am Samstagabend ließ der Buckingham-Palast durchblicken, dass es das von Harry und Meghan vorgeschlagene Teilzeitmodell nicht geben wird.
+Das Ehepaar werde sich ab dem Frühling nicht länger Königliche Hoheit nennen lassen.
+Harry und Meghan würden zudem jeglichen Zugang zu öffentlichen Zuwendungen verlieren, sobald sie ihre offiziellen Funktionen aufgäben..
+Meghan ist die gleiche Frau, in die ich mich verliebt habe.
+Zum Auftakt seiner Ansprache beim Abendevent von Sentebale sagte Harry, viele im Publikum hätten ihn aufwachsen sehen.
+Daher wolle er, dass sie die Wahrheit von mir hören, soviel ich mitteilen kann, nicht als ein Prinz, nicht als ein Herzog, sondern als Harry.
+Die Entscheidung für eine Abkehr von einem Dasein als aktives Mitglied der Königsfamilie habe er selbst getroffen, in Namen von Meghan und ihrem Sohn Archie.
+Meghan teile seine Werte und bleibe die gleiche Frau, in die ich mich verliebt habe..
+Der Prinz deutete an, dass der Rückzugsentschluss teils dem massiven Presseinteresse an seiner Familie geschuldet war.
+Gerade seit der Geburt von Archie im vergangenen Mai nahmen er und Meghan zunehmend Anstoß an der anhaltenden Berichterstattung.
+Seine Frau ging im Oktober juristisch gegen eine Zeitung vor, die einen von ihr verfassten Brief an ihren Vater veröffentlicht hatte. .
+Lesen Sie hier: Markle vs. Markle – der Albtraum der Windsors.
+Und Harry beklagte sich über die rassistischen Zwischentöne in einigen Berichten über seine Frau, deren Mutter Afroamerikanerin ist..
+Doch betonte Harry: Wir laufen nicht weg, und wir laufen ganz bestimmt nicht vor euch weg.
+Er und Meghan hätten gehofft, der Queen, dem Commonwealth und seinen Militärorganisationen ohne öffentliche Mittel dienen zu können.
+Seiner Liebe und Unterstützung für das Vereinigte Königreich tue dies aber keinen Abbruch, und er und seine Frau würden sich weiter einem Leben im Dienst an anderen Menschen widmen.
+Von seiner royalen Herkunft habe er sich jedoch trennen müssen, sagte Harry.
+Gleichwohl danke er der Queen und dem Rest seiner Familie für deren Rückhalt in den vergangenen Monaten.
+Er werde immer den höchsten Respekt für seine Großmutter haben.
+
+-------
+Daher wolle er, dass sie die Wahrheit von mir hören, soviel ich mitteilen kann, nicht als ein Prinz, nicht als ein Herzog, sondern als Harry.
+-------
+In seiner Rede erklärte Harry auch, das Vereinigte Königreich sei seine Heimat und werde immer der Ort sein, den er liebe, das wird sich nie ändern.
+-------
+Harry und Meghan selbst hatten zwar angekündigt, aus dem engen Kreis der Königsfamilie zurücktreten zu wollen und finanziell unabhängig zu werden.
+-------
+Er werde immer den höchsten Respekt für seine Großmutter haben.
+-------
+Ich habe das akzeptiert mit dem Wissen, dass es nichts daran ändert, wer ich bin, oder wie entschlossen ich bin.
+-------
+
+
+
+article-24
+-------
+É a primeira vez que o duque se pronuncia desde que foi anunciado que o casal estava abrindo mão de seus títulos reais..
+O Reino Unido é minha casa e um lugar que eu amo, isso nunca vai mudar, ele disse..
+Mais cedo, este mês, príncipe Harry e sua mulher, Meghan, afirmaram a intenção de deixar de ser membros sênior da família real e trabalhar para tornarem-se independentes financeiramente. .
+Na abertura do discurso que fez em um evento para angariar fundos para a Sentebale, a organização que ele co-fundou e ajuda crianças com HIV na África, ele disse: eu posso apenas imaginar o que vocês devem ter ouvido e talvez lido nas últimas semanas, diz.
+Então, eu quero que vocês ouçam de mim a verdade, o máximo que eu puder compartilhar, não como príncipe ou duque, mas como Harry..
+Durante seu discurso, o príncipe disse que ele sempre teria o máximo respeito pela minha avó, minha comandante. .
+Nossa esperança era continuar a servir a rainha, a Commonwealth (a Comunidade Britânica, que reúne antigas colônias britânicas, inclusive a Austrália) e minhas associações militares, mas sem financiamento público.
+Eu aceitei isso, sabendo que não muda o que eu sou, ou o quão comprometido eu estou. .
+A partir de março, o príncipe Harry e sua mulher, Meghan, deixarão de representar oficialmente a rainha Elizabeth 2ª e de receber dinheiro público para cumprir deveres reais..
+Também não usarão mais os títulos de sua alteza real.
+Concordaram, além disso, em ressarcir 2,4 milhões de libras (cerca de R$ 13 milhões ) aos cofres públicos pela reforma de sua residência oficial, o Frogmore Cottage, no Castelo de Windsor, pela qual agora pagarão aluguel. .
+O casal afirmou que planeja viver entre o Reino Unido e a América do Norte, principalmente no Canadá, onde Meghan morou quando trabalhava como atriz. .
+O anúncio, feito no sábado (18) por meio de um comunicado do Palácio de Buckingham, surpreendeu muitos britânicos e estampou as capas de todos os jornais do Reino Unido neste domingo (19)..
+O premiê britânico, Boris Johnson, disse que todo o país deseja ao casal as maiores felicidades para o futuro..
+Já o pai de Meghan, Thomas Markle, os acusou de menosprezar a família real. .
+Segundo ele, a monarquia britânica é uma das maiores e longevas instituições de todos os tempos e o casal está destruindo-a, menosprezando-a, tornando-a mesquinha..
+Toda menina quer se tornar uma princesa e ela conseguiu isso.
+Na semana passada, quando divulgaram um comunicado afirmando que se distanciariam dos deveres reais, surpreendendo inclusive outros membros da monarquia britânica, Harry e Meghan disseram que gostariam de trabalhar para se tornar financeiramente independentes. .
+Na mesma nota, o casal falou em continuando a apoiar totalmente Sua Majestade, a rainha..
+Após muitos meses de reflexão e discussões internas, optamos por fazer uma transição este ano, começando a desempenhar um novo papel progressivo, disseram, no último dia 8..
+No entanto, para a correspondente da BBC para assuntos da realeza, Daniela Relph, quando eles emitiram o comunicado sobre o que queriam (no dia 8 de janeiro), eles falaram em forjar um papel progressivo dentro da família real, sobre se distanciar dos deveres reais.
+Isso não é um distanciamento, é um afastamento por completo..
+
+-------
+Então, eu quero que vocês ouçam de mim a verdade, o máximo que eu puder compartilhar, não como príncipe ou duque, mas como Harry..
+-------
+O Reino Unido é minha casa e um lugar que eu amo, isso nunca vai mudar, ele disse..
+-------
+Mais cedo, este mês, príncipe Harry e sua mulher, Meghan, afirmaram a intenção de deixar de ser membros sênior da família real e trabalhar para tornarem-se independentes financeiramente. .
+-------
+Durante seu discurso, o príncipe disse que ele sempre teria o máximo respeito pela minha avó, minha comandante. .
+-------
+Eu aceitei isso, sabendo que não muda o que eu sou, ou o quão comprometido eu estou. .
+-------
+
+
+
+
+
+
+
 
 
 
